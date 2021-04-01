@@ -157,7 +157,7 @@ Check out these resources and guides. Sources files are available to compare raw
 
   * `reStructuredText Quick Reference <https://docutils.sourceforge.io/docs/user/rst/quickref.html>`__
 
-  * `reStructuredText Primer from Sphinx <https://www.sphinx-doc.org/en/1.8/usage/restructuredtext/basics.html>`_
+  * `reStructuredText Primer from Sphinx <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_
 
   * `reStructuredText Style Guide for Rubin Observatory Data Management Developers <https://developer.lsst.io/restructuredtext/style.html>`__
 
