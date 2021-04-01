@@ -25,7 +25,7 @@
     The information provided below is based on the `LSST DM reStructuredText style guide <https://developer.lsst.io/restructuredtext/style.html>`__.
 	A style guide specific to the Data Products Documentation will be provided at a later time.
 
-The information below can help you create effective reStructuredText for the `Rubin Observatory Data Products Documentation <https://dp0-1.lsst.io>`__.
+The information below can help you create effective reStructuredText for the :doc:`Rubin Observatory Data Products Documentation </index>`.
 
 .. _Data-Products-Documentation-Style-Guide-Style-and-Voice:
 

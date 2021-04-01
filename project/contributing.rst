@@ -19,8 +19,8 @@ Contributing to Rubin Observatory Data Products Documentation
 
 .. This section should provide a brief, top-level description of the page.
 
-Below are instructions and guidelines on contributing to the `Rubin Observatory Data Products Documentation for DP0.1 <https://dp0-1.lsst.io>`__.
-This documentation is built with `Sphinx <https://www.sphinx-doc.org/en/master/>`__ and published to `<https://dp0-1.lsst.io>`__.
+Below are instructions and guidelines on contributing to the :doc:`Rubin Observatory Data Products Documentation for DP0.1 </index>`.
+This documentation is built with `Sphinx <https://www.sphinx-doc.org/en/master/>`__ and published to :doc:`https://dp0-1.lsst.io </index>`.
 
 This documentation is open source.
 Rubin Observatory welcomes contributions that make this documentation more useful and accurate.
@@ -116,7 +116,7 @@ Deployment
 Whenever you push to the GitHub repository, the site is built for the corresponding branch.
 Find your build at https://dp0-1.lsst.io/v/. You can push to a branch you've created at any time.
 
-The ``master`` branch is always published as https://dp0-1.lsst.io. Only authorized individuals can merge to ``master`` (may be delegated).
+The ``master`` branch is always published as :doc:`https://dp0-1.lsst.io </index>`. Only authorized individuals can merge to ``master`` (may be delegated).
 To incorporate your suggestions, create a :ref:`pull request <contributing-pr>`.
 
 Approval process
