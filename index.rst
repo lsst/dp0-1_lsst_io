@@ -7,15 +7,15 @@
 
 .. This is the label that can be used for cross referencing this file.
 .. Recommended format is "directory name"-"title name"  -- Spaces should be replaced by hyphens.
-.. _DP0-1-Rubin-Observatory-Data-Products-Documentation:
+.. _DP0-1-Rubin-Observatory-Documentation:
 .. Each section should includes a label for cross referencing to a given area.
 .. Recommended format for all labels is "Title Name"-"Section Name" -- Spaces should be replaced by hyphens.
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
 .. An error will alert you of identical labels during the build process.
 
-##################################################################################
-Vera C. Rubin Observatory Data Products Documentation for Data Preview 0.1 (DP0.1)
-##################################################################################
+####################################################################
+Vera C. Rubin Observatory Documentation for Data Preview 0.1 (DP0.1)
+####################################################################
 
 .. Important::
 

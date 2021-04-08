@@ -19,7 +19,7 @@ Project Documentation Information
 
 .. This section should provide a brief, top-level description of the page.
 
-This section contains files related to the setup of the Data Products Documentation tree, including how to contribute.
+This section contains files related to the setup of the Documentation for DP0.1 tree, including how to contribute.
 
 .. toctree::
     :maxdepth: 2 

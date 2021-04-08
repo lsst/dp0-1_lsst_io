@@ -13,13 +13,13 @@
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link an explicit title using the syntax :ref:`link text <label-name>`.
 .. An error will alert you of identical labels during the build process.
 
-#############################################################
-Contributing to Rubin Observatory Data Products Documentation
-#############################################################
+############################################################################
+Contributing to Rubin Observatory Documentation for Data Preview 0.1 (DP0.1)
+############################################################################
 
 .. This section should provide a brief, top-level description of the page.
 
-Below are instructions and guidelines on contributing to the :doc:`Rubin Observatory Data Products Documentation for DP0.1 </index>`.
+Below are instructions and guidelines on contributing to the :doc:`Rubin Observatory Documentation for DP0.1 </index>`.
 This documentation is built with `Sphinx <https://www.sphinx-doc.org/en/master/>`__ and published to :doc:`https://dp0-1.lsst.io </index>`.
 
 This documentation is open source.
@@ -40,7 +40,7 @@ Include any relevant URLs with your issue description.
 Creating a pull request
 =======================
 
-You can contribute directly to the `dp0-1_lsst_io <https://github.com/lsst/dp0-1_lsst_io>`__ repo by creating a pull request.
+You can contribute directly to the `dp0-1_lsst_io repo <https://github.com/lsst/dp0-1_lsst_io>`__ by creating a pull request.
 If you’re intending to make a substantial change, it’s a good idea to create a GitHub issue first with your proposal.
 Rubin Observatory can’t accept contributions that don’t fit with our strategy and roadmap.
 
@@ -166,4 +166,4 @@ Check out these resources and guides. Sources files are available to compare raw
 Data products documentation style guide
 ---------------------------------------
 
-.. include:: data-products-documentation-style-guide.inc
+.. include:: dp0-1-documentation-style-guide.inc

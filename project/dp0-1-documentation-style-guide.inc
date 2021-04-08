@@ -14,20 +14,20 @@
 .. An error will alert you of identical labels during the build process.
 
 .. This file does not contain a title so it can match formatting in another location (contributing.rst).
-.. title:: Data Products Documentation Style Guide
-.. #######################################
-.. Data Products Documentation Style Guide
-.. #######################################
+.. title:: DP0.1 Documentation Style Guide
+.. ###############################
+.. DP0.1 Documentation Style Guide
+.. ###############################
 
 .. This section should provide a brief, top-level description of the page.
 
 .. Important::
     The information provided below is based on the `LSST DM reStructuredText style guide <https://developer.lsst.io/restructuredtext/style.html>`__.
-	A style guide specific to the Data Products Documentation will be provided at a later time.
+	A style guide specific to the DP0.1 Documentation will be provided at a later time.
 
 The information below can help you create effective reStructuredText for the :doc:`Rubin Observatory Data Products Documentation </index>`.
 
-.. _Data-Products-Documentation-Style-Guide-Style-and-Voice:
+.. _DP0-1-Documentation-Style-Guide-Style-and-Voice:
 
 Style and voice
 ---------------
@@ -50,7 +50,7 @@ Here are some tips:
 
 - Write confidently and precisely, yet also casually.
 
-.. _Data-Products-Documentation-Style-Guide-File-Names:
+.. _DP0.1-Documentation-Style-Guide-File-Names:
 
 File names
 ----------
@@ -61,7 +61,7 @@ This choice is based on the `Google Developer Documentation Style Guide <https:/
 
 Use all-lowercase for directory names unless it is appropriate otherwise (such as a common acronym like LSST).
 
-.. _Data-Products-Documentation-Style-Guide-Templates:
+.. _DP0.1-Documentation-Style-Guide-Templates:
 
 Templates
 ---------
@@ -70,7 +70,7 @@ A template folder is located in the :ref:`project directory <Project-Information
 It contains template pages for the Data Products Documentation area, including a directory index.
 Review the README in the template folder for instructions, then update the contents accordingly.
 
-.. _Data-Products-Documentation-Style-Guide-Titles-and-Headings:
+.. _DP0.1-Documentation-Style-Guide-Titles-and-Headings:
 
 Titles and headings
 -------------------
@@ -84,7 +84,7 @@ Using more than two levels of hierarchy might suggest an information architectur
 
 Also keep in mind DM’s `reStructuredText heading styles <https://developer.lsst.io/restructuredtext/style.html#sections>`__.
 
-.. _Data-Products-Documentation-Style-Guide-Links:
+.. _DP0.1-Documentation-Style-Guide-Links:
 
 Links
 -----
