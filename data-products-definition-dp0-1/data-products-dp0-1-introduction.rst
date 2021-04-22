@@ -7,23 +7,33 @@
 
 .. This is the label that can be used for cross referencing this file.
 .. Recommended title label format is "Directory Name"-"Title Name"  -- Spaces should be replaced by hyphens.
-.. _Templates-Template-Folder-Index:
+.. _Data-Products-Definition-DP0-1-Introduction:
 .. Each section should include a label for cross referencing to a given area.
 .. Recommended format for all labels is "Title Name"-"Section Name" -- Spaces should be replaced by hyphens.
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
 .. A warning will alert you of identical labels during the linkcheck process.
 
-#####################
-Template Folder Index
-#####################
+################################
+DP0.1 Data Products Introduction
+################################
 
 .. This section should provide a brief, top-level description of the page.
 
-This section is provided so the template folder files are available.
+This page includes important information about the data products provided in DP0.1.
 
-.. toctree::
-    :maxdepth: 2
-    :titlesonly:
-    :glob:
+DP0.1 data products are reproduced from Dark Energy Science Collaboration (DESC) Data Challenge 2 (DC2).
 
-    *
+.. _Data-Products-DP0-1-Introduction-Specifications:
+
+DP0.1 data products specifications
+==================================
+
+This section includes specifications for the data products provided in DP0.1.
+
+.. _Data-Products-DP0-1-Introduction-Limitations:
+
+DP0.1 data products limitations
+===============================
+
+This section includes limitations for the data products provided in DP0.1.
+DP0.1 will only include simulated data from DESC DC2.

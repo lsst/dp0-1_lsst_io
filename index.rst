@@ -8,10 +8,10 @@
 .. This is the label that can be used for cross referencing this file.
 .. Recommended title label format is "Directory Name"-"Title Name"  -- Spaces should be replaced by hyphens.
 .. _Rubin-Observatory-Documentation-DP0-1:
-.. Each section should includes a label for cross referencing to a given area.
+.. Each section should include a label for cross referencing to a given area.
 .. Recommended format for all labels is "Title Name"-"Section Name" -- Spaces should be replaced by hyphens.
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
-.. An error will alert you of identical labels during the build process.
+.. A warning will alert you of identical labels during the linkcheck process.
 
 ####################################################################
 Vera C. Rubin Observatory Documentation for Data Preview 0.1 (DP0.1)
@@ -31,9 +31,83 @@ This documentation site provides information to users for the Vera C. Rubin Obse
     :glob:
     :titlesonly:
 
+.. _Rubin-Observatory-Documentation-DP0-1-Introduction:
+
+Introduction to data products
+=============================
+
+.. toctree::
+    :maxdepth: 3
+    :glob:
+
+    introduction/index
+
+.. _Rubin-Observatory-Documentation-DP0-1-Delegate-Resources:
+
+DP0 delegate resources
+======================
+
+.. toctree::
+    :maxdepth: 2
+    :glob:
+
+    dp0-delegate-resources/index
+
+.. _Rubin-Observatory-Documentation-DP0-1-Data-Product-Tools:
+
+Data product tools
+==================
+
+.. toctree::
+    :maxdepth: 2
+    :glob:
+
+    /data-product-tools
+
+.. _Rubin-Observatory-Documentation-DP0-1-Data-Access:
+
+Data access
+===========
+
+.. toctree::
+    :maxdepth: 2
+    :glob:
+    :titlesonly:
+
+    data-access/index
+
+.. _Rubin-Observatory-Documentation-DP0-1-Data-Products:
+
+DP0.1 data products
+===================
+
+This section includes information on the data products in DP0.1.
+
+.. toctree::
+    :maxdepth: 2
+    :glob:
+    :titlesonly:
+
+    data-products-definition-dp0-1/index
+
+.. _Rubin-Observatory-Documentation-DP0-1-Examples:
+
+Examples
+========
+
+Examples of accessing or processing data products are separated from other locations in the repository to provide a single location of all examples.
+Using reST syntax, the examples can be reproduced in other locations on this site by using the ``include`` directive.
+
+.. toctree::
+    :maxdepth: 2
+    :glob:
+    :titlesonly:
+
+    examples/index
+
 .. _Rubin-Observatory-Documentation-DP0-1-Documentation-Project-Information:
 
-Documentation Project Information
+Documentation project information
 =================================
 
 This section includes information on the documentation project, including how to contribute.

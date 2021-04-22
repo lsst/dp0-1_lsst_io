@@ -7,23 +7,40 @@
 
 .. This is the label that can be used for cross referencing this file.
 .. Recommended title label format is "Directory Name"-"Title Name"  -- Spaces should be replaced by hyphens.
-.. _Templates-Template-Folder-Index:
+.. _Rubin-Observatory-Documentation-DP0-1-Overview-Data-Product-Tools:
 .. Each section should include a label for cross referencing to a given area.
 .. Recommended format for all labels is "Title Name"-"Section Name" -- Spaces should be replaced by hyphens.
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
 .. A warning will alert you of identical labels during the linkcheck process.
 
-#####################
-Template Folder Index
-#####################
+##############################
+Overview of Data Product Tools
+##############################
 
 .. This section should provide a brief, top-level description of the page.
 
-This section is provided so the template folder files are available.
+This page includes information and references to the major software tools for utilizing the data products.
 
-.. toctree::
-    :maxdepth: 2
-    :titlesonly:
-    :glob:
+.. _Rubin-Observatory-Documentation-DP0-1-RSP:
 
-    *
+Rubin Science Platform (RSP)
+============================
+
+The RSP is...
+
+.. _Rubin-Observatory-Documentation-DP0-1-Pipelines:
+
+LSST Science Pipelines
+======================
+
+The LSST Science Pipelines are ...
+
+See https://pipelines.lsst.io/ for in-depth information.
+
+GIT & GitHub
+============
+
+GIT is ...
+
+GitHub is ...
+You must be a member of the lsst project to contribute to this documentation project.

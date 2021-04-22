@@ -7,23 +7,62 @@
 
 .. This is the label that can be used for cross referencing this file.
 .. Recommended title label format is "Directory Name"-"Title Name"  -- Spaces should be replaced by hyphens.
-.. _Templates-Template-Folder-Index:
+.. _Data-Products-Definition-DP0-1-Overview:
 .. Each section should include a label for cross referencing to a given area.
 .. Recommended format for all labels is "Title Name"-"Section Name" -- Spaces should be replaced by hyphens.
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
 .. A warning will alert you of identical labels during the linkcheck process.
 
-#####################
-Template Folder Index
-#####################
+############################
+DP0.1 Data Products Overview
+############################
 
 .. This section should provide a brief, top-level description of the page.
 
-This section is provided so the template folder files are available.
+This page includes an overview of information about the data products provided in DP0.1.
+
+DP0.1 data products introduction
+================================
 
 .. toctree::
     :maxdepth: 2
-    :titlesonly:
     :glob:
 
-    *
+    data-products-dp0-1-introduction
+
+Data products definition documentation
+======================================
+
+.. toctree::
+    :maxdepth: 2
+    :glob:
+
+    DPDD/index
+
+.. _Data-Products-DP0-1-Overview-Data-Processing:
+
+Data processing
+===============
+
+This section includes information about data processing.
+
+.. toctree::
+    :maxdepth: 1
+    :glob:
+    :titlesonly:
+
+    data-processing/index
+
+.. _Data-Products-DP0-1-Overview-Visualization:
+
+Visualization
+=============
+
+This section includes information about data visualization.
+
+.. _Data-Products-DP0-1-Overview-User-Generated:
+
+User Generated Data Products and Processing
+===========================================
+
+This section includes information on user generated data products and user generated data processing.
