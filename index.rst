@@ -31,7 +31,7 @@ This documentation site provides information to users for the Vera C. Rubin Obse
     :glob:
     :titlesonly:
 
-.. _Rubin-Observatory-Documentation-DP0-1-Documentation-Project-Information
+.. _Rubin-Observatory-Documentation-DP0-1-Documentation-Project-Information:
 
 Documentation Project Information
 =================================
