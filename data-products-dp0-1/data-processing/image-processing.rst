@@ -7,23 +7,40 @@
 
 .. This is the label that can be used for cross referencing this file.
 .. Recommended title label format is "Directory Name"-"Title Name"  -- Spaces should be replaced by hyphens.
-.. _Templates-Template-Folder-Index:
+.. _Data-Processing-Image-Processing-Overview:
 .. Each section should include a label for cross referencing to a given area.
 .. Recommended format for all labels is "Title Name"-"Section Name" -- Spaces should be replaced by hyphens.
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
 .. A warning will alert you of identical labels during the linkcheck process.
 
-#####################
-Template Folder Index
-#####################
+#########################
+Image Processing Overview
+#########################
 
 .. This section should provide a brief, top-level description of the page.
 
-This section is provided so the template folder files are available.
+This page includes an overview of how images are processed.
 
-.. toctree::
-    :maxdepth: 2
-    :titlesonly:
-    :glob:
+.. _Image-Processing-Overview-Raw-Images:
 
-    *
+.. Raw images
+.. ==========
+
+Simulations for DP0.1
+=====================
+
+DESC DC2 simulated data was used as the raw data in DP0.1, untainted by instrument signatures.
+
+.. _Image-Processing-Overview-Calibrations:
+
+Calibrations of raw images
+==========================
+
+This section includes information on calibration processing to remove instrument signature.
+
+.. _Image-Processing-Overview-Quality-Validation:
+
+Image quality assessment and validation
+=======================================
+
+This section includes information on how quality assessment and validation is performed during the image processing stage.

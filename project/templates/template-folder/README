@@ -1,16 +1,15 @@
-This is a template README file for a directory in the Data Products Documentation. This line may be deleted when the template folder is copied to the destination.
+This is a template README file (no extension) within the Vera C. Rubin Observatory Documentation for Data Preview 0.1 (DP0.1) documentation project. This template can be used for a directory's README, but there is a different README template for a _static directory.
 
-This README includes information on contributing to this directory.
-
-Create a new directory:
+To create a new directory:
 
 1. Copy template-folder to the destination, then rename appropriately.
 
 2. Contribute to the README. The file should describe the purpose of the directory with directions on contributing and releasing.
-   - Delete the first line in the README file.
 
-3. Contribute to the _static/README. The file should explain how to include static elements.
-   - Delete the first line in the /_static/README file.
+3. Determine if a _static directory is needed. If so, contribute to the _static/README (provided in template-folder).
 
-See https://dp0-1.lsst.io/project/contributing.html for details on contributing to the documents.
+Note: The lines above and proceeding blank line may be deleted after the file is copied within the destination directory.
 
+This README includes information on this directory, part of the Vera C. Rubin Observatory Documentation for Data Preview 0.1 (DP0.1) documentation project.
+
+See https://dp0-1.lsst.io/project/contributing.html for details on contributing to the document project.

@@ -1,31 +1,29 @@
-.. Review the README in this directory on instructions to contribute.
-.. Static objects, such as figures, should be stored in the _static directory. Review the _static/README in this file's directory on instructions to contribute.
+.. Review the README on instructions to contribute.
+.. Static objects, such as figures, should be stored in the _static directory. Review the _static/README on instructions to contribute.
 .. Do not remove the comments that describe each section. They are included to provide guidance to contributors.
 .. Do not remove other content provided in the templates, such as a section. Instead, comment out the content and include comments to explain the situation. For example:
 	- If a section within the template is not needed, comment out the section title and label reference. Do not delete the expected section title, reference or related comments provided from the template.
     - If a file cannot include a title (surrounded by ampersands (#)), comment out the title from the template and include a comment explaining why this is implemented (in addition to applying the ``title`` directive).
 
-.. This is the label that can be used as for cross referencing this file.
-.. Recommended format is "Directory Name"-"Title Name"  -- Spaces should be replaced by hyphens.
+.. This is the label that can be used for cross referencing this file.
+.. Recommended title label format is "Directory Name"-"Title Name"  -- Spaces should be replaced by hyphens.
 .. _Project-Contributing:
-.. Each section should includes a label for cross referencing to a given area.
+.. Each section should include a label for cross referencing to a given area.
 .. Recommended format for all labels is "Title Name"-"Section Name" -- Spaces should be replaced by hyphens.
-.. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link an explicit title using the syntax :ref:`link text <label-name>`.
-.. An error will alert you of identical labels during the build process.
+.. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
+.. A warning will alert you of identical labels during the linkcheck process.
 
-#############################################################
-Contributing to Rubin Observatory Data Products Documentation
-#############################################################
+############################################################################
+Contributing to Rubin Observatory Documentation for Data Preview 0.1 (DP0.1)
+############################################################################
 
 .. This section should provide a brief, top-level description of the page.
 
-Below are instructions and guidelines on contributing to the `Rubin Observatory Data Products Documentation for DP0.1 <https://dp0-1.lsst.io>`__.
-This documentation is built with `Sphinx <https://www.sphinx-doc.org/en/master/>`__ and published to `<https://dp0-1.lsst.io>`__.
+Below are instructions and guidelines on contributing to the :doc:`Rubin Observatory Documentation for DP0.1 </index>`.
+This documentation is built with `Sphinx <https://www.sphinx-doc.org/en/master/>`__ and published to :doc:`https://dp0-1.lsst.io </index>`.
 
 This documentation is open source.
 Rubin Observatory welcomes contributions that make this documentation more useful and accurate.
-
-.. Keep in mind that everyone participating in this project is expected to follow the LSST DM `Team Culture and Conduct Standards <https://developer.lsst.io/team/code-of-conduct.html>`__.
 
 .. _Contributing-Issue:
 
@@ -37,14 +35,14 @@ Include any relevant URLs with your issue description.
 
 .. _Contributing-PR:
 
-Creating a pull request
-=======================
+Creating a pull request (PR)
+============================
 
-You can contribute directly to the `dp0-1_lsst_io <https://github.com/lsst/dp0-1_lsst_io>`__ repo by creating a pull request.
+You can contribute directly to the `dp0-1_lsst_io repo <https://github.com/lsst/dp0-1_lsst_io>`__ by creating a pull request (PR).
 If you’re intending to make a substantial change, it’s a good idea to create a GitHub issue first with your proposal.
 Rubin Observatory can’t accept contributions that don’t fit with our strategy and roadmap.
 
-These sections can help you create a successful pull request:
+These sections can help you create a successful PR:
 
   * :ref:`Contributing-Building-the-Docs`
   * :ref:`Contributing-Doc-Style-Guide`
@@ -81,7 +79,8 @@ These are the basic steps to clone and build the docs:
       python -m pip install -r requirements.txt
 
 #. You are now able to edit the cloned repository.
-   The remaining items below are commands used to build and validate the documentation. These commands must be executed from the top-level directory.
+   The remaining items below are commands used to build and validate the documentation.
+   These commands must be executed from the top-level directory.
 
 #. Build the site:
 
@@ -108,6 +107,9 @@ These are the basic steps to clone and build the docs:
 
       make clean
 
+   .. note::
+      An error will alert you of identical labels during the build process.
+
 .. _Contributing-Deployment:
 
 Deployment
@@ -116,7 +118,7 @@ Deployment
 Whenever you push to the GitHub repository, the site is built for the corresponding branch.
 Find your build at https://dp0-1.lsst.io/v/. You can push to a branch you've created at any time.
 
-The ``master`` branch is always published as https://dp0-1.lsst.io. Only authorized individuals can merge to ``master`` (may be delegated).
+The ``master`` branch is always published as :doc:`https://dp0-1.lsst.io </index>`. Only authorized individuals can merge to ``master`` (may be delegated).
 To incorporate your suggestions, create a :ref:`pull request <contributing-pr>`.
 
 Approval process
@@ -126,16 +128,16 @@ Approval process
 
 #. Create a PR.
 
-#. Request the following to review the PR:
+#. Request the following to review the PR (additional reviewers may be included in the process):
 
-   * Wil O'Mullane
+   * Melissa Graham
    * Leanne Guy
 
 #. Respond to the comments received during the review process.
 
 #. After all reviewers approve, the submitter will squash commits and merge to master.
 
-#. Notify Wil O'Mullane or Leanne Guy the PR was merged.
+#. Notify Melissa Graham or Leanne Guy the PR was merged.
 
 #. Notify the authorized individual to tag the release.
 
@@ -146,8 +148,8 @@ Documentation style guide
 
 .. _Contributing-New-to-reST:
 
-New to reStrcturedText and sphinx
----------------------------------
+New to reStructuredText and sphinx
+----------------------------------
 
 Check out these resources and guides. Sources files are available to compare raw reST and HTML outputs.
 
@@ -157,7 +159,7 @@ Check out these resources and guides. Sources files are available to compare raw
 
   * `reStructuredText Quick Reference <https://docutils.sourceforge.io/docs/user/rst/quickref.html>`__
 
-  * `reStructuredText Primer from Sphinx <https://www.sphinx-doc.org/en/1.8/usage/restructuredtext/basics.html>`_
+  * `reStructuredText Primer from Sphinx <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_
 
   * `reStructuredText Style Guide for Rubin Observatory Data Management Developers <https://developer.lsst.io/restructuredtext/style.html>`__
 
@@ -166,4 +168,4 @@ Check out these resources and guides. Sources files are available to compare raw
 Data products documentation style guide
 ---------------------------------------
 
-.. include:: data-products-documentation-style-guide.inc
+.. include:: documentation-dp0-1-style-guide.inc

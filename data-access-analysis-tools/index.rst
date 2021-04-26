@@ -7,23 +7,60 @@
 
 .. This is the label that can be used for cross referencing this file.
 .. Recommended title label format is "Directory Name"-"Title Name"  -- Spaces should be replaced by hyphens.
-.. _Templates-Template-Folder-Index:
+.. _Data-Access-Analysis-Tools:
 .. Each section should include a label for cross referencing to a given area.
 .. Recommended format for all labels is "Title Name"-"Section Name" -- Spaces should be replaced by hyphens.
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
 .. A warning will alert you of identical labels during the linkcheck process.
 
-#####################
-Template Folder Index
-#####################
+##############################
+Data Access and Analysis Tools
+##############################
 
 .. This section should provide a brief, top-level description of the page.
 
-This section is provided so the template folder files are available.
+This page includes the various tools to access and analyze the data products in DP0.1.
 
-.. toctree::
-    :maxdepth: 2
-    :titlesonly:
-    :glob:
+.. _Data-Access-Analysis-Tools-RSP:
 
-    *
+Rubin Science Platform (RSP)
+============================
+
+This section includes information on using the RSP.
+
+.. _Tools-RSP-Notebook:
+
+Notebook aspect
+---------------
+
+This section includes information on using notebooks in the RSP.
+
+.. _Tools-RSP-Portal:
+
+Portal aspect
+-------------
+
+This section includes information on using the portal for the RSP.
+
+.. _Data-Access-Analysis-Tools-TAP:
+
+Table Access Protocol (TAP) service
+===================================
+
+This page includes information for accessing and basic utilization of the Table Access Protocol (TAP) service.
+
+.. _Data-Access-Analysis-Tools-Data-Processing:
+
+Data processing tools
+=====================
+
+This section includes information on tools used for data processing.
+
+.. _Tools-LSST-Science-Pipelines:
+
+LSST Science Pipelines
+----------------------
+
+This section includes information on the LSST Science Pipelines.
+
+See https://pipelines.lsst.io/ for in-depth information.

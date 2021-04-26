@@ -18,7 +18,7 @@ import lsst_sphinx_bootstrap_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'Vera C. Rubin Observatory Data Products Documentation for DP0.1'
+project = 'Vera C. Rubin Observatory Documentation for Data Preview 0.1'
 copyright = '2021, Vera C. Rubin Observatory'
 author = 'Vera C. Rubin Observatory'
 
