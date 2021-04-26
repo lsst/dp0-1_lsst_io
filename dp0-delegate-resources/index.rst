@@ -24,6 +24,7 @@ This page includes the guidelines, resources, and activities for DP0 Delegates.
 **"DP0 delegate"** is the term for the 300 scientists and students who will have accounts in the Rubin Science Platform (RSP) at the Interim Data Facility (IDF) during Data Preview 0 (DP0). This term has been adopted to reflect DP0 participants’ important roles of representing the broad science community as learners, testers, and providers of feedback, and of sharing the benefits of their DP0 participation with their communities as teachers and colleagues. Delegates’ DP0-related activities will be supported with resources and infrastructure (as described below).
 
 **Delegate "Getting Started" Checklist (Mandatory Actions)**
+
 1. `RSP Account Set-Up and Management`_.
 2. `Community Forum Account Set-Up and Management`_.
 3. Attend one of the `DP0 Info Sessions`_.
