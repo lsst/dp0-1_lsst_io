@@ -21,20 +21,33 @@ DP0 Delegate Homepage
 
 This page includes the guidelines, resources, and activities for DP0 Delegates.
 
-**"DP0 delegate"** is the term for the 300 scientists and students who will have accounts in the Rubin Science Platform (RSP) at the Interim Data Facility (IDF) during Data Preview 0 (DP0). This term has been adopted to reflect participants’ important roles of representing the broad science community as learners, testers, and providers of feedback, and of sharing the benefits of their DP0 participation with their communities as teachers and colleagues. Delegates’ DP0-related activities will be supported with resources and infrastructure (as described below).
+**"DP0 delegate"** is the term for the 300 scientists and students who will have accounts in the Rubin Science Platform (RSP) at the Interim Data Facility (IDF) during Data Preview 0 (DP0). This term has been adopted to reflect DP0 participants’ important roles of representing the broad science community as learners, testers, and providers of feedback, and of sharing the benefits of their DP0 participation with their communities as teachers and colleagues. Delegates’ DP0-related activities will be supported with resources and infrastructure (as described below).
+
+**Delegate "Getting Started" Checklist (Mandatory Actions)**
+1. `RSP Account Set-Up and Management`_.
+2. `Community Forum Account Set-Up and Management`_.
+3. Attend one of the `DP0 Info Sessions`_.
+
+Review the `Guidelines and Expectations for Delegates`_ and `DP0 Delegate programming`_ and `Getting support`_. 
+
 
 .. Review content in <https://confluence.lsstcorp.org/display/LSSTOps/DP0+CE+Planning>__ for content and structure.
+
 
 .. _Delegate-Homepage-RSP-Accounts:
 
 RSP Account Set-Up and Management
 =================================
 
-DP0 delegates must have a `GitHub <http://www.github.com/>`_ account in order to participate in DP0. Delegates will be contacted by Rubin staff to provide their username, which will be added to the XXXX GitHub Organization. Then, delegates will be able to log into the RSP at the IDF at `<http://data.lsst.cloud>`_. 
+**Activation:** For DP0, RSP accounts will be managed with `GitHub <http://www.github.com/>`_ identities. This will not be how RSP account authentication/authorization will work during Rubin Operations. For delegates who do not already have a GitHub account: go to `<http://www.github.com>`_ and select “sign up” in the upper right corner. For participation in DP0 it is not necessary to learn how to use git as a version control system, nor any git workflows or command line tools. Delegates will be contacted by Rubin staff to provide their GitHub username, which will be added to the XXXX GitHub Organization. Then, delegates will be able to log into the RSP at the IDF at `<http://data.lsst.cloud>`_. 
 
-Questions about this process should be posted in the "Support -- DP0 RSP Services Issues" sub-category in the Rubin Community Forum, `Community.lsst.org <http://Community.lsst.org>`_, or submitted as a GitHub issue in the XXXX Organization **(NEEDS MORE DETAIL)**.
+**Questions, Support, and Issue Reporting:** Questions about RSP accounts should be posted in the "Support -- DP0 RSP Services Issues" sub-category in the Rubin Community Forum, `Community.lsst.org <http://Community.lsst.org>`_, or submitted as a GitHub issue in the XXXX Organization **(NEEDS MORE DETAIL)**.
 
-RSP accounts are **not transferrable** and delegates **must not share their password** with others. Delegates who are no longer using their accounts and would like to relinquish it to make way for others should please submit a GitHub issue in the XXXX Organization.
+**Security:** RSP accounts are **not transferrable** and delegates **must not share their password** with others. DP0 delegates are responsible for adhering to the policies for safe usage of the RSP, described below. 
+
+**Deactivation:** Delegates who are no longer using their accounts and would like to relinquish it to make way for others should please submit a GitHub issue in the XXXX Organization.
+
+**Warnings** DP0 delegates are being given access to a *developmental version* of the Rubin Science Platform, and a number of the future safeguards for avoiding uptime or temporary data loss will not be present. Performance during DP0 will not reflect the performance of the final system, and the resources made available to DP0 delegates will not reflect the final user quotas of the operations-era RSP. 
 
 
 .. _Delegate-Homepage-Guidelines-Expectations:
@@ -44,6 +57,18 @@ Guidelines and Expectations for Delegates
 
 This section includes information on guidelines and expectations for DP0 Delegates.
 
+
+
+Community Forum Account Set-Up and Management
+---------------------------------------------
+
+**Activation:** Go to `<http://community.lsst.org>`_ and create an account (if you do not already have one). 
+
+**Join the DP0 Delegates Group:** Go to `<https://community.lsst.org/groups>`_ and join "DP0 Delegates". This will ensure you have access to the the "Support -- DP0 RSP Services Issues" sub-category.
+
+**Review the DP0-Related Contents:** Check out the `Support - DP0 <https://community.lsst.org/c/support/dp0/49>`_ sub-category (for all questions and discussions related to DP0, the RSP, the DC2 data set, delegate activities, etc.). Check out the "Support -- DP0 RSP Services Issues" sub-category which is dedicated to Q&A and discussion about potential bugs, service outages, etc. Check out all topics that are `tagged with #dp0 <https://community.lsst.org/tag/dp0>`_. 
+
+
 .. Code of Conduct link
 
 .. _Delegate-Homepage-DP0-Delegate-Programming:
@@ -52,6 +77,11 @@ DP0 Delegate programming
 ========================
 
 This section includes information on the programs and meetings for DP0 Delegates.
+
+DP0 Info Sessions
+-----------------
+
+An introductory session for all delegates. To be held at a variety of dates/times for worldwide participation. Consider it mandatory. Presentation portion will be recorded and made availble.
 
 .. _DP0-Delegate-Programming-Assemblies:
 
