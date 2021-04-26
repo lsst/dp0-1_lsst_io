@@ -22,3 +22,45 @@ DP0 Delegate Homepage
 This page includes the guidelines, resources and activities for DP0 Delegates.
 
 .. Review content in <https://confluence.lsstcorp.org/display/LSSTOps/DP0+CE+Planning>__ for content and structure.
+
+.. _Delegate-Homepage-Data-Access-Authentication:
+
+Data access & authentication
+============================
+
+This section includes information on RSP authentication for access to the data products.
+
+.. _Delegate-Homepage-Guidelines-Expectations:
+
+DP0 Delegate guidelines and expectations
+========================================
+
+This section includes information on guidelines and expectations for DP0 Delegates.
+
+.. Code of Conduct link
+
+.. _Delegate-Homepage-DP0-Delegate-Programming:
+
+DP0 Delegate programming
+========================
+
+This section includes information on the programs and meetings for DP0 Delegates.
+
+.. _DP0-Delegate-Programming-Assemblies:
+
+DP0 Delegate assemblies
+-----------------------
+
+DP0 Delegate Assemblies are scheduled events for delegates to
+learn how to use the RSP in a guided, hands-on way,
+network, discuss science, 'take actions', and assume leadership roles and
+ask questions of Rubin Observatory Operations staff and get live support.
+
+.. include:: dp0-delegate-assemblies-schedule.inc
+
+.. _Delegate-Homepage-Getting-Support:
+
+Getting support
+===============
+
+This section includes information on where to ask questions and receive support as a DP0 Delegate.

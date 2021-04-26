@@ -7,40 +7,40 @@
 
 .. This is the label that can be used for cross referencing this file.
 .. Recommended title label format is "Directory Name"-"Title Name"  -- Spaces should be replaced by hyphens.
-.. _Rubin-Observatory-Documentation-DP0-1-Overview-Data-Product-Tools:
+.. _Data-Processing-Image-Processing-Overview:
 .. Each section should include a label for cross referencing to a given area.
 .. Recommended format for all labels is "Title Name"-"Section Name" -- Spaces should be replaced by hyphens.
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
 .. A warning will alert you of identical labels during the linkcheck process.
 
-##############################
-Overview of Data Product Tools
-##############################
+#########################
+Image Processing Overview
+#########################
 
 .. This section should provide a brief, top-level description of the page.
 
-This page includes information and references to the major software tools for utilizing the data products.
+This page includes an overview of how images are processed.
 
-.. _Rubin-Observatory-Documentation-DP0-1-RSP:
+.. _Image-Processing-Overview-Raw-Images:
 
-Rubin Science Platform (RSP)
-============================
+.. Raw images
+.. ==========
 
-The RSP is...
+Simulations for DP0.1
+=====================
 
-.. _Rubin-Observatory-Documentation-DP0-1-Pipelines:
+DESC DC2 simulated data was used as the raw data in DP0.1, untainted by instrument signatures.
 
-LSST Science Pipelines
-======================
+.. _Image-Processing-Overview-Calibrations:
 
-The LSST Science Pipelines are ...
+Calibrations of raw images
+==========================
 
-See https://pipelines.lsst.io/ for in-depth information.
+This section includes information on calibration processing to remove instrument signature.
 
-GIT & GitHub
-============
+.. _Image-Processing-Overview-Quality-Validation:
 
-GIT is ...
+Image quality assessment and validation
+=======================================
 
-GitHub is ...
-You must be a member of the lsst project to contribute to this documentation project.
+This section includes information on how quality assessment and validation is performed during the image processing stage.

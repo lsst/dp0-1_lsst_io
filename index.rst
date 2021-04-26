@@ -33,48 +33,26 @@ This documentation site provides information to users for the Vera C. Rubin Obse
 
 .. _Rubin-Observatory-Documentation-DP0-1-Introduction:
 
-Introduction to data products
-=============================
+Introduction to Data Preview 0.1
+================================
 
-.. toctree::
-    :maxdepth: 3
-    :glob:
+The Rubin Observatory DP0.1 will make simulated Legacy Survey of Space and Time (LSST)-like data products
+available in the Rubin Science Platform (RSP) to Rubin Observatory Operations staff and DP0 Delegates.
 
-    introduction/index
+Various definitions are provided on the `Rubin Observatory Glossary & Acronyms webpage <https://www.lsst.org/scientists/glossary-acronyms>`__
 
 .. _Rubin-Observatory-Documentation-DP0-1-Delegate-Resources:
 
-DP0 delegate resources
+DP0 Delegate resources
 ======================
+
+DP0 Delegates are data rights holders that will represent the broad science community as learners, testers, and providers of feedback.
 
 .. toctree::
     :maxdepth: 2
     :glob:
 
     dp0-delegate-resources/index
-
-.. _Rubin-Observatory-Documentation-DP0-1-Data-Product-Tools:
-
-Data product tools
-==================
-
-.. toctree::
-    :maxdepth: 2
-    :glob:
-
-    /data-product-tools
-
-.. _Rubin-Observatory-Documentation-DP0-1-Data-Access:
-
-Data access
-===========
-
-.. toctree::
-    :maxdepth: 2
-    :glob:
-    :titlesonly:
-
-    data-access/index
 
 .. _Rubin-Observatory-Documentation-DP0-1-Data-Products:
 
@@ -86,14 +64,26 @@ This section includes information on the data products in DP0.1.
 .. toctree::
     :maxdepth: 2
     :glob:
-    :titlesonly:
 
-    data-products-definition-dp0-1/index
+    data-products-dp0-1/index
 
-.. _Rubin-Observatory-Documentation-DP0-1-Examples:
+.. _Rubin-Observatory-Documentation-DP0-1-Data-Access-Analysis-Tools:
 
-Examples
-========
+DP0.1 data access & analysis tools
+==================================
+
+This section includes information on the tools to access and analyze the data products in DP0.1.
+
+.. toctree::
+    :maxdepth: 2
+    :glob:
+
+    data-access-analysis-tools/index
+
+.. _Rubin-Observatory-Documentation-DP0-1-Tutorials-Examples:
+
+Tutorials & examples
+====================
 
 Examples of accessing or processing data products are separated from other locations in the repository to provide a single location of all examples.
 Using reST syntax, the examples can be reproduced in other locations on this site by using the ``include`` directive.
@@ -103,7 +93,7 @@ Using reST syntax, the examples can be reproduced in other locations on this sit
     :glob:
     :titlesonly:
 
-    examples/index
+    tutorials-examples/index
 
 .. _Rubin-Observatory-Documentation-DP0-1-Documentation-Project-Information:
 
