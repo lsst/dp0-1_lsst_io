@@ -19,21 +19,28 @@ DP0 Delegate Homepage
 
 .. This section should provide a brief, top-level description of the page.
 
-This page includes the guidelines, resources and activities for DP0 Delegates.
+This page includes the guidelines, resources, and activities for DP0 Delegates.
+
+**"DP0 delegate"** is the term for the 300 scientists and students who will have accounts in the Rubin Science Platform (RSP) at the Interim Data Facility (IDF) during Data Preview 0 (DP0). This term has been adopted to reflect participants’ important roles of representing the broad science community as learners, testers, and providers of feedback, and of sharing the benefits of their DP0 participation with their communities as teachers and colleagues. Delegates’ DP0-related activities will be supported with resources and infrastructure (as described below).
 
 .. Review content in <https://confluence.lsstcorp.org/display/LSSTOps/DP0+CE+Planning>__ for content and structure.
 
-.. _Delegate-Homepage-Data-Access-Authentication:
+.. _Delegate-Homepage-RSP-Accounts:
 
-Data access & authentication
-============================
+RSP Account Set-Up and Management
+=================================
 
-This section includes information on RSP authentication for access to the data products.
+DP0 delegates must have a `GitHub <http://www.github.com/>`_ account in order to participate in DP0. Delegates will be contacted by Rubin staff to provide their username, which will be added to the XXXX GitHub Organization. Then, delegates will be able to log into the RSP at the IDF at `<http://data.lsst.cloud>`_. 
+
+Questions about this process should be posted in the "Support -- DP0 RSP Services Issues" sub-category in the Rubin Community Forum, `Community.lsst.org <http://Community.lsst.org>`_, or submitted as a GitHub issue in the XXXX Organization **(NEEDS MORE DETAIL)**.
+
+RSP accounts are **not transferrable** and delegates **must not share their password** with others. Delegates who are no longer using their accounts and would like to relinquish it to make way for others should please submit a GitHub issue in the XXXX Organization.
+
 
 .. _Delegate-Homepage-Guidelines-Expectations:
 
-DP0 Delegate guidelines and expectations
-========================================
+Guidelines and Expectations for Delegates
+=========================================
 
 This section includes information on guidelines and expectations for DP0 Delegates.
 
