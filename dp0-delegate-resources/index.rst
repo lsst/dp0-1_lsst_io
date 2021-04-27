@@ -29,7 +29,7 @@ This page includes the guidelines, resources, and activities for DP0 Delegates.
 2. `Community Forum Account Set-Up and Management`_.
 3. Attend one of the `DP0 Info Sessions`_.
 
-Review the `Guidelines and Expectations for Delegates`_ and `DP0 Delegate programming`_ and `Getting support`_. 
+Recommended actions: review the `Guidelines and Expectations for Delegates`_, consider participating in the optional `DP0 Delegate programming`_, and find out about  `Getting support`_. 
 
 
 .. Review content in <https://confluence.lsstcorp.org/display/LSSTOps/DP0+CE+Planning>__ for content and structure.
@@ -40,15 +40,17 @@ Review the `Guidelines and Expectations for Delegates`_ and `DP0 Delegate progra
 RSP Account Set-Up and Management
 =================================
 
-**Activation:** For DP0, RSP accounts will be managed with `GitHub <http://www.github.com/>`_ identities. This will not be how RSP account authentication/authorization will work during Rubin Operations. For delegates who do not already have a GitHub account: go to `<http://www.github.com>`_ and select “sign up” in the upper right corner. For participation in DP0 it is not necessary to learn how to use git as a version control system, nor any git workflows or command line tools. Delegates will be contacted by Rubin staff to provide their GitHub username, which will be added to the XXXX GitHub Organization. Then, delegates will be able to log into the RSP at the IDF at `<http://data.lsst.cloud>`_. 
+**Activation:** Delegates will be contacted by Rubin staff to provide their `GitHub <http://www.github.com/>`_ username, which will be added to the XXXX GitHub Organization. Then, delegates will be able to log into the RSP at the IDF at `<http://data.lsst.cloud>`_. 
 
-**Questions, Support, and Issue Reporting:** Questions about RSP accounts should be posted in the "Support -- DP0 RSP Services Issues" sub-category in the Rubin Community Forum, `Community.lsst.org <http://Community.lsst.org>`_, or submitted as a GitHub issue in the XXXX Organization **(NEEDS MORE DETAIL)**.
+For delegates who do not already have a GitHub account: go to `<http://www.github.com>`_ and select “sign up” in the upper right corner. For participation in DP0 it is not necessary to learn how to use git as a version control system, nor any git workflows or command line tools. GitHub will not be used for RSP account authentication/authorization during Rubin Operations; this is a DP0-specific implementation.
 
 **Security:** RSP accounts are **not transferrable** and delegates **must not share their password** with others. DP0 delegates are responsible for adhering to the policies for safe usage of the RSP, described below. 
 
 **Deactivation:** Delegates who are no longer using their accounts and would like to relinquish it to make way for others should please submit a GitHub issue in the XXXX Organization.
 
-**Warnings** DP0 delegates are being given access to a *developmental version* of the Rubin Science Platform, and a number of the future safeguards for avoiding uptime or temporary data loss will not be present. Performance during DP0 will not reflect the performance of the final system, and the resources made available to DP0 delegates will not reflect the final user quotas of the operations-era RSP. 
+**Warnings:** DP0 delegates are being given access to a *developmental version* of the Rubin Science Platform, and a number of the future safeguards for avoiding uptime or temporary data loss will not be present. Performance during DP0 will not reflect the performance of the final system, and the resources made available to DP0 delegates will not reflect the final user quotas of the operations-era RSP. 
+
+**Get Help:** Questions about RSP accounts should be posted in the "Support -- DP0 RSP Services Issues" sub-category in the Rubin Community Forum, `Community.lsst.org <http://Community.lsst.org>`_, or submitted as a GitHub issue in the XXXX Organization **(NEEDS MORE DETAIL)**. There will also be Q&A time during the `DP0 Info Sessions`_ and the weekly `DP0 Delegate Assemblies`_.
 
 
 .. _Delegate-Homepage-Guidelines-Expectations:
@@ -58,7 +60,7 @@ Guidelines and Expectations for Delegates
 
 This section includes information on guidelines and expectations for DP0 Delegates.
 
-
+`LSST Communications Code of Conduct <https://docushare.lsstcorp.org/docushare/dsweb/Get/Document-24920/>`_.
 
 Community Forum Account Set-Up and Management
 ---------------------------------------------
@@ -67,10 +69,14 @@ Community Forum Account Set-Up and Management
 
 **Join the DP0 Delegates Group:** Go to `<https://community.lsst.org/groups>`_ and join "DP0 Delegates". This will ensure you have access to the the "Support -- DP0 RSP Services Issues" sub-category.
 
-**Review the DP0-Related Contents:** Check out the `Support - DP0 <https://community.lsst.org/c/support/dp0/49>`_ sub-category (for all questions and discussions related to DP0, the RSP, the DC2 data set, delegate activities, etc.). Check out the "Support -- DP0 RSP Services Issues" sub-category which is dedicated to Q&A and discussion about potential bugs, service outages, etc. Check out all topics that are `tagged with #dp0 <https://community.lsst.org/tag/dp0>`_. 
+**Review the DP0-Related Contents:**
+
+1. `Support - DP0 <https://community.lsst.org/c/support/dp0/49>`_ sub-category, for any and all questions and discussions related to DP0, the RSP, the DC2 data set, delegate activities, scientific analyses, etc. 
+2. "Support -- DP0 RSP Services Issues" sub-category which is dedicated to technical Q&A and discussion about potential bugs, service outages, etc.
+3. All topics that are `tagged with #dp0 <https://community.lsst.org/tag/dp0>`_. 
+4. Our forum's `Community Guidelines <https://community.lsst.org/faq>`_.
 
 
-.. Code of Conduct link
 
 .. _Delegate-Homepage-DP0-Delegate-Programming:
 
@@ -86,7 +92,7 @@ An introductory session for all delegates. To be held at a variety of dates/time
 
 .. _DP0-Delegate-Programming-Assemblies:
 
-DP0 Delegate assemblies
+DP0 Delegate Assemblies
 -----------------------
 
 DP0 Delegate Assemblies are scheduled events for delegates to
