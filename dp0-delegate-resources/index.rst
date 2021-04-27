@@ -60,7 +60,20 @@ Guidelines and Expectations for Delegates
 
 This section includes information on guidelines and expectations for DP0 Delegates.
 
-`LSST Communications Code of Conduct <https://docushare.lsstcorp.org/docushare/dsweb/Get/Document-24920/>`_.
+
+What should DP0 delegates do?
+-----------------------------
+
+**Abide by the Code of Conduct:** All delegates are expected to abide by the `LSST Communications Code of Conduct <https://docushare.lsstcorp.org/docushare/dsweb/Get/Document-24920/>`_.
+
+**Use your RSP Account:** As there are a limited number of RSP accounts for DP0, please try to make some use of your account and learn to use at least one aspect of the RSP. There is no minimum time that you should spend on DP0. If you find that you are done with DP0, consider relinquishing your account so it can be offered to someone else.
+
+**Interact with Delegates:** If you can, interact with other delegates in the Community Forum or at the biweekly Delegate Assemblies.
+
+**Take on an Activity:** To extend the impact of DP0 into the community, or to provide feedback. [TBD]
+
+**Citations/references for publications:** If you publish work enabled by DP0, the RSP, and/or the DESC's DC2 data set, please cite: [TBD]
+
 
 Community Forum Account Set-Up and Management
 ---------------------------------------------
@@ -69,10 +82,10 @@ Community Forum Account Set-Up and Management
 
 **Join the DP0 Delegates Group:** Go to `<https://community.lsst.org/groups>`_ and join "DP0 Delegates". This will ensure you have access to the the "Support -- DP0 RSP Services Issues" sub-category.
 
-**Review the DP0-Related Contents:**
+**Find DP0-Related Contents:**
 
-1. `Support - DP0 <https://community.lsst.org/c/support/dp0/49>`_ sub-category, for any and all questions and discussions related to DP0, the RSP, the DC2 data set, delegate activities, scientific analyses, etc. 
-2. "Support -- DP0 RSP Services Issues" sub-category which is dedicated to technical Q&A and discussion about potential bugs, service outages, etc.
+1. `Support - Data Preview 0 <https://community.lsst.org/c/support/dp0/49>`_: for all questions and discussions related to DP0 (e.g., use of the RSP's aspects for science, contents of the DC2 data set, delegate activities, brainstorm new investigations, show-and-tell DP0-related results, etc.)
+2. "Support - DP0 RSP Services Issues": technical Q&A and discussion about potential bugs, service outages, etc.
 3. All topics that are `tagged with #dp0 <https://community.lsst.org/tag/dp0>`_. 
 4. Our forum's `Community Guidelines <https://community.lsst.org/faq>`_.
 
