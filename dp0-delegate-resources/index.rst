@@ -25,11 +25,11 @@ This page includes the guidelines, resources, and activities for DP0 Delegates.
 
 **Delegate "Getting Started" Action Items Checklist**
 
-1. `RSP Account Set-Up and Management`_.
-2. `Community Forum Account Set-Up and Management`_.
+1. Get one of the `RSP Accounts`_ for DP0 delegates.
+2. Set up your `Community Forum Account`_.
 3. Attend one of the `DP0 Kick-Off Info Sessions`_.
 
-Recommended additional action items: review the `Guidelines and Expectations for Delegates`_, consider participating in the `DP0 Delegate Assemblies`_, and find out about `Getting Support`_. 
+Recommended additional action items: review the `Guidelines and Expectations`_, consider participating in the `DP0 Delegate Assemblies`_, and find out about `Getting Support`_. 
 
 
 .. Review content in <https://confluence.lsstcorp.org/display/LSSTOps/DP0+CE+Planning>__ for content and structure.
@@ -37,8 +37,8 @@ Recommended additional action items: review the `Guidelines and Expectations for
 
 .. _Delegate-Homepage-RSP-Accounts:
 
-RSP Account Set-Up and Management
-=================================
+RSP Accounts
+============
 
 **Activation:** Delegates will be contacted by Rubin staff to provide their `GitHub <http://www.github.com/>`_ username, which will be added to the XXXX GitHub Organization. Then, delegates will be able to log into the RSP at the IDF at `<http://data.lsst.cloud>`_. 
 
@@ -55,8 +55,8 @@ For delegates who do not already have a GitHub account: go to `<http://www.githu
 **Get Help:** Questions about RSP accounts should be posted in the "Support -- DP0 RSP Services Issues" sub-category in the Rubin Community Forum, `Community.lsst.org <http://Community.lsst.org>`_, or submitted as a GitHub issue in the XXXX Organization **(NEEDS MORE DETAIL)**. There will also be Q&A time during the `DP0 Info Sessions`_ and the weekly `DP0 Delegate Assemblies`_.
 
 
-Community Forum Account Set-Up and Management
-=============================================
+Community Forum Account
+=======================
 
 The Community Forum is the central hub for all virtual discussions, Q&A, and support for Rubin Observatory, the LSST, and DP0. It is the best place to post your questions about anything and everything related to DP0.
 
@@ -81,8 +81,8 @@ An introductory session for all delegates. To be held at a variety of dates/time
 
 .. _Delegate-Homepage-Guidelines-Expectations:
 
-Guidelines and Expectations for Delegates
-=========================================
+Guidelines and Expectations
+===========================
 
 This section includes information on guidelines and expectations for DP0 Delegates.
 
