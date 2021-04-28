@@ -26,10 +26,11 @@ This page includes the guidelines, resources, and activities for DP0 Delegates.
 **Delegate "Getting Started" Action Items Checklist**
 
 1. Get one of the `RSP Accounts`_ for DP0 delegates.
-2. Set up your `Community Forum Account`_.
+2. Set up your account in the `Rubin Community Forum`_.
 3. Attend one of the `DP0 Kick-Off Info Sessions`_.
-
-Recommended additional action items: review the `Guidelines and Expectations`_, consider participating in the `DP0 Delegate Assemblies`_, and find out about `Getting Support`_. 
+4. Review the `Guidelines and Expectations`_ for delegates.
+5. Consider participating in the `DP0 Delegate Assemblies`_.
+6. Learn about `Getting Support`_ for DP0. 
 
 
 .. Review content in <https://confluence.lsstcorp.org/display/LSSTOps/DP0+CE+Planning>__ for content and structure.
@@ -50,25 +51,23 @@ For delegates who do not already have a GitHub account: go to `<http://www.githu
 
 **Warnings:** DP0 delegates are being given access to a *developmental version* of the Rubin Science Platform, and a number of the future safeguards for avoiding uptime or temporary data loss will not be present. Performance during DP0 will not reflect the performance of the final system, and the resources made available to DP0 delegates will not reflect the final user quotas of the operations-era RSP. **(ADD MORE OR LINK TO OTHER WARNINGS)**
 
-**Resources:** (Link to the RSP how-tos etc.)
-
-**Get Help:** Questions about RSP accounts should be posted in the "Support -- DP0 RSP Services Issues" sub-category in the Rubin Community Forum, `Community.lsst.org <http://Community.lsst.org>`_, or submitted as a GitHub issue in the XXXX Organization **(NEEDS MORE DETAIL)**. There will also be Q&A time during the `DP0 Info Sessions`_ and the weekly `DP0 Delegate Assemblies`_.
+**Resources:** (Link to the RSP how-tos etc.) See also `Getting Support`_.
 
 
-Community Forum Account
-=======================
+Rubin Community Forum
+=====================
 
-The Community Forum is the central hub for all virtual discussions, Q&A, and support for Rubin Observatory, the LSST, and DP0. It is the best place to post your questions about anything and everything related to DP0.
+The 'Rubin Community Forum <http://www.community.lsst.org>`_ is the central hub for all virtual discussions, Q&A, and support for Rubin Observatory, the LSST, and DP0. It is the best place to post your questions about anything and everything related to DP0.
 
-**Activation:** Go to `<http://community.lsst.org>`_ and create an account (if you do not already have one). 
+**Activation:** Go to `<http://www.community.lsst.org>`_ and create an account (if you do not already have one). 
 
-**Join the DP0 Delegates Group:** Go to `<https://community.lsst.org/groups>`_ and join "DP0 Delegates". This will ensure you have access to the the "Support -- DP0 RSP Services Issues" sub-category.
+**Join the DP0 Delegates Group:** Go to `<https://www.community.lsst.org/groups>`_ and join "DP0 Delegates". This will ensure you have access to the the "Support -- DP0 RSP Services Issues" sub-category.
 
 **Find DP0-Related Contents:**
 
-1. `Support - Data Preview 0 <https://community.lsst.org/c/support/dp0/49>`_: for all questions and discussions related to DP0. For example, use of the RSP's aspects for science, contents of the DC2 data set, delegate activities, brainstorm new investigations, show-and-tell DP0-related results, etc.
+1. `Support - Data Preview 0 <https://www.community.lsst.org/c/support/dp0/49>`_: for all questions and discussions related to DP0. For example, use of the RSP's aspects for science, contents of the DC2 data set, delegate activities, brainstorm new investigations, show-and-tell DP0-related results, etc.
 2. "Support - DP0 RSP Services Issues": technical Q&A and discussion about potential bugs, service outages, etc.
-3. All topics that are `tagged with #dp0 <https://community.lsst.org/tag/dp0>`_. 
+3. All topics that are `tagged with #dp0 <https://www.community.lsst.org/tag/dp0>`_. 
 
 
 DP0 Kick-Off Info Sessions 
@@ -92,13 +91,13 @@ What should DP0 delegates do?
 
 **Abide by the code of conduct:** All delegates are expected to abide by the `LSST Communications Code of Conduct <https://docushare.lsstcorp.org/docushare/dsweb/Get/Document-24920/>`_.
 
+**Use appropriate acknowledgements and citations:** If you publish work enabled by DP0, the RSP, and/or the DESC's DC2 data set, please cite: [TBD]
+
 **Learn to use the RSP:** As there are a limited number of RSP accounts for DP0, please try to make some use of your account and learn to use at least one aspect of the RSP. There is no minimum time that you're expected to spend on DP0. If you find that you are done with DP0, consider relinquishing your account so it can be offered to someone else.
 
-**Do a delegate activity:** Delegates are invited to take on an activity that helps to maximize the impact of DP0 with respect to the DP0 goals of testing and informing development of the RSP and preparing the scientific community to do LSST science. See `Delegate Activities`_. 
+**Choose a delegate activity:** Delegates are invited to take on an activity that helps to maximize the impact of DP0 with respect to the DP0 goals of testing and informing development of the RSP and preparing the scientific community to do LSST science. See `Delegate Activities`_. 
 
 **Interact with your co-delegates:** participate in discussions in the Community Forum, or join in for one or more of the biweekly Delegate Assemblies. 
-
-**Citations/references for publications:** If you publish work enabled by DP0, the RSP, and/or the DESC's DC2 data set, please cite: [TBD]
 
 
 Delegate Activities
@@ -156,4 +155,4 @@ Assemblies Schedule
 Getting Support
 ===============
 
-This section includes information on where to ask questions and receive support as a DP0 Delegate.
+Questions about RSP accounts should be posted in the "Support -- DP0 RSP Services Issues" sub-category in the Rubin Community Forum, `Community.lsst.org <http://Community.lsst.org>`_, or submitted as a GitHub issue in the XXXX Organization **(NEEDS MORE DETAIL)**. There will also be Q&A time during the `DP0 Info Sessions`_ and the weekly `DP0 Delegate Assemblies`_.
