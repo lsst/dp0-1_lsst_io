@@ -73,7 +73,28 @@ The 'Rubin Community Forum <http://community.lsst.org>`_ is the central hub for 
 DP0 Kick-Off Info Sessions 
 ==========================
 
-An introductory session for all delegates. To be held at a variety of dates/times for worldwide participation. Consider it mandatory. Presentation portion will be recorded and made availble. **(ADD MORE HERE)**
+All delegates should please attend one of these identical sessions. One of them will be recorded and made available.
+
+**Purpose:** 
+
+* set expectations regarding the DC2 data set and the RSP's tools
+* alert DP0 delegates to potential hazards with the shared-risk RSP in development
+* instructions for obtaining and managing accounts in the RSP and Community Forum
+* expectations and guidelines for participating in DP0
+* an overview of all the resources available to delegates, and how to get support
+* time for question and answer
+
+**Dates and Times:** (all times are Pacific Daylight Time)
+
+* Tue Jun 29 8am
+* Wed Jun 30 12pm
+* Thu Jul 1 4pm
+* Tue Jul 6 12pm
+* Wed Jul 7 4pm
+* Thu Jul 8 8am
+
+**Connection Info:**
+
 
 
 
