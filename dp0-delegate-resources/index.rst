@@ -57,17 +57,17 @@ For delegates who do not already have a GitHub account: go to `<http://www.githu
 Rubin Community Forum
 =====================
 
-The 'Rubin Community Forum <http://www.community.lsst.org>`_ is the central hub for all virtual discussions, Q&A, and support for Rubin Observatory, the LSST, and DP0. It is the best place to post your questions about anything and everything related to DP0.
+The 'Rubin Community Forum <http://community.lsst.org>`_ is the central hub for all virtual discussions, Q&A, and support for Rubin Observatory, the LSST, and DP0. It is the best place to post your questions about anything and everything related to DP0.
 
-**Activation:** Go to `<http://www.community.lsst.org>`_ and create an account (if you do not already have one). 
+**Activation:** Go to `<http://community.lsst.org>`_ and create an account (if you do not already have one). 
 
-**Join the DP0 Delegates Group:** Go to `<https://www.community.lsst.org/groups>`_ and join "DP0 Delegates". This will ensure you have access to the the "Support -- DP0 RSP Services Issues" sub-category.
+**Join the DP0 Delegates Group:** Go to `<https://community.lsst.org/groups>`_ and join "DP0 Delegates". This will ensure you have access to the the "Support -- DP0 RSP Services Issues" sub-category.
 
 **Find DP0-Related Contents:**
 
-1. `Support - Data Preview 0 <https://www.community.lsst.org/c/support/dp0/49>`_: for all questions and discussions related to DP0. For example, use of the RSP's aspects for science, contents of the DC2 data set, delegate activities, brainstorm new investigations, show-and-tell DP0-related results, etc.
+1. `Support - Data Preview 0 <https://community.lsst.org/c/support/dp0/49>`_: for all questions and discussions related to DP0. For example, use of the RSP's aspects for science, contents of the DC2 data set, delegate activities, brainstorm new investigations, show-and-tell DP0-related results, etc.
 2. "Support - DP0 RSP Services Issues": technical Q&A and discussion about potential bugs, service outages, etc.
-3. All topics that are `tagged with #dp0 <https://www.community.lsst.org/tag/dp0>`_. 
+3. All topics that are `tagged with #dp0 <https://community.lsst.org/tag/dp0>`_. 
 
 
 DP0 Kick-Off Info Sessions 
@@ -155,4 +155,4 @@ Assemblies Schedule
 Getting Support
 ===============
 
-Questions about RSP accounts should be posted in the "Support -- DP0 RSP Services Issues" sub-category in the Rubin Community Forum, `Community.lsst.org <http://Community.lsst.org>`_, or submitted as a GitHub issue in the XXXX Organization **(NEEDS MORE DETAIL)**. There will also be Q&A time during the `DP0 Info Sessions`_ and the weekly `DP0 Delegate Assemblies`_.
+Questions about RSP accounts should be posted in the "Support -- DP0 RSP Services Issues" sub-category in the Rubin Community Forum, `Community.lsst.org <http://community.lsst.org>`_, or submitted as a GitHub issue in the XXXX Organization **(NEEDS MORE DETAIL)**. There will also be Q&A time during the `DP0 Info Sessions`_ and the weekly `DP0 Delegate Assemblies`_.
