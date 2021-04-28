@@ -111,10 +111,12 @@ Delegate activities are envisioned to be simple and enjoyable, and they are comp
 Provide feedback to Rubin Observatory:
 
 * Feedback Surveys for Rubin Observatory
+
   * [link to a Portal use feedback form]
   * [link to a Notebook use feedback form]
   * [link to a API use feedback form]
   * [link to a DP0 general feedback form]
+  
 * work through an “RSP Test Checklist” and [fill out this related form]
 * report issues and bugs with GitHub issues [link]
 
