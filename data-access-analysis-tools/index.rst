@@ -67,6 +67,12 @@ Portal aspect
 
 This section includes information on using the portal for the RSP.
 
+*(MLG Note: For the Portal Aspect, only catalog queries will be available. Note that the Portal Aspect has not been under active development recently and it is expected to evolve significantly before the first LSST annual data release (DR1).)*
+
+See this page for a :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
+
+
+
 .. _Data-Access-Analysis-Tools-TAP:
 
 Table Access Protocol (TAP) service
