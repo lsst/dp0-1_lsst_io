@@ -46,12 +46,19 @@ Rubin Science Platform (RSP)
 
 This section includes information on using the RSP.
 
+*MLG notes: Intended to provide a fairly brief overview of the need-to-know items for all DP0 delegates, including some who may still have no idea what the RSP is. Intended to be generic. Would link to the DPDD for DP0.1 and more in-depth scientific use-case examples and demonstrations.*
+
 .. _Tools-RSP-Notebook:
 
 Notebook aspect
 ---------------
 
 This section includes information on using notebooks in the RSP.
+
+*MLG notes: start with an overview of what is Jupyter Hub. For the Notebook aspect, only python notebooks and the terminal interface are supported, and RSP users will not be able to access their Portal queries from the Notebook aspect for DP0.1. In DP0.1 the Notebook Aspect of the RSP will offer image access via the Butler (a middleware component of the DMS for persisting and retrieving image datasets) through a python interface in the Notebook aspect.*
+
+See this page for a :ref:`Data-Access-Analysis-Tools-NB-Intro`.
+
 
 .. _Tools-RSP-Portal:
 
