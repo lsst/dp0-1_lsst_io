@@ -108,13 +108,13 @@ The primary assembly series will occur biweekly on Fridays, 9am to 11am Pacific 
 
 For DP0 participants from Australia and Asia, there will be a `Third Thursday Office Hour`_ (actually Wed 4pm Pacific, which is Thu 10am in Sydney).
 
-|**Purpose**
+| **Purpose**
 | - learn how to use the RSP in a guided, hands-on way
 | - network, discuss science, do activities together
 | - present DP0-related work
 | - get live support from Rubin staff
-
-**Format**
+|
+| **Format**
 
 * first hour: a "formal" presentation with Q&A, such as:
 
