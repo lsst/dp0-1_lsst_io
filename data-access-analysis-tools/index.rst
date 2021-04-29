@@ -36,7 +36,7 @@ The DP0-era of the RSP is a *shared-risk developmental version*.
 | - future RSP safegaurds to protect against, e.g., data loss, are not yet present
 | - documentation and support mechanisms are still in their very earliest versions
 
-All users of the RSP at the IDF must consult this list of warnings. :ref:`Data-Access-Analysis-Tools-RSP-Warnings`
+All users of the RSP at the IDF must consult this list of warnings. :ref:`Data-Access-Analysis-Tools-RSP-Warnings`.
 
 
 .. _Data-Access-Analysis-Tools-RSP:
