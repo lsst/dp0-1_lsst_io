@@ -25,9 +25,9 @@
    :header-rows: 1
 
    * - Date (Fridays, 9am US Pacific)
-     - Presentation Topic
-     - Breakouts Topics
-     - Chair/Presenters
+     - First Hour Presentation Topic
+     - Second Hour Breakouts Topics
+     - Presenters and Breakout Facilitators
    * - 2021-07-16
      - The Rubin Vision & Roadmap for DP0
      - random small-groups
