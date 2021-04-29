@@ -29,14 +29,14 @@ This page includes the various tools to access and analyze the data products in 
 Warnings that Delegates Need to Know
 ====================================
 
-The DP0-era of the RSP is a *shared-risk developmental version*.
+All users of the RSP at the IDF must consult this list of :ref:`Data-Access-Analysis-Tools-RSP-Warnings`.
 
+| Briefly, the DP0-era of the RSP is a *shared-risk developmental version*.
 | - RSP performance during DP0 is not representative of the future RSP's performance
 | - RSP compute resources during DP0 are not representative of the operations-era RSP
 | - future RSP safegaurds to protect against, e.g., data loss, are not yet present
 | - documentation and support mechanisms are still in their very earliest versions
 
-All users of the RSP at the IDF must consult this list of warnings. :ref:`Data-Access-Analysis-Tools-RSP-Warnings`.
 
 
 .. _Data-Access-Analysis-Tools-RSP:
