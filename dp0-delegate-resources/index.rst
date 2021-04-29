@@ -57,7 +57,7 @@ For delegates who do not already have a GitHub account: go to `<http://www.githu
 Rubin Community Forum
 =====================
 
-The 'Rubin Community Forum <http://community.lsst.org>`_ is the central hub for all virtual discussions, Q&A, and support for Rubin Observatory, the LSST, and DP0. It is the best place to post your questions about anything and everything related to DP0.
+The `Rubin Community Forum <http://community.lsst.org>`_ is the central hub for all virtual discussions, Q&A, and support for Rubin Observatory, the LSST, and DP0. It is the best place to post your questions about anything and everything related to DP0.
 
 **Activation:** Go to `<http://community.lsst.org>`_ and create an account (if you do not already have one). 
 
@@ -75,10 +75,10 @@ DP0 Kick-Off Info Sessions
 
 All delegates should please attend one of these identical sessions. One of them will be recorded and made available.
 
-**Purpose:** 
+**Contents of the Kick-Off Info Sessions:** 
 
 * set expectations regarding the DC2 data set and the RSP's tools
-* alert DP0 delegates to potential hazards with the shared-risk RSP in development
+* alert delegates to potential hazards with the shared-risk RSP in development
 * instructions for obtaining and managing accounts in the RSP and Community Forum
 * expectations and guidelines for participating in DP0
 * an overview of all the resources available to delegates, and how to get support
@@ -95,8 +95,66 @@ All delegates should please attend one of these identical sessions. One of them 
 
 **Connection Info:**
 
+(HAVE TO MAKE A GOOGLE FORM FOR THIS)
 
 
+
+.. _Delegate-Homepage-DP0-Delegate-Assemblies:
+
+DP0 Delegate Assemblies
+=======================
+
+The primary assembly series will occur biweekly on Fridays, 9am to 11am Pacific time (see `Assemblies Schedule`_, below). Alternating Fridays with `Stack Club`_. 
+
+For DP0 participants from Australia and Asia, there will be a `Third Thursday Office Hour`_ (actually Wed 4pm Pacific, which is Thu 10am in Sydney).
+
+**Purpose**
+
+* learn how to use the RSP in a guided, hands-on way
+* network, discuss science, do activities together
+* present DP0-related work
+* get live support from Rubin staff
+
+**Format**
+
+* first hour: a "formal" presentation with Q&A, such as:
+
+  * presentations about the DC2 data set
+  * demonstrations on how to use the Portal aspect
+  * tutorials based on Jupyter Notebooks
+  * at first given by Rubin staff, later by delegate volunteers
+  
+* second hour: breakout sessions for discussion, such as:
+
+  * breakout rooms by science topic to discuss DP0 work
+  * breakout rooms by RSP aspect to discuss usage
+  * breakout rooms for grassroots DP0 working groups 
+  * a main room to serve as "office hours" for Q&A with Rubin staff
+  * at first facilitated by Rubin staff, later by delegate volunteers
+
+* assemblies are open to everyone, not limited to DP0 delegates
+* all are welcome to join for one hour or both hours
+* the first hour will be recorded for those who cannot attend live
+
+
+.. _DP0-Delegate-Programming-Assemblies:
+
+Assemblies Schedule
+-------------------
+
+.. include:: dp0-delegate-assemblies-schedule.inc
+
+
+Stack Club
+----------
+
+Alternating Fridays. Link to stack club. Open hack session. DP0 delegates welcome (you do not need to "join" Stack Club or be working specifically on Stack Club tutorials). Roundtable of what people want to do/learn, sometimes breakout rooms as needed. Often times Rubin Data Management staff join to provide support.
+
+
+Third Thursday Office Hour
+--------------------------
+
+Aus/Asia: Once a month (e.g., "Third Thursdays" on Wed 4pm-6pm Pacific, which is Thu 10am-12pm in Sydney)
 
 
 .. _Delegate-Homepage-Guidelines-Expectations:
@@ -112,13 +170,13 @@ What should DP0 delegates do?
 
 **Abide by the code of conduct:** All delegates are expected to abide by the `LSST Communications Code of Conduct <https://docushare.lsstcorp.org/docushare/dsweb/Get/Document-24920/>`_.
 
-**Use appropriate acknowledgements and citations:** If you publish work enabled by DP0, the RSP, and/or the DESC's DC2 data set, please cite: [TBD]
+**Use appropriate acknowledgements and citations:** If you publish work enabled by DP0, the RSP, and/or the DESC's DC2 data set, please include: [TBD]
 
-**Learn to use the RSP:** As there are a limited number of RSP accounts for DP0, please try to make some use of your account and learn to use at least one aspect of the RSP. There is no minimum time that you're expected to spend on DP0. If you find that you are done with DP0, consider relinquishing your account so it can be offered to someone else.
+**Use your RSP account:** As there are a limited number of RSP accounts for DP0, please try to make some use of your account and learn to use at least one aspect of the RSP. There is no minimum time that you're expected to spend on DP0. If you find that you are done with DP0, consider relinquishing your account so it can be offered to someone else.
 
 **Choose a delegate activity:** Delegates are invited to take on an activity that helps to maximize the impact of DP0 with respect to the DP0 goals of testing and informing development of the RSP and preparing the scientific community to do LSST science. See `Delegate Activities`_. 
 
-**Interact with your co-delegates:** participate in discussions in the Community Forum, or join in for one or more of the biweekly Delegate Assemblies. 
+**Interact with your co-delegates:** participate in discussions in the `Rubin Community Forum`_, or join in for one or more of the biweekly `DP0 Delegate Assemblies`_. 
 
 
 Delegate Activities
@@ -128,9 +186,9 @@ The following example activities are designed to inform or enhance the Data Mana
 
 Delegate activities are envisioned to be simple and enjoyable, and they are completely voluntary and will not be tracked. Group work is encouraged, as are delegate-designed actions.
 
-Provide feedback to Rubin Observatory:
+Provide feedback to Rubin Observatory, for example:
 
-* Feedback Surveys for Rubin Observatory
+* complete one or more feedback surveys for Rubin Observatory
 
   * [link to a Portal use feedback form]
   * [link to a Notebook use feedback form]
@@ -140,7 +198,7 @@ Provide feedback to Rubin Observatory:
 * work through an “RSP Test Checklist” and [fill out this related form]
 * report issues and bugs with GitHub issues [link]
 
-Extend or enhance the benefits of DP0 in the science community:
+Extend or enhance the benefits of DP0 in the science community, for example:
 
 * contribute a Jupyter Notebook to the [GitHub Repo]
 * write a short report on your DP0 work in the [X category of Community.lsst.org]
@@ -153,22 +211,6 @@ Extend or enhance the benefits of DP0 in the science community:
 
 
 
-.. _Delegate-Homepage-DP0-Delegate-Assemblies:
-
-DP0 Delegate Assemblies
-=======================
-
-DP0 Delegate Assemblies are scheduled events for delegates to
-learn how to use the RSP in a guided, hands-on way,
-network, discuss science, 'take actions', and assume leadership roles and
-ask questions of Rubin Observatory Operations staff and get live support.
-
-.. _DP0-Delegate-Programming-Assemblies:
-
-Assemblies Schedule
--------------------
-
-.. include:: dp0-delegate-assemblies-schedule.inc
 
 
 .. _Delegate-Homepage-Getting-Support:
