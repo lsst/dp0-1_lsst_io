@@ -58,14 +58,14 @@ For delegates who do not already have a GitHub account: go to `<http://www.githu
 Rubin Community Forum
 =====================
 
-The `Rubin Community Forum <http://community.lsst.org>`_ is the central hub for all virtual discussions, Q&A, and support for Rubin Observatory, the LSST, and DP0. It is the best place to post your questions about anything and everything related to DP0.
+The `Rubin Community Forum <http://community.lsst.org>`_ is the central hub for all virtual discussions and support. It is the best place to post your questions about anything and everything related to DP0.
 
 **Activation:** Go to `<http://community.lsst.org>`_ and create an account (if you do not already have one). 
 
 **Join the DP0 Delegates Group:** Go to `<https://community.lsst.org/groups>`_ and join "DP0 Delegates". This will ensure you have access to the the "Support -- DP0 RSP Services Issues" sub-category.
 
 | **Find DP0-Related Contents:**
-| 1. `Support - Data Preview 0 <https://community.lsst.org/c/support/dp0/49>`_: for all questions and discussions related to DP0. For example, use of the RSP's aspects for science, contents of the DC2 data set, delegate activities, brainstorm new investigations, show-and-tell DP0-related results, etc.
+| 1. `Support - Data Preview 0 <https://community.lsst.org/c/support/dp0>`_: for all questions and discussions related to DP0. For example, use of the RSP's aspects for science, contents of the DC2 data set, delegate activities, brainstorm new investigations, show-and-tell DP0-related results, etc.
 | 2. "Support - DP0 RSP Services Issues": technical Q&A and discussion about potential bugs, service outages, etc.
 | 3. All topics that are `tagged with #dp0 <https://community.lsst.org/tag/dp0>`_. 
 
@@ -85,14 +85,14 @@ All delegates should please attend one of these identical sessions. One of them 
 | - time for question and answer
 
 | **Dates and Times:** (all times are US Pacific Daylight Time)
-| 1. Tue Jun 29 8am
-| 2. Wed Jun 30 12pm
-| 3. Thu Jul 1 4pm
-| 4. Tue Jul 6 12pm
-| 5. Wed Jul 7 4pm
-| 6. Thu Jul 8 8am
+| 1. Tue Jun 29 2021, 8am
+| 2. Wed Jun 30 2021, 12pm
+| 3. Thu Jul 1 2021, 4pm
+| 4. Tue Jul 6 2021, 12pm
+| 5. Wed Jul 7 2021, 4pm
+| 6. Thu Jul 8 2021, 8am
 
-**Connection Info:** (HAVE TO MAKE A GOOGLE FORM FOR THIS)
+**Connection Info:** (LINK TO A GOOGLE FORM OR TO A FORUM POST ABOUT THE SESSIONS)
 
 
 
@@ -124,7 +124,7 @@ Virtual meetings that occur biweekly on Fridays, from 9am to 11am Pacific time (
 | - all are welcome to join for one hour or both hours
 | - the first hour will be recorded for those who cannot attend live
 
-**Connection Info:** (HAVE TO MAKE A GOOGLE FORM FOR THIS)
+**Connection Info:**  (LINK TO A GOOGLE FORM OR TO A FORUM POST ABOUT THE SESSIONS)
 
 
 .. _DP0-Delegate-Programming-Assemblies:
@@ -138,11 +138,15 @@ Assemblies Schedule
 Third Thursday Office Hour
 --------------------------
 
-We will have a DP0 office hour for the Australia and Asia timezones on the third Thursday of every month at 8am Tokyo / 9am Sydney (which is Wed 4pm in US Pacific Daylight Time). This will be open time for DP0 delegates to drop in, discuss their DP0-related activities with Rubin staff and with each other.
+We will have a DP0 office hour for the Australia and Asia timezones on the third Thursday of every month at 8am Tokyo / 9am Sydney (e.g., Wed 4pm in US Pacific Daylight Time). This will be open time for DP0 delegates to drop in, discuss their DP0-related activities with Rubin staff and with each other, and get support if needed.
 
 | **Dates:** 
-| 1. 
-| 2. 
+| 1. Thu July 15 2021
+| 2. Thu Aug 18 2021
+| 3. Thu Sep 15 2021
+| 4. Thu Oct 10 2021
+| 5. Thu Nov 17 2021
+| 6. Thu Jan 19 2021
 
 **Connection Info:** (HAVE TO MAKE A GOOGLE FORM FOR THIS)
 
