@@ -51,12 +51,15 @@ RSP Accounts
 
 **Deactivation:** Delegates who are no longer using their accounts and would like to relinquish it to make way for others should please submit a GitHub issue in the **XXXX Organization** to let us know, and then leave the **XXXX Organization**. (Log into GitHub, navitate to `<https://github.com/settings/organizations>`_, and click on the "Leave" button.)
 
-| **Warnings:** DP0 delegates are being given access to a *shared-risk developmental version* of the Rubin Science Platform and the accompanying documentation. It is essential that delegates understand that:
+**Warnings:** DP0 delegates are being given access to a *shared-risk developmental version* of the Rubin Science Platform and the accompanying documentation.
+
+| It is essential that delegates understand that:
 |  - RSP performance during DP0 is not representative of the future RSP's performance
 |  - RSP compute resources during DP0 are not representative of user quotas of the operations-era RSP
 |  - future RSP safegaurds to protect against, e.g., data loss, are not yet present
 |  - documentation and support mechanisms are still in their very earliest versions
-| See also the `Guidelines and Expectations`_ for DP0 Delegates and **PLACEHOLDER LINK TO FULL LIST OF DETAILED WARNINGS**.
+
+See also the `Guidelines and Expectations`_ for DP0 Delegates and **PLACEHOLDER LINK TO FULL LIST OF DETAILED WARNINGS**.
 
 **Resources:** Find instructions and tutorials for DP0, DC2, and the RSP at `<dp0-1.lsst.io>`_. See also `Getting Support`_, below.
 
