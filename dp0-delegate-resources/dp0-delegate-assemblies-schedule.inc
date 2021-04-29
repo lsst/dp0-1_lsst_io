@@ -61,7 +61,7 @@
      - image processing routines, delegate working groups
      - TBD
    * - 2021-11-05
-     - *Source Detection and Measurement? (Imran?)*
+     - *Source Detection and Measurement? (?)*
      - source types, delegate working groups
      - TBD
    * - 2021-11-19
