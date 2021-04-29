@@ -13,6 +13,12 @@
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
 .. A warning will alert you of identical labels during the linkcheck process.
 
+.. raw:: html
+
+    <style> .red {color:#aa0060; font-weight:bold; font-size:16px} </style>
+
+.. role:: red
+
 
 #####################
 DP0 Delegate Homepage
@@ -42,13 +48,13 @@ This page includes the guidelines, resources, and activities for DP0 Delegates.
 RSP Accounts
 ============
 
-**Activation:** Delegates will be contacted by Rubin staff to provide their `GitHub <http://www.github.com/>`_ username, which will be added to the :textcolor:`<#aa0060> XXXX` GitHub Organization. Then, delegates will be able to log into the RSP at the IDF at `<http://data.lsst.cloud>`_. 
+**Activation:** Delegates will be contacted by Rubin staff to provide their `GitHub <http://www.github.com/>`_ username, which will be added to the :red:`XXXX` GitHub Organization. Then, delegates will be able to log into the RSP at the IDF at `<http://data.lsst.cloud>`_. 
 
 For delegates who do not already have a GitHub account: go to `<http://www.github.com>`_ and select “sign up” in the upper right corner. For participation in DP0 it is not necessary to learn how to use git as a version control system, nor any git workflows or command line tools. GitHub will not be used for RSP account authentication/authorization during Rubin Operations; this is a DP0-specific implementation.
 
 **Security:** RSP accounts are **not transferrable** and delegates **must not share their password** with others. DP0 delegates are responsible for adhering to the policies for safe usage of the RSP, described below. 
 
-**Deactivation:** Delegates who are no longer using their accounts and would like to relinquish it to make way for others should please submit a GitHub issue in the :red:`XXXX` Organization to let us know, and then leave the :textcolor:`<#aa0060> XXXX` Organization. (Log into GitHub, navitate to `<https://github.com/settings/organizations>`_, and click on the "Leave" button.)
+**Deactivation:** Delegates who are no longer using their accounts and would like to relinquish it to make way for others should please submit a GitHub issue in the :red:`XXXX` Organization to let us know, and then leave the :red:`XXXX` Organization. (Log into GitHub, navitate to `<https://github.com/settings/organizations>`_, and click on the "Leave" button.)
 
 | **Warnings:** DP0 delegates are being given access to a *shared-risk developmental version* of the Rubin Science Platform and the accompanying documentation. It is essential that delegates understand that:
 | * RSP performance during DP0 is not representative of the future RSP's performance
@@ -56,7 +62,7 @@ For delegates who do not already have a GitHub account: go to `<http://www.githu
 | * future RSP safegaurds to protect against, e.g., data loss, are not yet present
 | * documentation and support mechanisms are still in their very earliest versions
 
-See also the `Guidelines and Expectations`_ for DP0 Delegates and :textcolor:`<#aa0060> (placeholder link to a full list of detailed warnings.)`
+See also the `Guidelines and Expectations`_ for DP0 Delegates and :red:`(placeholder link to a full list of detailed warnings.)`
 
 **Resources:** Find instructions and tutorials for DP0, DC2, and the RSP at `<dp0-1.lsst.io>`_. See also `Getting Support`_, below.
 
