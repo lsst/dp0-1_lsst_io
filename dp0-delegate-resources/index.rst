@@ -108,12 +108,11 @@ The primary assembly series will occur biweekly on Fridays, 9am to 11am Pacific 
 
 For DP0 participants from Australia and Asia, there will be a `Third Thursday Office Hour`_ (actually Wed 4pm Pacific, which is Thu 10am in Sydney).
 
-**Purpose**
-
-* learn how to use the RSP in a guided, hands-on way
-* network, discuss science, do activities together
-* present DP0-related work
-* get live support from Rubin staff
+|**Purpose**
+| - learn how to use the RSP in a guided, hands-on way
+| - network, discuss science, do activities together
+| - present DP0-related work
+| - get live support from Rubin staff
 
 **Format**
 
@@ -162,21 +161,17 @@ Aus/Asia: Once a month (e.g., "Third Thursdays" on Wed 4pm-6pm Pacific, which is
 Guidelines and Expectations
 ===========================
 
-This section includes information on guidelines and expectations for DP0 Delegates.
+**Know the hazards and limitations of working in the shared-risk developmental version of the Rubin Science Platform.** (FIND OUT MORE HERE).
 
+**Abide by the code of conduct.** All delegates are expected to abide by the `LSST Communications Code of Conduct <https://docushare.lsstcorp.org/docushare/dsweb/Get/Document-24920/>`_.
 
-What should DP0 delegates do?
------------------------------
+**Use appropriate acknowledgements and citations.** If you publish work enabled by DP0, the RSP, and/or the DESC's DC2 data set, please include: [TBD]
 
-**Abide by the code of conduct:** All delegates are expected to abide by the `LSST Communications Code of Conduct <https://docushare.lsstcorp.org/docushare/dsweb/Get/Document-24920/>`_.
+**Use your RSP account!** As there are a limited number of RSP accounts for DP0, please try to make some use of your account and learn to use at least one aspect of the RSP. There is no minimum time that you're expected to spend on DP0. If you find that you are done with DP0, consider relinquishing your account so it can be offered to someone else.
 
-**Use appropriate acknowledgements and citations:** If you publish work enabled by DP0, the RSP, and/or the DESC's DC2 data set, please include: [TBD]
+**Choose a delegate activity.** Delegates are invited to take on an activity that helps to maximize the impact of DP0 with respect to the DP0 goals of testing and informing development of the RSP and preparing the scientific community to do LSST science. See `Delegate Activities`_. 
 
-**Use your RSP account:** As there are a limited number of RSP accounts for DP0, please try to make some use of your account and learn to use at least one aspect of the RSP. There is no minimum time that you're expected to spend on DP0. If you find that you are done with DP0, consider relinquishing your account so it can be offered to someone else.
-
-**Choose a delegate activity:** Delegates are invited to take on an activity that helps to maximize the impact of DP0 with respect to the DP0 goals of testing and informing development of the RSP and preparing the scientific community to do LSST science. See `Delegate Activities`_. 
-
-**Interact with your co-delegates:** participate in discussions in the `Rubin Community Forum`_, or join in for one or more of the biweekly `DP0 Delegate Assemblies`_. 
+**Interact with your co-delegates.** Participate in the `Rubin Community Forum`_ and join the biweekly `DP0 Delegate Assemblies`_ as often as you can.
 
 
 Delegate Activities
