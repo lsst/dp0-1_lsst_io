@@ -193,33 +193,55 @@ Guidelines and Expectations
 Delegate Activities
 -------------------
 
-The following example activities are designed to inform or enhance the Data Management System, the Rubin Science Platform, or a Science Collaboration, and to extend or ehance the benefits of DP0 within the science community, especially beyond the limited number of DP0 participants that Rubin Observatory is able to support. 
+The following example activities are designed to inform and improve development of the Rubin Science Platform development, or to extend and enhance the benefits of DP0 within the science community, especially beyond the limited number of DP0 participants that Rubin Observatory is able to support. 
 
-Delegate activities are envisioned to be simple and enjoyable, and they are completely voluntary and will not be tracked. Group work is encouraged, as are delegate-designed actions.
+Delegate activities are envisioned to be simple and enjoyable. They are completely voluntary and will not be tracked. Group work is encouraged, as are delegate-designed activities.
 
-Provide feedback to Rubin Observatory, for example:
+**Inform and improve the Rubin Science Platform:**
 
 * complete one or more feedback surveys for Rubin Observatory
 
-  * [link to a Portal use feedback form]
-  * [link to a Notebook use feedback form]
-  * [link to a API use feedback form]
-  * [link to a DP0 general feedback form]
+  * **[PLACEHOLDER LINK to a Portal use feedback form]**
+  * **[PLACEHOLDER LINK to a Notebook use feedback form]**
+  * **[PLACEHOLDER LINK to a API use feedback form]**
+  * **[PLACEHOLDER LINK to a DP0 general feedback form]**
   
-* work through an “RSP Test Checklist” and [fill out this related form]
-* report issues and bugs with GitHub issues [link]
+* submit bug reports via GitHub issues in the **XXXX Organization** **(PLACEHOLDER FOR LINK)**
+* post new topics in the `Support - Data Preview 0 <https://community.lsst.org/c/support/dp0>'_ forum category
+* communicate directly with the Users Committee **(PLACEHOLDER FOR MORE UC INFO)**
+* participate in calls for user acceptance testing (UAT) **(PLACEHOLDER FOR MORE UAT INFO)**
 
-Extend or enhance the benefits of DP0 in the science community, for example:
+  * work through an “RSP Test Checklist” and fill out a related form
+  * test that new Notebooks run and fill out a related form
 
-* contribute a Jupyter Notebook to the [GitHub Repo]
-* write a short report on your DP0 work in the [X category of Community.lsst.org]
-* give a short demo of your DP0 work during a [DP0 Delegate Assembly]
-* give a seminar about Rubin Observatory and DP0 at your home institution
-* give a tutorial about your RSP/DP0 experience in your Science Collaboration
-* create a video demo of your DP0 work and [contribute it to our YouTube Playlist]
-* lead a topical working group for your fellow DP0 delegates
-* help to resolve reported issues and support fellow DP0 delegates in the Community Forum
+**Extend or enhance the benefits of DP0 in the science community, for example:**
 
+* join one of the eight `LSST Science Collaborations <https://www.lsstcorporation.org/science-collaborations>`_
+* participate in the `Rubin Community Forum`_'s DP0-related categories
+
+  * openly ask questions about using the RSP or the DP0 data set
+  * respond to delegates requests for assistance when possible
+  * "show and tell" your DP0-related work in new topics 
+
+* participate in the `DP0 Delegate Assemblies`_ 
+
+  * ask questions, join the breakout discussions
+  * volunteer to facilitate a breakout discussion during an assembly
+  * volunteer to present the results of your DP0 work in one of the later `DP0 Delegate Assemblies`_
+  * propose a long-term group project and run a delegate working group during the breakout hour
+
+* contribute resources to the  shared **XXXX Repository**
+
+  * create a Jupyter Notebook that uses the DC2 data set
+  * create a step-by-step Portal demo that uses the DC2 data set
+  * create a TAP service instructional tutorial uses the DC2 data set
+
+* share your DP0-related work outside of DP0
+
+  * give a seminar about Rubin Observatory and DP0 at your home institution
+  * give a tutorial about your RSP/DP0 experience in your Science Collaboration
+  * publish a paper on your DP0-related work
+  
 
 
 .. _Delegate-Homepage-Getting-Support:
@@ -227,4 +249,4 @@ Extend or enhance the benefits of DP0 in the science community, for example:
 Getting Support
 ===============
 
-Questions about RSP accounts should be posted in the "Support -- DP0 RSP Services Issues" sub-category in the Rubin Community Forum, `Community.lsst.org <http://community.lsst.org>`_, or submitted as a GitHub issue in the XXXX Organization **(NEEDS MORE DETAIL)**. There will also be Q&A time during the `DP0 Kick-Off Info Sessions`_ and the weekly `DP0 Delegate Assemblies`_.
+Questions about RSP accounts should be posted in the "Support -- DP0 RSP Services Issues" sub-category in the Rubin Community Forum, `Community.lsst.org <http://community.lsst.org>`_, or submitted as a GitHub issue in the **XXXX Organization**. There will also be Q&A time during the `DP0 Kick-Off Info Sessions`_ and the weekly `DP0 Delegate Assemblies`_.
