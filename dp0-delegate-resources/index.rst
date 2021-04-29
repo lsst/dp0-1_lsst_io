@@ -13,6 +13,13 @@
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
 .. A warning will alert you of identical labels during the linkcheck process.
 
+.. raw:: html
+
+    <style> .red {color:red} </style>
+
+.. role:: red
+
+
 #####################
 DP0 Delegate Homepage
 #####################
@@ -21,7 +28,7 @@ DP0 Delegate Homepage
 
 This page includes the guidelines, resources, and activities for DP0 Delegates.
 
-**"DP0 delegate"** is the term for the 300 scientists and students who will have accounts in the Rubin Science Platform (RSP) at the Interim Data Facility (IDF) during Data Preview 0 (DP0). This term has been adopted to reflect DP0 participants’ important roles of representing the broad science community as learners, testers, and providers of feedback, and of sharing the benefits of their DP0 participation with their communities as teachers and colleagues. Delegates’ DP0-related activities will be supported with resources and infrastructure (as described below).
+**"DP0 delegate"** is the term for the 300 scientists and students who will have accounts in the Rubin Science Platform (RSP) at the Interim Data Facility (IDF) during Data Preview 0 (DP0). This term has been adopted to reflect DP0 participants’ important roles of representing the broad science community as learners, testers, and providers of feedback, and of sharing the benefits of their DP0 participation with their communities as teachers and colleagues. Delegates’ DP0-related activities will be supported with resources and infrastructure (as described below). The simulated data set being used for DP0 was created by the Dark Energy Science Collaboration (DESC) as part of their second Data Challenge (DC2). 
 
 | **Delegate Action Items Checklist**
 | 1. Get one of the `RSP Accounts`_ for DP0 delegates.
@@ -41,17 +48,22 @@ This page includes the guidelines, resources, and activities for DP0 Delegates.
 RSP Accounts
 ============
 
-**Activation:** Delegates will be contacted by Rubin staff to provide their `GitHub <http://www.github.com/>`_ username, which will be added to the XXXX GitHub Organization. Then, delegates will be able to log into the RSP at the IDF at `<http://data.lsst.cloud>`_. 
+**Activation:** Delegates will be contacted by Rubin staff to provide their `GitHub <http://www.github.com/>`_ username, which will be added to the :red:`XXXX` GitHub Organization. Then, delegates will be able to log into the RSP at the IDF at `<http://data.lsst.cloud>`_. 
 
 For delegates who do not already have a GitHub account: go to `<http://www.github.com>`_ and select “sign up” in the upper right corner. For participation in DP0 it is not necessary to learn how to use git as a version control system, nor any git workflows or command line tools. GitHub will not be used for RSP account authentication/authorization during Rubin Operations; this is a DP0-specific implementation.
 
 **Security:** RSP accounts are **not transferrable** and delegates **must not share their password** with others. DP0 delegates are responsible for adhering to the policies for safe usage of the RSP, described below. 
 
-**Deactivation:** Delegates who are no longer using their accounts and would like to relinquish it to make way for others should please submit a GitHub issue in the XXXX Organization. **(OR can they just leave the Org on their own?)**
+**Deactivation:** Delegates who are no longer using their accounts and would like to relinquish it to make way for others should please submit a GitHub issue in the :red:`XXXX` Organization to let us know, and then leave the :red:`XXXX` Organization. (Log into GitHub, navitate to `<https://github.com/settings/organizations>`_, and click on the "Leave" button.)
 
-**Warnings:** DP0 delegates are being given access to a *developmental version* of the Rubin Science Platform, and a number of the future safeguards for avoiding uptime or temporary data loss will not be present. Performance during DP0 will not reflect the performance of the final system, and the resources made available to DP0 delegates will not reflect the final user quotas of the operations-era RSP. **(ADD MORE OR LINK TO OTHER WARNINGS)**
+| **Warnings:** DP0 delegates are being given access to a *shared-risk developmental version* of the Rubin Science Platform and the accompanying documentation. It is essential that delegates understand that:
+| * RSP performance during DP0 is not representative of the future RSP's performance
+| * RSP compute resources during DP0 are not representative of user quotas of the operations-era RSP
+| * future RSP safegaurds to protect against, e.g., data loss, are not yet present
+| * documentation and support mechanisms are still in their very earliest versions
+See also the `Guidelines and Expectations`_ for DP0 Delegates and :red:`(placeholder link to a full list of detailed warnings.)`
 
-**Resources:** (Link to the RSP how-tos etc.) See also `Getting Support`_.
+**Resources:** Find instructions and tutorials for DP0, DC2, and the RSP at `<dp0-1.lsst.io>`_. See also `Getting Support`_, below.
 
 
 
@@ -81,6 +93,7 @@ All delegates should please attend one of these identical sessions. One of them 
 | - alert delegates to potential hazards with the shared-risk RSP in development
 | - instructions for obtaining and managing accounts in the RSP and Community Forum
 | - expectations and guidelines for participating in DP0
+| - explanation of the delegate assemblies and motivation for attending
 | - an overview of all the resources available to delegates, and how to get support
 | - time for question and answer
 
@@ -92,7 +105,7 @@ All delegates should please attend one of these identical sessions. One of them 
 | 5. Wed Jul 7 2021, 4pm
 | 6. Thu Jul 8 2021, 8am
 
-**Connection Info:** (LINK TO A GOOGLE FORM OR TO A FORUM POST ABOUT THE SESSIONS)
+**Connection Info:** (TBD)
 
 
 
@@ -146,7 +159,7 @@ We will have a DP0 office hour for the Australia and Asia timezones on the third
 | 3. Thu Sep 15 2021
 | 4. Thu Oct 10 2021
 | 5. Thu Nov 17 2021
-| 6. Thu Jan 19 2021
+| 6. Thu Jan 19 2022
 
 **Connection Info:** (HAVE TO MAKE A GOOGLE FORM FOR THIS)
 
