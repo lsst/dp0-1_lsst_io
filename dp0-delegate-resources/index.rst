@@ -23,17 +23,17 @@ This page includes the guidelines, resources, and activities for DP0 Delegates.
 
 **"DP0 delegate"** is the term for the 300 scientists and students who will have accounts in the Rubin Science Platform (RSP) at the Interim Data Facility (IDF) during Data Preview 0 (DP0). This term has been adopted to reflect DP0 participants’ important roles of representing the broad science community as learners, testers, and providers of feedback, and of sharing the benefits of their DP0 participation with their communities as teachers and colleagues. Delegates’ DP0-related activities will be supported with resources and infrastructure (as described below).
 
-**Delegate "Getting Started" Action Items Checklist**
-
-1. Get one of the `RSP Accounts`_ for DP0 delegates.
-2. Set up your account in the `Rubin Community Forum`_.
-3. Attend one of the `DP0 Kick-Off Info Sessions`_.
-4. Review the `Guidelines and Expectations`_ for delegates.
-5. Consider participating in the `DP0 Delegate Assemblies`_.
-6. Learn about `Getting Support`_ for DP0. 
+| **Delegate Action Items Checklist**
+| 1. Get one of the `RSP Accounts`_ for DP0 delegates.
+| 2. Set up your account in the `Rubin Community Forum`_.
+| 3. Attend one of the `DP0 Kick-Off Info Sessions`_.
+| 4. Review the `Guidelines and Expectations`_ for delegates.
+| 5. Consider participating in the `DP0 Delegate Assemblies`_.
+| 6. Learn about `Getting Support`_ for DP0. 
 
 
 .. Review content in <https://confluence.lsstcorp.org/display/LSSTOps/DP0+CE+Planning>__ for content and structure.
+
 
 
 .. _Delegate-Homepage-RSP-Accounts:
@@ -54,6 +54,7 @@ For delegates who do not already have a GitHub account: go to `<http://www.githu
 **Resources:** (Link to the RSP how-tos etc.) See also `Getting Support`_.
 
 
+
 Rubin Community Forum
 =====================
 
@@ -63,11 +64,11 @@ The `Rubin Community Forum <http://community.lsst.org>`_ is the central hub for 
 
 **Join the DP0 Delegates Group:** Go to `<https://community.lsst.org/groups>`_ and join "DP0 Delegates". This will ensure you have access to the the "Support -- DP0 RSP Services Issues" sub-category.
 
-**Find DP0-Related Contents:**
+| **Find DP0-Related Contents:**
+| 1. `Support - Data Preview 0 <https://community.lsst.org/c/support/dp0/49>`_: for all questions and discussions related to DP0. For example, use of the RSP's aspects for science, contents of the DC2 data set, delegate activities, brainstorm new investigations, show-and-tell DP0-related results, etc.
+| 2. "Support - DP0 RSP Services Issues": technical Q&A and discussion about potential bugs, service outages, etc.
+| 3. All topics that are `tagged with #dp0 <https://community.lsst.org/tag/dp0>`_. 
 
-1. `Support - Data Preview 0 <https://community.lsst.org/c/support/dp0/49>`_: for all questions and discussions related to DP0. For example, use of the RSP's aspects for science, contents of the DC2 data set, delegate activities, brainstorm new investigations, show-and-tell DP0-related results, etc.
-2. "Support - DP0 RSP Services Issues": technical Q&A and discussion about potential bugs, service outages, etc.
-3. All topics that are `tagged with #dp0 <https://community.lsst.org/tag/dp0>`_. 
 
 
 DP0 Kick-Off Info Sessions 
@@ -75,27 +76,23 @@ DP0 Kick-Off Info Sessions
 
 All delegates should please attend one of these identical sessions. One of them will be recorded and made available.
 
-**Contents of the Kick-Off Info Sessions:** 
+| **Contents of the Kick-Off Info Sessions:** 
+| - set expectations regarding the DC2 data set and the RSP's tools
+| - alert delegates to potential hazards with the shared-risk RSP in development
+| - instructions for obtaining and managing accounts in the RSP and Community Forum
+| - expectations and guidelines for participating in DP0
+| - an overview of all the resources available to delegates, and how to get support
+| - time for question and answer
 
-* set expectations regarding the DC2 data set and the RSP's tools
-* alert delegates to potential hazards with the shared-risk RSP in development
-* instructions for obtaining and managing accounts in the RSP and Community Forum
-* expectations and guidelines for participating in DP0
-* an overview of all the resources available to delegates, and how to get support
-* time for question and answer
+| **Dates and Times:** (all times are US Pacific Daylight Time)
+| 1. Tue Jun 29 8am
+| 2. Wed Jun 30 12pm
+| 3. Thu Jul 1 4pm
+| 4. Tue Jul 6 12pm
+| 5. Wed Jul 7 4pm
+| 6. Thu Jul 8 8am
 
-**Dates and Times:** (all times are Pacific Daylight Time)
-
-* Tue Jun 29 8am
-* Wed Jun 30 12pm
-* Thu Jul 1 4pm
-* Tue Jul 6 12pm
-* Wed Jul 7 4pm
-* Thu Jul 8 8am
-
-**Connection Info:**
-
-(HAVE TO MAKE A GOOGLE FORM FOR THIS)
+**Connection Info:** (HAVE TO MAKE A GOOGLE FORM FOR THIS)
 
 
 
@@ -104,36 +101,30 @@ All delegates should please attend one of these identical sessions. One of them 
 DP0 Delegate Assemblies
 =======================
 
-The primary assembly series will occur biweekly on Fridays, 9am to 11am Pacific time (see `Assemblies Schedule`_, below). Alternating Fridays with `Stack Club`_. 
+Virtual meetings that occur biweekly on Fridays, from 9am to 11am Pacific time (see `Assemblies Schedule`_, below), alternating Fridays with `Stack Club`_. Assemblies are designed for DP0 delegates but all are welcome to attend. This time slot serves North and South America and Europe. For DP0 participants from Australia and Asia, there will also be a `Third Thursday Office Hour`_ for live interaction.
 
-For DP0 participants from Australia and Asia, there will be a `Third Thursday Office Hour`_ (actually Wed 4pm Pacific, which is Thu 10am in Sydney).
-
-| **Purpose**
+| **Purpose** is for delegates to
 | - learn how to use the RSP in a guided, hands-on way
-| - network, discuss science, do activities together
-| - present DP0-related work
+| - form working groups, discuss DP0 science, do `Delegate Activities`_
+| - present their DP0-related software or science results
 | - get live support from Rubin staff
-|
+
 | **Format**
+| - first hour: a "formal" presentation with Q&A, such as:
+|   -- presentations about the DC2 data set
+|   -- demonstrations on how to use the Portal aspect
+|   -- tutorials based on Jupyter Notebooks
+|   -- at first given by Rubin staff, later by delegate volunteers
+| - second hour: breakout sessions for discussion, such as:
+|   -- breakout rooms by science topic to discuss DP0 work
+|   -- breakout rooms by RSP aspect to discuss usage
+|   -- breakout rooms for grassroots DP0 working groups 
+|   -- a main room to serve as "office hours" for Q&A with Rubin staff
+|   -- at first facilitated by Rubin staff, later by delegate volunteers
+| - all are welcome to join for one hour or both hours
+| - the first hour will be recorded for those who cannot attend live
 
-* first hour: a "formal" presentation with Q&A, such as:
-
-  * presentations about the DC2 data set
-  * demonstrations on how to use the Portal aspect
-  * tutorials based on Jupyter Notebooks
-  * at first given by Rubin staff, later by delegate volunteers
-  
-* second hour: breakout sessions for discussion, such as:
-
-  * breakout rooms by science topic to discuss DP0 work
-  * breakout rooms by RSP aspect to discuss usage
-  * breakout rooms for grassroots DP0 working groups 
-  * a main room to serve as "office hours" for Q&A with Rubin staff
-  * at first facilitated by Rubin staff, later by delegate volunteers
-
-* assemblies are open to everyone, not limited to DP0 delegates
-* all are welcome to join for one hour or both hours
-* the first hour will be recorded for those who cannot attend live
+**Connection Info:** (HAVE TO MAKE A GOOGLE FORM FOR THIS)
 
 
 .. _DP0-Delegate-Programming-Assemblies:
@@ -144,16 +135,22 @@ Assemblies Schedule
 .. include:: dp0-delegate-assemblies-schedule.inc
 
 
+Third Thursday Office Hour
+--------------------------
+
+We will have a DP0 office hour for the Australia and Asia timezones on the third Thursday of every month at 8am Tokyo / 9am Sydney (which is Wed 4pm in US Pacific Daylight Time). This will be open time for DP0 delegates to drop in, discuss their DP0-related activities with Rubin staff and with each other.
+
+| **Dates:** 
+| 1. 
+| 2. 
+
+**Connection Info:** (HAVE TO MAKE A GOOGLE FORM FOR THIS)
+
+ 
 Stack Club
 ----------
 
 Alternating Fridays. Link to stack club. Open hack session. DP0 delegates welcome (you do not need to "join" Stack Club or be working specifically on Stack Club tutorials). Roundtable of what people want to do/learn, sometimes breakout rooms as needed. Often times Rubin Data Management staff join to provide support.
-
-
-Third Thursday Office Hour
---------------------------
-
-Aus/Asia: Once a month (e.g., "Third Thursdays" on Wed 4pm-6pm Pacific, which is Thu 10am-12pm in Sydney)
 
 
 .. _Delegate-Homepage-Guidelines-Expectations:
@@ -203,8 +200,6 @@ Extend or enhance the benefits of DP0 in the science community, for example:
 * create a video demo of your DP0 work and [contribute it to our YouTube Playlist]
 * lead a topical working group for your fellow DP0 delegates
 * help to resolve reported issues and support fellow DP0 delegates in the Community Forum
-
-
 
 
 
