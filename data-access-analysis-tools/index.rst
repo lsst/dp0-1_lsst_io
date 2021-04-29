@@ -21,6 +21,23 @@ Data Access and Analysis Tools
 
 This page includes the various tools to access and analyze the data products in DP0.1.
 
+
+
+
+.. _Data-Access-Analysis-Tools-Danger:
+
+Danger Zone: Warnings that Delegates Need to Know
+=================================================
+
+The DP0-era of the RSP is a *shared-risk developmental version*.
+| - RSP performance during DP0 is not representative of the future RSP's performance
+| - RSP compute resources during DP0 are not representative of the operations-era RSP
+| - future RSP safegaurds to protect against, e.g., data loss, are not yet present
+| - documentation and support mechanisms are still in their very earliest versions
+
+All users of the RSP at the IDF must consult this list of warnings. **(PLACEHOLDER FOR LINK)**
+
+
 .. _Data-Access-Analysis-Tools-RSP:
 
 Rubin Science Platform (RSP)
