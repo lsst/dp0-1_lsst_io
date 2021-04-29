@@ -30,6 +30,7 @@ Danger Zone: Warnings that Delegates Need to Know
 =================================================
 
 The DP0-era of the RSP is a *shared-risk developmental version*.
+
 | - RSP performance during DP0 is not representative of the future RSP's performance
 | - RSP compute resources during DP0 are not representative of the operations-era RSP
 | - future RSP safegaurds to protect against, e.g., data loss, are not yet present
