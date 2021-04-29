@@ -61,6 +61,7 @@ For delegates who do not already have a GitHub account: go to `<http://www.githu
 | * RSP compute resources during DP0 are not representative of user quotas of the operations-era RSP
 | * future RSP safegaurds to protect against, e.g., data loss, are not yet present
 | * documentation and support mechanisms are still in their very earliest versions
+
 See also the `Guidelines and Expectations`_ for DP0 Delegates and :red:`(placeholder link to a full list of detailed warnings.)`
 
 **Resources:** Find instructions and tutorials for DP0, DC2, and the RSP at `<dp0-1.lsst.io>`_. See also `Getting Support`_, below.
@@ -225,4 +226,4 @@ Extend or enhance the benefits of DP0 in the science community, for example:
 Getting Support
 ===============
 
-Questions about RSP accounts should be posted in the "Support -- DP0 RSP Services Issues" sub-category in the Rubin Community Forum, `Community.lsst.org <http://community.lsst.org>`_, or submitted as a GitHub issue in the XXXX Organization **(NEEDS MORE DETAIL)**. There will also be Q&A time during the `DP0 Info Sessions`_ and the weekly `DP0 Delegate Assemblies`_.
+Questions about RSP accounts should be posted in the "Support -- DP0 RSP Services Issues" sub-category in the Rubin Community Forum, `Community.lsst.org <http://community.lsst.org>`_, or submitted as a GitHub issue in the XXXX Organization **(NEEDS MORE DETAIL)**. There will also be Q&A time during the `DP0 Kick-Off Info Sessions`_ and the weekly `DP0 Delegate Assemblies`_.
