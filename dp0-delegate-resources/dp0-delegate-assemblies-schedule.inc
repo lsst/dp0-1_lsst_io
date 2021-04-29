@@ -21,26 +21,66 @@
 
 .. This section should provide a brief, top-level description of the page.
 
-Here is the scheduled assemblies:
-
 .. list-table:: Schedule and planned content of DP0 Delegate Assemblies
    :header-rows: 1
 
-   * - Date & Time (Pacific Time)
-     - Content
-     - Breakouts
-     - Chair/Presenters
-   * - Wed, July 14, 2021, 4 PM
-     - *The Rubin Vision & Roadmap*
-         - data products now vs. ops
-         - science platform now vs. ops
-         - how DP0 and the delegates fit into the roadmap
-         - focus on very practical matters
+   * - Date (Fridays, 9am US Pacific)
+     - First Hour Presentation Topic
+     - Second Hour Breakouts Topics
+     - Presenters and Breakout Facilitators
+   * - 2021-07-16
+     - The Rubin Vision & Roadmap for DP0
+     - random small-groups
+     - The Community Engagement Team
+   * - 2021-07-30
+     - Introduction to the RSP and the DC2 Data Set
+     - science pillars
+     - The Community Engagement Team
+   * - 2021-08-13
+     - no assembly (Rubin 2021 workshop)
+     - 
+     - 
+   * - 2021-08-27
+     - Querying Catalogs in the RSP
+     - object types, delegate working groups
      - TBD
+   * - 2021-09-10
+     - Image Query, Retrieval, and Display
+     - image types, delegate working groups
      - TBD
-   * - Fri, July 16, 2021, 9 AM
-     - *The Rubin Vision & Roadmap*
+   * - 2021-09-24
+     - LSST Science Pipelines
+     - pipeline types, delegate working groups 
+     - Yusra AlSayyad
+   * - 2021-10-08
+     - Data Visualization
+     - visualization packages, delegate working groups
+     - Keith Bechtol
+   * - 2021-10-22
+     - *Image Processing? (Andrew?)*
+     - image processing routines, delegate working groups
      - TBD
+   * - 2021-11-05
+     - *Source Detection and Measurement? (?)*
+     - source types, delegate working groups
      - TBD
-
-If you're interested in presenting or leading a DP0 Delegate Assembly, contact Melissa Graham.
+   * - 2021-11-19
+     - *Fake Source Injection? (Josh?)*
+     - fake-related science goals, delegate working groups
+     - TBD
+   * - 2021-12-03
+     - *delegate presenter(s)*
+     - delegate working groups
+     - TBD
+   * - 2022-01-14
+     - *delegate presenter(s)*
+     - delegate working groups
+     - TBD
+   * - 2022-01-28
+     - Special Delegate Assembly "DP0.1, A Half-Year In Review"
+     - random small-groups, delegate working groups
+     - The Community Engagement Team
+   * - 2022+, if desired
+     - *delegate presenter(s)*
+     - delegate working groups
+     - TBD
