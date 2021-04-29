@@ -21,8 +21,6 @@
 
 .. This section should provide a brief, top-level description of the page.
 
-Here is the scheduled assemblies:
-
 .. list-table:: Schedule and planned content of DP0 Delegate Assemblies
    :header-rows: 1
 
@@ -82,3 +80,7 @@ Here is the scheduled assemblies:
      - Special Delegate Assembly "DP0.1, A Half-Year In Review"
      - random small-groups, delegate working groups
      - The Community Engagement Team
+   * - 2022+, if desired
+     - *delegate presenter(s)*
+     - delegate working groups
+     - TBD
