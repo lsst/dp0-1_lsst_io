@@ -61,7 +61,7 @@ RSP Accounts
 
 See also the `Guidelines and Expectations`_ for DP0 Delegates and **PLACEHOLDER LINK TO FULL LIST OF DETAILED WARNINGS**.
 
-**Resources:** Find instructions and tutorials for DP0, DC2, and the RSP at `<dp0-1.lsst.io>`_. See also `Getting Support`_, below.
+**Resources:** Find instructions and tutorials for DP0, DC2, and the RSP at `<http://dp0-1.lsst.io>`_. See also `Getting Support`_, below.
 
 
 
