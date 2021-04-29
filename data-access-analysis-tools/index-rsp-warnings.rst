@@ -9,7 +9,7 @@
 
 .. This is the label that can be used for cross referencing this file.
 .. Recommended title label format is "Directory Name"-"Title Name"  -- Spaces should be replaced by hyphens.
-.. __Data-Access-Analysis-Tools-RSP-Warnings:
+.. _Data-Access-Analysis-Tools-RSP-Warnings:
 .. Each section should include a label for cross referencing to a given area.
 .. Recommended format for all labels is "Title Name"-"Section Name" -- Spaces should be replaced by hyphens.
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
