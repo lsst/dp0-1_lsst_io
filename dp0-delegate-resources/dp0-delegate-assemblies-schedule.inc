@@ -30,11 +30,11 @@
      - Presenters and Breakout Facilitators
    * - 2021-07-16
      - The Rubin Vision & Roadmap for DP0
-     - random small-groups
+     - **Beginner Jupyter Notebook "Tour of DP0"**; breakout rooms for Q&A for experienced delegates
      - The Community Engagement Team
    * - 2021-07-30
-     - Introduction to the RSP and the DC2 Data Set
-     - science pillars
+     - Data Discovery with the Butler (NB) and the Portal
+     - breakout rooms for NB/Portal Q&A; breakout rooms for science pillars (Sci.Collabs.?)
      - The Community Engagement Team
    * - 2021-08-13
      - no assembly (Rubin 2021 workshop)
@@ -43,11 +43,11 @@
    * - 2021-08-27
      - Querying Catalogs in the RSP
      - object types, delegate working groups
-     - TBD
+     - The Community Engagement Team
    * - 2021-09-10
      - Image Query, Retrieval, and Display
      - image types, delegate working groups
-     - TBD
+     - The Community Engagement Team
    * - 2021-09-24
      - *LSST Science Pipelines*
      - pipeline types, delegate working groups 
