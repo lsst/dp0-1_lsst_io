@@ -49,13 +49,13 @@
      - image types, delegate working groups
      - TBD
    * - 2021-09-24
-     - LSST Science Pipelines
+     - *LSST Science Pipelines*
      - pipeline types, delegate working groups 
-     - Yusra AlSayyad
+     - *Yusra AlSayyad?*
    * - 2021-10-08
-     - Data Visualization
+     - *Data Visualization*
      - visualization packages, delegate working groups
-     - Keith Bechtol
+     - *Keith Bechtol?*
    * - 2021-10-22
      - *Image Processing? (Andrew?)*
      - image processing routines, delegate working groups
