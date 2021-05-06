@@ -164,7 +164,7 @@ We will have a DP0 office hour for the Australia and Asia timezones on the third
 Stack Club
 ----------
 
-Stack Club is a group of LSST Science Collaboration members committed to learning how to use, and explain, the Rubin Observatory LSST Science Pipelines (colloquially called "the Stack"). The idea is that the best way to learn something is to try and teach it, and so they work collectively on creating useful tutorials featuring the Stack. Many of the `DP0 Delegate Assemblies`_ presentations will be based on tutorials developed by the Stack Club. On alternating Fridays, Stack Club meets for an open hack session. Stack Club members use the NCSA implementation of the RSP, where they also have access to the DC2 data set.
+Stack Club is a group of LSST Science Collaboration members committed to learning how to use the Rubin Observatory LSST Science Pipelines (colloquially called "the Stack"). The idea is that the best way to learn something is to try and teach it, and so they work collectively on creating useful tutorials featuring the Stack. Many of the `DP0 Delegate Assemblies`_ presentations will be based on tutorials developed by the Stack Club. On alternating Fridays, Stack Club meets for an open hack session. Stack Club members use the NCSA implementation of the RSP, where they also have access to the DC2 data set.
 
 DP0 delegates are welcome to join the Friday Stack Club Zoom sessions (but DP0 Delegates should not apply to join Stack Club because that is not necessary). Stack Club meetings start with a roundtable of what people want to do or learn that day, then we work while in the same Zoom, occassionally using breakout rooms to discuss emergent topics. Often times Rubin Data Management staff join to provide support.
 
