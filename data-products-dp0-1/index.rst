@@ -26,7 +26,7 @@ This page includes an overview of information about the data products provided i
 Introduction to DP0.1 data set
 ==============================
 
-DP0.1 data products are reproduced from `Dark Energy Science Collaboration (DESC) Data Challenge 2 (DC2) <https://arxiv.org/abs/2010.05926>`__ simulated data and processing via LSST Science Pipelines v19.
+DP0.1 data products derived from from the `Dark Energy Science Collaboration (DESC) Data Challenge 2 (DC2) <https://arxiv.org/abs/2010.05926>`. DESC DC2 generated simulated imaging data using `imSim <https://github.com/LSSTDESC/imSim>` and processed those simulated images through the v19 of the LSST Science Pipelines.
 
 .. _DP0-1-Data-Products-Introduction-Specifications:
 
