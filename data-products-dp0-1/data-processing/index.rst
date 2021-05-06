@@ -30,6 +30,15 @@ The subject is separated into image processing and post-image processing.
     image-processing
 ..  quality-assessment-validation
 
+
+.. _Data-Processing-Image-Simulation:
+
+Image simulation
+================
+
+The DESC DC2 image simulations are described in `Section 6 <https://arxiv.org/pdf/2010.05926.pdf#page=19>`_ of the `DC2 Paper <https://arxiv.org/pdf/2010.05926.pdf>`_. Briefly, DP0.1 consists of simulated LSST images generated using the `imSim <https://github.com/LSSTDESC/imSim>`_ software, a modular Python code that calls the GalSim software library (Rowe et al. 2015) for astronomical object rendering and is run in the LSST Science Pipelines and LSST Simulation Framework software environment (Connolly et al. 2014). The LSST software libraries provide the telescope and hardware-specific information necessary to simulate the exposure, such as pixel coordinates on the focal plane, telescope filter characteristics, and the brightness of the sky. Using that description of LSSTCam, imSim produces output files that simulate the pixel data after readout. While imSim includes many realistic aspects of the LSST imaging (e.g., CCD geometry, electronic readout, cosmic rays, and bleed trails), there are some aspects such as scattered and reflected light from bright objects that are not included.
+
+
 .. _Data-Processing-Image-Processing:
 
 Image processing
