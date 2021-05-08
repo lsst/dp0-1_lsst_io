@@ -33,7 +33,25 @@ This section includes information on using the RSP.
 Notebook aspect
 ---------------
 
+The Notebook aspect of the RSP provides an environment from which users can access and manipulate Rubin data products on the same machines where those data products reside (i.e., "next-to-the-data"; no downloading of data to your local machine). In particular, the Notebook aspect offers Python-based access to DP0.1 data products via a custom implementation of web-based JupyterLab notebooks. 
+
+The Notebook aspect is built on JupyterLab; see the extensive `documentation of JupyterLab <https://jupyterlab.readthedocs.io/en/stable/index.html>`_ for details. Within the RSP Notebook aspect, you will be able to query Rubin data, extract images and catalogs of many different types, manipulate and display images, interact with catalogs, and most other actions you can imagine performing with Python on astronomical images and catalogs.
+
+Give a little more into to Jupyter (notebooks), with links for how to use it
+
+Note that you will need to use Python -- offer some resources for beginners?
+
+SHOW AN IMAGE ILLUSTRATING WHAT THE NOTEBOOK ASPECT LOOKS LIKE?
+
+For the Notebook aspect, only python notebooks and the terminal interface are supported, and RSP users will not be able to access their Portal queries from the Notebook aspect for DP0.1. In DP0.1 the Notebook Aspect of the RSP will offer image access via the Butler (a middleware component of the DMS for persisting and retrieving image datasets) through a python interface in the Notebook aspect.
+
+The stack is already loaded/set up. Different stack versions are accessible.
+
+Provides direct access to data products, butler, etc.
+
 This section includes information on using notebooks in the RSP.
+
+Link to https://nb.lsst.io/ ?
 
 .. _Tools-RSP-Portal:
 
