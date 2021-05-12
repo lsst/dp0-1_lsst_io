@@ -43,13 +43,13 @@ This page includes the guidelines, resources, and activities for DP0 Delegates.
 RSP Accounts
 ============
 
-**Activation:** Delegates will be contacted by Rubin staff to provide their `GitHub <http://www.github.com/>`_ username. They will then be invited to join the **XXXX Organization**, and upon accepting the invitiation, will be able to log into the RSP at the IDF at `<http://data.lsst.cloud>`_. 
+**Activation:** Delegates will be contacted by Rubin staff to provide their `GitHub <http://www.github.com/>`_ username. They will then be invited to join the ``rubin-dp0`` GitHub Organization, and upon accepting the invitiation, will be able to log into the RSP at the IDF at `<http://data.lsst.cloud>`_. 
 
 *For delegates who do not already have a GitHub account:* go to `<http://www.github.com>`_ and select “sign up” in the upper right corner. For participation in DP0 it is not necessary to learn how to use git as a version control system, nor any git workflows or command line tools. GitHub will not be used for RSP account authentication/authorization during Rubin Operations, this is a DP0-specific implementation.
 
 **Security:** RSP accounts are **not transferrable** and delegates **must not share their password** with others. 
 
-**Deactivation:** Delegates who are no longer using their accounts and would like to relinquish it to make way for others should please submit a GitHub issue in the **XXXX Organization** to let us know, and then leave the **XXXX Organization**. (Log into GitHub, navitate to `<https://github.com/settings/organizations>`_, and click on the "Leave" button.)
+**Deactivation:** Delegates who are no longer using their accounts and would like to relinquish it to make way for others should please submit a GitHub issue in the ``rubin-dp0`` GitHub Organization to let us know, and then leave the ``rubin-dp0`` GitHub Organization. (Log into GitHub, navitate to `<https://github.com/settings/organizations>`_, and click on the "Leave" button for the ``rubin-dp0`` Organization.)
 
 **Warnings:** DP0 delegates are being given access to a *shared-risk developmental version* of the Rubin Science Platform and the accompanying documentation.
 
@@ -202,7 +202,7 @@ Delegate activities are envisioned to be simple and enjoyable. They are complete
 |   -- **[PLACEHOLDER LINK to a Notebook use feedback form]**
 |   -- **[PLACEHOLDER LINK to a API use feedback form]**
 |   -- **[PLACEHOLDER LINK to a DP0 general feedback form]**
-| - submit bug reports via GitHub issues in the **XXXX Organization** **(PLACEHOLDER FOR LINK)**
+| - submit bug reports via GitHub issues in the ``rubin-dp0`` GitHub Organization **(PLACEHOLDER FOR LINK)**
 | - post new topics in the `Support - Data Preview 0 <https://community.lsst.org/c/support/dp0>'_ forum category
 | - communicate directly with the Users Committee **(PLACEHOLDER FOR MORE UC INFO)**
 | - participate in calls for user acceptance testing (UAT) **(PLACEHOLDER FOR MORE UAT INFO)**
@@ -236,4 +236,4 @@ Delegate activities are envisioned to be simple and enjoyable. They are complete
 Getting Support
 ===============
 
-Questions about RSP accounts should be posted in the "Support -- DP0 RSP Services Issues" sub-category in the Rubin Community Forum, `Community.lsst.org <http://community.lsst.org>`_, or submitted as a GitHub issue in the **XXXX Organization**. There will also be Q&A time during the `DP0 Kick-Off Info Sessions`_ and the weekly `DP0 Delegate Assemblies`_.
+Questions about RSP accounts should be posted in the "Support -- DP0 RSP Services Issues" sub-category in the Rubin Community Forum, `Community.lsst.org <http://community.lsst.org>`_, or submitted as a GitHub issue in the ``rubin-dp0`` GitHub Organization. There will also be Q&A time during the `DP0 Kick-Off Info Sessions`_ and the weekly `DP0 Delegate Assemblies`_.
