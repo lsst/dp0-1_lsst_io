@@ -26,15 +26,15 @@ This page includes the various tools to access and analyze the data products in 
 
 .. _Data-Access-Analysis-Tools-Warnings:
 
-Warnings that Delegates Need to Know
-====================================
+RSP Hazards and User Responsibilities
+=====================================
 
-All users of the RSP at the IDF must consult this list of :ref:`Data-Access-Analysis-Tools-RSP-Warnings`.
+All users are responsible for their own safe usage of the RSP and must consult this list of :ref:`Data-Access-Analysis-Tools-RSP-Warnings`.
 
 | Briefly, the DP0-era of the RSP is a *shared-risk developmental version*.
+| - future RSP safegaurds to protect against, e.g., data loss, are not yet present
 | - RSP performance during DP0 is not representative of the future RSP's performance
 | - RSP compute resources during DP0 are not representative of the operations-era RSP
-| - future RSP safegaurds to protect against, e.g., data loss, are not yet present
 | - documentation and support mechanisms are still in their very earliest versions
 
 
