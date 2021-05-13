@@ -19,7 +19,7 @@ Data Processing Overview
 
 .. This section should provide a brief, top-level description of the page.
 
-This page includes an overview of how data is processed in DP0.1. Since DP0.1 is based on the LSST DESC DC2, the most comprehensive reference can be found in `LSST Dark Energy Science Collaboration (2020) <https://arxiv.org/pdf/2010.05926.pdf>`_.
+This page includes an overview of how data is processed in DP0.1. Since DP0.1 is based on the LSST DESC DC2, the most comprehensive reference can be found in `LSST Dark Energy Science Collaboration (2020) <https://arxiv.org/pdf/2010.05926.pdf>`_. The text on this page draws heavily from that source.
 
 .. _Data-Processing-Image-Simulation:
 
