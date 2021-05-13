@@ -18,11 +18,14 @@
 .. _Data-Access-Analysis-Tools-RSP-Warnings:
 
 ############
-RSP Warnings
+RSP Hazards
 ############
 
 **THIS PAGE IS A DRAFT, NEED TO CONSULT WITH RDP TEAM**
 
+During DP0, everyone is responsible for their own safe usage of the shared-risk, in-development version of the RSP at the IDF.
+
+When in doubt, post questions in `the "Support -- Data Preview 0" category <https://community.lsst.org/c/support/dp0/49>`__ in the Community Forum. 
 
 
 Data Sharing and Safeguards
