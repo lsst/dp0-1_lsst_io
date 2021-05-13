@@ -45,24 +45,13 @@ RSP Accounts
 
 **Activation:** Delegates will be contacted by Rubin staff to provide their `GitHub <http://www.github.com/>`_ username. They will then be invited to join the ``rubin-dp0`` GitHub Organization, and upon accepting the invitiation, will be able to log into the RSP at the IDF at `<http://data.lsst.cloud>`_. 
 
-*For delegates who do not already have a GitHub account:* go to `<http://www.github.com>`_ and select “sign up” in the upper right corner. For participation in DP0 it is not necessary to learn how to use git as a version control system, nor any git workflows or command line tools. GitHub will not be used for RSP account authentication/authorization during Rubin Operations, this is a DP0-specific implementation.
+**Security: RSP accounts are not transferrable and delegates must not share their password with others.** 
 
-**Security:** RSP accounts are **not transferrable** and delegates **must not share their password** with others. 
+**RSP Hazards:** DP0 delegates are being given access to a *shared-risk developmental version* of the Rubin Science Platform and the accompanying documentation. Everyone is responsible for their own safe usage of the RSP and must be familiar with this list of :ref:`Data-Access-Analysis-Tools-RSP-Warnings`, and review the `Guidelines and Expectations`_ for DP0 delegates.
+
+**GitHub How-To:** *For delegates who do not already have a GitHub account,* go to `<http://www.github.com>`_ and select “sign up” in the upper right corner. For participation in DP0 it is not necessary to learn how to use git as a version control system, nor any git workflows or command line tools. GitHub will not be used for RSP account authentication/authorization during Rubin Operations, this is a DP0-specific implementation.
 
 **Deactivation:** Delegates who are no longer using their accounts and would like to relinquish it to make way for others should please submit a GitHub issue in the ``rubin-dp0`` GitHub Organization to let us know, and then leave the ``rubin-dp0`` GitHub Organization. (Log into GitHub, navitate to `<https://github.com/settings/organizations>`_, and click on the "Leave" button for the ``rubin-dp0`` Organization.)
-
-**Warnings:** DP0 delegates are being given access to a *shared-risk developmental version* of the Rubin Science Platform and the accompanying documentation.
-
-| It is essential that delegates understand that:
-| - RSP performance during DP0 is not representative of the future RSP's performance
-| - RSP compute resources during DP0 are not representative of the operations-era RSP
-| - future RSP safegaurds to protect against, e.g., data loss, are not yet present
-| - documentation and support mechanisms are still in their very earliest versions
-
-See also the `Guidelines and Expectations`_ for DP0 Delegates and **(PLACEHOLDER LINK TO FULL LIST OF DETAILED WARNINGS)**.
-
-**Resources:** Find instructions and tutorials for DP0, DC2, and the RSP at `ls.st/dp0-1 <http://dp0-1.lsst.io>`_. See also `Getting Support`_, below.
-
 
 
 Rubin Community Forum
@@ -87,13 +76,10 @@ DP0 Kick-Off Info Sessions
 All delegates should please attend one of these identical sessions. One of them will be recorded and made available.
 
 | **Contents of the Kick-Off Info Sessions:** 
-| - set delegate expectations regarding the DC2 data set and the RSP's tools
-| - alert delegates to potential hazards with the shared-risk RSP in development
-| - present instructions for managing accounts in the RSP and Community Forum
-| - provide expectations and guidelines for participating in DP0
-| - explain the delegate assemblies and motivate attendance
-| - give an overview of the resources available to delegates
-| - review how delegates report issues and get support
+| - an overview of Data Preview 0
+| - RSP and Community Forum accounts
+| - RSP hazards and delegate expectations
+| - resources and support for delegates
 | - time for question and answer
 
 | **Dates and Times:** (all times are US Pacific Daylight Time)
@@ -113,26 +99,21 @@ All delegates should please attend one of these identical sessions. One of them 
 DP0 Delegate Assemblies
 =======================
 
-These are virtual meetings that occur biweekly on Fridays from 9am to 11am Pacific time, alternating Fridays with `Stack Club`_ (see `Assemblies Schedule`_, below). Assemblies are designed for DP0 delegates but all are welcome to attend. This time slot serves North and South America and Europe, so for DP0 participants from Australia and Asia there will also be a `Third Thursday Office Hour`_ for live interaction.
+Virtual meetings that occur biweekly on Fridays from 9am to 11am Pacific time (alternating with `Stack Club`_) for DP0 delegates from North and South America and Europe, plus a `Third Thursday Office Hour`_ for live interaction for DP0 delegates from timezones in Australia and Asia.
 
-| **Purpose** is for delegates to
-| - learn how to use the RSP in a guided, hands-on way
-| - form working groups, discuss DP0 science, do `Delegate Activities`_
-| - present their DP0-related software or science results
-| - get live support from Rubin staff
+All are welcome to attend these assemblies, they are not restricted to delegates. All are welcome to join for one hour or both hours.
 
-| **Format**
-| - first hour: a "formal" presentation with Q&A, such as:
+| **Assemblies Format**
+| - **first hour: a "formal" presentation with Q&A**, such as:
 |   -- presentations about the DC2 data set
 |   -- demonstrations on how to use the Portal aspect
 |   -- tutorials based on Jupyter Notebooks
-| - second hour: breakout sessions for discussion, such as:
-|   -- potential science to be done during DP0
-|   -- usage tips and tricks for each RSP aspect
+|   -- delegate contributed talks on DP0 work
+| - **second hour: breakout sessions for discussion**, such as:
+|   -- explore potential science to be done during DP0
+|   -- share usage tips and tricks for each RSP aspect
 |   -- grassroots DP0 working groups and collaborative projects
 |   -- "office hours" for Q&A with Rubin staff
-| - all are welcome to join for one hour or both hours
-| - the first hour will be recorded for those who cannot attend live
 
 **Connection Info:**  **(ADD CONNECTION INFO)**
 
@@ -176,7 +157,7 @@ DP0 delegates are welcome to join the Friday Stack Club Zoom sessions (but DP0 D
 Guidelines and Expectations
 ===========================
 
-**Know the hazards and limitations of working in the shared-risk developmental version of the Rubin Science Platform.** **(PLACEHOLDER LINK TO FULL LIST OF DETAILED WARNINGS)**
+Delegates are responsible for their own safe usage of the RSP and must be familiar with this list of :ref:`Data-Access-Analysis-Tools-RSP-Warnings`
 
 **Abide by the code of conduct.** All delegates are expected to abide by the `LSST Communications Code of Conduct <https://docushare.lsstcorp.org/docushare/dsweb/Get/Document-24920/>`_.
 
@@ -220,7 +201,7 @@ Delegate activities are envisioned to be simple and enjoyable. They are complete
 |   -- volunteer to facilitate a breakout discussion during an assembly
 |   -- volunteer to present the results of your DP0 work in one of the later `DP0 Delegate Assemblies`_
 |   -- propose a long-term group project and run a delegate working group during the breakout hour
-| - contribute resources to the  shared **XXXX Repository**
+| - contribute resources to the shared **XXXX Repository** **(PLACEHOLDER FOR A LINK)**
 |   -- create a Jupyter Notebook that uses the DC2 data set
 |   -- create a step-by-step Portal demo that uses the DC2 data set
 |   -- create a TAP service instructional tutorial uses the DC2 data set
@@ -236,4 +217,4 @@ Delegate activities are envisioned to be simple and enjoyable. They are complete
 Getting Support
 ===============
 
-Questions about RSP accounts should be posted in the "Support -- DP0 RSP Services Issues" sub-category in the Rubin Community Forum, `Community.lsst.org <http://community.lsst.org>`_, or submitted as a GitHub issue in the ``rubin-dp0`` GitHub Organization. There will also be Q&A time during the `DP0 Kick-Off Info Sessions`_ and the weekly `DP0 Delegate Assemblies`_.
+Questions about RSP accounts should be posted in the "Support -- DP0 RSP Services Issues" **(PLACEHOLDER FOR A LINK)** sub-category in the Rubin Community Forum, `Community.lsst.org <http://community.lsst.org>`_, or submitted as a GitHub issue in the ``rubin-dp0`` GitHub Organization. There will also be Q&A time for live support during the `DP0 Kick-Off Info Sessions`_ and the weekly `DP0 Delegate Assemblies`_.
