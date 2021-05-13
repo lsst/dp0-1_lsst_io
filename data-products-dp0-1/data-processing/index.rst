@@ -58,16 +58,10 @@ Before individual images are combined to form the coadd, an empirical background
 Coadded catalog production
 ==========================
 
-The coadd catalog creation consists of five main steps: 
-
-1. above-threshold detection in each band,
-2. merging the detections across bands,
-3. deblending the merged detections to generate "objects" and measuring object properties in each band, 
-4. identifying a reference band for each object and merging the perband catalogs into a single object catalog to use for forced
-photometry, and
-5. performing forced measurements in each band using the reference band positions and shapes.
-
-This last step produces a catalog of independent per-band object measurements containing the key object data provided to science users. 
+The coadd catalog creation consists of five main steps: (1) above-threshold detection in each band, (2) merging the detections across bands,
+(3) deblending the merged detections to generate "objects" and measuring object properties in each band, (4) identifying a reference band for each object and merging the perband catalogs into a single object catalog to use for forced photometry, and
+(5) performing forced measurements in each band using the reference band positions and shapes.
+This last step produces a catalog of independent per-band object measurements that are provided to science users. 
 
 Data quality assessment and validation
 ======================================
