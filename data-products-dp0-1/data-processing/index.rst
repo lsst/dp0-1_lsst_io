@@ -19,70 +19,57 @@ Data Processing Overview
 
 .. This section should provide a brief, top-level description of the page.
 
-This page includes an overview of how data is processed in DP0.1.
-The subject is separated into image processing and post-image processing.
-
-.. toctree::
-    :maxdepth: 2
-    :glob:
-    :titlesonly:
-
-    image-processing
-..  quality-assessment-validation
-
+This page includes an overview of how data is processed in DP0.1. Since DP0.1 is based on the LSST DESC DC2, the most comprehensive reference can be found in `LSST Dark Energy Science Collaboration (2020) <https://arxiv.org/pdf/2010.05926.pdf>`_.
 
 .. _Data-Processing-Image-Simulation:
 
 Image simulation
 ================
 
-The DESC DC2 image simulations are described in `Section 6 <https://arxiv.org/pdf/2010.05926.pdf#page=19>`_ of the `DC2 Paper <https://arxiv.org/pdf/2010.05926.pdf>`_. Briefly, DP0.1 consists of simulated LSST images generated using the `imSim <https://github.com/LSSTDESC/imSim>`_ software, a modular Python code that calls the GalSim software library (Rowe et al. 2015) for astronomical object rendering and is run in the LSST Science Pipelines and LSST Simulation Framework software environment (Connolly et al. 2014). The LSST software libraries provide the telescope and hardware-specific information necessary to simulate the exposure, such as pixel coordinates on the focal plane, telescope filter characteristics, and the brightness of the sky. Using that description of LSSTCam, imSim produces output files that simulate the pixel data after readout. While imSim includes many realistic aspects of the LSST imaging (e.g., CCD geometry, electronic readout, cosmic rays, and bleed trails), there are some aspects such as scattered and reflected light from bright objects that are not included.
+The DESC DC2 image simulations are described in `Section 6 <https://arxiv.org/pdf/2010.05926.pdf#page=19>`_ of the `DC2 Paper <https://arxiv.org/pdf/2010.05926.pdf>`_. Briefly, DP0.1 consists of simulated LSST images generated using the `imSim <https://github.com/LSSTDESC/imSim>`_ software, a modular Python code that calls the GalSim software library (Rowe et al. 2015) for astronomical object rendering and is run in the LSST Science Pipelines and LSST Simulation Framework software environment (Connolly et al. 2014). The LSST software libraries provide the telescope and hardware-specific information necessary to simulate the exposure, such as pixel coordinates on the focal plane, telescope filter characteristics, and the brightness of the sky. Using that description of LSSTCam, imSim produces output files that simulate the pixel data after readout. While imSim includes many realistic aspects of the LSST imaging (e.g., CCD geometry, electronic readout, cosmic rays, and bleed trails), there are some aspects such as scattered and reflected light from bright objects that are not included. A flat sky background is assumed in each filter.
 
+.. _Data-Processing-Single-Image-Processing:
 
-.. _Data-Processing-Image-Processing:
+Single-image processing
+=======================
 
-Image processing
-================
+The LSST DESC DC2 image processing is described in `Section 7 <https://arxiv.org/pdf/2010.05926.pdf#page=24>`_ of the `DC2 Paper <https://arxiv.org/pdf/2010.05926.pdf>`_. The simulated images were processed with the Data Release Production (DRP) pipeline. More detailed descriptions of the LSST Science Pipelines can be found in `Bosch et al. (2018) <https://arxiv.org/abs/1705.06766>`_ and `Bosch et al. (2019) <https://arxiv.org/abs/1812.03248>`_. Briefly, image processing with the DRP pipeline involves four major steps – single-frame processing, joint calibration, image coaddition, and coadd processing. For single-frame processing, individual visits are processed on a per-CCD basis. This step starts with instrument signature removal (ISR) that consists of bias subtraction, crosstalk correction, non-linearity correction, flat fielding, brighter-fatter correction, and masking of bad and saturated pixels (see `Appendix A <https://arxiv.org/pdf/2010.05926.pdf#page=38>`_ of the DC2 paper for details). ISR is followed by an image characterization step that performs background estimation and subtraction, PSF modeling, cosmic-ray detection and removal, source detection, source deblending, and source measurement. Various measurement algorithms are applied including centroiding, aperture photometry, PSF photometry, model photometry, and shape fitting. The image catalogs are compared to a reference catalog to generate photometric and astrometric calibrations for the images and associated catalogs. For DC2, the photometric and astrometric calibrations are based on a simulated reference catalog.  The resulting calibrated images are known formally as "Processed Visit Images" (PVI) and informally as "calibrated exposures" (calexps).
 
-The section includes information on how images are processed.
+.. _Data-Processing-Coadded-Image-Processing:
 
-.. toctree::
-    :maxdepth: 2
-    :glob:
+Coadded-image processing
+========================
 
-    image-processing
+Calibrated images are resampled onto a common pixel grid on the sky and combined to generated deeper coadded images.  
+The coadd image grid is defined in terms of "tracts" and "patches", where each tract is composed of 7×7 patches, and each patch is 4100×4100 pixels with a pixel scale of 0.2 arcsec. 
+Tracts have dimensions of 1.6 degrees on a side, while patches are ~13.7 arcminutes on a side (roughly the size of a CCD). 
+Patches overlap by 100 pixels along each edge so that objects lying on the edge of one patch are typically fully contained on the neighboring overlapping patch. 
+Similarly, tracts overlap their neighbors by 1 arcmin. 
+When producing the coadded images  variable sources and artifacts using resampled PSF-matched images to produce a static image of the sky. 
+As described in `Aihara et al. (2019) <https://arxiv.org/abs/1905.12221>`_, each image is resampled, PSF-matched, and stacked into a 2-sigma-clipped mean coadd that serves as a model of the static scene. 
+A difference image was created for each image with respect to this model to identify regions associated with transient detections that only appear in a small number of epochs. 
+With these regions identified, the final coadded image is created as a weighted mean stack of images where the transient detections are ignored. 
+The PSF at any location point in the coadded image is calculated by taking a weighted sum of the PSFs from individual visit that have been resampled and weighted in the same way as the coadds. 
+Regions that have clipped areas will not have the correct PSF, and these are flagged for individual objects.
+Before individual images are combined to form the coadd, an empirical background model is fit to the entire focal plane to control the extent to which extended features are included in the background model.
 
-.. _Data-Processing-Post-Image-Processing:
+.. _Data-Processing-Coadded-Catalogs:
 
-Post-image processing
-=====================
+Coadded catalog production
+==========================
 
-This section includes information on how image data is processed.
+The coadd catalog creation consists of five main steps: 
 
-.. _Data-Processing-Source-Detection:
+1. above-threshold detection in each band,
+2. merging the detections across bands,
+3. deblending the merged detections to generate "objects" and measuring object properties in each band, 
+4. identifying a reference band for each object and merging the perband catalogs into a single object catalog to use for forced
+photometry, and
+5. performing forced measurements in each band using the reference band positions and shapes.
 
-Source detection
-----------------
-
-This section includes information on source detection.
-
-.. _Data-Processing-Deblend:
-
-Deblending
-----------
-
-This section includes information on deblending.
-
-.. _Data-Processing-Measurement:
-
-Measurement
------------
-
-This section includes information on measurement.
-
-.. _Data-Processing-Data-Quality-Validation:
+This last step produces a catalog of independent per-band object measurements containing the key object data provided to science users. 
 
 Data quality assessment and validation
---------------------------------------
+======================================
 
 This section includes information on how quality assessment and validation is performed on image data.
