@@ -103,17 +103,12 @@ Virtual meetings that occur biweekly on Fridays from 9am to 11am Pacific time (a
 All are welcome to attend these assemblies, as they are not restricted to delegates. All are welcome to join for only the first or second hour, or both hours.
 
 | **First hour: a "formal" presentation with Q&A**, such as:
-|   -- presentations about the DC2 data set
-|   -- demonstrations on how to use the Portal aspect
-|   -- tutorials based on Jupyter Notebooks
-|   -- delegate contributed talks on DP0 work
+|   -- demonstrations and tutorials by Rubin staff
+|   -- presentations from delegates about their DP0 work
 | **Second hour: breakout sessions for discussion**, such as:
-|   -- explore potential science to be done during DP0
-|   -- share usage tips and tricks for each RSP aspect
-|   -- grassroots DP0 working groups and collaborative projects
+|   -- grassroots DP0 science working groups and collaborative projects
+|   -- in-depth discussion related to the first hour's contents
 |   -- "office hours" for Q&A with Rubin staff
-
-
 
 .. _DP0-Delegate-Programming-Assemblies:
 
