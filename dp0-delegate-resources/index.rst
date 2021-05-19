@@ -218,3 +218,4 @@ Getting Support
 **Rubin Community Forum:** Post new topics in the `Data Preview 0 <https://community.lsst.org/c/support/dp0>`_ category for all questions related to DP0 science, i.e., the application of the LSST science pipelines or the RSP's analysis tools to the DC2 data set. Post new topics in the "DP0 RSP Services Issues" **(PLACEHOLDER for a link)** for minor questions related to RSP service or access issues (but please do not hesitate to submit GitHub issues).
 
 **Live Support:** Bring your questions to the Friday delegate assemblies, third Thursday office hours, or Stack Club meetings and perhaps someone there will be able to assist you.
+
