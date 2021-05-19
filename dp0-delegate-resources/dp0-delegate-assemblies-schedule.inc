@@ -37,7 +37,7 @@
      - Butler Q&A. Portal Aspect Q&A. DP0 science.
      - The Community Engagement Team
    * - 2021-08-13
-     - no assembly (`Rubin 2021 Project & Community Workshop <https://project.lsst.org/meetings/rubin2021/>`_)
+     - no assembly (Rubin 2021 Project and Community Workshop)
      - 
      - 
    * - 2021-08-27
