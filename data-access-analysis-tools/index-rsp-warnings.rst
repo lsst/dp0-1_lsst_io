@@ -84,6 +84,15 @@ Stuff That We Know Does Not Work
 
 *(Here is space for a list of known issues and stuff that doesn’t work in , e.g., the portal. Especially the portal. To avoid people thinking “This is too hard to figure out” when really it’s just a feature that’s not done.)*
 
+ADQL functionality that does not yet work: 
+AREA
+BOX
+COORDSYS
+COORD1
+COORD2
+INTERSECTS
+
+The only coordinate system currently supported is 'ICRS'.
 
 
 MLG Did Not Know The Category

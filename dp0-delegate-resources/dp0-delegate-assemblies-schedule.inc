@@ -24,63 +24,63 @@
 .. list-table:: Schedule and planned content of DP0 Delegate Assemblies
    :header-rows: 1
 
-   * - Date (Fridays, 9am US Pacific)
+   * - Date (Fridays at 9am US Pacific)
      - First Hour Presentation Topic
      - Second Hour Breakouts Topics
-     - Presenters and Breakout Facilitators
+     - Chair and Presenter(s)
    * - 2021-07-16
-     - The Rubin Vision & Roadmap for DP0
-     - **Beginner Jupyter Notebook "Tour of DP0"**; breakout rooms for Q&A for experienced delegates
+     - The Rubin Vision and Roadmap for Data Preview 0
+     - Demo "Intro to Jupyter Notebooks (NB) and DP0". Q&A for delegates with NB experience.
      - The Community Engagement Team
    * - 2021-07-30
-     - Data Discovery with the Butler (NB) and the Portal
-     - breakout rooms for NB/Portal Q&A; breakout rooms for science pillars (Sci.Collabs.?)
+     - Data Discovery with the Butler and the Portal
+     - Butler Q&A. Portal Aspect Q&A. DP0 science.
      - The Community Engagement Team
    * - 2021-08-13
-     - no assembly (Rubin 2021 workshop)
+     - no assembly (Rubin 2021 Project and Community Workshop)
      - 
      - 
    * - 2021-08-27
-     - Querying Catalogs in the RSP
-     - object types, delegate working groups
+     - Querying Catalogs via the Notebook and Portal Aspects.
+     - Notebook Q&A. Portal Q&A. DP0 science. 
      - The Community Engagement Team
    * - 2021-09-10
-     - Image Query, Retrieval, and Display
-     - image types, delegate working groups
+     - Image Query, Retrieval, and Display.
+     - Butler Q&A. Notebook Q&A. Image type Q&A. DP0 science.
      - The Community Engagement Team
    * - 2021-09-24
      - *LSST Science Pipelines*
-     - pipeline types, delegate working groups 
-     - *Yusra AlSayyad?*
+     - *Pipeline Q&A.* DP0 science.
+     - *TBD*
    * - 2021-10-08
      - *Data Visualization*
-     - visualization packages, delegate working groups
-     - *Keith Bechtol?*
+     - *Data vis package Q&A.* DP0 science.
+     - *TBD*
    * - 2021-10-22
-     - *Image Processing? (Andrew?)*
-     - image processing routines, delegate working groups
-     - TBD
+     - *Image Processing*
+     - *Image algorithms Q&A.* DP0 science.
+     - *TBD*
    * - 2021-11-05
-     - *Source Detection and Measurement? (?)*
-     - source types, delegate working groups
-     - TBD
+     - *Source Detection and Measurement*
+     - *Measurement algorithm Q&A.* DP0 science.
+     - *TBD*
    * - 2021-11-19
-     - *Fake Source Injection? (Josh?)*
-     - fake-related science goals, delegate working groups
-     - TBD
+     - *Fake Source Injection*
+     - *Fake source Q&A.* DP0 science.
+     - *TBD*
    * - 2021-12-03
      - *delegate presenter(s)*
-     - delegate working groups
-     - TBD
+     - *delegate working groups*
+     - *TBD*
    * - 2022-01-14
      - *delegate presenter(s)*
-     - delegate working groups
-     - TBD
+     - *delegate working groups*
+     - *TBD*
    * - 2022-01-28
-     - Special Delegate Assembly "DP0.1, A Half-Year In Review"
-     - random small-groups, delegate working groups
+     - Special Session on DP0.1: A Half-Year In Review
+     - *small group discussions for delegate feedback*
      - The Community Engagement Team
    * - 2022+, if desired
      - *delegate presenter(s)*
-     - delegate working groups
-     - TBD
+     - *delegate working groups*
+     - *TBD*
