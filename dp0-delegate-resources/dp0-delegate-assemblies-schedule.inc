@@ -33,19 +33,19 @@
      - Demo "Intro to Jupyter Notebooks (NB) and DP0". Q&A for delegates with NB experience.
      - The Community Engagement Team
    * - 2021-07-30
-     - Data Discovery with the Butler and the Portal
-     - Butler Q&A. Portal Aspect Q&A. DP0 science.
+     - Querying Catalogs via the Notebook (TAP Service) and Portal Aspects.
+     - Notebook Q&A. Portal Q&A. DP0 science. 
      - The Community Engagement Team
    * - 2021-08-13
      - no assembly (Rubin 2021 Project and Community Workshop)
      - 
      - 
    * - 2021-08-27
-     - Querying Catalogs via the Notebook and Portal Aspects.
-     - Notebook Q&A. Portal Q&A. DP0 science. 
+     - Data Discovery with the Butler and the Portal
+     - Butler Q&A. Portal Aspect Q&A. DP0 science.
      - The Community Engagement Team
    * - 2021-09-10
-     - Image Query, Retrieval, and Display.
+     - Image Query, Retrieval, and Display with the Butler.
      - Butler Q&A. Notebook Q&A. Image type Q&A. DP0 science.
      - The Community Engagement Team
    * - 2021-09-24
