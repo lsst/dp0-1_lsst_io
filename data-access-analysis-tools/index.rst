@@ -28,7 +28,7 @@ Rubin Science Platform (RSP)
 
 The Rubin Science Platform (RSP) provides access to Rubin Observatory data products via two services: a Notebook Aspect and a Portal Aspect. These are complementary tools that can be used (separately or together) for data access and analysis. The Portal Aspect provides interactive query, data discovery, and visualization tools, while the Notebook Aspect enables programmatic interaction with, and analysis of, data products.
 
-.. figure:: _static/RSP_home.png
+.. figure:: static/RSP_home.png
     :name: RSP_home
 
     This is what you should see when you point your browser to https://data.lsst.cloud/.
@@ -52,7 +52,7 @@ LINKS TO PYTHON BASICS
 
 If you are not experienced at accessing data via Jupyter notebooks, or using a Science Platform more generally, you are not alone. The `Rubin Observatory Community forum <https://community.lsst.org/>`_ provides a searchable, community-based discussion platform that you can use as a resource to ask questions of the worldwide Rubin user community, to share your own tips and analyses, and discuss all aspects of Rubin Observatory, including using the RSP and the Rubin Science Pipelines, understanding the data products, and discussing Rubin-related science.
 
-.. figure:: _static/notebook.png
+.. figure:: static/notebook.png
     :name: notebook_aspect
 
     An example of what the Notebook Aspect looks like.
