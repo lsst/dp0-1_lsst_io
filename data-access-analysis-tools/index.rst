@@ -30,7 +30,6 @@ The Rubin Science Platform (RSP) provides access to Rubin Observatory data produ
 
 .. figure:: _static/RSP_home.png
     :name: RSP_home
-    :target: http://target.link/url
 
     This is what you should see when you point your browser to https://data.lsst.cloud/.
    
@@ -55,7 +54,6 @@ If you are not experienced at accessing data via Jupyter notebooks, or using a S
 
 .. figure:: _static/notebook.png
     :name: notebook_aspect
-    :target: http://target.link/url
 
     An example of what the Notebook Aspect looks like.
 
