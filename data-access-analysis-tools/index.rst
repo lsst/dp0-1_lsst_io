@@ -31,7 +31,7 @@ The Rubin Science Platform (RSP) provides access to Rubin Observatory data produ
 .. figure:: /_static/RSP_home.png
     :name: RSP_home
 
-    This is what you should see when you point your browser to https://data.lsst.cloud/.
+    This is what you should see when you point your browser to https://data.lsst.cloud/. The Notebook and Portal Aspects can be accessed by clicking on their respective icons on this dashboard.
    
 .. _Tools-RSP-Notebook:
 
@@ -55,7 +55,7 @@ If you are not experienced at accessing data via Jupyter notebooks, or using a S
 .. figure:: /_static/notebook.png
     :name: notebook_aspect
 
-    An example of what the Notebook Aspect looks like.
+    An example of what users see in the Notebook Aspect. The left panel is a file tree from which you can access your personal files, and which will come pre-populated with a handful of tutorial notebooks that users can execute on their own. The largest panel is the Jupyter notebook, where markdown and code can be entered and executed. You can also see that one can have multiple notebooks open in separate tabs.
 
 .. For the Notebook Aspect, only python notebooks and the terminal interface are supported, and RSP users will not be able to access their Portal queries from the Notebook Aspect for DP0.1. In DP0.1 the Notebook Aspect of the RSP will offer image access via the Butler (a middleware component of the DMS for persisting and retrieving image datasets) through a python interface in the Notebook Aspect.
 
