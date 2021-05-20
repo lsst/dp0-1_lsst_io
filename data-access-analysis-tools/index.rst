@@ -21,6 +21,24 @@ Data Access and Analysis Tools
 
 This page includes the various tools to access and analyze the data products in DP0.1.
 
+
+
+
+.. _Data-Access-Analysis-Tools-Warnings:
+
+RSP Hazards and User Responsibilities
+=====================================
+
+All users are responsible for their own safe usage of the RSP and must consult this list of :ref:`Data-Access-Analysis-Tools-RSP-Warnings`.
+
+| Briefly, the DP0-era of the RSP is a *shared-risk developmental version*.
+| - future RSP safegaurds to protect against, e.g., data loss, are not yet present
+| - RSP performance during DP0 is not representative of the future RSP's performance
+| - RSP compute resources during DP0 are not representative of the operations-era RSP
+| - documentation and support mechanisms are still in their very earliest versions
+
+
+
 .. _Data-Access-Analysis-Tools-RSP:
 
 Rubin Science Platform (RSP)
@@ -33,6 +51,7 @@ The Rubin Science Platform (RSP) provides access to Rubin Observatory data produ
 
     This is what you should see when you point your browser to https://data.lsst.cloud/. The Notebook and Portal Aspects can be accessed by clicking on their respective icons on this dashboard.
    
+
 .. _Tools-RSP-Notebook:
 
 Notebook Aspect
@@ -63,12 +82,23 @@ If you are not experienced at accessing data via Jupyter notebooks, or using a S
 
 For more information on the RSP Notebook Aspect, see https://nb.lsst.io/.
 
+*MLG notes: start with an overview of what is Jupyter Hub. For the Notebook aspect, only python notebooks and the terminal interface are supported, and RSP users will not be able to access their Portal queries from the Notebook aspect for DP0.1. In DP0.1 the Notebook Aspect of the RSP will offer image access via the Butler (a middleware component of the DMS for persisting and retrieving image datasets) through a python interface in the Notebook aspect.*
+
+See this page for a :ref:`Data-Access-Analysis-Tools-NB-Intro`.
+
+
 .. _Tools-RSP-Portal:
 
 Portal Aspect
 -------------
 
 This section includes information on using the portal for the RSP.
+
+*(MLG Note: For the Portal Aspect, only catalog queries will be available. Note that the Portal Aspect has not been under active development recently and it is expected to evolve significantly before the first LSST annual data release (DR1).)*
+
+See this page for a :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
+
+
 
 .. _Data-Access-Analysis-Tools-TAP:
 
