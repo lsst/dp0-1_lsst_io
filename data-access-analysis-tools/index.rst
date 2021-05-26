@@ -29,7 +29,7 @@ RSP Usage: Risks and Responsibilities
 
 All RSP users are responsible for being aware of the risks inherent in using software in active development, and must familiarize themselves with these risks prior to using the RSP.
 
-List of :ref:`Data-Access-Analysis-Tools-RSP-Warnings`.
+Get to know the :ref:`Data-Access-Analysis-Tools-RSP-Warnings`.
 
 | For example: 
 | - protective safegaurds are not yet present
