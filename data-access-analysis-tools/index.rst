@@ -95,6 +95,8 @@ Data processing tools
 
 This section includes information on tools used for data processing.
 
+*(MLG Note: Is there anything to say here that isn't the LSST Science Pipelines? Should this section just be "LSST Science Pipelines"?)*
+
 *(MLG Note: The information about the processing already done for DP0.1 is under data products, link to that here.)*
 
 .. _Tools-LSST-Science-Pipelines:
@@ -102,4 +104,4 @@ This section includes information on tools used for data processing.
 LSST Science Pipelines
 ----------------------
 
-Documentation for the LSST Science Pipelines, a software package which is available to all RSP users via the Notebook Aspect, can be found at `pipelines.lsst.io<https://pipelines.lsst.io/>`_.
+Documentation for the LSST Science Pipelines, a software package which is available to all RSP users via the Notebook Aspect, can be found at `pipelines.lsst.io <https://pipelines.lsst.io>`_.
