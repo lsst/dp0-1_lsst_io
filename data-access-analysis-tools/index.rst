@@ -19,24 +19,24 @@ Data Access and Analysis Tools
 
 .. This section should provide a brief, top-level description of the page.
 
-This page includes the various tools to access and analyze the data products in DP0.1.
-
-
+The Rubin Science Platform (RSP) is the set of integrated web-based applications, services, and tools to query, visualize, subset, and analyze LSST data - including the DP0.1 simulated data products. Throughout DP0 the RSP will be in active development by Rubin staff, with access provided to delegates on a shared-risk basis. 
 
 
 .. _Data-Access-Analysis-Tools-Warnings:
 
-RSP Hazards and User Responsibilities
+RSP Usage: Risks and Responsibilities
 =====================================
 
-All users are responsible for their own safe usage of the RSP and must consult this list of :ref:`Data-Access-Analysis-Tools-RSP-Warnings`.
+All RSP users are responsible for being aware of the risks inherent in using software in active development, and must familiarize themselves with these risks prior to using the RSP.
 
-| Briefly, the DP0-era of the RSP is a *shared-risk developmental version*.
-| - future RSP safegaurds to protect against, e.g., data loss, are not yet present
-| - RSP performance during DP0 is not representative of the future RSP's performance
-| - RSP compute resources during DP0 are not representative of the operations-era RSP
-| - documentation and support mechanisms are still in their very earliest versions
+List of :ref:`Data-Access-Analysis-Tools-RSP-Warnings`.
 
+| For example: 
+| - protective safegaurds are not yet present
+| - some directories have shared-write access
+| - performance and compute capacity are limited
+| - some functionality is not yet available
+| - documentation may be incomplete
 
 
 .. _Data-Access-Analysis-Tools-RSP:
