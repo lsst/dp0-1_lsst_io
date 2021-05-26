@@ -19,7 +19,7 @@ Data Access and Analysis Tools
 
 .. This section should provide a brief, top-level description of the page.
 
-The Rubin Science Platform (RSP) is the set of integrated web-based applications, services, and tools to query, visualize, subset, and analyze LSST data - including the DP0.1 simulated data products. Throughout DP0 the RSP will be in active development by Rubin staff, with access provided to delegates on a shared-risk basis. 
+The **Rubin Science Platform (RSP)** is the set of integrated web-based applications, services, and tools to query, visualize, subset, and analyze LSST data - including the DP0.1 simulated data products. Throughout DP0 the RSP will be in active development by Rubin staff, with access provided to delegates on a shared-risk basis. 
 
 
 .. _Data-Access-Analysis-Tools-Warnings:
@@ -44,12 +44,12 @@ List of :ref:`Data-Access-Analysis-Tools-RSP-Warnings`.
 Rubin Science Platform (RSP)
 ============================
 
-The Rubin Science Platform (RSP) provides access to Rubin Observatory data products via two services: a Notebook Aspect and a Portal Aspect. These are complementary tools that can be used (separately or together) for data access and analysis. The Portal Aspect provides interactive query, data discovery, and visualization tools, while the Notebook Aspect enables programmatic interaction with, and analysis of, data products.
+During DP0, the Rubin Science Platform (RSP) provides access to Rubin Observatory data products via two services: a Notebook Aspect and a Portal Aspect. These are complementary tools that can be used (separately or together) for data access and analysis. The :ref:`<Tools-RSP-Notebook>`_ enables programmatic interaction with, and analysis of, data products in a python environment. The :ref:`<Tools-RSP-Portal>`_ provides interactive query, data discovery, and visualization tools. In the Operations era, there will be a third service: the Application Programming Interface (API) aspect. A full description of the Operations-era RSP can be found in the RSP Vision Document (`LSE-319<ls.st/lse-319>`_). As described above, some of the planned RSP functionality is not available for DP0.
 
 .. figure:: /_static/RSP_home.png
     :name: RSP_home
 
-    This is what you should see when you point your browser to https://data.lsst.cloud/. The Notebook and Portal Aspects can be accessed by clicking on their respective icons on this dashboard.
+    Landing page of https://data.lsst.cloud/. The Notebook and Portal Aspects can be accessed by clicking on their respective icons on this dashboard. The API aspect is not availble during DP0.1.
    
 
 .. _Tools-RSP-Notebook:
@@ -60,6 +60,10 @@ Notebook Aspect
 The Notebook Aspect of the RSP provides an environment from which users can access and manipulate Rubin data products on the same machines where those data products reside (i.e., "next-to-the-data" -- no downloading of data to your local machine). In particular, the Notebook Aspect offers Python-based access to DP0.1 data products via a custom implementation of web-based JupyterLab notebooks. 
 
 The Notebook Aspect is built on JupyterLab; see the extensive `documentation of JupyterLab <https://jupyterlab.readthedocs.io/en/stable/index.html>`_ for details. Within the RSP Notebook Aspect, you will be able to query Rubin data, extract images and catalogs of many different types, manipulate and display images, interact with catalogs, and most other analyses you can imagine performing with Python on astronomical images and catalogs.
+
+See this page for a :ref:`Data-Access-Analysis-Tools-NB-Intro`.
+
+
 
 When you log into the Notebook Aspect, you will be taken to a JupyterLab environment from which you can create notebooks and execute Python code to perform actions on DP0.1 data products. The Notebook Aspect will provide some limited command-line access via a terminal, but most data access will be through notebooks. Jupyter notebooks provide "cells" within which you type either Python code or markdown. When you execute the cell (by either typing _Return_ while simultaneously holding down the _Shift_ key, or by clicking a button), the contents of the cell will be executed. If you typed Python code in the cell, then the code will be executed. If you entered markdown, then it will be rendered upon execution to yield nicely formatted text (for some handy markdown tips, see `this blog post <https://medium.com/analytics-vidhya/the-ultimate-markdown-guide-for-jupyter-notebook-d5e5abf728fd>`_ or the `relevant section from the JupyterLab documentation <https://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Working%20With%20Markdown%20Cells.html#Markdown-Cells>`_). 
 
@@ -78,13 +82,7 @@ If you are not experienced at accessing data via Jupyter notebooks, or using a S
 
 .. For the Notebook Aspect, only python notebooks and the terminal interface are supported, and RSP users will not be able to access their Portal queries from the Notebook Aspect for DP0.1. In DP0.1 the Notebook Aspect of the RSP will offer image access via the Butler (a middleware component of the DMS for persisting and retrieving image datasets) through a python interface in the Notebook Aspect.
 
-.. This section includes information on using notebooks in the RSP.
 
-For more information on the RSP Notebook Aspect, see https://nb.lsst.io/.
-
-*MLG notes: start with an overview of what is Jupyter Hub. For the Notebook aspect, only python notebooks and the terminal interface are supported, and RSP users will not be able to access their Portal queries from the Notebook aspect for DP0.1. In DP0.1 the Notebook Aspect of the RSP will offer image access via the Butler (a middleware component of the DMS for persisting and retrieving image datasets) through a python interface in the Notebook aspect.*
-
-See this page for a :ref:`Data-Access-Analysis-Tools-NB-Intro`.
 
 
 .. _Tools-RSP-Portal:
@@ -106,6 +104,7 @@ Table Access Protocol (TAP) service
 ===================================
 
 This page includes information for accessing and basic utilization of the Table Access Protocol (TAP) service.
+
 
 .. _Data-Access-Analysis-Tools-Data-Processing:
 
