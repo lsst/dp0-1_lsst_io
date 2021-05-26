@@ -75,8 +75,8 @@ The Rubin Science Platform (RSP) is the set of integrated web-based applications
 
 .. _Rubin-Observatory-Documentation-DP0-1-Tutorials-Examples:
 
-Tutorials and examples
-======================
+Tutorials and user guides
+=========================
 
 Examples of accessing or processing data products are separated from other locations in the repository to provide a single location of all examples.
 Using reST syntax, the examples can be reproduced in other locations on this site by using the ``include`` directive.
