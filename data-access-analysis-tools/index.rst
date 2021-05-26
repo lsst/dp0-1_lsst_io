@@ -44,7 +44,7 @@ List of :ref:`Data-Access-Analysis-Tools-RSP-Warnings`.
 Rubin Science Platform (RSP)
 ============================
 
-During DP0, the Rubin Science Platform (RSP) provides access to Rubin Observatory data products via two services: a Notebook Aspect and a Portal Aspect. These are complementary tools that can be used (separately or together) for data access and analysis. The :ref:`Tools-RSP-Notebook`_ enables programmatic interaction with, and analysis of, data products in a python environment. The :ref:`Tools-RSP-Portal`_ provides interactive query, data discovery, and visualization tools. In the Operations era, there will be a third service: the Application Programming Interface (API) aspect. A full description of the Operations-era RSP can be found in the RSP Vision Document (`LSE-319 <http://ls.st/lse-319>`_), but as described above, some of that envisioned RSP functionality is not available for DP0.
+During DP0, the Rubin Science Platform (RSP) provides access to Rubin Observatory data products via two services: a Notebook Aspect and a Portal Aspect. These are complementary tools that can be used (separately or together) for data access and analysis. The :ref:`Tools-RSP-Notebook` enables programmatic interaction with, and analysis of, data products in a python environment. The :ref:`Tools-RSP-Portal` provides interactive query, data discovery, and visualization tools. In the Operations era, there will be a third service: the Application Programming Interface (API) aspect. A full description of the Operations-era RSP can be found in the RSP Vision Document (`LSE-319 <http://ls.st/lse-319>`_), but as described above, some of that envisioned RSP functionality is not available for DP0.
 
 .. figure:: /_static/RSP_home.png
     :name: RSP_home
@@ -59,9 +59,9 @@ Notebook Aspect
 
 The Notebook Aspect of the RSP provides an environment from which users can access and manipulate Rubin data products on the same machines where those data products reside (i.e., "next-to-the-data" -- no downloading of data to your local machine). In particular, the Notebook Aspect offers Python-based access to DP0.1 data products via a custom implementation of web-based JupyterLab Notebooks (`JupyterLab documentation <https://jupyterlab.readthedocs.io/en/stable/index.html>`_). A file browser, a terminal command-line interface, and an iPython console are also available within JupyterLab. 
 
-Within the RSP Notebook Aspect, users can query DP0.1 data sets, subset and retrieve catalogs, manipulate and display images, calculate derived properties, plot results, :ref:`reprocess the data<Data-Access-Analysis-Tools-Data-Processing>`_, and most other analyses you can imagine performing with Python on astronomical images and catalogs. A stable software environment is provided and maintained for users. For DP0, this environment will support Python 3 only.
+Within the RSP Notebook Aspect, users can query DP0.1 data sets, subset and retrieve catalogs, manipulate and display images, calculate derived properties, plot results, :ref:`reprocess the data<Data-Access-Analysis-Tools-Data-Processing>`, and most other analyses you can imagine performing with Python on astronomical images and catalogs. A stable software environment is provided and maintained for users, which includes many commonly-used packages and the :ref:`LSST Science Pipelines<Tools-LSST-Science-Pipelines>`. For DP0, this environment will only support Python 3.
 
-To get started with the RSP Notebook aspect, use this :ref:`Data-Access-Analysis-Tools-NB-Intro`.
+Get started with this :ref:`Data-Access-Analysis-Tools-NB-Intro`.
 
 
 .. _Tools-RSP-Portal:
@@ -102,4 +102,4 @@ This section includes information on tools used for data processing.
 LSST Science Pipelines
 ----------------------
 
-Documentation for the LSST Science Pipelines, a software package which is available to all RSP users via the Notebook Aspect, can be found at `pipelines.lsst.io<https://pipelines.lsst.io/`_.
+Documentation for the LSST Science Pipelines, a software package which is available to all RSP users via the Notebook Aspect, can be found at `pipelines.lsst.io<https://pipelines.lsst.io/>`_.
