@@ -94,15 +94,8 @@ This page includes information for accessing and basic utilization of the Table 
 Data processing tools
 =====================
 
-This section includes information on tools used for data processing.
+Documentation for the LSST Science Pipelines, a software package which is available to all RSP users via the Notebook Aspect, can be found at `pipelines.lsst.io <https://pipelines.lsst.io>`_. 
 
-*(MLG Note: Is there anything to say here that isn't the LSST Science Pipelines? Should this section just be "LSST Science Pipelines"?)*
+A brief summary of how the LSST Science Pipelines were used to create the DP0.1 data products can be found in this :ref:`Data-Products-DP0-1-Processing-Overview`.
 
-*(MLG Note: The information about the processing already done for DP0.1 is under data products, link to that here.)*
-
-.. _Tools-LSST-Science-Pipelines:
-
-LSST Science Pipelines
-----------------------
-
-Documentation for the LSST Science Pipelines, a software package which is available to all RSP users via the Notebook Aspect, can be found at `pipelines.lsst.io <https://pipelines.lsst.io>`_.
+To view a list of packages available to you in the Notebook Aspect of the RSP, type ``pip install`` in a terminal. 
