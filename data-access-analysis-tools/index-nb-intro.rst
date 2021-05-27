@@ -21,7 +21,8 @@
 Introduction to the RSP Notebook Aspect
 #######################################
 
-Most RSP users will find Jupyter Notebooks to be the most efficient and powerful way to interact with the DP0.1 data set. For DP0.1, the only way to access images is via the Butler (a middleware component of the DMS for persisting and retrieving image datasets) from a Jupyter Notebook.
+Most RSP users will find Jupyter Notebooks to be the most efficient and powerful way to interact with the DP0.1 data set. For DP0.1, Jupyter Notebooks will be the only way to access images. 
+
 
 .. _NB-Intro-Login:
 
@@ -68,28 +69,32 @@ In the very left-most vertical sidebar of icons, the top icon is a file folder, 
 How to Use a Jupyter Notebook
 =============================
 
+The best way to learn how to use a Jupyter Notebook is to open a tutorial notebook in the RSP and follow the directions (LINK TO TUTORIALS AND MENTION THE VERY FIRST TUTORIAL). (MAYBE SHOW SCREEN SHOT OF THAT TUTORIAL).
+
 Jupyter notebooks provide "cells" within which you type either Python code or markdown. When you execute the cell (by either typing _Return_ while simultaneously holding down the _Shift_ key, or by clicking a button), the contents of the cell will be executed. If you typed Python code in the cell, then the code will be executed. If you entered markdown, then it will be rendered upon execution to yield nicely formatted text (for some handy markdown tips, see `this blog post <https://medium.com/analytics-vidhya/the-ultimate-markdown-guide-for-jupyter-notebook-d5e5abf728fd>`_ or the `relevant section from the JupyterLab documentation <https://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Working%20With%20Markdown%20Cells.html#Markdown-Cells>`_). 
-
-In the RSP Notebook Aspect, your notebooks will be operating in a kernel that has access to the full Rubin Science Pipelines, including the "Butler" (ADD SOME LINK/REFERENCE?) that will be your main access tool to extract images and catalogs from the DP0.1 data. Many standard Python libraries and modules will be available, and users can install additional Python tools they wish to use. In DP0.1, the Notebook Aspect will not offer access to queries from the :ref:`Tools-RSP-Portal`. 
-
-To access DP0.1 data from the Notebook Aspect, users will need to use Python commands and code. We have provided many tutorial notebooks to help you get started. One feature of Jupyter notebooks is that these tutorials are not just text that you read, but contain executable examples of the commands required to access and analyze data. Thus they are a resource not only for learning how to use Rubin tools and science pipelines, but can serve as "seeds" from which you can borrow lines of code and alter them to suit your purposes. Because some facility with programming -- and in particular with Python -- will be necessary to make use of the Notebook Aspect, we recommend that users who are unfamiliar with Python learn some basics. There are countless resources on the internet to help you learn Python -- here are a few that we recommend:
-
-LINKS TO PYTHON BASICS
-
-If you are not experienced at accessing data via Jupyter notebooks, or using a Science Platform more generally, you are not alone. The `Rubin Observatory Community forum <https://community.lsst.org/>`_ provides a searchable, community-based discussion platform that you can use as a resource to ask questions of the worldwide Rubin user community, to share your own tips and analyses, and discuss all aspects of Rubin Observatory, including using the RSP and the Rubin Science Pipelines, understanding the data products, and discussing Rubin-related science.
 
 .. figure:: /_static/notebook.png
     :name: notebook_aspect
 
     An example of what users see in the Notebook Aspect. The left panel is a file tree from which you can access your personal files, and which will come pre-populated with a handful of tutorial notebooks that users can execute on their own. The largest panel is the Jupyter notebook, where markdown and code can be entered and executed. You can also see that one can have multiple notebooks open in separate tabs.
 
+**What is a kernel?** In the RSP Notebook Aspect, your notebooks will be operating in a kernel that has access to the full Rubin Science Pipelines, including the "Butler" (ADD SOME LINK/REFERENCE?) that will be your main access tool to extract images and catalogs from the DP0.1 data. Many standard Python libraries and modules will be available, and users can install additional Python tools they wish to use. In DP0.1, the Notebook Aspect will not offer access to queries from the :ref:`Tools-RSP-Portal`. 
+
+**Is all the code in Python?** To access DP0.1 data from the Notebook Aspect, users will need to use Python commands and code. We have provided many tutorial notebooks to help you get started. One feature of Jupyter notebooks is that these tutorials are not just text that you read, but contain executable examples of the commands required to access and analyze data. Thus they are a resource not only for learning how to use Rubin tools and science pipelines, but can serve as "seeds" from which you can borrow lines of code and alter them to suit your purposes. Because some facility with programming -- and in particular with Python -- will be necessary to make use of the Notebook Aspect, we recommend that users who are unfamiliar with Python learn some basics. There are countless resources on the internet to help you learn Python -- here are a few that we recommend:
+
+LINKS TO PYTHON BASICS
+
+**What is the Butler?** (IMAGE ACCESS IN DP0.1 IS ONLY NB, ONLY BUTLER, SO LET'S DO GIVE AN INTRO). The only way to access images is via the Butler (a middleware component of the DMS for persisting and retrieving image datasets) from a Jupyter Notebook. The third generation "Gen3" Butler is the version being used for DP0.1. Full `Butler documentation<https://pipelines.lsst.io/modules/lsst.daf.butler/index.html>`_. But then also mention THE SPECIFIC TUTORIALS THAT HAVE BUTLER USE.
+
+**Where to get support** If you are not experienced at accessing data via Jupyter notebooks, or using a Science Platform more generally, you are not alone. The `Rubin Observatory Community forum <https://community.lsst.org/>`_ provides a searchable, community-based discussion platform that you can use as a resource to ask questions of the worldwide Rubin user community, to share your own tips and analyses, and discuss all aspects of Rubin Observatory, including using the RSP and the Rubin Science Pipelines, understanding the data products, and discussing Rubin-related science. (LINK TO DELEGATE RESOURCES GET SUPPORT).
+
 
 .. _NB-Intro-Other_Docs:
 
-Additional Notebook Documentation
-=================================
+Additional RSP Notebook Documentation
+=====================================
 
-Documentation for the RSP Notebook Aspect deployed at the National Center for Supercomputing Applications (NCSA) is available at `nb.lsst.io <https://nb.lsst.io/>`_, but beware that much of it does not apply to the RSP Notebook Aspect deployed in the Google Cloud for DP0.
+Additional documentation for the RSP Notebook Aspect deployed at the National Center for Supercomputing Applications (NCSA) is available at `nb.lsst.io <https://nb.lsst.io/>`_, but beware that much of it does not apply to the RSP Notebook Aspect deployed in the Google Cloud for DP0.
 
 
  
