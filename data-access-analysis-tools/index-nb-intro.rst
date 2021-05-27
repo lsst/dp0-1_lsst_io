@@ -21,18 +21,52 @@
 Introduction to the RSP Notebook Aspect
 #######################################
 
-**THIS PAGE IS A DRAFT**
 
-| Provide instructions for:
-| - how to login/logout
-| - how to select, start, and stop a server
-| - where to find example notebooks
-| - available types of processing (i.e., no batch)
-| - how to scale algorithm performance to ops-era RSP
+.. _NB-Intro-Login:
 
-Include DP0.1 specific information. No need to repeat what is already in the :ref:`Data-Access-Analysis-Tools-RSP-Warnings`.
+Log In and Out of JupyterLab
+============================
 
-When you log into the Notebook Aspect, you will be taken to a JupyterLab environment from which you can create notebooks and execute Python code to perform actions on DP0.1 data products. The Notebook Aspect will provide some limited command-line access via a terminal, but most data access will be through notebooks. Jupyter notebooks provide "cells" within which you type either Python code or markdown. When you execute the cell (by either typing _Return_ while simultaneously holding down the _Shift_ key, or by clicking a button), the contents of the cell will be executed. If you typed Python code in the cell, then the code will be executed. If you entered markdown, then it will be rendered upon execution to yield nicely formatted text (for some handy markdown tips, see `this blog post <https://medium.com/analytics-vidhya/the-ultimate-markdown-guide-for-jupyter-notebook-d5e5abf728fd>`_ or the `relevant section from the JupyterLab documentation <https://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Working%20With%20Markdown%20Cells.html#Markdown-Cells>`_). 
+From the RSP landing page at `data.lsst.cloud <https://data.lsst.cloud/>`_ click on the central panel for Notebooks.
+
+**Software Version and Server Size:** The first page offers a choice of software environment version (left) and server size (right), as in the figure below. Most users will choose the recommended software version and a medium server size. 
+
+The left box says "image" at the top. This refers to a "Docker image" that defines the software packages and their versions which will be automatically loaded in the server environment. The "recommended" Docker image will be updated on about a monthly basis during DP0.1 to encourage users to adapt to using software that is an active development, and to benefit from the bug fixes and updates made by Rubin staff. Older images will remain accessible to users.
+
+RSP users who are doing a lot of image processing might need to select a large server, and those who are working with small subsets of catalog data can use a small server.
+
+.. figure:: /_static/RSP_NB_select_a_server.png
+    :name: RSP_NB_select_a_server
+
+    Most users will choose the recommended software version and a medium server size.
+
+**Start the Server:** Pressing the orange start button to start the server returns this page with a blue progress bar.
+
+.. figure:: /_static/RSP_NB_progress_bar.png
+    :name: RSP_NB_progress_bar
+
+    Sometimes it takes a couple of minutes to start a server.
+
+**JupyterLab Navigation:** The JupyterLab landing page in the figure below is the launch pad for all JupyterLab functionality (e.g., Notebook, Console, and Terminal). Return to this launch pad at any time by clicking the plus symbol at upper left. 
+
+.. figure:: /_static/RSP_NB_launcher_options.png
+    :name: RSP_NB_launcher_options
+
+    The JupyterLab landing page from which several tools can be launched (e.g., Notebook, Console, and Terminal) and the filesystem can be browsed (left sidebar).
+
+In the very left-most vertical sidebar of icons, the top icon is a file folder, and that is the default view. The left sidebar lists folders in the users home directory, with some defaults like DATA, WORK, and notebooks. Launching a terminal and using the command "ls" will return the same list. Navigate the file system and open files by double-clicking on folders and files in the left sidebar. All users will find a set of tutorial notebooks provided in the notebooks directory (:ref:`Examples-DP0-1`). Jupyter Notebooks have the suffix ".ipynb". 
+
+**Safely Log Out of JupyterLab:** To safely shut down a Notebook, go to File --> Close and Shutdown Notebook. To safely shut down a JupyterLab server and log out of the RSP, go to File --> Save all, Exit, and Log Out.
+
+
+.. _NB-Intro-Use-A-NB:
+
+How to Use a Jupyter Notebook
+=============================
+
+Most RSP users will find Jupyter Notebooks to be the most efficient and powerful way to interact with the DP0.1 data set.
+
+Jupyter notebooks provide "cells" within which you type either Python code or markdown. When you execute the cell (by either typing _Return_ while simultaneously holding down the _Shift_ key, or by clicking a button), the contents of the cell will be executed. If you typed Python code in the cell, then the code will be executed. If you entered markdown, then it will be rendered upon execution to yield nicely formatted text (for some handy markdown tips, see `this blog post <https://medium.com/analytics-vidhya/the-ultimate-markdown-guide-for-jupyter-notebook-d5e5abf728fd>`_ or the `relevant section from the JupyterLab documentation <https://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Working%20With%20Markdown%20Cells.html#Markdown-Cells>`_). 
 
 In the RSP Notebook Aspect, your notebooks will be operating in a kernel that has access to the full Rubin Science Pipelines, including the "Butler" (ADD SOME LINK/REFERENCE?) that will be your main access tool to extract images and catalogs from the DP0.1 data. Many standard Python libraries and modules will be available, and users can install additional Python tools they wish to use. In DP0.1, the Notebook Aspect will not offer access to queries from the :ref:`Tools-RSP-Portal`. 
 
