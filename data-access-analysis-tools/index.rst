@@ -27,16 +27,7 @@ The **Rubin Science Platform (RSP)** is the set of integrated web-based applicat
 RSP Usage: Risks and Responsibilities
 =====================================
 
-All RSP users are responsible for being aware of the risks inherent in using software in active development, and must familiarize themselves with these risks prior to using the RSP.
-
-Get to know the :ref:`Data-Access-Analysis-Tools-RSP-Warnings`.
-
-| For example: 
-| - protective safegaurds are not yet present
-| - some directories have shared-write access
-| - performance and compute capacity are limited
-| - some functionality is not yet available
-| - documentation may be incomplete
+**All RSP users are responsible for being aware of the risks inherent in using software in active development, and must familiarize themselves with these risks prior to using the RSP.**
 
 .. toctree::
     :maxdepth: 2
@@ -66,8 +57,6 @@ Notebook Aspect
 The Notebook Aspect of the RSP provides an environment from which users can access and manipulate Rubin data products on the same machines where those data products reside (i.e., "next-to-the-data" -- no downloading of data to your local machine). In particular, the Notebook Aspect offers Python-based access to DP0.1 data products via a custom implementation of web-based JupyterLab Notebooks (`JupyterLab documentation <https://jupyterlab.readthedocs.io/en/stable/index.html>`_). A file browser and a terminal command-line interface are also available within the JupyterLab environment. 
 
 Within the RSP Notebook Aspect, users can query DP0.1 data sets, subset and retrieve catalogs, manipulate and display images, calculate derived properties, plot results, :ref:`reprocess the data<Data-Access-Analysis-Tools-Data-Processing>`, and most other analyses you can imagine performing with Python on astronomical images and catalogs. A stable software environment is provided and maintained for users, which includes many commonly-used packages and the :ref:`LSST Science Pipelines<Tools-LSST-Science-Pipelines>`. For DP0, this environment will only support Python 3. For DP0.1, images can only be accessed via the Notebook Aspect, and not the Portal.
-
-Get started with this :ref:`Data-Access-Analysis-Tools-NB-Intro`.
 
 .. toctree::
     :maxdepth: 2
