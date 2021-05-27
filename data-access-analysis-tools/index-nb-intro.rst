@@ -31,32 +31,36 @@ From the RSP landing page at `data.lsst.cloud <https://data.lsst.cloud/>`_ click
 
 **Software Version and Server Size:** The first page offers a choice of software environment version (left) and server size (right), as in the figure below. Most users will choose the recommended software version and a medium server size. 
 
-The left box says "image" at the top. This refers to a "Docker image" that defines the software packages and their versions which will be automatically loaded in the server environment. The "recommended" Docker image will be updated on about a monthly basis during DP0.1 to encourage users to adapt to using software that is an active development, and to benefit from the bug fixes and updates made by Rubin staff. Older images will remain accessible to users.
+.. figure:: /_static/RSP_NB_select_a_server.png
+    :width: 400
+    :name: RSP_NB_select_a_server
+
+    Most users will choose the recommended software version and a medium size.
+    
+The term "image" atop the left box refers to a "Docker image" that defines the software packages and their versions which will be automatically loaded in the server environment. The "recommended" image will be updated on a monthly basis during DP0.1 to encourage users to adapt to using software that is an active development, and to benefit from the bug fixes and updates made by Rubin staff. Older images will remain accessible to users.
 
 RSP users who are doing a lot of image processing might need to select a large server, and those who are working with small subsets of catalog data can use a small server.
 
-.. figure:: /_static/RSP_NB_select_a_server.png
-    :name: RSP_NB_select_a_server
-
-    Most users will choose the recommended software version and a medium server size.
 
 **Start the Server:** Pressing the orange start button to start the server returns this page with a blue progress bar.
 
 .. figure:: /_static/RSP_NB_progress_bar.png
+    :width: 400
     :name: RSP_NB_progress_bar
 
-    Sometimes it takes a couple of minutes to start a server.
+    Be patient. Sometimes it takes a couple of minutes to start a server.
 
 **JupyterLab Navigation:** The JupyterLab landing page in the figure below is the launch pad for all JupyterLab functionality (e.g., Notebook, Console, and Terminal). Return to this launch pad at any time by clicking the plus symbol at upper left. 
 
 .. figure:: /_static/RSP_NB_launcher_options.png
+    :width: 400
     :name: RSP_NB_launcher_options
 
-    The JupyterLab landing page from which several tools can be launched (e.g., Notebook, Console, and Terminal) and the filesystem can be browsed (left sidebar).
+    The JupyterLab landing page from which several tools can be launched and the file system can be browsed (left sidebar).
 
-In the very left-most vertical sidebar of icons, the top icon is a file folder, and that is the default view. The left sidebar lists folders in the users home directory, with some defaults like DATA, WORK, and notebooks. Launching a terminal and using the command "ls" will return the same list. Navigate the file system and open files by double-clicking on folders and files in the left sidebar. All users will find a set of tutorial notebooks provided in the notebooks directory (:ref:`Examples-DP0-1`). Jupyter Notebooks have the suffix ".ipynb". 
+In the very left-most vertical sidebar of icons, the top icon is a file folder, and that is the default view. The left sidebar lists folders in the user's home directory (e.g., DATA, WORK, and notebooks). Launching a terminal and using the command "ls" will return the same list. Navigate the file system and open files by double-clicking on folders and files in the left sidebar. All users will find a set of tutorial notebooks provided in the notebooks directory (:ref:`Examples-DP0-1`). Jupyter Notebooks can be identified by their suffix ".ipynb". 
 
-**Safely Log Out of JupyterLab:** To safely shut down a Notebook, go to File --> Close and Shutdown Notebook. To safely shut down a JupyterLab server and log out of the RSP, go to File --> Save all, Exit, and Log Out.
+**Safely Log Out of JupyterLab:** Use the File item in the top menu bar. To safely shut down a Notebook, choose Close and Shutdown Notebook. To safely shut down a JupyterLab server and log out of the RSP, choose Save all, Exit, and Log Out.
 
 
 .. _NB-Intro-Use-A-NB:
