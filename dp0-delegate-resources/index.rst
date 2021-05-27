@@ -73,7 +73,7 @@ DP0 Kick-Off Info Sessions
 
 All delegates should please attend one of these identical sessions. One of them will be recorded and made available.
 
-**Connection Info:** **(PLACEHOLDER for a link to connection info)**
+**Connection Info:** `ls.st/clo4989 <https://ls.st/4989>`_
 
 | **Contents of the Kick-Off Info Sessions:** 
 | - RSP and Community Forum accounts
