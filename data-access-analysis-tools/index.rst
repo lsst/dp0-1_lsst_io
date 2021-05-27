@@ -38,6 +38,12 @@ Get to know the :ref:`Data-Access-Analysis-Tools-RSP-Warnings`.
 | - some functionality is not yet available
 | - documentation may be incomplete
 
+.. toctree::
+    :maxdepth: 2
+    :glob:
+
+    index-rsp-warnings
+
 
 .. _Data-Access-Analysis-Tools-RSP:
 
@@ -62,6 +68,12 @@ The Notebook Aspect of the RSP provides an environment from which users can acce
 Within the RSP Notebook Aspect, users can query DP0.1 data sets, subset and retrieve catalogs, manipulate and display images, calculate derived properties, plot results, :ref:`reprocess the data<Data-Access-Analysis-Tools-Data-Processing>`, and most other analyses you can imagine performing with Python on astronomical images and catalogs. A stable software environment is provided and maintained for users, which includes many commonly-used packages and the :ref:`LSST Science Pipelines<Tools-LSST-Science-Pipelines>`. For DP0, this environment will only support Python 3. For DP0.1, images can only be accessed via the Notebook Aspect, and not the Portal.
 
 Get started with this :ref:`Data-Access-Analysis-Tools-NB-Intro`.
+
+.. toctree::
+    :maxdepth: 2
+    :glob:
+
+    index-nb-intro
 
 
 .. _Tools-RSP-Portal:
