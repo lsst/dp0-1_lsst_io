@@ -35,7 +35,7 @@ The DESC simulated the DC2 images using the `imSim <https://github.com/LSSTDESC/
 
 **Image Processing:**
 The DESC processed the simulated DC2 images with `Version 19 <https://pipelines.lsst.io/v/v19_0_0/index.html>`_ of the LSST Science Pipelines.
-DP0.1 makes the DESC's DC2 images and catalogs available to RSP users with no further processing.
+DP0.1 makes the DESC's DC2 images and catalogs available to RSP users.
 For DP0.2, the Rubin Data Production team will reprocess the same images with the most up-to-date version of the LSST Science Pipelines, and make the results available in mid-2022.
 
 .. toctree::
