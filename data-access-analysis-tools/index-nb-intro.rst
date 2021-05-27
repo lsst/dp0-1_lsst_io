@@ -89,7 +89,7 @@ If you are not experienced at accessing data via Jupyter notebooks, or using a S
 Additional Notebook Documentation
 =================================
 
-Documentation for the RSP Notebook Aspect deployed at the National Center for Supercomputing Applications (NCSA) is available at `nb.lsst.io<https://nb.lsst.io/>`_, but beware that much of it does not apply to the RSP Notebook Aspect deployed in the Google Cloud for DP0.
+Documentation for the RSP Notebook Aspect deployed at the National Center for Supercomputing Applications (NCSA) is available at `nb.lsst.io <https://nb.lsst.io/>`_, but beware that much of it does not apply to the RSP Notebook Aspect deployed in the Google Cloud for DP0.
 
 
  
