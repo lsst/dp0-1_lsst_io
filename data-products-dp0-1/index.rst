@@ -75,19 +75,18 @@ Catalogs
 
 
 .. _DP0-1-Data-Products-Visualization:
-
-Visualization
-=============
-
-*MLG Note: not sure that this is needed?* 
-
-This section includes information about data visualization.
-
+.. 
+.. Visualization
+.. =============
+..
+.. *MLG Note: not sure that this is needed?* 
+.. This section includes information about data visualization.
+..
+..
 .. _DP0-1-Data-Products-User-Generated:
-
-User Generated Data Products and Processing
-===========================================
-
-*MLG Note: not sure that this is needed?* 
-
-This section includes information on user generated data products and user generated data processing.
+.. 
+.. User Generated Data Products and Processing
+.. ===========================================
+.. 
+.. *MLG Note: not sure that this is needed?* 
+.. This section includes information on user generated data products and user generated data processing.
