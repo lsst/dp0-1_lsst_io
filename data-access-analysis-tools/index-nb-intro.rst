@@ -21,6 +21,7 @@
 Introduction to the RSP Notebook Aspect
 #######################################
 
+Most RSP users will find Jupyter Notebooks to be the most efficient and powerful way to interact with the DP0.1 data set. For DP0.1, the only way to access images is via the Butler (a middleware component of the DMS for persisting and retrieving image datasets) from a Jupyter Notebook.
 
 .. _NB-Intro-Login:
 
@@ -41,7 +42,6 @@ The term "image" atop the left box refers to a "Docker image" that defines the s
 
 RSP users who are doing a lot of image processing might need to select a large server, and those who are working with small subsets of catalog data can use a small server.
 
-
 **Start the Server:** Pressing the orange start button to start the server returns this page with a blue progress bar.
 
 .. figure:: /_static/RSP_NB_progress_bar.png
@@ -50,7 +50,7 @@ RSP users who are doing a lot of image processing might need to select a large s
 
     Be patient. Sometimes it takes a couple of minutes to start a server.
 
-**JupyterLab Navigation:** The JupyterLab landing page in the figure below is the launch pad for all JupyterLab functionality (e.g., Notebook, Console, and Terminal). Return to this launch pad at any time by clicking the plus symbol at upper left. 
+**JupyterLab Navigation:** The JupyterLab landing page in the figure below is the launch pad for all JupyterLab functionality (e.g., Notebook, Terminal). Return to this launch pad at any time by clicking the plus symbol at upper left. For DP0.1, only Python Notebooks and the terminal interface are supported (i.e., not the Console), and users are not able to access Portal queries from a Jupyter Notebook.
 
 .. figure:: /_static/RSP_NB_launcher_options.png
     :width: 400
@@ -68,8 +68,6 @@ In the very left-most vertical sidebar of icons, the top icon is a file folder, 
 How to Use a Jupyter Notebook
 =============================
 
-Most RSP users will find Jupyter Notebooks to be the most efficient and powerful way to interact with the DP0.1 data set.
-
 Jupyter notebooks provide "cells" within which you type either Python code or markdown. When you execute the cell (by either typing _Return_ while simultaneously holding down the _Shift_ key, or by clicking a button), the contents of the cell will be executed. If you typed Python code in the cell, then the code will be executed. If you entered markdown, then it will be rendered upon execution to yield nicely formatted text (for some handy markdown tips, see `this blog post <https://medium.com/analytics-vidhya/the-ultimate-markdown-guide-for-jupyter-notebook-d5e5abf728fd>`_ or the `relevant section from the JupyterLab documentation <https://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Working%20With%20Markdown%20Cells.html#Markdown-Cells>`_). 
 
 In the RSP Notebook Aspect, your notebooks will be operating in a kernel that has access to the full Rubin Science Pipelines, including the "Butler" (ADD SOME LINK/REFERENCE?) that will be your main access tool to extract images and catalogs from the DP0.1 data. Many standard Python libraries and modules will be available, and users can install additional Python tools they wish to use. In DP0.1, the Notebook Aspect will not offer access to queries from the :ref:`Tools-RSP-Portal`. 
@@ -85,11 +83,13 @@ If you are not experienced at accessing data via Jupyter notebooks, or using a S
 
     An example of what users see in the Notebook Aspect. The left panel is a file tree from which you can access your personal files, and which will come pre-populated with a handful of tutorial notebooks that users can execute on their own. The largest panel is the Jupyter notebook, where markdown and code can be entered and executed. You can also see that one can have multiple notebooks open in separate tabs.
 
-.. For the Notebook Aspect, only python notebooks and the terminal interface are supported, and RSP users will not be able to access their Portal queries from the Notebook Aspect for DP0.1. In DP0.1 the Notebook Aspect of the RSP will offer image access via the Butler (a middleware component of the DMS for persisting and retrieving image datasets) through a python interface in the Notebook Aspect.
 
-For more information on the RSP Notebook Aspect, see https://nb.lsst.io/.
+.. _NB-Intro-Other_Docs:
 
+Additional Notebook Documentation
+=================================
 
-*MLG notes: start with an overview of what is Jupyter Hub. For the Notebook aspect, only python notebooks and the terminal interface are supported, and RSP users will not be able to access their Portal queries from the Notebook aspect for DP0.1. In DP0.1 the Notebook Aspect of the RSP will offer image access via the Butler (a middleware component of the DMS for persisting and retrieving image datasets) through a python interface in the Notebook aspect.*
+Documentation for the RSP Notebook Aspect deployed at the National Center for Supercomputing Applications (NCSA) is available at `nb.lsst.io<https://nb.lsst.io/>`_, but beware that much of it does not apply to the RSP Notebook Aspect deployed in the Google Cloud for DP0.
+
 
  
