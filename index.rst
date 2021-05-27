@@ -47,6 +47,7 @@ DP0 delegates are the 300 Rubin data rights holders who have been given accounts
 
     dp0-delegate-resources/index
 
+
 .. _Rubin-Observatory-Documentation-DP0-1-Data-Products:
 
 DP0.1 data products
@@ -59,6 +60,7 @@ The data set adopted for DP0 is the 300 square degrees of simulated, LSST-like i
     :glob:
 
     data-products-dp0-1/index
+
 
 .. _Rubin-Observatory-Documentation-DP0-1-Data-Access-Analysis-Tools:
 
@@ -73,13 +75,16 @@ The Rubin Science Platform (RSP) is the set of integrated web-based applications
 
     data-access-analysis-tools/index
 
+
 .. _Rubin-Observatory-Documentation-DP0-1-Tutorials-Examples:
 
 Tutorials and user guides
 =========================
 
-Examples of accessing or processing data products are separated from other locations in the repository to provide a single location of all examples.
-Using reST syntax, the examples can be reproduced in other locations on this site by using the ``include`` directive.
+Includes hands-on executable tutorials and demonstrations for learning to use the Rubin Science Platform and the LSST Science Pipelines.
+
+.. Examples of accessing or processing data products are separated from other locations in the repository to provide a single location of all examples.
+.. Using reST syntax, the examples can be reproduced in other locations on this site by using the ``include`` directive.
 
 .. toctree::
     :maxdepth: 2
@@ -87,6 +92,7 @@ Using reST syntax, the examples can be reproduced in other locations on this sit
     :titlesonly:
 
     tutorials-examples/index
+
 
 .. _Rubin-Observatory-Documentation-DP0-1-Documentation-Project-Information:
 
