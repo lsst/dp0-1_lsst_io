@@ -20,7 +20,7 @@ Data Processing Overview
 
 .. This section should provide a brief, top-level description of the page.
 
-The imaging data and catalogs included in DP0.1 are based on the wide-fast-deep data generated as part of the LSST Dark Energy Science Collaboration (DESC) Data Challenge 2 (DC2). This page provides a brief overview of the production and processing of those data. A much more comprehensive description of DC2 can be found in `LSST Dark Energy Science Collaboration (2020) <https://arxiv.org/abs/2010.05926>`. The text on this page draws heavily from those sources.
+The imaging data and catalogs included in DP0.1 are based on the wide-fast-deep data generated as part of the LSST Dark Energy Science Collaboration (DESC) Data Challenge 2 (DC2). This page provides a brief overview of the production and processing of those data. A much more comprehensive description of DC2 can be found in `LSST Dark Energy Science Collaboration (2020) <https://arxiv.org/abs/2010.05926>`_. The text on this page draws heavily from those sources.
 
 .. _Data-Processing-Image-Simulation:
 
