@@ -161,7 +161,7 @@ Guidelines and Expectations
 
 **Choose a delegate activity.** Delegates are invited to take on an activity that helps to maximize the impact of DP0 with respect to the DP0 goals of testing and informing development of the RSP and preparing the scientific community to do LSST science. See `Suggested Delegate Activities`_. 
 
-**Interact with your co-delegates.** Participate in the `Rubin Community Forum`_ and join the biweekly `DP0 Delegate Assemblies`_ as often as you can.
+**Interact with your co-delegates.** Participate in the `Rubin Community Forum`_ and join the biweekly `DP0 Delegate Assemblies`_ as often as you can.  (SUGGESTED TEXT: ALL ASSEMBLIES WILL BE ATTENDED BY THE COMMUNITY ENGAGEMENT TEAM MEMBER, WHO MIGHT BE ABE TO FACILITATE CO-WORKING WITH OTHER DELEGATES IN A BREAKOUT ROOM.). 
 
 **Use your RSP account!** As there are a limited number of RSP accounts for DP0, please try to make some use of your account and learn to use at least one aspect of the RSP. There is no minimum time that you're expected to spend on DP0. If you find that you are done with DP0, consider relinquishing your account so it can be offered to someone else.
 
@@ -221,6 +221,7 @@ Extend or enhance the benefits of DP0 in the science community.
 |   -- give a tutorial about your RSP/DP0 experience in your Science Collaboration
 |   -- publish a paper on your DP0-related work
   
+(COMMENT BY GM:  SHOULD WE ENCOURAGE THE DELEGATES TO SIGN UP AND PARTICIPATE IN THE PCW?)
 
 .. _Delegate-Homepage-Getting-Support:
 
