@@ -59,7 +59,7 @@ RSP users who are doing a lot of image processing might need to select a large s
 
     The JupyterLab landing page from which several tools can be launched and the file system can be browsed (left sidebar).
 
-In the very left-most vertical sidebar of icons, the top icon is a file folder, and that is the default view. The left sidebar lists folders in the user's home directory (e.g., DATA, WORK, and notebooks). Launching a terminal and using the command "ls" will return the same list. Navigate the file system and open files by double-clicking on folders and files in the left sidebar. All users will find a set of tutorial notebooks provided in the notebooks directory (:ref:`Examples-DP0-1`). Jupyter Notebooks can be identified by their suffix ".ipynb". 
+In the very left-most vertical sidebar of icons, the top icon is a file folder, and that is the default view. The left sidebar lists folders in the user's home directory (e.g., DATA, WORK, and notebooks). Launching a terminal (GM: WILL PUT YOU INTO THE LINUX ENVIRONMENT, RUNNING bash).  From there, using the command "ls" will return the same list. Navigate the file system and open files by double-clicking on folders and files in the left sidebar. All users will find a set of tutorial notebooks provided in the notebooks directory (:ref:`Examples-DP0-1`). Jupyter Notebooks can be identified by their suffix ".ipynb". 
 
 **Safely Log Out of JupyterLab:** Use the File item in the top menu bar. To safely shut down a Notebook, choose Close and Shutdown Notebook. To safely shut down a JupyterLab server and log out of the RSP, choose Save all, Exit, and Log Out.
 
