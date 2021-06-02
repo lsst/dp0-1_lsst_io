@@ -13,15 +13,38 @@
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
 .. A warning will alert you of identical labels during the linkcheck process.
 
-##################
-Examples for DP0.1
-##################
+###############################
+DP0.1 Tutorials and User Guides
+###############################
 
 .. This section should provide a brief, top-level description of the page.
 
-This page includes various examples of accessing or processing data products.
+*Link to delegate 'Get Support' page.*
 
-The examples are separated from other locations in the repository to provide a single location of all examples.
-Using reST syntax, the examples can be reproduced in other locations on this site by using the ``include`` directive.
+*Reminder of citations and references for using other people's notebooks.*
 
-.. Provide a sample of syntax.
+
+.. _Examples-DP0-1-RSP:
+
+Rubin Science Platform User Guides
+==================================
+
+*MLG: include link to our own getting started guide in dp0-1 and also external guides.*
+
+
+.. _Examples-DP0-1-Notebooks:
+
+Jupyter Notebook Tutorials
+==========================
+
+*MLG: link to our own description in dp0-1.*
+*MLG: list of CET-produced and Stack-Club derived; indicate level (beginner etc.); include links to executed PDFs and also the repos.*
+
+
+.. _Examples-DP0-1-Portal:
+
+Portal Aspect Demonstrations
+============================
+
+*MLG: link to our own description in dp0-1.*
+*MLG: Make and link to walk-through demos and how-tos.*

@@ -19,24 +19,21 @@ Data Access and Analysis Tools
 
 .. This section should provide a brief, top-level description of the page.
 
-This page includes the various tools to access and analyze the data products in DP0.1.
-
-
+The **Rubin Science Platform (RSP)** is the set of integrated web-based applications, services, and tools to query, visualize, subset, and analyze LSST data - including the DP0.1 simulated data products. Throughout DP0 the RSP will be in active development by Rubin staff, with access provided to delegates on a shared-risk basis. 
 
 
 .. _Data-Access-Analysis-Tools-Warnings:
 
-RSP Hazards and User Responsibilities
+RSP Usage: Risks and Responsibilities
 =====================================
 
-All users are responsible for their own safe usage of the RSP and must consult this list of :ref:`Data-Access-Analysis-Tools-RSP-Warnings`.
+**All RSP users are responsible for being aware of the risks inherent in using software in active development, and must familiarize themselves with these risks prior to using the RSP.**
 
-| Briefly, the DP0-era of the RSP is a *shared-risk developmental version*.
-| - future RSP safegaurds to protect against, e.g., data loss, are not yet present
-| - RSP performance during DP0 is not representative of the future RSP's performance
-| - RSP compute resources during DP0 are not representative of the operations-era RSP
-| - documentation and support mechanisms are still in their very earliest versions
+.. toctree::
+    :maxdepth: 2
+    :glob:
 
+    index-rsp-warnings
 
 
 .. _Data-Access-Analysis-Tools-RSP:
@@ -44,25 +41,33 @@ All users are responsible for their own safe usage of the RSP and must consult t
 Rubin Science Platform (RSP)
 ============================
 
-This section includes information on using the RSP.
+During DP0, the Rubin Science Platform (RSP) provides access to Rubin Observatory data products via two services: a Notebook Aspect and a Portal Aspect. The :ref:`Tools-RSP-Notebook` enables programmatic interaction with, and analysis of, data products in a python environment. The :ref:`Tools-RSP-Portal` provides interactive query, data discovery, and visualization tools. In the Operations era, the RSP users will be able to use the Portal and Notebook aspects in tandem (whereas for DP0.1 there is no connection between the two), and will have access to a third service: the Application Programming Interface (API) aspect. A full description of the Operations-era RSP can be found in the RSP Vision Document (`LSE-319 <http://ls.st/lse-319>`_), but again, some of that envisioned RSP functionality is not available for DP0 (see the risks above).
 
-*MLG notes: Intended to provide a fairly brief overview of the need-to-know items for all DP0 delegates, including some who may still have no idea what the RSP is. Intended to be generic. Would link to the DPDD for DP0.1 and more in-depth scientific use-case examples and demonstrations.*
+.. figure:: /_static/RSP_home.png
+    :name: RSP_home
+
+    Landing page of `data.lsst.cloud <https://data.lsst.cloud/>`_. The Notebook and Portal Aspects can be accessed by clicking on their respective icons on this dashboard. The API aspect is not availble during DP0.1.
+   
 
 .. _Tools-RSP-Notebook:
 
-Notebook aspect
+Notebook Aspect
 ---------------
 
-This section includes information on using notebooks in the RSP.
+The Notebook Aspect of the RSP provides an environment from which users can access and manipulate Rubin data products on the same machines where those data products reside (i.e., "next-to-the-data" -- no downloading of data to your local machine). In particular, the Notebook Aspect offers Python-based access to DP0.1 data products via a custom implementation of web-based JupyterLab Notebooks (`JupyterLab documentation <https://jupyterlab.readthedocs.io/en/stable/index.html>`_). A file browser and a terminal command-line interface are also available within the JupyterLab environment. 
 
-*MLG notes: start with an overview of what is Jupyter Hub. For the Notebook aspect, only python notebooks and the terminal interface are supported, and RSP users will not be able to access their Portal queries from the Notebook aspect for DP0.1. In DP0.1 the Notebook Aspect of the RSP will offer image access via the Butler (a middleware component of the DMS for persisting and retrieving image datasets) through a python interface in the Notebook aspect.*
+Within the RSP Notebook Aspect, users can query DP0.1 data sets, subset and retrieve catalogs, manipulate and display images, calculate derived properties, plot results, :ref:`reprocess the data<Data-Access-Analysis-Tools-Data-Processing>`, and most other analyses you can imagine performing with Python on astronomical images and catalogs. A stable software environment is provided and maintained for users, which includes many commonly-used packages and the :ref:`LSST Science Pipelines<Tools-LSST-Science-Pipelines>`. For DP0, this environment will only support Python 3. For DP0.1, images can only be accessed via the Notebook Aspect, and not the Portal.
 
-See this page for a :ref:`Data-Access-Analysis-Tools-NB-Intro`.
+.. toctree::
+    :maxdepth: 2
+    :glob:
+
+    index-nb-intro
 
 
 .. _Tools-RSP-Portal:
 
-Portal aspect
+Portal Aspect
 -------------
 
 This section includes information on using the portal for the RSP.
@@ -80,18 +85,17 @@ Table Access Protocol (TAP) service
 
 This page includes information for accessing and basic utilization of the Table Access Protocol (TAP) service.
 
+*(MLG Note: Describe how TAP is used in the Portal and also in Notebooks. Are there any TAP service limitations during DP0.1? If so mention here and add details to RSP Usage Hazards page.)*
+
+
+
 .. _Data-Access-Analysis-Tools-Data-Processing:
 
 Data processing tools
 =====================
 
-This section includes information on tools used for data processing.
+Documentation for the LSST Science Pipelines, a software package which is available to all RSP users via the Notebook Aspect, can be found at `pipelines.lsst.io <https://pipelines.lsst.io>`_. 
 
-.. _Tools-LSST-Science-Pipelines:
+A brief summary of how the LSST Science Pipelines were used to create the DP0.1 data products can be found in this :ref:`Data-Products-DP0-1-Processing-Overview`.
 
-LSST Science Pipelines
-----------------------
-
-This section includes information on the LSST Science Pipelines.
-
-See https://pipelines.lsst.io/ for in-depth information.
+To view a list of packages available to you in the Notebook Aspect of the RSP, type ``pip install`` in a terminal. 

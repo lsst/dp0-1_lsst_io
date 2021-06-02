@@ -73,7 +73,7 @@ DP0 Kick-Off Info Sessions
 
 All delegates should please attend one of these identical sessions. One of them will be recorded and made available.
 
-**Connection Info:** **(PLACEHOLDER for a link to connection info)**
+**Connection Info:** `ls.st/clo4989 <https://ls.st/4989>`_
 
 | **Contents of the Kick-Off Info Sessions:** 
 | - RSP and Community Forum accounts
@@ -157,56 +157,70 @@ Guidelines and Expectations
 
 **Abide by the code of conduct.** All delegates are expected to abide by the `LSST Communications Code of Conduct <https://docushare.lsstcorp.org/docushare/dsweb/Get/Document-24920/>`_.
 
-**Use appropriate acknowledgements and citations.** If you publish work enabled by DP0, the RSP, and/or the DESC's DC2 data set, please include: "CosmoDC2: A Synthetic Sky Catalog for Dark Energy Science with LSST" `Korytov et al (2019) <https://ui.adsabs.harvard.edu/abs/2019ApJS..245...26K/abstract>`_, “The LSST DESC DC2 Simulated Sky Survey” `arXiv:2010.05926 <https://arxiv.org/abs/2010.05926>`_, and potentially “DESC DC2 Data Release Note” `arXiv:2101.04855 <https://arxiv.org/abs/2101.04855>`_, especially if you used the Object or Truth-Match tables presented in that release note. **(PLACEHOLDER for additional papers and acknowledgments).**
+**Use appropriate acknowledgements and citations.** If you publish work enabled by DP0, the RSP, and/or the DESC's DC2 data set, please include: "CosmoDC2: A Synthetic Sky Catalog for Dark Energy Science with LSST" `Korytov et al (2019) <https://ui.adsabs.harvard.edu/abs/2019ApJS..245...26K/abstract>`_, “The LSST DESC DC2 Simulated Sky Survey” (`arXiv:2010.05926 <https://arxiv.org/abs/2010.05926>`_), and potentially “DESC DC2 Data Release Note” (`arXiv:2101.04855 <https://arxiv.org/abs/2101.04855>`_), especially if you used the Object or Truth-Match tables presented in that release note. **(PLACEHOLDER for additional papers and acknowledgments).**
 
-**Choose a delegate activity.** Delegates are invited to take on an activity that helps to maximize the impact of DP0 with respect to the DP0 goals of testing and informing development of the RSP and preparing the scientific community to do LSST science. See `Delegate Activities`_. 
+**Choose a delegate activity.** Delegates are invited to take on an activity that helps to maximize the impact of DP0 with respect to the DP0 goals of testing and informing development of the RSP and preparing the scientific community to do LSST science. See `Suggested Delegate Activities`_. 
 
 **Interact with your co-delegates.** Participate in the `Rubin Community Forum`_ and join the biweekly `DP0 Delegate Assemblies`_ as often as you can.
 
 **Use your RSP account!** As there are a limited number of RSP accounts for DP0, please try to make some use of your account and learn to use at least one aspect of the RSP. There is no minimum time that you're expected to spend on DP0. If you find that you are done with DP0, consider relinquishing your account so it can be offered to someone else.
 
 
-Delegate Activities
--------------------
+.. _Delegate-Homepage-Delegate-Activities:
+
+Suggested Delegate Activities
+=============================
 
 All delegates are invited to take on an activity that will inform and improve development of the Rubin Science Platform development, and/or extend and enhance the benefits of DP0 within the science community, beyond the limited number of DP0 participants that Rubin Observatory is able to support.
 
 Delegate activities are envisioned to be simple and enjoyable. They are completely voluntary and will not be tracked. Group work is encouraged, as are delegate-designed activities.
 
-| **Inform and improve the Rubin Science Platform:**
+
+Inform and improve the Rubin Science Platform
+---------------------------------------------
+
 | - complete one or more feedback surveys for Rubin Observatory
 |   -- **(PLACEHOLDER link to a Portal use feedback form)**
 |   -- **(PLACEHOLDER link to a Notebook use feedback form)**
-|   -- **(PLACEHOLDER link to a API use feedback form)**
 |   -- **(PLACEHOLDER link to a DP0 general feedback form)**
-| - submit bug reports via GitHub issues in the ``rubin-dp0`` GitHub Organization **(PLACEHOLDER for link to rubin-dp0 issues repo)**
-| - post about your experiences in the `Data Preview 0 <https://community.lsst.org/c/support/dp0>'_ forum category
-| - communicate directly with the Users Committee **(PLACEHOLDER for link to more UC info)**
-| - participate in calls for user acceptance testing (UAT) **(PLACEHOLDER for link to more UAT info)**
-|   -- work through an “RSP Test Checklist” and fill out a related form **(PLACEHOLDER for link to checklist and form)**
-|   -- test that new Notebooks run and fill out a related form **(PLACEHOLDER for link to notebooks and form)**
 |
-| **Extend or enhance the benefits of DP0 in the science community:**
+| - submit bug reports via GitHub issues in the ``rubin-dp0`` GitHub Organization **(PLACEHOLDER for link to rubin-dp0 issues repo)**
+|
+| - post about your experiences in the `Data Preview 0 <https://community.lsst.org/c/support/dp0>`_ forum category
+|
+| - communicate directly with the Users Committee **(PLACEHOLDER for link to more UC info)**
+
+.. | - participate in calls for user acceptance testing (UAT) **(PLACEHOLDER for link to more UAT info)**
+.. |   -- work through an “RSP Test Checklist” and fill out a related form **(PLACEHOLDER for link to checklist and form)**
+.. |   -- test that new Notebooks run and fill out a related form **(PLACEHOLDER for link to notebooks and form)**
+
+
+Extend or enhance the benefits of DP0 in the science community.
+---------------------------------------------------------------
+
 | - join one of the eight `LSST Science Collaborations <https://www.lsstcorporation.org/science-collaborations>`_
+|
 | - participate in the `Rubin Community Forum`_'s DP0-related categories
 |   -- openly ask questions about using the RSP or the DP0 data set
 |   -- respond to delegates requests for assistance when possible
 |   -- "show and tell" your DP0-related work in new topics 
+|
 | - participate in the `DP0 Delegate Assemblies`_ 
 |   -- ask questions, join the breakout discussions
 |   -- volunteer to facilitate a breakout discussion during an assembly
 |   -- volunteer to present the results of your DP0 work in one of the later `DP0 Delegate Assemblies`_
 |   -- propose a long-term group project and run a delegate working group during the breakout hour
+|
 | - contribute resources to the shared **XXXX Repository** **(PLACEHOLDER for a link to the repo)**
 |   -- create a Jupyter Notebook that uses the DC2 data set
 |   -- create a step-by-step Portal demo that uses the DC2 data set
 |   -- create a TAP service instructional tutorial uses the DC2 data set
+|
 | - share your DP0-related work outside of DP0
 |   -- give a seminar about Rubin Observatory and DP0 at your home institution
 |   -- give a tutorial about your RSP/DP0 experience in your Science Collaboration
 |   -- publish a paper on your DP0-related work
   
-
 
 .. _Delegate-Homepage-Getting-Support:
 
