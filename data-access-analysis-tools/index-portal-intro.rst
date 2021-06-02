@@ -24,7 +24,6 @@ Introduction to the RSP Portal Aspect
 Log in to the Portal Aspect by clicking on the "Portal" panel of the main landing page at `data.lsst.cloud`_. 
 
 .. figure:: /_static/portal_default_view.png
-    :width: 400
     :name: portal_default_view
 
     This is the default view upon entering the Portal Aspect.
@@ -61,7 +60,6 @@ Use the leftmost boxes select the columns to be returned by the query.
 Use the funnel icon to only view selected columns. 
 
 .. figure:: /_static/portal_table_view.png
-    :width: 400
     :name: portal_table_view
 
     The table view offers additional query options.
@@ -70,9 +68,9 @@ Some tables have a lot of columns.
 Search for desired columns by entering terms in the boxes underneath "column_name" or "description".
 Additional constraints on column data can be included in the query by specifying them under "constraints".
 Mouse-over to view pop-up boxes with instructions.
-Remove filters and reset the table view at any time using the buttons above the upper right corner of the table.
+Remove filters and reset the table view at any time using the buttons above the upper right corner of the table (not shown in image above).
 
-If desired, convert table view queries to `ADQL Queries` using the "Populate and Edit ADQL" button at lower left.
+If desired, convert table view queries to `ADQL Queries` using the "Populate and Edit ADQL" button at the bottom of the page.
 
 **Search:** Press the search button at lower left when ready to execute.
 
