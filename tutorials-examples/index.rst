@@ -19,17 +19,11 @@ DP0.1 Tutorials and User Guides
 
 .. This section should provide a brief, top-level description of the page.
 
-*Link to delegate 'Get Support' page.*
+These tutorials and user guides are for DP0 delegates using the Rubin Science Platform (RSP) deployed at the Interim Data Facility (IDF), the Google cloud.
+
+Before following these tutorials, delegates should have gotten their :ref:`Delegate-Homepage-RSP-Accounts`, be familiar with this list of :ref:`Data-Access-Analysis-Tools-RSP-Warnings` and :ref:`the basic components of the RSP <Data-Access-Analysis-Tools-RSP>`, and know how and where to :ref:`get support <Getting Support>`. 
 
 *Reminder of citations and references for using other people's notebooks.*
-
-
-.. _Examples-DP0-1-RSP:
-
-Rubin Science Platform User Guides
-==================================
-
-*MLG: include link to our own getting started guide in dp0-1 and also external guides.*
 
 
 .. _Examples-DP0-1-Notebooks:
@@ -37,8 +31,7 @@ Rubin Science Platform User Guides
 Jupyter Notebook Tutorials
 ==========================
 
-*MLG: link to our own description in dp0-1.*
-*MLG: list of CET-produced and Stack-Club derived; indicate level (beginner etc.); include links to executed PDFs and also the repos.*
+The tutorial notebooks in the ``rubin-dp0`` GitHub Organization's `tutorial-notebooks <https://github.com/rubin-dp0/tutorial-notebooks>`_ repository will be available by default in a folder in all user's home directories in the RSP's Notebook Aspect. See that repository's README file for descriptions of the notebooks.
 
 
 .. _Examples-DP0-1-Portal:
