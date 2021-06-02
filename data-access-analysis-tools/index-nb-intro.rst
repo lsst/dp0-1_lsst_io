@@ -69,7 +69,7 @@ In the very left-most vertical sidebar of icons, the top icon is a file folder, 
 How to Use a Jupyter Notebook
 =============================
 
-The best way to learn how to use a Jupyter Notebook is to open a tutorial notebook in the RSP and follow the directions. (GM: THE FIRST-STEP NOTEBOOK DESIGNED FOR THIS PURPOSE IS THE ONE THAT STARTS BY DESCRIBING JUPITER NOTEBOOKS, SPECIFICALLY /notebooks/tutorial-notebooks/01_Intro_to_DP0_Notebooks.ipynb - you can get to it  (GM: BY CLICKING ON THE "FOLDER" ICON, THEN ON THE "notebooks" LINE, AND THEN ONTO THE "tutorial-noteboks" LINE.  THEN, CLICK ON 01_Intro_to_DP0_Notebooks.ipynb LINE.  
+The best way to learn how to use a Jupyter Notebook is to open a tutorial notebook in the RSP and follow the directions. (GM: THE FIRST-STEP NOTEBOOK DESIGNED FOR THIS PURPOSE IS THE ONE THAT STARTS BY DESCRIBING JUPITER NOTEBOOKS, SPECIFICALLY /notebooks/tutorial-notebooks/01_Intro_to_DP0_Notebooks.ipynb - you can get to it  (GM: BY CLICKING ON THE "FOLDER" ICON, THEN ON THE "notebooks" LINE, AND THEN ON THE "tutorial-noteboks" LINE.  THEN, CLICK ON 01_Intro_to_DP0_Notebooks.ipynb LINE.  
 
 .. THE (LINK TO TUTORIALS AND MENTION THE VERY FIRST TUTORIAL). (MAYBE SHOW SCREEN SHOT OF THAT TUTORIAL).
 
