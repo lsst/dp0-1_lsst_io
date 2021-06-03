@@ -106,7 +106,7 @@ A table's "schema" refers to the column names, units, and descriptions of the ta
 One way to view and interact with a table's schema is by using the Portal's "table view" function of the TAP service for single-table queries, as described in the :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
 The five tables in the "dp01_dc2_catalog" (see below) are all available via the Portal, but the "forced_source" table is not.
 All table schema can be viewed and interacted with in a Jupyter Notebook by following the examples in Section 2.2 of the first of the :ref:`Examples-DP0-1-Notebooks`.
-Links to curated versions of the table schema, limited only to columns that will be of most use to most DP0 delegates, are provided in the table below.
+Links to full or curated versions of the table schema, the latter of which are limited only to columns that will be of most use to most DP0 delegates, are provided in the table below.
 
 .. list-table:: Tables available for DP0.1
    :widths: 120 120 350
@@ -122,16 +122,16 @@ Links to curated versions of the table schema, limited only to columns that will
      - Appendix B2 of the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_.
      - The truth-match table for the DESC DC2's object table as described in the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_. Includes the noiseless astrometric and photometric parameters and the best matches to the object table. (30 columns)
    * - position
-     - :ref:`Data-Products-DP0-1-schema_position`
+     - full :ref:`Data-Products-DP0-1-schema_position`
      - Select astrometry-related parameters for objects detected in the coadded images, such as coordinates, footprints, patch/tract information, and deblending parameters. (29 columns)
    * - reference
-     - 
+     - curated :ref:`Data-Products-DP0-1-schema_reference`
      - Measurements for objects detected in the coadded images, including photometry, astrometry, shape, deblending, model fits, and related background and flag parameters. This table joined with the position table is very similar to the object table, but with additional columns. (236 columns)
    * - forced_photometry
-     - 
+     - curated :ref:`Data-Products-DP0-1-schema_forced_photometry`
      - Forced photometry measurements for objects detected in the coadded images, at the locations defined by the position table. (747 columns)
    * - fourced_source
-     - 
+     - curated :ref:`Data-Products-DP0-1-schema_forced_source`
      - *(Forced sources in the processed visit images.)* **Only available via the Notebook Aspect**. |
 
 *(MLG: add curated table schema.)*
