@@ -1,5 +1,9 @@
 .. _Data-Products-DP0-1-schema_position: 
   
+##################################### 
+Schema for dp01_dc2_catalogs.position 
+##################################### 
+  
 .. list-table:: Schema for dp01_dc2_catalogs.position 
    :header-rows: 1 
   
