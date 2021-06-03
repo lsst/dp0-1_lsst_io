@@ -101,7 +101,7 @@ Source detection, measurement, and characterization have been run on both the PV
 A table's "schema" refers to the column names, units, and descriptions of the tabulated data.
 One way to view and interact with a table's schema is by using the Portal's "table view" function of the TAP service for single-table queries, as described in the :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
 The five tables in the "dp01_dc2_catalog" (see below) are all available via the Portal, but the "forced_source" table is not.
-All table schema can be viewed and interacted with in a Jupyter Notebook by following the examples in Section 2.2 of the first of the `Examples-DP0-1-Notebooks`.
+All table schema can be viewed and interacted with in a Jupyter Notebook by following the examples in Section 2.2 of the first of the :ref:`Examples-DP0-1-Notebooks`.
 Links to curated versions of the table schema, limited only to columns that will be of most use to most DP0 delegates, are provided in the table below.
 
 .. list-table:: Tables available for DP0.1
