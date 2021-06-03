@@ -118,7 +118,7 @@ Links to curated versions of the table schema, limited only to columns that will
      - Appendix B2 of the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_.
      - The truth-match table for the DESC DC2's object table as described in the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_. Includes the noiseless astrometric and photometric parameters and the best matches to the object table. (30 columns)
    * - position
-     - 
+     - :ref:`Data-Products-DP0-1-schema_position`
      - Select astrometry-related parameters for objects detected in the coadded images, such as coordinates, footprints, patch/tract information, and deblending parameters. (29 columns)
    * - reference
      - 
