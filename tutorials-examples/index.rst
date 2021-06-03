@@ -39,5 +39,14 @@ The tutorial notebooks in the ``rubin-dp0`` GitHub Organization's `tutorial-note
 Portal Aspect Demonstrations
 ============================
 
-*MLG: link to our own description in dp0-1.*
-*MLG: Make and link to walk-through demos and how-tos.*
+*MLG: link to our own description of how to use the portal.*
+
+Beginner TAP Search
+-------------------
+
+*MLG will create and link to a walk-through demo that matches exactly the first tutorial notebook.*
+
+Advanced Demo
+-------------
+
+*A more advanced Portal demo that demonstrations additional functionality not covered in beginner TAP search demo.*
