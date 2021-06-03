@@ -105,6 +105,7 @@ One way to view and interact with a table's schema is by using the Portal's "tab
 
 
 .. list-table:: Tables available for DP0.1
+   :widths: 150 150 300
    :header-rows: 1
 
    * - Table Name
