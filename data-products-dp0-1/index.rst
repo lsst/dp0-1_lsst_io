@@ -100,38 +100,37 @@ Source detection, measurement, and characterization have been run on both the PV
 **Schema**:
 A table's "schema" refers to the column names, units, and descriptions of the tabulated data.
 One way to view and interact with a table's schema is by using the Portal's "table view" function of the TAP service for single-table queries, as described in the :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
-
-*(MLG: For tables not available in the Portal (the "forced_source" catalog built from PVIs), the table schema can be loaded into a Jupyter Notebook by following [XXXX TUTORIAL HERE XXXX].)*
-
+The five tables in the "dp01_dc2_catalog" (see below) are all available via the Portal, but the "forced_source" table is not.
+All table schema can be viewed and interacted with in a Jupyter Notebook by following the examples in Section 2.2 of the first of the `Examples-DP0-1-Notebooks`.
+Links to curated versions of the table schema, limited only to columns that will be of most use to most DP0 delegates, are provided in the table below.
 
 .. list-table:: Tables available for DP0.1
-   :widths: 100 120 370
+   :widths: 120 120 350
    :header-rows: 1
 
    * - Table Name
      - Schema Link
      - Description
-   * - object
+   * - dp01_dc2_catalogs.object
      - Appendix B1 of the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_.
      - The object table from the DESC DC2 simulated sky survey as described in the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_. Includes astrometric and photometric parameters for objects detected in coadded images. (137 columns)
-   * - truth_match
+   * - dp01_dc2_catalogs.truth_match
      - Appendix B2 of the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_.
      - The truth-match table for the DESC DC2's object table as described in the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_. Includes the noiseless astrometric and photometric parameters and the best matches to the object table. (30 columns)
-   * - position
+   * - dp01_dc2_catalogs.position
      - 
      - Select astrometry-related parameters for objects detected in the coadded images, such as coordinates, footprints, patch/tract information, and deblending parameters. (29 columns)
-   * - reference
+   * - dp01_dc2_catalogs.reference
      - 
      - Measurements for objects detected in the coadded images, including photometry, astrometry, shape, deblending, model fits, and related background and flag parameters. This table joined with the position table is very similar to the object table, but with additional columns. (236 columns)
-   * - forced_photometry
+   * - dp01_dc2_catalogs.forced_photometry
      - 
      - Forced photometry measurements for objects detected in the coadded images, at the locations defined by the position table. (747 columns)
-   * - fourced_source
+   * - desc_dc2_run12p_v4e.fourced_source
      - 
      - *(Forced sources in the processed visit images.)* **Only available via the Notebook Aspect**. |
 
-*(MLG: are there more tables?)*
-
+*(MLG: add curated table schema.)*
 
 
 .. _DP0-1-Data-Products-Visualization:
