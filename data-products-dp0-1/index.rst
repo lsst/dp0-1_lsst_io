@@ -95,12 +95,23 @@ The first of the :ref:`Examples-DP0-1-Notebooks` demonstrates how to identify th
 Catalogs
 --------
 
-| *MLG Notes:*
-| - *Overview of the three catalogs from the data processing, position, ref, and forced source.*
-| - *Link to full schema and a curated list of useful columns for each catalog, DPDD-style.*
-| - *Overview of the two catalogs also from the DESC DC2 Data Release: Object and Truth-Match.*
-| - *Link to full schema for each catalog, DPDD-style, like in the release note (or just point to release note's appendices).*
+Source detection, measurement, and characterization have been run on both the PVIs and coadds to generate catalog data for DP0.1 (see also :ref:`Data-Processing-Coadded-Catalogs`). 
 
+**Schema**:
+A table's "schema" refers to the column names, units, and descriptions of the tabulated data.
+One way to view and interact with a table's schema is by using the Portal's "table view" function of the TAP service for single-table queries, as described in the :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
+
+*(MLG: For tables not available in the Portal (the "forced_source" catalog built from PVIs), the table schema can be loaded into a Jupyter Notebook by following [XXXX TUTORIAL HERE XXXX].)*
+
+| Table Name | Schema Link | Description |
+| ---- | ---- | ---- |
+| object | Appendix B1 of the `DESC DC2 Release Note <DESC DC2 Data Release Note>`_. | The object table from the DESC DC2 simulated sky survey as described in the `DESC DC2 Release Note <DESC DC2 Data Release Note>`_. Includes astrometric and photometric parameters for objects detected in coadded images. (137 columns) |
+| truth_match | Appendix B2 of the `DESC DC2 Release Note <DESC DC2 Data Release Note>`_. | The truth-match table for the DESC DC2's object table as described in the `DESC DC2 Release Note <DESC DC2 Data Release Note>`_. Includes the noiseless astrometric and photometric parameters and the best matches to the object table. (30 columns) |
+| position | | Select astrometry-related parameters for objects detected in the coadded images, such as coordinates, footprints, patch/tract information, and deblending parameters. (29 columns) |
+| reference | | Measurements for objects detected in the coadded images, including photometry, astrometry, shape, deblending, model fits, and related background and flag parameters. This table joined with the position table is very similar to the object table, but with additional columns. (236 columns)|
+| forced_photometry | | Forced photometry measurements for objects detected in the coadded images, at the locations defined by the position table. (747 columns) | fourced_source | | *(Forced sources in the processed visit images.)* **Only available via the Notebook Aspect**. |
+
+*(MLG: are there more tables?)*
 
 
 
