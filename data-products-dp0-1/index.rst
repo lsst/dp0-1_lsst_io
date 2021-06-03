@@ -50,8 +50,12 @@ For DP0.2, the Rubin Data Production team will reprocess the same images with th
 DP0.1 Data Products Definition Document (DPDD)
 ==============================================
 
-Future data previews and Operations-era data releases will produce images and catalogs that more closely resemble the plan laid out in the Data Products Definitions Document (DPDD; `ls.st/dpdd <https://ls.st/dpdd/>`_).
+**Disclaimer: The DC2 data set is being made available for use on a shared-risk basis.**
+**The LSST Science Pipelines which produced these images and catalogs is in active development.**
+**The data contents, formats, and related documentation are all incomplete.**
 
+Future data previews and Operations-era data releases will produce images and catalogs that more closely resemble the plan laid out in the Data Products Definitions Document (DPDD; `ls.st/dpdd <https://ls.st/dpdd/>`_).
+It is important to note that **many of the future data products listed in the DPDD, and in particular all of the Prompt Products such as difference images and alerts, are not available for DP0.**
 
 .. _DP0-1-Data-Products-DPDD-Images:
 
