@@ -64,16 +64,19 @@ For DP0.1 the DC2 data set has only two types of images: coadds and processed vi
 A fully-qualified LSST image from a single visit (in other words, a single pointing) that includes the science pixel array and a quality mask and a variance array, in addition to a PSF characterization and metadata (including calibration metadata) about the image.
 PVIs are stored with the background already subtracted.
 A single CCD of a PVI is called a ``calexp``. 
+For more information about how PVI are created see :ref:`Data-Processing-Single-Image-Processing`.
 
-*(MLG: point reader to the tutorial which retrieves and displays a PVI/calexp.)*
+*(MLG: add more information about PVI metadata.)*
+
+*(MLG: point reader to the tutorial which retrieves and displays a PVI/calexp, with metadata for the overlay.)*
 
 **Coadd Images**: 
 An image that is the combination of multiple input images, often referred to as just a ``coadd`` or a ``deep coadd``.
-The inputs are aligned to a common projection and pixel grid, corrected to the same photometric scale and zero-point, with bad pixels and artifacts rejected.
-Coadds have had non-astrophysical background removed.
-(Image PSFs may also be matched prior to co-addition.)
+The input images have been aligned to a common projection and pixel grid; corrected to the same photometric scale, zero-point, and point-spread function (PSF); and had bad pixels, artifacts, and transient and variable object flux removed prior to combination.
+Coadds are stored with the non-astrophysical background already subtracted.
+For more information about how PVI are created see :ref:`Data-Processing-Coadded-Image-Processing`.
 
-*(MLG: find out of these coadds were PSF-matched).*
+*(MLG: add more information about coadd metadata.)*
 
 Coadd images are divided into ``tracts`` (a spherical convex polygon) and tracts are diveded into ``patches`` (a quadrilateral sub-region, with a size in pixels chosen to fit easily into memory on desktop computers, about the same size as a ``calexp``).
 
@@ -82,7 +85,9 @@ Coadd images are divided into ``tracts`` (a spherical convex polygon) and tracts
     
     Figure 15 from `The LSST DESC DC2 Simulated Sky Survey <https://ui.adsabs.harvard.edu/abs/2021ApJS..253...31L/abstract>`_, showing the simulated WFD region divided into tracts. The center image is one tract quadrant, and the right image one hundredth the area of the tract quadrant. Patches are larger than the right image, as described in the DESC's paper: *"each tract is composed of 7x7 patches, and each patch is 4100 × 4100 pixels with a pixel scale of 0.2 arcsec"*. 
 
-The first :ref:`Examples-DP0-1-Notebooks` demonstrates how to identify the tract and patch for a given coordinate, and retrieve and plot a coadd image.
+The first of the :ref:`Examples-DP0-1-Notebooks` demonstrates how to identify the tract and patch for a given coordinate, and retrieve and plot a coadd image.
+
+*(MLG: point reader to another tutorial which retrieves and displays coadds with metadata for the overlay.)*
 
 
 .. _DP0-1-Data-Products-DPDD-Catalogs:
