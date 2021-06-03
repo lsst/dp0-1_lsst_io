@@ -54,9 +54,13 @@ During DP0, the Rubin Science Platform (RSP) provides access to Rubin Observator
 Notebook Aspect
 ---------------
 
-The Notebook Aspect of the RSP provides an environment from which users can access and manipulate Rubin data products on the same machines where those data products reside (i.e., "next-to-the-data" -- no downloading of data to your local machine). In particular, the Notebook Aspect offers Python-based access to DP0.1 data products via a custom implementation of web-based JupyterLab Notebooks (`JupyterLab documentation <https://jupyterlab.readthedocs.io/en/stable/index.html>`_). A file browser and a terminal command-line interface are also available within the JupyterLab environment. 
+The Notebook Aspect of the RSP provides an environment from which users can access and manipulate Rubin data products on the same machines where those data products reside (i.e., "next-to-the-data" -- no downloading of data to your local machine).
+In particular, the Notebook Aspect offers Python-based access to DP0.1 data products via a custom implementation of web-based JupyterLab Notebooks (`JupyterLab documentation <https://jupyterlab.readthedocs.io/en/stable/index.html>`_).
+A file browser and a terminal command-line interface are also available within the JupyterLab environment. 
 
-Within the RSP Notebook Aspect, users can query DP0.1 data sets, subset and retrieve catalogs, manipulate and display images, calculate derived properties, plot results, :ref:`reprocess the data<Data-Access-Analysis-Tools-Data-Processing>`, and most other analyses you can imagine performing with Python on astronomical images and catalogs. A stable software environment is provided and maintained for users, which includes many commonly-used packages and the :ref:`LSST Science Pipelines<Tools-LSST-Science-Pipelines>`. For DP0, this environment will only support Python 3. For DP0.1, images can only be accessed via the Notebook Aspect, and not the Portal.
+Within the RSP Notebook Aspect, users can query DP0.1 data sets, subset and retrieve catalogs, manipulate and display images, calculate derived properties, plot results, reprocess the data, and most other analyses you can imagine performing with Python on astronomical images and catalogs.
+A stable software environment is provided and maintained for users, which includes many commonly-used packages and the :ref:`LSST Science Pipelines<Tools-LSST-Science-Pipelines>`.
+For DP0, this environment will only support Python 3. For DP0.1, images can only be accessed via the Notebook Aspect, and not the Portal.
 
 .. toctree::
     :maxdepth: 2
@@ -70,12 +74,15 @@ Within the RSP Notebook Aspect, users can query DP0.1 data sets, subset and retr
 Portal Aspect
 -------------
 
-This section includes information on using the portal for the RSP.
+The Portal Aspect of the RSP provides an environment for data discovery, query, filtering, and visualization.
+During DP0.1, only catalog data will be accessible via the Portal (not images), and in particular only catalog data generated from the coadded images, and not the single-visit images, which means there is no time-domain data accessible via the Portal during DP0.1). 
+Note that the Portal Aspect has not been under active development recently and it is expected to evolve significantly before the first LSST annual data release.
 
-*(MLG Note: For the Portal Aspect, only catalog queries will be available. Note that the Portal Aspect has not been under active development recently and it is expected to evolve significantly before the first LSST annual data release (DR1).)*
+.. toctree::
+    :maxdepth: 2
+    :glob:
 
-See this page for a :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
-
+    index-portal-intro
 
 
 .. _Data-Access-Analysis-Tools-TAP:
