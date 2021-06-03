@@ -68,7 +68,7 @@ A single CCD of a PVI is called a ``calexp``.
 *(MLG: point reader to the tutorial which retrieves and displays a PVI/calexp.)*
 
 **Coadd Images**: 
-An image that is the combination of multiple input images, often referred to as just a ``coadd`` or ``deep coadd``.
+An image that is the combination of multiple input images, often referred to as just a ``coadd`` or a ``deep coadd``.
 The inputs are aligned to a common projection and pixel grid, corrected to the same photometric scale and zero-point, with bad pixels and artifacts rejected.
 Coadds have had non-astrophysical background removed.
 (Image PSFs may also be matched prior to co-addition.)
@@ -80,7 +80,7 @@ Coadd images are divided into ``tracts`` (a spherical convex polygon) and tracts
 .. figure:: /_static/dpdd_dc2_zoom.png
     :name: dpdd_dc2_zoom
     
-    Figure 15 from `The LSST DESC DC2 Simulated Sky Survey <https://ui.adsabs.harvard.edu/abs/2021ApJS..253...31L/abstract>`_, showing the simulated WFD region divided into tracts. The center image one tract quadrant, and the right image one hundredth the area of the tract quadrant. Patches are larger than the right image, as described in the DESC's paper: *"each tract is composed of 7x7 patches, and each patch is 4100 × 4100 pixels with a pixel scale of 0.2 arcsec"*. 
+    Figure 15 from `The LSST DESC DC2 Simulated Sky Survey <https://ui.adsabs.harvard.edu/abs/2021ApJS..253...31L/abstract>`_, showing the simulated WFD region divided into tracts. The center image is one tract quadrant, and the right image one hundredth the area of the tract quadrant. Patches are larger than the right image, as described in the DESC's paper: *"each tract is composed of 7x7 patches, and each patch is 4100 × 4100 pixels with a pixel scale of 0.2 arcsec"*. 
 
 The first :ref:`Examples-DP0-1-Notebooks` demonstrates how to identify the tract and patch for a given coordinate, and retrieve and plot a coadd image.
 
