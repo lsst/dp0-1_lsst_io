@@ -1,4 +1,5 @@
 .. _Data-Products-DP0-1-schema_position: 
+  
 .. list-table:: Schema for dp01_dc2_catalogs.position 
    :header-rows: 1 
   
@@ -7,11 +8,11 @@
      - Data Type 
      - Description 
    * - coord_ra 
-     -  
+     - rad 
      - double 
      - RA-coordinate 
    * - coord_dec 
-     -  
+     - rad 
      - double 
      - Decl-coordinate 
    * - extinction_bv 
