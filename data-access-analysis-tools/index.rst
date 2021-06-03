@@ -46,7 +46,7 @@ During DP0, the Rubin Science Platform (RSP) provides access to Rubin Observator
 .. figure:: /_static/RSP_home.png
     :name: RSP_home
 
-    Landing page of `data.lsst.cloud <https://data.lsst.cloud/>`_. The Notebook and Portal Aspects can be accessed by clicking on their respective icons on this dashboard. The API aspect is not availble during DP0.1.
+    Above is shown the landing page of `data.lsst.cloud <https://data.lsst.cloud/>`_. The Notebook and Portal Aspects can be accessed by clicking on their respective icons on this dashboard. The API aspect is not availble during DP0.1.
    
 
 .. _Tools-RSP-Notebook:

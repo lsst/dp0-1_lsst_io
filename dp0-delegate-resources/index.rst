@@ -96,7 +96,7 @@ All delegates should please attend one of these identical sessions. One of them 
 DP0 Delegate Assemblies
 =======================
 
-Virtual meetings that occur biweekly on Fridays from 9am to 11am Pacific time (alternating with `Stack Club`_) for DP0 delegates from North and South America and Europe, plus a `Third Thursday Office Hour`_ for live interaction for DP0 delegates from timezones in Australia and Asia.
+Virtual meetings that occur biweekly on Fridays from 9am to 11am Pacific time (alternating with `Stack Club`_) for DP0 delegates from North and South America and Europe, plus a `Third Thursday Office Hour`_ for live interaction for DP0 delegates from timezones in Australia and Asia (but all are welcome to attend this session).
 
 **Connection Info:**  **(PLACEHOLDER for a link to connection info)**
 
@@ -121,7 +121,7 @@ Assemblies Schedule
 Third Thursday Office Hour
 --------------------------
 
-A DP0 office hour for the Australia and Asia timezones on the third Thursday of every month at 8am Tokyo / 9am Sydney (e.g., Wed 4pm in US Pacific Daylight Time). This will be open time for DP0 delegates to drop in, discuss their DP0-related activities with Rubin staff and with each other, and get support if needed.
+A DP0 office hour aimed to be "time-zone - friendly" for the Australia and Asia - based delegates will be on the third Thursday of every month at 8am Tokyo / 9am Sydney (e.g., Wed 4pm in US Pacific Daylight Time). This will be open time for DP0 delegates to drop in, discuss their DP0-related activities with Rubin staff and with each other, and get support if needed.
 
 **Connection Info:** **(PLACEHOLDER for a link to connection info)**
 
@@ -143,7 +143,7 @@ Stack Club
 
 `Stack Club <https://github.com/LSSTScienceCollaborations/StackClub>`_ is a group of LSST Science Collaboration members committed to learning how to use the Rubin Observatory LSST Science Pipelines (colloquially called "the Stack"). The idea is that the best way to learn something is to try and teach it, and so they work collectively on creating useful tutorials featuring the Stack. Many of the `DP0 Delegate Assemblies`_ presentations will be based on tutorials developed by the Stack Club. On alternating Fridays, Stack Club meets for an open hack session. Stack Club members use the NCSA implementation of the RSP, where they also have access to the DC2 data set.
 
-DP0 delegates are welcome to join one or more `Science Collaborations <https://www.lsstcorporation.org/science-collaborations>`_ and to join the Friday Stack Club Zoom sessions. (DP0 delegates do not need to formally join Stack Club unless they want to contribute to Stack Club tutorial notebooks). Stack Club meetings start with a roundtable of what people want to do or learn that day, and then work proceeds as people stay connected via Zoom, with the occasional question or discussion happening. Sometimes breakout rooms are used to discuss emergent topics. Often times Rubin Data Management staff join to provide support.
+DP0 delegates are welcome to join one or more `Science Collaborations <https://www.lsstcorporation.org/science-collaborations>`_ and to join the Friday Stack Club Zoom sessions. (DP0 delegates do not need to formally join Stack Club unless they want to contribute to Stack Club tutorial notebooks). Stack Club meetings start with a roundtable of what people want to do or learn that day, and then work proceeds as people stay connected via Zoom, with the occasional question or discussion happening. Sometimes breakout rooms are used to discuss emergent topics. Often times Rubin Data Management staff join to provide support.  (NOTE WE NEED TO MENTION THAT THE DELEGATES WILL NOT AUTOMATICALLY GET AN NCSA ACCT BUT THEY CAN STILL LISTEN-IN AND WORK ON THEIR OWN NOTEBOOKS AT THE IDF.) 
 
 **Connection Info:** **(PLACEHOLDER for a link to connection info)**
 
@@ -161,7 +161,7 @@ Guidelines and Expectations
 
 **Choose a delegate activity.** Delegates are invited to take on an activity that helps to maximize the impact of DP0 with respect to the DP0 goals of testing and informing development of the RSP and preparing the scientific community to do LSST science. See `Suggested Delegate Activities`_. 
 
-**Interact with your co-delegates.** Participate in the `Rubin Community Forum`_ and join the biweekly `DP0 Delegate Assemblies`_ as often as you can.
+**Interact with your co-delegates.** Participate in the `Rubin Community Forum`_ and join the biweekly `DP0 Delegate Assemblies`_ as often as you can.  (SUGGESTED TEXT: ALL ASSEMBLIES WILL BE ATTENDED BY THE COMMUNITY ENGAGEMENT TEAM MEMBER, WHO MIGHT BE ABE TO FACILITATE CO-WORKING WITH OTHER DELEGATES IN A BREAKOUT ROOM.). 
 
 **Use your RSP account!** As there are a limited number of RSP accounts for DP0, please try to make some use of your account and learn to use at least one aspect of the RSP. There is no minimum time that you're expected to spend on DP0. If you find that you are done with DP0, consider relinquishing your account so it can be offered to someone else.
 
@@ -221,6 +221,7 @@ Extend or enhance the benefits of DP0 in the science community.
 |   -- give a tutorial about your RSP/DP0 experience in your Science Collaboration
 |   -- publish a paper on your DP0-related work
   
+(COMMENT BY GM:  SHOULD WE ENCOURAGE THE DELEGATES TO SIGN UP AND PARTICIPATE IN THE PCW?)
 
 .. _Delegate-Homepage-Getting-Support:
 
