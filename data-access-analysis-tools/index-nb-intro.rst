@@ -124,7 +124,7 @@ Full `Butler documentation <https://pipelines.lsst.io/modules/lsst.daf.butler/in
 **Where to get support with using DP0 Notebooks.**
 Keep in mind that if you are not experienced at accessing data via Jupyter notebooks, or using a Science Platform more generally, you are not alone!
 Most of the DP0 delegates are new to this environment, and all of your questions and feedback will help us improve both the documentation and the tools.
-The :ref:`DP0-Delegate-Resources-DP0-Delegate-Homepage` provides information about the biweekly :ref:`Delegate-Homepage-DP0-Delegate-Assemblies` which will feature live tutorials and question-and-answer time, and about :ref:`Delegate-Homepage-Getting-Support` at any time via the `Rubin Observatory Community forum <https://community.lsst.org/>`_. 
+The `DP0 Delegate Homepage` provides information about the biweekly :ref:`Delegate-Homepage-DP0-Delegate-Assemblies` which will feature live tutorials and question-and-answer time, and about :ref:`Delegate-Homepage-Getting-Support` at any time via the `Rubin Observatory Community forum <https://community.lsst.org/>`_. 
 
 
 .. _NB-Intro-Other_Docs:
