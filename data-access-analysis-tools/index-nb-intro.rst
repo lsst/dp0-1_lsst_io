@@ -86,7 +86,7 @@ To safely shut down a JupyterLab server and log out of the RSP, choose Save all,
 How to Use a Jupyter Notebook
 =============================
 
-The best way to learn how to use a Jupyter Notebook is to open the first of the tutorial notebooks which are provided in all users' home directories, and also available in the `tutorial-notebooks <https://github.com/rubin-dp0/tutorial-notebooks>` repository in the ``rubin-dp0`` GitHub Organization (see also :ref:`Examples-DP0-1-Notebooks`). 
+The best way to learn how to use a Jupyter Notebook is to open the first of the tutorial notebooks which are provided in all users' home directories, and also available in the `tutorial-notebooks <https://github.com/rubin-dp0/tutorial-notebooks>`_ repository in the ``rubin-dp0`` GitHub Organization (see also :ref:`Examples-DP0-1-Notebooks`). 
 
 **Executing code in a Notebook:**
 Jupyter notebooks provide "cells" within which you type either Python code or markdown language (for formatted text).
@@ -107,19 +107,19 @@ Many standard Python libraries and modules will be available, and users can inst
 In DP0.1, the Notebook Aspect will not offer access to queries from the :ref:`Tools-RSP-Portal`. 
 
 **Is all the code in Python?**
-Yes: only Python kernels are supported for DP0.1.
-To access DP0.1 data from the Notebook Aspect, users will need to use Python commands and code
-Much of the LSST Science Pipelines code is in Python, and the DP0 :ref:`Examples-DP0-1-Notebooks' use Python as well.
+Yes, the RSP Notebook Aspect will only have python environments for DP0.
+To access DP0.1 data from the Notebook Aspect, users will need to use Python commands and code.
+Much of the LSST Science Pipelines code is in Python, and the DP0 :ref:`Examples-DP0-1-Notebooks` use Python as well.
 These tutorials contain executable examples of the commands required to access and analyze data.
 All DP0 delegates should feel free to copy and paste from the provided tutorials.
 Anyone new to Python and looking to learn more might benefit from this `Python for Beginners <https://www.python.org/about/gettingstarted>`_ website (which includes links to tutorial in a variety of languages).
-Simple web searches for "python *thing you want to do*" are usually pretty successful too. 
+Web searches for "python *(thing you want to do)*" are usually pretty successful too. 
 
 **What is the Butler?**
 The Butler is a middleware component of the Data Management System (DMS) for persisting and retrieving image datasets.
 The only way to access DP0.1 images is via the Butler from a Jupyter Notebook.
 The third generation "Gen3" Butler is the version being used for DP0.1.
-Full `Butler documentation <https://pipelines.lsst.io/modules/lsst.daf.butler/index.html>`_ is available, and one of the :ref:`Examples-DP0-1-Notebooks' focuses on Butler use as well. 
+Full `Butler documentation <https://pipelines.lsst.io/modules/lsst.daf.butler/index.html>`_ is available, and one of the :ref:`Examples-DP0-1-Notebooks` focuses on Butler use as well. 
 
 **Where to get support with using DP0 Notebooks.**
 Keep in mind that if you are not experienced at accessing data via Jupyter notebooks, or using a Science Platform more generally, you are not alone!
