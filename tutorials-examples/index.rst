@@ -39,14 +39,15 @@ The tutorial notebooks in the ``rubin-dp0`` GitHub Organization's `tutorial-note
 Portal Aspect Demonstrations
 ============================
 
-*MLG: link to our own description of how to use the portal.*
+An overview of the RSP Portal functionality is provided in this :ref:`Data-Access-Analysis-Tools-Portal-Intro`. 
+Below are two step-by-step demonstrations of how to use the Portal for science investigations.
 
 Beginner TAP Search
 -------------------
 
-*MLG will create and link to a walk-through demo that matches exactly the first tutorial notebook.*
+*MLG will create and link to a walk-through demo that matches exactly the first tutorial notebook, which does a query, some filtering, and makes a CMD.*
 
 Advanced Demo
 -------------
 
-*A more advanced Portal demo that demonstrations additional functionality not covered in beginner TAP search demo.*
+*(MLG: A more advanced Portal demo that demonstrations additional functionality not covered in beginner TAP search demo.)*
