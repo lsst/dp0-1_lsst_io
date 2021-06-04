@@ -63,6 +63,7 @@ Images
 ------
 
 For DP0.1 the DC2 data set has only two types of images: coadds and processed visit images.
+For DP0.1, images are only accessible with the Butler via the Notebook Aspect.
 
 **Processed Visit Images** (PVIs):
 A fully-qualified LSST image from a single visit (in other words, a single pointing) that includes the science pixel array and a quality mask and a variance array, in addition to a PSF characterization and metadata (including calibration metadata) about the image.
@@ -100,15 +101,17 @@ Catalogs
 --------
 
 Source detection, measurement, and characterization have been run on both the PVIs and coadds to generate catalog data for DP0.1 (see also :ref:`Data-Processing-Coadded-Catalogs`). 
+Catalog data are accessible with the :ref:`Data-Access-Analysis-Tools-TAP` via the Portal or Notebook Aspect, and with the Butler via the Notebook Aspect.
+For DP0.1, the TAP and Butler table data are not named or organized the same way, so here we distinguish between the TAP and Butler catalog data products.
 
 **Schema**:
 A table's "schema" refers to the column names, units, and descriptions of the tabulated data.
-One way to view and interact with a table's schema is by using the Portal's "table view" function of the TAP service for single-table queries, as described in the :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
-The five tables in the "dp01_dc2_catalog" (see below) are all available via the Portal, but the "forced_source" table is not.
-All table schema can be viewed and interacted with in a Jupyter Notebook by following the examples in Section 2.2 of the first of the :ref:`Examples-DP0-1-Notebooks`.
-Links to full or curated versions of the table schema, the latter of which are limited only to columns that will be of most use to most DP0 delegates, are provided in the table below.
+For TAP-accessible tables, one way to view and interact with a table's schema is by using the Portal's "table view" function of the TAP service for single-table queries, as described in the :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
+Of the six TAP-accessible tables, five are generated from coadded images and are available via both the Portal and Notebook Aspects, whereas the "forcedsource" table generated from PVIs is only available via the Notebook Aspect.
+Schema for all six TAP-accessible tables can be viewed and interacted with in a Jupyter Notebook by following the examples in Section 2.2 of the first of the :ref:`Examples-DP0-1-Notebooks`.
+Links to full or curated versions of the table schema (curated meaning limited to columns that will be of most use to most DP0 delegates) are provided in the tables below.
 
-.. list-table:: Tables available for DP0.1
+.. list-table:: TAP-accessible tables available for DP0.1.
    :widths: 120 120 350
    :header-rows: 1
 
@@ -132,9 +135,23 @@ Links to full or curated versions of the table schema, the latter of which are l
      - Forced photometry measurements for objects detected in the coadded images, at the locations defined by the position table. (747 columns)
    * - forcedsource
      - :ref:`curated schema <Data-Products-DP0-1-schema_forced_source>`
-     - *(Forced sources in the processed visit images.)* **Only available via TAP in the Notebook Aspect**. |
+     - *(Forced sources in the processed visit images.)* **Only available via TAP in the Notebook Aspect**.
 
-*(MLG: add curated table schema.)*
+
+.. list-table:: Butler-accessible tables available for DP0.1.
+   :widths: 120 120 350
+   :header-rows: 1
+
+   * - Table Name
+     - Schema Link
+     - Description
+   * - src
+     - TBD
+     - TBD
+   * - deepCoadd_forced_src?
+     - TBD
+     - TBD
+
 
 
 .. _DP0-1-Data-Products-Visualization:
