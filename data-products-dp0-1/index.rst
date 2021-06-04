@@ -104,18 +104,20 @@ Source detection, measurement, and characterization have been run on both the PV
 Catalog data are accessible with the :ref:`Data-Access-Analysis-Tools-TAP` via the Portal or Notebook Aspect, and with the Butler via the Notebook Aspect.
 For DP0.1, the TAP and Butler table data are not named or organized the same way, so here we distinguish between the TAP and Butler catalog data products.
 
-**Schema**:
+**Schema:** 
 A table's "schema" refers to the column names, units, and descriptions of the tabulated data.
-For TAP-accessible tables, one way to view and interact with a table's schema is by using the Portal's "table view" function of the TAP service for single-table queries, as described in the :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
-Of the six TAP-accessible tables, five are generated from coadded images and are available via both the Portal and Notebook Aspects, whereas the "forcedsource" table generated from PVIs is only available via the Notebook Aspect.
-Schema for all six TAP-accessible tables can be viewed and interacted with in a Jupyter Notebook by following the examples in Section 2.2 of the first of the :ref:`Examples-DP0-1-Notebooks`.
 Links to full or curated versions of the table schema (curated meaning limited to columns that will be of most use to most DP0 delegates) are provided in the tables below.
+
+**TAP Catalogs**:
+Of the six TAP-accessible catalogs in the table below, the first five are generated from coadded images and are available via both the Portal and Notebook Aspects, whereas the "forcedsource" table generated from PVIs is only available via the Notebook Aspect.
+For Portal-accessible TAP catalogs, one way to view and interact with the schema is by using the Portal's "table view" in the TAP service for single-table queries, as described in the :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
+Schema for all six TAP-accessible catalogs can be viewed and interacted with in a Jupyter Notebook by following the examples in Section 2.2 of the first of the :ref:`Examples-DP0-1-Notebooks`.
 
 .. list-table:: TAP-accessible tables available for DP0.1.
    :widths: 120 120 350
    :header-rows: 1
 
-   * - Table Name
+   * - Catalog Name
      - Schema Link
      - Description
    * - object
@@ -131,12 +133,19 @@ Links to full or curated versions of the table schema (curated meaning limited t
      - :ref:`curated schema <Data-Products-DP0-1-schema_reference>` **(NOT DONE)**
      - Measurements for objects detected in the coadded images, including photometry, astrometry, shape, deblending, model fits, and related background and flag parameters. This table joined with the position table is very similar to the object table, but with additional columns. (236 columns)
    * - forced_photometry
-     - :ref:`curated schema <Data-Products-DP0-1-schema_forced_photometry>`**(NOT DONE)**
+     - :ref:`curated schema <Data-Products-DP0-1-schema_forced_photometry>` **(NOT DONE)**
      - Forced photometry measurements for objects detected in the coadded images, at the locations defined by the position table. (747 columns)
    * - forcedsource
-     - :ref:`curated schema <Data-Products-DP0-1-schema_forced_source>`**(NOT DONE)**
+     - :ref:`curated schema <Data-Products-DP0-1-schema_forced_source>` **(NOT DONE)**
      - *(Forced sources in the processed visit images.)* **Only available via TAP in the Notebook Aspect**.
 
+**Butler Catalogs**:
+
+*(MLG: General description of the catalogs and the general order in which they're created; interdependencies.)*
+
+*(MLG: These two tutorials provide a nice overview of how the tables are made and how they can be used: https://pipelines.lsst.io/getting-started/photometry.html, https://pipelines.lsst.io/getting-started/multiband-analysis.html.)*
+
+*(MLG: cite which tutorial notebook is best for follow-up, Intro to Butler.)*
 
 .. list-table:: Butler-accessible tables available for DP0.1.
    :widths: 120 120 350
