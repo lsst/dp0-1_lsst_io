@@ -153,6 +153,8 @@ The Butler catalogs are listed in the approximate order that a processing workfl
 
 *(MLG: cite which tutorial notebook is best for follow-up on Butler-accesible catalogs, e.g., Intro to Butler.)*
 
+*(MLG: the phrasings below say "typically based on"; get confirmation of how they were made.)*
+
 .. list-table:: Butler-accessible tables available for DP0.1.
    :widths: 120 120 350
    :header-rows: 1
