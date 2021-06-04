@@ -128,13 +128,13 @@ Links to full or curated versions of the table schema (curated meaning limited t
      - :ref:`full schema <Data-Products-DP0-1-schema_position>`
      - Select astrometry-related parameters for objects detected in the coadded images, such as coordinates, footprints, patch/tract information, and deblending parameters. (29 columns)
    * - reference
-     - :ref:`curated schema <Data-Products-DP0-1-schema_reference>`
+     - :ref:`curated schema <Data-Products-DP0-1-schema_reference>` **(NOT DONE)**
      - Measurements for objects detected in the coadded images, including photometry, astrometry, shape, deblending, model fits, and related background and flag parameters. This table joined with the position table is very similar to the object table, but with additional columns. (236 columns)
    * - forced_photometry
-     - :ref:`curated schema <Data-Products-DP0-1-schema_forced_photometry>`
+     - :ref:`curated schema <Data-Products-DP0-1-schema_forced_photometry>`**(NOT DONE)**
      - Forced photometry measurements for objects detected in the coadded images, at the locations defined by the position table. (747 columns)
    * - forcedsource
-     - :ref:`curated schema <Data-Products-DP0-1-schema_forced_source>`
+     - :ref:`curated schema <Data-Products-DP0-1-schema_forced_source>`**(NOT DONE)**
      - *(Forced sources in the processed visit images.)* **Only available via TAP in the Notebook Aspect**.
 
 
@@ -145,10 +145,22 @@ Links to full or curated versions of the table schema (curated meaning limited t
    * - Table Name
      - Schema Link
      - Description
-   * - src
+   * - src (icSrc?)
      - TBD
      - TBD
-   * - deepCoadd_forced_src?
+   * - deepCoadd_ref
+     - TBD
+     - TBD
+   * - deepCoadd_det
+     - TBD
+     - TBD
+   * - deepCoadd_meas
+     - TBD
+     - TBD
+   * - deepCoadd_deblendedFlux
+     - TBD
+     - TBD
+   * - deepCoadd_forced_src
      - TBD
      - TBD
 
