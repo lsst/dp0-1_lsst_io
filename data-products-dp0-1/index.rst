@@ -103,6 +103,7 @@ Catalogs
 Source detection, measurement, and characterization have been run on both the PVIs and coadds to generate catalog data for DP0.1 (see also :ref:`Data-Processing-Coadded-Catalogs`). 
 Catalog data are accessible with the :ref:`Data-Access-Analysis-Tools-TAP` via the Portal or Notebook Aspect, and with the Butler via the Notebook Aspect.
 For DP0.1, the TAP and Butler table data are not named or organized the same way, so here we distinguish between the TAP and Butler catalog data products.
+**The recommended catalog interface for DP0.1 is the TAP service.**
 
 **Schema:** 
 A table's "schema" refers to the column names, units, and descriptions of the tabulated data.
@@ -139,13 +140,18 @@ Schema for all six TAP-accessible catalogs can be viewed and interacted with in 
      - :ref:`curated schema <Data-Products-DP0-1-schema_forced_source>` **(NOT DONE)**
      - *(Forced sources in the processed visit images.)* **Only available via TAP in the Notebook Aspect**.
 
+| 
+
 **Butler Catalogs**:
+The recommended catalog interface for DP0.1 is the TAP service.
+However, as some DP0.1 participants will likely want to use the Butler to access the catalog data, some information is provided here.
+The Butler catalogs are listed in the approximate order that a processing workflow with the LSST Science Pipelines would generate them.
 
-*(MLG: General description of the catalogs and the general order in which they're created; interdependencies.)*
+| Although the command line syntax and the data repositories used in these two tutorials are not appropriate for DP0.1, these tutorials do provide a nice *conceptual illustration* of how the tables can be made with the LSST Science Pipelines.
+| - https://pipelines.lsst.io/getting-started/photometry.html
+| - https://pipelines.lsst.io/getting-started/multiband-analysis.html
 
-*(MLG: These two tutorials provide a nice overview of how the tables are made and how they can be used: https://pipelines.lsst.io/getting-started/photometry.html, https://pipelines.lsst.io/getting-started/multiband-analysis.html.)*
-
-*(MLG: cite which tutorial notebook is best for follow-up, Intro to Butler.)*
+*(MLG: cite which tutorial notebook is best for follow-up on Butler-accesible catalogs, e.g., Intro to Butler.)*
 
 .. list-table:: Butler-accessible tables available for DP0.1.
    :widths: 120 120 350
@@ -154,24 +160,24 @@ Schema for all six TAP-accessible catalogs can be viewed and interacted with in 
    * - Table Name
      - Schema Link
      - Description
-   * - src (icSrc?)
+   * - src
      - TBD
-     - TBD
-   * - deepCoadd_ref
-     - TBD
-     - TBD
+     - Source detections in a calexp.
    * - deepCoadd_det
      - TBD
+     - Source detections in a deep coadded image. Typically used as input for the merged reference catalog.
+   * - deepCoadd_ref
      - TBD
+     - Merged source detections in deep coadded images across all filters. Typically based on deepCoadd_det and used as input for the deblended and measurements catalog.
    * - deepCoadd_meas
      - TBD
-     - TBD
+     - Measurement parameters for sources in deep coadded images. Typically based on deepCoadd_ref.
    * - deepCoadd_deblendedFlux
      - TBD
-     - TBD
+     - Deblended parent and child parameters for sources in deep coadded images. Typically based on deepCoadd_ref.
    * - deepCoadd_forced_src
      - TBD
-     - TBD
+     - Forced photometry for sources in deep coadded images. Typically based on deepCoadd_ref or on deepCoadd_deblendedFlux.
 
 
 
