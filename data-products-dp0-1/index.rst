@@ -102,7 +102,8 @@ Catalogs
 
 Source detection, measurement, and characterization have been run on both the PVIs and coadds to generate catalog data for DP0.1 (see also :ref:`Data-Processing-Coadded-Catalogs`). 
 Catalog data are accessible with the :ref:`Data-Access-Analysis-Tools-TAP` via the Portal or Notebook Aspect, and with the Butler via the Notebook Aspect.
-For DP0.1, the TAP and Butler table data are not named or organized the same way, so here we distinguish between the TAP and Butler catalog data products.
+Although this will not be the case for the Operations-era data releases, for DP0.1 the TAP and Butler table data are not named or organized the same way.
+Here we distinguish between the TAP- and Butler-accessible catalog data products.
 **The recommended catalog interface for DP0.1 is the TAP service.**
 
 **Schema:** 
