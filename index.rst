@@ -78,10 +78,10 @@ The Rubin Science Platform (RSP) is the set of integrated web-based applications
 
 .. _Rubin-Observatory-Documentation-DP0-1-Tutorials-Examples:
 
-Tutorials and user guides
-=========================
+Tutorials
+=========
 
-Includes hands-on executable tutorials and demonstrations for learning to use the Rubin Science Platform and the LSST Science Pipelines.
+Includes hands-on executable tutorials and demonstrations based on science use cases for learning to use the Rubin Science Platform and the LSST Science Pipelines.
 
 .. Examples of accessing or processing data products are separated from other locations in the repository to provide a single location of all examples.
 .. Using reST syntax, the examples can be reproduced in other locations on this site by using the ``include`` directive.
