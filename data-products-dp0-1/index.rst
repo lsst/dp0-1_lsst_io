@@ -73,7 +73,7 @@ For more information about how PVIs are created see :ref:`Data-Processing-Single
 
 There are many associated data products that are accessible alongside PVIs. These include the background (``calexpBackground``) that was subtracted from the ``calexp,`` which can be retrieved separately. Each PVI also has an associated mask plane that encodes quality and other information about each pixel, a WCS solution to be used in converting between pixel and sky coordinates, a photometric calibration object to be used in converting between fluxes and magnitudes for astronomical sources, and a model of the point-spread function (PSF) at each position on the image. 
 
-To get started working with PVIs, see _`this brief tutorial <https://github.com/rubin-dp0/tutorial-notebooks/blob/main/03_Image_Display_and_Manipulation.ipynb>`_ that retrieves and displays a PVI and its associated mask plane.
+To get started working with PVIs, see `this brief tutorial <https://github.com/rubin-dp0/tutorial-notebooks/blob/main/03_Image_Display_and_Manipulation.ipynb>`_ that retrieves and displays a PVI and its associated mask plane.
 
 **Coadd Images**: 
 An image that is the combination of multiple input images, often referred to as just a ``coadd`` or a ``deep coadd``.
@@ -92,7 +92,7 @@ Coadd images are divided into ``tracts`` (a spherical convex polygon) and tracts
 
 The first of the :ref:`Examples-DP0-1-Notebooks` demonstrates how to identify the tract and patch for a given coordinate, and retrieve and plot a coadd image.
 
-The _`image display and manipulation tutorial <https://github.com/rubin-dp0/tutorial-notebooks/blob/main/03_Image_Display_and_Manipulation.ipynb>`_ demonstrates how to retrieve and display a coadd image, and to use its WCS and methods associated with the image to extract a cutout image zoomed in on a region of interest.
+The `image display and manipulation tutorial <https://github.com/rubin-dp0/tutorial-notebooks/blob/main/03_Image_Display_and_Manipulation.ipynb>`_ demonstrates how to retrieve and display a coadd image, and to use its WCS and methods associated with the image to extract a cutout image zoomed in on a region of interest.
 
 
 .. _DP0-1-Data-Products-DPDD-Catalogs:
