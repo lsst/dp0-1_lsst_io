@@ -21,7 +21,7 @@
 Introduction to the RSP Portal Aspect
 #####################################
 
-Log in to the Portal Aspect by clicking on the "Portal" panel of the main landing page at `data.lsst.cloud`_. 
+Log in to the Portal Aspect by clicking on the "Portal" panel of the main landing page at `data.lsst.cloud <https://data.lsst.cloud>`_. 
 
 .. figure:: /_static/portal_default_view.png
     :name: portal_default_view
@@ -52,6 +52,8 @@ The longitude and latitude columns will automatically update to be the correct c
 If a non-existent column name is entered the box will highlight red in indication of the error.
 Choose the desired search method, `Cone` or `Polygon`, and the appropriate instructions for the search terms will appear.
 Keeping the search area to a minimum will keep processing times short and returned subsets small and manageable.
+
+*Note: The examples under the box for coordinates are object names are examples of the formatting only. Those examples are not guaranteed to be in the accessible data sets. The central coordinates for DC2, in decimal degrees, are: 61.863 −35.790.* (See Table 2 of `The LSST DESC DC2 Simulated Sky Survey <https://ui.adsabs.harvard.edu/abs/2021ApJS..253...31L/abstract>`_.)
 
 *Note: Although there are two options for Constraints, Spatial and Temporal, for DP0.1 all of the catalog data that is available through the Portal is from the coadded DC2 images, and does not contain time-domain information.*
 
