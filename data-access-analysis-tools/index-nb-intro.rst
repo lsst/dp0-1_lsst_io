@@ -75,6 +75,9 @@ Navigate the file system and open files by double-clicking on folders and files 
 All users will find a set of tutorial notebooks provided in the notebooks directory (:ref:`Examples-DP0-1-Notebooks`).
 Jupyter Notebooks can be identified by their suffix ".ipynb". 
 
+**Using a Terminal:**
+The DP0.1 data sets and the LSST Science Pipelines tools can both be accessed from the command line of a terminal. As described in the default message that appears in all newly-launched terminals, to create a Rubin Observatory environment in a terminal session and set up the full set of packages, users must first execute "source ${LOADSTACK}" and "setup lsst_distrib". For example, to query and retrieve DP0.1 data sets using the Butler (see below), command-line tools are available as documented `here <https://pipelines.lsst.io/v/weekly/modules/lsst.daf.butler/scripts/butler.html>`_. Type "butler --help" in any terminal to see a list of available butler functionality.
+
 **Safely Log Out of JupyterLab:**
 Use the File item in the top menu bar.
 To safely shut down a Notebook, choose Close and Shutdown Notebook.
