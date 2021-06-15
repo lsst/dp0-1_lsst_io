@@ -75,11 +75,13 @@ Remove filters and reset the table view at any time using the buttons above the 
 If desired, convert table view queries to `ADQL Queries` using the "Populate and Edit ADQL" button at the bottom of the page.
 
 **Search:** Press the search button at lower left when ready to execute.
+The example in the image below queries the dp01_dc2_catalogs.object table using a cone search centered on 61.863 -35.790 in decimal degrees (the approximate center of the DC2 region) with a 200 arcsecond radius.
+The search will return data in columns ra, dec, mag_g, and mag_i for all objects with mag_g and mag_i brighter than 24th magnitude.
 
 .. figure:: /_static/portal_example_search.png
     :name: portal_example_search
-
-    This example queries the dp01_dc2_catalogs.object table using a cone search centered on 61.863 -35.790 in decimal degrees (the approximate center of the DC2 region) with a 200 arcsecond radius. The search will return data in columns ra, dec, mag_g, and mag_i for all objects with mag_g and mag_i brighter than 24th magnitude.
+    
+    An example query of the DC2 Object catalog.
 
 .. figure:: /_static/portal_search_working.png
     :name: portal_search_working
@@ -105,6 +107,7 @@ Select other columns to use, change the symbol type and color, and so forth, and
 
 .. figure:: /_static/portal_results_xy_settings.png
     :name: portal_results_xy_settings
+    :width: 200
 
     The plot settings pop-up window.
 
