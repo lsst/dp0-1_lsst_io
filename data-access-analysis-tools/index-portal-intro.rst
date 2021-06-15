@@ -53,7 +53,7 @@ If a non-existent column name is entered the box will highlight red in indicatio
 Choose the desired search method, `Cone` or `Polygon`, and the appropriate instructions for the search terms will appear.
 Keeping the search area to a minimum will keep processing times short and returned subsets small and manageable.
 
-*Note: The examples under the box for coordinates are object names are examples of the formatting only. Those examples are not guaranteed to be in the accessible data sets. The central coordinates for DC2, in decimal degrees, are: 61.863 −35.790.* (See Table 2 of `The LSST DESC DC2 Simulated Sky Survey <https://ui.adsabs.harvard.edu/abs/2021ApJS..253...31L/abstract>`_.)
+*Note: The examples under the box for coordinates are object names are examples of the formatting only. Those examples are not guaranteed to be in the accessible data sets. The central coordinates for DC2, in decimal degrees, are: 61.863 -35.790. (See Table 2 of `The LSST DESC DC2 Simulated Sky Survey <https://ui.adsabs.harvard.edu/abs/2021ApJS..253...31L/abstract>`_.)*
 
 *Note: Although there are two options for Constraints, Spatial and Temporal, for DP0.1 all of the catalog data that is available through the Portal is from the coadded DC2 images, and does not contain time-domain information.*
 
@@ -76,9 +76,47 @@ If desired, convert table view queries to `ADQL Queries` using the "Populate and
 
 **Search:** Press the search button at lower left when ready to execute.
 
-**Results View**: 
+.. figure:: /_static/portal_example_search.png
+    :name: portal_example_search
 
-*(MLG error RSP NCSA: Unable to get error from https://lsst-lsp-stable.ncsa.illinois.edu/api/tap/async/yabvqy722yl8rlx9 Unauthorized)*.
+    This example queries the dp01_dc2_catalogs.object table using a cone search centered on 61.863 -35.790 in decimal degrees (the approximate center of the DC2 region) with a 200 arcsecond radius. The search will return data in columns ra, dec, mag_g, and mag_i for all objects with mag_g and mag_i brighter than 24th magnitude.
+
+.. figure:: /_static/portal_search_working.png
+    :name: portal_search_working
+    :width: 200
+
+    This will show while the search is executing.
+
+**Results View**: The search results will populate the results view, as shown below.
+Across the top of the results view are many icons that control the display settings; hover over the icons and a statement about their functionality will appear at upper right.
+Also at upper right, under the user name, are the options "tri-view", "img-tbl", "img-xy", and "xy-tbl".
+These control how the results view is partitioned, and the default is "tri-view".
+In the "tri-view", at top left is a sky image with the search results overplotted, but note that this is *not* a simulated DC2 images, but a 2MASS image.
+Select "HiPS" and a "Change HiPS" button will appear with options for sky images to use, but none of the options are relevant for the DC2 simulated sky data.
+Thus for DP0, the "xy-tbl" is the most relevant view for results.
+  
+.. figure:: /_static/portal_search_results.png
+    :name: portal_search_results
+
+    The default view of the search results. 
+
+To manipulate the plotted data, select the two-gears "settings" icon above the xy plot and a pop-up window will open (see below).
+Select other columns to use, change the symbol type and color, and so forth, and click Apply.
+
+.. figure:: /_static/portal_results_xy_settings.png
+    :name: portal_results_xy_settings
+
+    The plot settings pop-up window.
+
+Additional cuts can be applied to the plotted data using the table query boxes, such as in the image below where a limit of mag_g brighter than 22 mag is used.
+Note that corresponding plot point for the selected row in the table is differently colored, and that hovering the mouse over the plotted data will show the x and y values in a pop-up window.
+
+.. figure:: /_static/portal_results_final.png
+    :name: portal_results_final
+
+    An updated results view in which the xy plot uses the magnitude columns.
+
+See also the :ref:`Examples-DP0-1-Notebooks` for additional demonstrations of how to use the Portal's Single Table Query.
 
 ADQL Queries
 ============
