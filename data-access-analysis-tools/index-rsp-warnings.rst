@@ -61,8 +61,8 @@ For DP0.1 or until we have a client/server Butler and signed URLs (DMTN-169,DMTN
 
 User-added data in DP0.1’s butler repo will not be migrated to DP0.2’s butler repo. 
 
-Accessing data directly using the LSST Science Pipeline Butler interface: Limited processing capability will be available as part of DP0. All delegates will share access to a common Butler ('Gen3') repository. DP0.1 provided data products in the repository will be read-only. Users may create their own data products and collections thereof in the repository, which will be available to all other delegates.
-
+Accessing data directly using the LSST Science Pipeline Butler interface: Limited processing capability will be available as part of DP0. All delegates will share access to a common Butler ('Gen3') repository.
+The butler repository is a shared read/write space for all delegates, and there is no per-user ownership of any data inside the butler repo. Therefore, it’s possible for one delegate to delete another delegate’s user-added datasets in the butler repo. For running pipetask with the DP0.1 repo, we strongly encourage delegates to follow the naming convention as documented in `DMTN-167 <https://dmtn-167.lsst.io/>` and only write to their own ``u/<user>/*`` collections. Although the convention is not enforced, it can reduce the chance of conflicts. We will **not** restore user-added data for delegates. Currently the butler repo is a shared-risk space and please plan for possible loss of user-added data. Project-loaded data are read only and protected.  We will address these issues in a future release before the operations starts.
 
 
 
