@@ -38,6 +38,8 @@ Under **TAP Searches** there are four options.
 **1. TAP Service**: Leave this as the default `https://data.lsst.cloud/api/tap` to access DP0 data.
 
 
+.. _single-table-queries:
+
 Single Table Queries
 ====================
 
@@ -124,11 +126,9 @@ See also the for additional demonstrations of how to use the Portal's Single Tab
 ADQL Queries
 ============
 
-**2. Select Query Type**: Select 'ADQL' to query via the ADLQ interface.
+**2. Select Query Type**: Select 'ADQL' to query via the ADQL interface. ADQL, `Astronomical Data Query Language <https://www.ivoa.net/documents/ADQL/>`_, is the language used by  the `IVOA <ivoa.net>`_ to represent astronomy queries posted to Virtual Observatory (VO) services, such as the Rubin LSST TAP service. ADQL is based on the Structured Query Language (SQL).
 
-ADQL, `Astronomical Data Query Language <https://www.ivoa.net/documents/ADQL/>`_, is the language used by  the `IVOA <ivoa.net>`_ to represent astronomy queries posted to Virtual Observatory (VO) services, such as the Rubin LSST TAP service. ADQL is based on the Structured Query Language (SQL).
-
-**3. Advanced ADQL**: The interface in **3.** changes when selecting ADQL as the query type to a free-form block into which ADQL queries can be entered  directly.   The query excuted in the 'Single Table Queries' example above can be expressed in ADQL as follows:
+**3. Advanced ADQL**: When ADQL is selected as the query type, the interface in  **3.** changes to provide a free-form block into which ADQL queries can be entered directly. The query excuted in the :ref:`single-table-queries` example above can be expressed in ADQL as follows:
 
 .. code-block:: ADQL
 
@@ -139,8 +139,35 @@ ADQL, `Astronomical Data Query Language <https://www.ivoa.net/documents/ADQL/>`_
    CIRCLE('ICRS', 61.863, -35.79, 0.05555555555555555))=1
    AND (mag_g <24 AND mag_i <24)
 
-Type the above query into the ADQL Query filed and click on the 'Search' button in the left bottom corner to execute. The search results will populate the same Results View, as shown above using the singel table view. 205 records should be returned.
+Type the above query into the ADQL Query block and click on the 'Search' button in the bottom left corner to execute. You should set the row limit to be a small number, such as 10,  when first testing queries. The search results will populate the same **Results View**, as shown above using the Single Table Query interface. A total of 205 records should be returned, which you can interact with in the sam manner as outlined in :ref:`single-table-queries`.
+
+**Joining with another tables**
+ It is often desireable to access data stored in more than just one table. We do this using a JOIN clause to combine rows from two or more tables. Here we will join the data in the object table with the data in the truth table to compare the results of the processing with the input truth information. The two tables are joined by matching the objectIds across two catalogs.
+
+.. code-block:: ADQL
+
+   SELECT obj.ra, obj.dec, obj.mag_g, obj.mag_i, truth.ra, truth.dec, truth.mag_g, truth.mag_i
+   FROM dp01_dc2_catalogs.object as obj
+   JOIN dp01_dc2_catalogs.truth_match as truth
+   ON truth.match_objectId = obj.objectId
+   WHERE CONTAINS(
+   POINT('ICRS', ra, dec),
+   CIRCLE('ICRS', 61.863, -35.79, 0.05555555555555555))=1
+   AND (mag_g <24 AND mag_i <24)
+   AND truth.match_objectid != -1
+   AND truth.is_good_match = 'true'
+
+This query includes some additional filtering so that we In the truth_match table, '-1' indicates an unmatched object, so we will exclude them from the query. (TODO: How do 'is_good_match and match_object_id work together?)
+
+**Query the TAP service schema**
+Information about the LSST TAP schema can also be obtained via ADQL queries.  The following query gets the names of all the avaiabe DP0.1 tables.
+
+.. code-block:: ADQL
+   SELECT * from tap_schema.tables WHERE tap_schema.tables.table_name like 'dp01%'
+
+To get the detailed list of columns available in the the Object table, their associated units and descriptions:
+
+.. code-block:: ADQL
+   SELECT tap_schema.columns.column_name, tap_schema.columns.unit, tap_schema.columns.description from tap_schema.columns WHERE tap_schema.columns.table_name = 'dp01_dc2_catalogs.object'
 
 See also the for additional demonstrations of how to use the ADQL queries.:ref:`Examples-DP0-1-Notebooks`
-
-Let's now look at a more  detailed query. it is often desireable to join  a results table to the truth table in the case of simulated data to compare the outputs with the truth.
