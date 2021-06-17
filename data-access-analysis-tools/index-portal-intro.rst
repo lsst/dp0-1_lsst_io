@@ -163,11 +163,13 @@ This query includes some additional filtering so that we In the truth_match tabl
 Information about the LSST TAP schema can also be obtained via ADQL queries.  The following query gets the names of all the avaiabe DP0.1 tables.
 
 .. code-block:: ADQL
+
    SELECT * from tap_schema.tables WHERE tap_schema.tables.table_name like 'dp01%'
 
 To get the detailed list of columns available in the the Object table, their associated units and descriptions:
 
 .. code-block:: ADQL
+
    SELECT tap_schema.columns.column_name, tap_schema.columns.unit, tap_schema.columns.description from tap_schema.columns WHERE tap_schema.columns.table_name = 'dp01_dc2_catalogs.object'
 
 See also the for additional demonstrations of how to use the ADQL queries.:ref:`Examples-DP0-1-Notebooks`
