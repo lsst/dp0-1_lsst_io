@@ -164,12 +164,16 @@ Information about the LSST TAP schema can also be obtained via ADQL queries.  Th
 
 .. code-block:: SQL
 
-   SELECT * from tap_schema.tables WHERE tap_schema.tables.table_name like 'dp01%'
+   SELECT * 
+   FROM tap_schema.tables 
+   WHERE tap_schema.tables.table_name like 'dp01%'
 
 To get the detailed list of columns available in the the Object table, their associated units and descriptions:
 
 .. code-block:: SQL
 
-   SELECT tap_schema.columns.column_name, tap_schema.columns.unit, tap_schema.columns.description from tap_schema.columns WHERE tap_schema.columns.table_name = 'dp01_dc2_catalogs.object'
+   SELECT tap_schema.columns.column_name, tap_schema.columns.unit, tap_schema.columns.description 
+   FROM tap_schema.columns 
+   WHERE tap_schema.columns.table_name = 'dp01_dc2_catalogs.object'
 
 See also the for additional demonstrations of how to use the ADQL queries.:ref:`Examples-DP0-1-Notebooks`
