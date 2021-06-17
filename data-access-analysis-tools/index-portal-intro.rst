@@ -21,7 +21,7 @@
 Introduction to the RSP Portal Aspect
 #####################################
 
-Log in to the Portal Aspect by clicking on the "Portal" panel of the main landing page at `data.lsst.cloud <https://data.lsst.cloud>`_. 
+Log in to the Portal Aspect by clicking on the "Portal" panel of the main landing page at `data.lsst.cloud <https://data.lsst.cloud>`_.
 
 .. figure:: /_static/portal_default_view.png
     :name: portal_default_view
@@ -35,13 +35,13 @@ The Portal's User Interface
 Across the top is a menu bar of interface options, but the DP0 data set is only accessed via the :ref:`Data-Access-Analysis-Tools-TAP`.
 Under **TAP Searches** there are four options.
 
-**1. TAP Service**: Leave this as the default to access DP0 data.
-
-**2. Select Query Type**: Option to query via the single-table interface (default) or ADQL.
+**1. TAP Service**: Leave this as the default `https://data.lsst.cloud/api/tap` to access DP0 data.
 
 
 Single Table Queries
 ====================
+
+**2. Select Query Type**: Select 'Single Table' to query via the single-table interface (default).
 
 **3. Select Table**: Drop down menus of available tables.
 For DP0 data, choose the "Schema: dp01_dc2_catalogs", and then choose the table to query (see the :ref:`DP0-1-Data-Products-DPDD` for a reminder of what tables are available).
@@ -59,7 +59,7 @@ Keeping the search area to a minimum will keep processing times short and return
 
 **Table View**: The table to the right of "Select Constraints" enables additional search constraints.
 Use the leftmost boxes select the columns to be returned by the query.
-Use the funnel icon to only view selected columns. 
+Use the funnel icon to only view selected columns.
 
 .. figure:: /_static/portal_table_view.png
     :name: portal_table_view
@@ -80,7 +80,7 @@ The search will return data in columns ra, dec, mag_g, and mag_i for all objects
 
 .. figure:: /_static/portal_example_search.png
     :name: portal_example_search
-    
+
     An example query of the DC2 Object catalog.
 
 .. figure:: /_static/portal_search_working.png
@@ -96,11 +96,11 @@ These control how the results view is partitioned, and the default is "tri-view"
 In the "tri-view", at top left is a sky image with the search results overplotted, but note that this is *not* a simulated DC2 images, but a 2MASS image.
 Select "HiPS" and a "Change HiPS" button will appear with options for sky images to use, but none of the options are relevant for the DC2 simulated sky data.
 Thus for DP0, the "xy-tbl" is the most relevant view for results.
-  
+
 .. figure:: /_static/portal_search_results.png
     :name: portal_search_results
 
-    The default view of the search results. 
+    The default view of the search results.
 
 To manipulate the plotted data, select the two-gears "settings" icon above the xy plot and a pop-up window will open (see below).
 Select other columns to use, change the symbol type and color, and so forth, and click Apply.
@@ -119,9 +119,28 @@ Note that corresponding plot point for the selected row in the table is differen
 
     An updated results view in which the xy plot uses the magnitude columns.
 
-See also the :ref:`Examples-DP0-1-Notebooks` for additional demonstrations of how to use the Portal's Single Table Query.
+See also the for additional demonstrations of how to use the Portal's Single Table Query.:ref:`Examples-DP0-1-Notebooks`
 
 ADQL Queries
 ============
 
- 
+**2. Select Query Type**: Select 'ADQL' to query via the ADLQ interface.
+
+ADQL, `Astronomical Data Query Language <https://www.ivoa.net/documents/ADQL/>`_, is the language used by  the `IVOA <ivoa.net>`_ to represent astronomy queries posted to Virtual Observatory (VO) services, such as the Rubin LSST TAP service. ADQL is based on the Structured Query Language (SQL).
+
+**3. Advanced ADQL**: The interface in **3.** changes when selecting ADQL as the query type to a free-form block into which ADQL queries can be entered  directly.   The query excuted in the 'Single Table Queries' example above can be expressed in ADQL as follows:
+
+.. code-block:: ADQL
+
+   SELECT ra, dec, mag_g, mag_i
+   FROM dp01_dc2_catalogs.object
+   WHERE CONTAINS(
+   POINT('ICRS', ra, dec),
+   CIRCLE('ICRS', 61.863, -35.79, 0.05555555555555555))=1
+   AND (mag_g <24 AND mag_i <24)
+
+Type the above query into the ADQL Query filed and click on the 'Search' button in the left bottom corner to execute. The search results will populate the same Results View, as shown above using the singel table view. 205 records should be returned.
+
+See also the for additional demonstrations of how to use the ADQL queries.:ref:`Examples-DP0-1-Notebooks`
+
+Let's now look at a more  detailed query. it is often desireable to join  a results table to the truth table in the case of simulated data to compare the outputs with the truth.
