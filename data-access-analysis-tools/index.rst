@@ -2,7 +2,7 @@
 .. Static objects, such as figures, should be stored in the _static directory. Review the _static/README on instructions to contribute.
 .. Do not remove the comments that describe each section. They are included to provide guidance to contributors.
 .. Do not remove other content provided in the templates, such as a section. Instead, comment out the content and include comments to explain the situation. For example:
-	- If a section within the template is not needed, comment out the section title and label reference. Do not delete the expected section title, reference or related comments provided from the template.
+    - If a section within the template is not needed, comment out the section title and label reference. Do not delete the expected section title, reference or related comments provided from the template.
     - If a file cannot include a title (surrounded by ampersands (#)), comment out the title from the template and include a comment explaining why this is implemented (in addition to applying the ``title`` directive).
 
 .. This is the label that can be used for cross referencing this file.
@@ -19,7 +19,7 @@ Data Access and Analysis Tools
 
 .. This section should provide a brief, top-level description of the page.
 
-The **Rubin Science Platform (RSP)** is the set of integrated web-based applications, services, and tools to query, visualize, subset, and analyze LSST data - including the DP0.1 simulated data products. Throughout DP0 the RSP will be in active development by Rubin staff, with access provided to delegates on a shared-risk basis. 
+The **Rubin Science Platform (RSP)** is the set of integrated web-based applications, services, and tools to query, visualize, subset, and analyze LSST data - including the DP0.1 simulated data products. Throughout DP0 the RSP will be in active development by Rubin staff, with access provided to delegates on a shared-risk basis.
 
 
 .. _Data-Access-Analysis-Tools-Warnings:
@@ -47,7 +47,7 @@ During DP0, the Rubin Science Platform (RSP) provides access to Rubin Observator
     :name: RSP_home
 
     Above is shown the landing page of `data.lsst.cloud <https://data.lsst.cloud/>`_. The Notebook and Portal Aspects can be accessed by clicking on their respective icons on this dashboard. The API aspect is not availble during DP0.1.
-   
+
 
 .. _Tools-RSP-Notebook:
 
@@ -56,7 +56,7 @@ Notebook Aspect
 
 The Notebook Aspect of the RSP provides an environment from which users can access and manipulate Rubin data products on the same machines where those data products reside (i.e., "next-to-the-data" -- no downloading of data to your local machine).
 In particular, the Notebook Aspect offers Python-based access to DP0.1 data products via a custom implementation of web-based JupyterLab Notebooks (`JupyterLab documentation <https://jupyterlab.readthedocs.io/en/stable/index.html>`_).
-A file browser and a terminal command-line interface are also available within the JupyterLab environment. 
+A file browser and a terminal command-line interface are also available within the JupyterLab environment.
 
 Within the RSP Notebook Aspect, users can query DP0.1 data sets, subset and retrieve catalogs, manipulate and display images, calculate derived properties, plot results, reprocess the data, and most other analyses you can imagine performing with Python on astronomical images and catalogs.
 A stable software environment is provided and maintained for users, which includes many commonly-used packages and the :ref:`LSST Science Pipelines<Tools-LSST-Science-Pipelines>`.
@@ -75,7 +75,7 @@ Portal Aspect
 -------------
 
 The Portal Aspect of the RSP provides an environment for data discovery, query, filtering, and visualization.
-During DP0.1, only catalog data will be accessible via the Portal (not images), and in particular only catalog data generated from the coadded images, and not the single-visit images, which means there is no time-domain data accessible via the Portal during DP0.1). 
+During DP0.1, only catalog data will be accessible via the Portal (not images), and in particular only catalog data generated from the coadded images, and not the single-visit images, which means there is no time-domain data accessible via the Portal during DP0.1).
 Note that the Portal Aspect has not been under active development recently and it is expected to evolve significantly before the first LSST annual data release.
 
 .. toctree::
@@ -101,8 +101,8 @@ This page includes information for accessing and basic utilization of the Table 
 Data processing tools
 =====================
 
-Documentation for the LSST Science Pipelines, a software package which is available to all RSP users via the Notebook Aspect, can be found at `pipelines.lsst.io <https://pipelines.lsst.io>`_. 
+Documentation for the LSST Science Pipelines, a software package which is available to all RSP users via the Notebook Aspect, can be found at `pipelines.lsst.io <https://pipelines.lsst.io>`_.
 
 A brief summary of how the LSST Science Pipelines were used to create the DP0.1 data products can be found in this :ref:`Data-Products-DP0-1-Processing-Overview`.
 
-To view a list of packages available to you in the Notebook Aspect of the RSP, type ``pip install`` in a terminal. 
+To view a list of packages available to you in the Notebook Aspect of the RSP, type ``pip install`` in a terminal.

@@ -130,7 +130,7 @@ ADQL Queries
 
 **3. Advanced ADQL**: When ADQL is selected as the query type, the interface in  **3.** changes to provide a free-form block into which ADQL queries can be entered directly. The query excuted in the :ref:`single-table-queries` example above can be expressed in ADQL as follows:
 
-.. code-block:: ADQL
+.. code-block:: SQL
 
    SELECT ra, dec, mag_g, mag_i
    FROM dp01_dc2_catalogs.object
@@ -144,7 +144,7 @@ Type the above query into the ADQL Query block and click on the 'Search' button 
 **Joining with another tables**
  It is often desireable to access data stored in more than just one table. We do this using a JOIN clause to combine rows from two or more tables. Here we will join the data in the object table with the data in the truth table to compare the results of the processing with the input truth information. The two tables are joined by matching the objectIds across two catalogs.
 
-.. code-block:: ADQL
+.. code-block:: SQL
 
    SELECT obj.ra, obj.dec, obj.mag_g, obj.mag_i, truth.ra, truth.dec, truth.mag_g, truth.mag_i
    FROM dp01_dc2_catalogs.object as obj
@@ -162,13 +162,13 @@ This query includes some additional filtering so that we In the truth_match tabl
 **Query the TAP service schema**
 Information about the LSST TAP schema can also be obtained via ADQL queries.  The following query gets the names of all the avaiabe DP0.1 tables.
 
-.. code-block:: ADQL
+.. code-block:: SQL
 
    SELECT * from tap_schema.tables WHERE tap_schema.tables.table_name like 'dp01%'
 
 To get the detailed list of columns available in the the Object table, their associated units and descriptions:
 
-.. code-block:: ADQL
+.. code-block:: SQL
 
    SELECT tap_schema.columns.column_name, tap_schema.columns.unit, tap_schema.columns.description from tap_schema.columns WHERE tap_schema.columns.table_name = 'dp01_dc2_catalogs.object'
 
