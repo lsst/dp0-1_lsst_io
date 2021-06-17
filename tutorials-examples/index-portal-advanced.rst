@@ -67,7 +67,7 @@ In the tutorial notebook, we executed the same query as above, and then queried 
 
 Notice that we have included additional constraints in the last two lines. Objects in the `truth-match` table that do not have matches in the `object` table have "match_objectId = -1," while those with legitimate matches contain the 'objectId' of the corresponding object from the `object` table in "match_objectId." By requiring this to be greater than or equal to zero, we extract only objects with matches. We also keep only sources satisfying the "is_good_match" flag, which is described in the schema as being "True if this object--truth matching pair satisfies all matching criteria."
 
-In our notebook exploration, we then continued by creating Python dataframes of the two tables, then matching them based on the the IDs. But in ADQL, you can do the matching of tables directly by joining on the requirement that "match_objectId" in the `truth-match` table equals the "objectId" from the `object` table. This is how the JOIN is done:
+In our notebook exploration, we continued by creating Python dataframes of the two tables, then matching them based on the IDs. But in ADQL, you can do the matching of tables directly by joining on the requirement that "match_objectId" in the `truth-match` table equals the "objectId" from the `object` table. This is how the JOIN is done:
 
 .. code-block:: SQL
 
@@ -90,6 +90,14 @@ In our notebook exploration, we then continued by creating Python dataframes of 
 
 Try the above query in the ADQL window -- you should retrieve 14425 results.
 
+Compare the measurements from the Object table to the "true" values for some objects.
+To do this, we will separate the "stars" and "galaxies" using the truth_type column from the Truth-Match table. Simulated stars have truth_type = 2, and galaxies, truth_type = 1.
+
+After separating stars and galaxies, we'll compare the recovered flux to the "true" value that was simulated for each object (as a ratio of the fluxes).
+
+Just to confirm that things look like we expect, let's plot a color-magnitude (g vs. g-i) and color-color (r-i vs. g-r) diagram.
+
+Now let's compare the fluxes:
 
 .. _Another-Portal-Demo:
 
