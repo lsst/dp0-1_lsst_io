@@ -65,7 +65,7 @@ In the tutorial notebook, we executed the same query as above, and then queried 
    AND match_objectId >= 0
    AND is_good_match = 1
 
-Notice that we have included additional constraints in the last two lines. Objects in the `truth-match` table that do not have matches in the `object` table have "match_objectId = -1," while those with legitimate matches contain the 'objectId' of the corresponding object from the `object` table in "match_objectId." By requiring this to be greater than or equal to zero, we extract only objects with matches. We also keep only sources satisfying the "is_good_match" flag, which is described in the schema as being "True if this object--truth matching pair satisfies all matching criteria."
+Notice that we have included additional constraints in the last two lines. Objects in the `truth-match` table that do not have matches in the `object` table have "match_objectId = -1," while those with legitimate matches contain the 'objectId' of the corresponding object from the `object` table in "match_objectId." By requiring this to be greater than or equal to zero, we extract only objects with matches. We also keep only sources satisfying the "is_good_match" flag, which is described in the schema as being "True if this object--truth matching pair satisfies all matching criteria." (Note that "1" and "TRUE" are equivalent in ADQL.)
 
 In our notebook exploration, we continued by creating Python dataframes of the two tables, then matching them based on the IDs. But in ADQL, you can do the matching of tables directly by joining on the requirement that "match_objectId" in the `truth-match` table equals the "objectId" from the `object` table. This is how the JOIN is done:
 
@@ -76,19 +76,19 @@ In our notebook exploration, we continued by creating Python dataframes of the t
           obj.psFlux_g, obj.psFlux_r, obj.psFlux_i, obj.cModelFlux_g,
           obj.cModelFlux_r, obj.cModelFlux_i, obj.tract, obj.patch,
           obj.extendedness, obj.good, obj.clean,
-	  truth.ra, truth.dec, truth.mag_r, truth.match_objectId,
+          truth.mag_r as truth_mag_r, truth.match_objectId,
           truth.flux_g, truth.flux_r, truth.flux_i, truth.truth_type,
-	  truth.match_sep, truth.is_variable
+          truth.match_sep, truth.is_variable
    FROM dp01_dc2_catalogs.object as obj
    JOIN dp01_dc2_catalogs.truth_match as truth
    ON truth.match_objectId = obj.objectId
    WHERE CONTAINS(
-   POINT('ICRS', ra, dec),
+   POINT('ICRS', obj.ra, obj.dec),
    CIRCLE('ICRS', 62.0, -37.0, 0.1))=1
    AND truth.match_objectid >= 0
-   AND truth.is_good_match = 'true'
+   AND truth.is_good_match = 1
 
-Try the above query in the ADQL window -- you should retrieve 14425 results.
+Try the above query in the ADQL window -- you should retrieve 14424 results.
 
 Compare the measurements from the Object table to the "true" values for some objects.
 To do this, we will separate the "stars" and "galaxies" using the truth_type column from the Truth-Match table. Simulated stars have truth_type = 2, and galaxies, truth_type = 1.
