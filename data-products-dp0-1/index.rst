@@ -36,7 +36,7 @@ The DESC simulated the DC2 images using the `imSim <https://github.com/LSSTDESC/
 **Image Processing:**
 The DESC processed the simulated DC2 images with `Version 19 <https://pipelines.lsst.io/v/v19_0_0/index.html>`_ of the LSST Science Pipelines.
 DP0.1 makes the DESC's DC2 images and catalogs available to RSP users.
-For DP0.2, the Rubin Data Production team will reprocess the same images with the most up-to-date version of the LSST Science Pipelines, and make the results available in mid-2022.
+For DP0.2, the Rubin Data Production team will reprocess the same images with the most up-to-date version of the LSST Science Pipelines, and release the resulting images and catalogs in mid-2022.
 
 .. toctree::
     :maxdepth: 2
@@ -50,16 +50,49 @@ For DP0.2, the Rubin Data Production team will reprocess the same images with th
 DP0.1 Data Products Definition Document (DPDD)
 ==============================================
 
-Future data previews and Operations-era data releases will produce images and catalogs that more closely resemble the plan laid out in the DPDD (`ls.st/dpdd <https://ls.st/dpdd/>`_). 
+**Disclaimer: The DC2 data set is being made available for use on a shared-risk basis.**
+**The LSST Science Pipelines which produced these images and catalogs is in active development.**
+**The data contents, formats, and related documentation are all incomplete.**
 
+Future data previews and Operations-era data releases will produce images and catalogs that more closely resemble the plan laid out in the Data Products Definitions Document (DPDD; `ls.st/dpdd <https://ls.st/dpdd/>`_).
+It is important to note that **many of the future data products listed in the DPDD, and in particular all of the Prompt Products such as difference images and alerts, are not available for DP0.**
 
 .. _DP0-1-Data-Products-DPDD-Images:
 
 Images
 ------
 
-| *MLG Notes:*
-| - *Overview of the image types, processed visit images and coadds, and the tract and patch strucutre.*
+For DP0.1 the DC2 data set has only two types of images: coadds and processed visit images.
+For DP0.1, images are only accessible with the Butler via the Notebook Aspect.
+
+**Processed Visit Images** (PVIs):
+A fully-qualified LSST image from a single visit (in other words, a single pointing) that includes the science pixel array, a quality mask, and a variance array, in addition to a PSF characterization and metadata (including calibration metadata) about the image.
+PVIs are stored with the background already subtracted.
+A single CCD of a PVI is called a ``calexp``. 
+For more information about how PVIs are created see :ref:`Data-Processing-Single-Image-Processing`.
+
+There are many associated data products that are accessible alongside PVIs. These include the background (``calexpBackground``) that was subtracted from the ``calexp,`` which can be retrieved separately. Each PVI also has an associated mask plane that encodes quality and other information about each pixel, a WCS solution to be used in converting between pixel and sky coordinates, a photometric calibration object to be used in converting between fluxes and magnitudes for astronomical sources, and a model of the point-spread function (PSF) at each position on the image. 
+
+To get started working with PVIs, see `this brief tutorial <https://github.com/rubin-dp0/tutorial-notebooks/blob/main/03_Image_Display_and_Manipulation.ipynb>`_ that retrieves and displays a PVI and its associated mask plane.
+
+**Coadd Images**: 
+An image that is the combination of multiple input images, often referred to as just a ``coadd`` or a ``deep coadd``.
+The input images have been aligned to a common projection and pixel grid; corrected to the same photometric scale, zero-point, and point-spread function (PSF); and had bad pixels, artifacts, and transient and variable object flux removed prior to combination.
+Coadds are stored with the non-astrophysical background already subtracted.
+For more information about how PVIs are created see :ref:`Data-Processing-Coadded-Image-Processing`.
+
+As with PVIs, the coadds also have associated data products including the background model that has been subtracted, the mask and variance planes associated with the image, a WCS solution, photometric calibration, and a PSF model.
+
+Coadd images are divided into ``tracts`` (a spherical convex polygon) and tracts are diveded into ``patches`` (a quadrilateral sub-region, with a size in pixels chosen to fit easily into memory on desktop computers, about the same size as a ``calexp``).
+
+.. figure:: /_static/dpdd_dc2_zoom.png
+    :name: dpdd_dc2_zoom
+    
+    Figure 15 from `The LSST DESC DC2 Simulated Sky Survey <https://ui.adsabs.harvard.edu/abs/2021ApJS..253...31L/abstract>`_, showing the simulated WFD region divided into tracts. The center image is one tract quadrant, and the right image one hundredth the area of the tract quadrant. Patches are larger than the right image, as described in the DESC's paper: *"each tract is composed of 7x7 patches, and each patch is 4100 × 4100 pixels with a pixel scale of 0.2 arcsec"*. 
+
+The first of the :ref:`Examples-DP0-1-Notebooks` demonstrates how to identify the tract and patch for a given coordinate, and retrieve and plot a coadd image.
+
+The `image display and manipulation tutorial <https://github.com/rubin-dp0/tutorial-notebooks/blob/main/03_Image_Display_and_Manipulation.ipynb>`_ demonstrates how to retrieve and display a coadd image, and to use its WCS and methods associated with the image to extract a cutout image zoomed in on a region of interest.
 
 
 .. _DP0-1-Data-Products-DPDD-Catalogs:
@@ -67,12 +100,87 @@ Images
 Catalogs
 --------
 
-| *MLG Notes:*
-| - *Overview of the three catalogs from the data processing, position, ref, and forced source.*
-| - *Link to full schema and a curated list of useful columns for each catalog, DPDD-style.*
-| - *Overview of the two catalogs also from the DESC DC2 Data Release: Object and Truth-Match.*
-| - *Link to full schema for each catalog, DPDD-style, like in the release note (or just point to release note's appendices).*
+Source detection, measurement, and characterization have been run on both the PVIs and coadds to generate catalog data for DP0.1 (see also :ref:`Data-Processing-Coadded-Catalogs`). 
+Catalog data are accessible with the :ref:`Data-Access-Analysis-Tools-TAP` via the Portal or Notebook Aspect, and with the Butler via the Notebook Aspect.
+Although this will not be the case for the Operations-era data releases, for DP0.1 the TAP and Butler table data are not named or organized the same way.
+Here we distinguish between the TAP- and Butler-accessible catalog data products.
+**The recommended catalog interface for DP0.1 is the TAP service.**
 
+**Schema:** 
+A table's "schema" refers to the column names, units, and descriptions of the tabulated data.
+Links to full or curated versions of the table schema (curated meaning limited to columns that will be of most use to most DP0 delegates) are provided in the tables below.
+
+**TAP Catalogs**:
+Of the six TAP-accessible catalogs in the table below, the first five are generated from coadded images and are available via both the Portal and Notebook Aspects, whereas the "forcedsource" table generated from PVIs is only available via the Notebook Aspect.
+For Portal-accessible TAP catalogs, one way to view and interact with the schema is by using the Portal's "table view" in the TAP service for single-table queries, as described in the :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
+Schema for all six TAP-accessible catalogs can be viewed and interacted with in a Jupyter Notebook by following the examples in Section 2.2 of the first of the :ref:`Examples-DP0-1-Notebooks`.
+
+.. list-table:: TAP-accessible tables available for DP0.1.
+   :widths: 120 120 350
+   :header-rows: 1
+
+   * - Catalog Name
+     - Schema Link
+     - Description
+   * - object
+     - See Appendix B1 of the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_.
+     - The object table from the DESC DC2 simulated sky survey as described in the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_. Includes astrometric and photometric parameters for objects detected in coadded images. (137 columns)
+   * - truth_match
+     - See Appendix B2 of the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_.
+     - The truth-match table for the DESC DC2's object table as described in the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_. Includes the noiseless astrometric and photometric parameters and the best matches to the object table. (30 columns)
+   * - position
+     - :ref:`full schema <Data-Products-DP0-1-schema_position>`
+     - Select astrometry-related parameters for objects detected in the coadded images, such as coordinates, footprints, patch/tract information, and deblending parameters. (29 columns)
+   * - reference
+     - :ref:`curated schema <Data-Products-DP0-1-schema_reference>` **(NOT DONE)**
+     - Measurements for objects detected in the coadded images, including photometry, astrometry, shape, deblending, model fits, and related background and flag parameters. This table joined with the position table is very similar to the object table, but with additional columns. (236 columns)
+   * - forced_photometry
+     - :ref:`curated schema <Data-Products-DP0-1-schema_forced_photometry>` **(NOT DONE)**
+     - Forced photometry measurements for objects detected in the coadded images, at the locations defined by the position table. (747 columns)
+   * - forcedsource
+     - :ref:`curated schema <Data-Products-DP0-1-schema_forced_source>` **(NOT DONE)**
+     - *(Forced sources in the processed visit images.)* **Only available via TAP in the Notebook Aspect**.
+
+| 
+
+**Butler Catalogs**:
+The recommended catalog interface for DP0.1 is the TAP service.
+However, as some DP0.1 participants will likely want to use the Butler to access the catalog data, some information is provided here.
+The Butler catalogs are listed in the approximate order that a processing workflow with the LSST Science Pipelines would generate them.
+
+| Although the command line syntax and the data repositories used in these two tutorials are not appropriate for DP0.1, these tutorials do provide a nice *conceptual illustration* of how the tables can be made with the LSST Science Pipelines.
+| - https://pipelines.lsst.io/getting-started/photometry.html
+| - https://pipelines.lsst.io/getting-started/multiband-analysis.html
+
+*(MLG: cite which tutorial notebook is best for follow-up on Butler-accesible catalogs, e.g., Intro to Butler.)*
+
+*(MLG: the phrasings below say "typically based on"; get confirmation of how they were made.)*
+
+.. list-table:: Butler-accessible tables available for DP0.1.
+   :widths: 120 120 350
+   :header-rows: 1
+
+   * - Table Name
+     - Schema Link
+     - Description
+   * - src
+     - TBD
+     - Source detections in a calexp.
+   * - deepCoadd_det
+     - TBD
+     - Source detections in a deep coadded image. Typically used as input for the merged reference catalog.
+   * - deepCoadd_ref
+     - TBD
+     - Merged source detections in deep coadded images across all filters. Typically based on deepCoadd_det and used as input for the deblended and measurements catalog.
+   * - deepCoadd_meas
+     - TBD
+     - Measurement parameters for sources in deep coadded images. Typically based on deepCoadd_ref.
+   * - deepCoadd_deblendedFlux
+     - TBD
+     - Deblended parent and child parameters for sources in deep coadded images. Typically based on deepCoadd_ref.
+   * - deepCoadd_forced_src
+     - TBD
+     - Forced photometry for sources in deep coadded images. Typically based on deepCoadd_ref or on deepCoadd_deblendedFlux.
 
 
 

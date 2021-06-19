@@ -41,13 +41,13 @@
      - 
      - 
    * - 2021-08-27
-     - Data Discovery with the Butler and the Portal
-     - Butler Q&A. Portal Aspect Q&A. DP0 science.
-     - The Community Engagement Team (Alex Drlica-Wagner)
-   * - 2021-09-10
      - Image Query, Retrieval, and Display.
      - Butler Q&A. Notebook Q&A. Image type Q&A. DP0 science.
      - The Community Engagement Team (Jeff Carlin)
+   * - 2021-09-10
+     - Data Discovery with the Butler and the Portal
+     - Butler Q&A. Portal Aspect Q&A. DP0 science.
+     - The Community Engagement Team (Alex Drlica-Wagner)
    * - 2021-09-24
      - *LSST Science Pipelines*
      - *Pipeline Q&A.* DP0 science.

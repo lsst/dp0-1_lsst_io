@@ -13,9 +13,9 @@
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
 .. A warning will alert you of identical labels during the linkcheck process.
 
-###############################
-DP0.1 Tutorials and User Guides
-###############################
+###############
+DP0.1 Tutorials
+###############
 
 .. This section should provide a brief, top-level description of the page.
 
@@ -39,5 +39,15 @@ The tutorial notebooks in the ``rubin-dp0`` GitHub Organization's `tutorial-note
 Portal Aspect Demonstrations
 ============================
 
-*MLG: link to our own description in dp0-1.*
-*MLG: Make and link to walk-through demos and how-tos.*
+An overview of the RSP Portal functionality is provided in this :ref:`Data-Access-Analysis-Tools-Portal-Intro`. 
+Below are two step-by-step demonstrations of how to use the Portal for science investigations.
+
+Beginner TAP Search
+-------------------
+
+*(MLG: create and link to a walk-through demo that matches exactly the first tutorial notebook, which does a query, some filtering, and makes a CMD. Create demo as an RST file in this directory.)*
+
+Advanced Demo
+-------------
+
+*(MLG: A more advanced Portal demo that demonstrations additional functionality not covered in beginner TAP search demo. Create demo as an RST file in this directory.)*

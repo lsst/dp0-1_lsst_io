@@ -33,6 +33,8 @@ Data Sharing and Safeguards
 
 A number of safeguards for avoiding uptime or temporary data loss will not be present -- the resources are still in “trusted user” mode.
 
+The fact that anyone could PRUNE, there's no provenance for destruction, and how to avoid accidental wipe-outs.
+
 Do we have shared data sets? We did on the NCSA RSP.  Do we have access to other users’ home directories? 
 
 Need some warnings about per-user data quota. 
