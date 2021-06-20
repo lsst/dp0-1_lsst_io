@@ -111,9 +111,9 @@ A table's "schema" refers to the column names, units, and descriptions of the ta
 Links to full or curated versions of the table schema (curated meaning limited to columns that will be of most use to most DP0 delegates) are provided in the tables below.
 
 **TAP Catalogs**:
-Of the six TAP-accessible catalogs in the table below, the first five are generated from coadded images and are available via both the Portal and Notebook Aspects, whereas the "forcedsource" table generated from PVIs is only available via the Notebook Aspect.
-For Portal-accessible TAP catalogs, one way to view and interact with the schema is by using the Portal's "table view" in the TAP service for single-table queries, as described in the :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
-Schema for all six TAP-accessible catalogs can be viewed and interacted with in a Jupyter Notebook by following the examples in Section 2.2 of the first of the :ref:`Examples-DP0-1-Notebooks`.
+The five TAP-accessible catalogs in the table below are generated from coadded images and are available via both the Portal and Notebook Aspects.
+For all Portal-accessible TAP catalogs, one way to view and interact with the schema is by using the Portal's "table view" in the TAP service for single-table queries, as described in the :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
+Schema for all five TAP-accessible catalogs can be also viewed and interacted with in a Jupyter Notebook by following the examples in Section 2.2 of the first of the :ref:`Examples-DP0-1-Notebooks`.
 The table below contains links to pages that list the schema for these tables: the column names, units, data types, minimum and maximum values, and a description.
 The minimum and maximum values for a given column were calculated from a subset of 1000 objects or sources near the center of the DC2 field, and are only intended to give users a general idea of the values.
 Note that a few columns appear to be unpopulated and return NAN (Not A Number) values for the minimum and maximum. 
