@@ -1,4 +1,4 @@
-.. _Data-Products-DP0-1-schema_reference: 
+.. _Data-Products-DP0-1-schema_forced_photometry: 
   
 ############################################## 
 Schema for dp01_dc2_catalogs.forced_photometry 
@@ -18,7 +18,7 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **g_base_InputCount_flag_noInputs** (type=boolean, min=0, max=0): No coadd inputs available 
  
-**g_base_InputCount_value** (type=int, min=4.00E+01, max=5.40E+01): Number of images contributing at center, not including anyclipping 
+**g_base_InputCount_value** (type=int, min=4.00E+01, max=5.20E+01): Number of images contributing at center, not including anyclipping 
  
 **g_base_LocalBackground_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -28,9 +28,9 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **g_base_LocalBackground_flag_noPsf** (type=boolean, min=0, max=0): no PSF provided 
  
-**g_base_LocalBackground_instFlux** (unit=count, type=double, min=-1.73E-03, max=6.67E-03): background in annulus around source 
+**g_base_LocalBackground_instFlux** (unit=count, type=double, min=-1.90E-03, max=1.56E-01): background in annulus around source 
  
-**g_base_LocalBackground_instFluxErr** (unit=count, type=double, min=2.29E-02, max=2.85E-02): 1-sigma instFlux uncertainty 
+**g_base_LocalBackground_instFluxErr** (unit=count, type=double, min=4.59E-18, max=8.22E-02): 1-sigma instFlux uncertainty 
  
 **g_base_PixelFlags_flag** (type=boolean, min=0, max=0): General failure flag, set if anything went wrong 
  
@@ -48,7 +48,7 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **g_base_PixelFlags_flag_crCenter** (type=boolean, min=0, max=0): Cosmic ray in the Source center 
  
-**g_base_PixelFlags_flag_edge** (type=boolean, min=0, max=0): Source is outside usable exposure region (masked EDGE or NO_DATA) 
+**g_base_PixelFlags_flag_edge** (type=boolean, min=0, max=1): Source is outside usable exposure region (masked EDGE or NO_DATA) 
  
 **g_base_PixelFlags_flag_inexact_psf** (type=boolean, min=0, max=1): Source footprint includes INEXACT_PSF pixels 
  
@@ -56,7 +56,7 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **g_base_PixelFlags_flag_interpolated** (type=boolean, min=0, max=1): Interpolated pixel in the Source footprint 
  
-**g_base_PixelFlags_flag_interpolatedCenter** (type=boolean, min=0, max=0): Interpolated pixel in the Source center 
+**g_base_PixelFlags_flag_interpolatedCenter** (type=boolean, min=0, max=1): Interpolated pixel in the Source center 
  
 **g_base_PixelFlags_flag_offimage** (type=boolean, min=0, max=0): Source center is off image 
  
@@ -64,9 +64,9 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **g_base_PixelFlags_flag_rejectedCenter** (type=boolean, min=0, max=1): Source center is close to REJECTED pixels 
  
-**g_base_PixelFlags_flag_saturated** (type=boolean, min=0, max=0): Saturated pixel in the Source footprint 
+**g_base_PixelFlags_flag_saturated** (type=boolean, min=0, max=1): Saturated pixel in the Source footprint 
  
-**g_base_PixelFlags_flag_saturatedCenter** (type=boolean, min=0, max=0): Saturated pixel in the Source center 
+**g_base_PixelFlags_flag_saturatedCenter** (type=boolean, min=0, max=1): Saturated pixel in the Source center 
  
 **g_base_PixelFlags_flag_sensor_edge** (type=boolean, min=0, max=1): Source footprint includes SENSOR_EDGE pixels 
  
@@ -76,11 +76,11 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **g_base_PixelFlags_flag_suspectCenter** (type=boolean, min=0, max=0): Source''s center is close to suspect pixels 
  
-**g_base_PsfFlux_apCorr** (type=double, min=9.92E-01, max=9.96E-01): aperture correction applied to base_PsfFlux 
+**g_base_PsfFlux_apCorr** (type=double, min=9.93E-01, max=9.95E-01): aperture correction applied to base_PsfFlux 
  
 **g_base_PsfFlux_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to base_PsfFlux 
  
-**g_base_PsfFlux_area** (unit=pixel, type=double, min=4.96E+01, max=5.68E+01): effective area of PSF 
+**g_base_PsfFlux_area** (unit=pixel, type=double, min=4.97E+01, max=5.43E+01): effective area of PSF 
  
 **g_base_PsfFlux_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -92,9 +92,9 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **g_base_PsfFlux_flag_noGoodPixels** (type=boolean, min=0, max=0): not enough non-rejected pixels in data to attempt the fit 
  
-**g_base_PsfFlux_instFlux** (unit=count, type=double, min=-4.18E-01, max=8.81E+02): instFlux derived from linear least-squares fit of PSF model 
+**g_base_PsfFlux_instFlux** (unit=count, type=double, min=-1.97E-01, max=2.25E+04): instFlux derived from linear least-squares fit of PSF model 
  
-**g_base_PsfFlux_instFluxErr** (unit=count, type=double, min=1.78E-01, max=5.72E-01): 1-sigma instFlux uncertainty 
+**g_base_PsfFlux_instFluxErr** (unit=count, type=double, min=1.80E-01, max=4.42E+00): 1-sigma instFlux uncertainty 
  
 **g_base_SdssCentroid_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -110,13 +110,13 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **g_base_SdssCentroid_flag_resetToPeak** (type=boolean, min=0, max=1): set if CentroidChecker reset the centroid 
  
-**g_base_SdssCentroid_x** (unit=pixel, type=double, min=1.20E+04, max=1.92E+04): centroid from Sdss Centroid algorithm 
+**g_base_SdssCentroid_x** (unit=pixel, type=double, min=8.01E+03, max=1.20E+04): centroid from Sdss Centroid algorithm 
  
-**g_base_SdssCentroid_xErr** (unit=pixel, type=double, min=1.95E-03, max=9.63E+03): 1-sigma uncertainty on x position 
+**g_base_SdssCentroid_xErr** (unit=pixel, type=double, min=6.13E-04, max=2.74E+04): 1-sigma uncertainty on x position 
  
-**g_base_SdssCentroid_y** (unit=pixel, type=double, min=7.27E+03, max=1.20E+04): centroid from Sdss Centroid algorithm 
+**g_base_SdssCentroid_y** (unit=pixel, type=double, min=2.42E+04, max=2.45E+04): centroid from Sdss Centroid algorithm 
  
-**g_base_SdssCentroid_yErr** (unit=pixel, type=double, min=1.81E-03, max=8.81E+03): 1-sigma uncertainty on y position 
+**g_base_SdssCentroid_yErr** (unit=pixel, type=double, min=5.79E-04, max=3.47E+03): 1-sigma uncertainty on y position 
  
 **g_base_SdssShape_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -132,37 +132,37 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **g_base_SdssShape_flag_unweightedBad** (type=boolean, min=0, max=1): Both weighted and unweighted moments were invalid 
  
-**g_base_SdssShape_instFlux** (unit=count, type=double, min=2.50E-01, max=7.98E+02): elliptical Gaussian adaptive moments 
+**g_base_SdssShape_instFlux** (unit=count, type=double, min=3.70E-01, max=2.43E+04): elliptical Gaussian adaptive moments 
  
-**g_base_SdssShape_instFlux_xx_Cov** (unit=count*pixel^2, type=double, min=-3.49E+02, max=1.81E+00): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xx 
+**g_base_SdssShape_instFlux_xx_Cov** (unit=count*pixel^2, type=double, min=-1.85E+02, max=-4.35E-04): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xx 
  
-**g_base_SdssShape_instFlux_xy_Cov** (unit=count*pixel^2, type=double, min=-5.35E+02, max=4.19E+00): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xy 
+**g_base_SdssShape_instFlux_xy_Cov** (unit=count*pixel^2, type=double, min=-3.39E+01, max=-9.21E-04): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xy 
  
-**g_base_SdssShape_instFlux_yy_Cov** (unit=count*pixel^2, type=double, min=-4.30E+02, max=4.26E+01): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_yy 
+**g_base_SdssShape_instFlux_yy_Cov** (unit=count*pixel^2, type=double, min=-2.73E+01, max=6.56E+01): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_yy 
  
-**g_base_SdssShape_instFluxErr** (unit=count, type=double, min=7.45E-02, max=1.35E+00): 1-sigma instFlux uncertainty 
+**g_base_SdssShape_instFluxErr** (unit=count, type=double, min=7.46E-02, max=1.87E+01): 1-sigma instFlux uncertainty 
  
-**g_base_SdssShape_psf_xx** (unit=pixel^2, type=double, min=3.34E+00, max=3.79E+00): adaptive moments of the PSF model at the object position 
+**g_base_SdssShape_psf_xx** (unit=pixel^2, type=double, min=3.36E+00, max=3.64E+00): adaptive moments of the PSF model at the object position 
  
-**g_base_SdssShape_psf_xy** (unit=pixel^2, type=double, min=-5.96E-03, max=1.58E-02): adaptive moments of the PSF model at the object position 
+**g_base_SdssShape_psf_xy** (unit=pixel^2, type=double, min=-1.40E-03, max=1.63E-02): adaptive moments of the PSF model at the object position 
  
-**g_base_SdssShape_psf_yy** (unit=pixel^2, type=double, min=3.05E+00, max=3.47E+00): adaptive moments of the PSF model at the object position 
+**g_base_SdssShape_psf_yy** (unit=pixel^2, type=double, min=3.08E+00, max=3.33E+00): adaptive moments of the PSF model at the object position 
  
-**g_base_SdssShape_x** (unit=pixel, type=double, min=1.20E+04, max=1.92E+04): elliptical Gaussian adaptive moments 
+**g_base_SdssShape_x** (unit=pixel, type=double, min=8.01E+03, max=1.20E+04): elliptical Gaussian adaptive moments 
  
-**g_base_SdssShape_xx** (unit=pixel^2, type=double, min=1.63E-02, max=3.58E+05): elliptical Gaussian adaptive moments 
+**g_base_SdssShape_xx** (unit=pixel^2, type=double, min=5.14E-02, max=3.39E+05): elliptical Gaussian adaptive moments 
  
-**g_base_SdssShape_xxErr** (unit=pixel^2, type=double, min=4.83E-03, max=5.16E+02): Standard deviation of xx moment 
+**g_base_SdssShape_xxErr** (unit=pixel^2, type=double, min=2.66E-03, max=5.18E+02): Standard deviation of xx moment 
  
-**g_base_SdssShape_xy** (unit=pixel^2, type=double, min=-1.08E+05, max=5.79E+04): elliptical Gaussian adaptive moments 
+**g_base_SdssShape_xy** (unit=pixel^2, type=double, min=-5.49E+04, max=2.40E+04): elliptical Gaussian adaptive moments 
  
-**g_base_SdssShape_xyErr** (unit=pixel^2, type=double, min=6.75E-03, max=7.92E+02): Standard deviation of xy moment 
+**g_base_SdssShape_xyErr** (unit=pixel^2, type=double, min=2.45E-03, max=8.10E+01): Standard deviation of xy moment 
  
-**g_base_SdssShape_y** (unit=pixel, type=double, min=7.27E+03, max=1.20E+04): elliptical Gaussian adaptive moments 
+**g_base_SdssShape_y** (unit=pixel, type=double, min=2.42E+04, max=2.45E+04): elliptical Gaussian adaptive moments 
  
-**g_base_SdssShape_yy** (unit=pixel^2, type=double, min=4.24E-02, max=3.32E+05): elliptical Gaussian adaptive moments 
+**g_base_SdssShape_yy** (unit=pixel^2, type=double, min=8.33E-02, max=2.78E+05): elliptical Gaussian adaptive moments 
  
-**g_base_SdssShape_yyErr** (unit=pixel^2, type=double, min=5.04E-03, max=6.38E+02): Standard deviation of yy moment 
+**g_base_SdssShape_yyErr** (unit=pixel^2, type=double, min=1.81E-03, max=1.84E+02): Standard deviation of yy moment 
  
 **g_base_Variance_flag** (type=boolean, min=0, max=1): Set for any fatal failure 
  
@@ -170,15 +170,15 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **g_base_Variance_flag_emptyFootprint** (type=boolean, min=0, max=1): Set to True when the footprint has no usable pixels 
  
-**g_base_Variance_value** (type=double, min=6.05E-04, max=8.47E-04): Variance at object position 
+**g_base_Variance_value** (type=double, min=6.33E-04, max=8.31E-04): Variance at object position 
  
-**g_good** (type=boolean, min=1, max=1): True if the source has no flagged pixels. 
+**g_good** (type=boolean, min=0, max=1): True if the source has no flagged pixels. 
  
-**g_modelfit_CModel_apCorr** (type=double, min=9.90E-01, max=9.93E-01): aperture correction applied to modelfit_CModel 
+**g_modelfit_CModel_apCorr** (type=double, min=9.91E-01, max=9.93E-01): aperture correction applied to modelfit_CModel 
  
 **g_modelfit_CModel_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel 
  
-**g_modelfit_CModel_dev_apCorr** (type=double, min=9.89E-01, max=9.93E-01): aperture correction applied to modelfit_CModel_dev 
+**g_modelfit_CModel_dev_apCorr** (type=double, min=9.90E-01, max=9.92E-01): aperture correction applied to modelfit_CModel_dev 
  
 **g_modelfit_CModel_dev_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel_dev 
  
@@ -190,13 +190,13 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **g_modelfit_CModel_dev_flag_numericError** (type=boolean, min=0, max=0): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
  
-**g_modelfit_CModel_dev_flux_inner** (unit=count, type=double, min=-3.83E-01, max=7.43E+02): flux from the de Vaucouleur fit region, with no extrapolation 
+**g_modelfit_CModel_dev_flux_inner** (unit=count, type=double, min=-2.11E-01, max=3.15E+03): flux from the de Vaucouleur fit region, with no extrapolation 
  
-**g_modelfit_CModel_dev_instFlux** (unit=count, type=double, min=-4.38E-01, max=8.80E+02): flux from the de Vaucouleur fit 
+**g_modelfit_CModel_dev_instFlux** (unit=count, type=double, min=-2.62E-01, max=3.75E+03): flux from the de Vaucouleur fit 
  
-**g_modelfit_CModel_dev_instFluxErr** (unit=count, type=double, min=1.80E-01, max=3.78E+00): flux uncertainty from the de Vaucouleur fit 
+**g_modelfit_CModel_dev_instFluxErr** (unit=count, type=double, min=1.81E-01, max=6.61E+00): flux uncertainty from the de Vaucouleur fit 
  
-**g_modelfit_CModel_exp_apCorr** (type=double, min=9.90E-01, max=9.93E-01): aperture correction applied to modelfit_CModel_exp 
+**g_modelfit_CModel_exp_apCorr** (type=double, min=9.91E-01, max=9.93E-01): aperture correction applied to modelfit_CModel_exp 
  
 **g_modelfit_CModel_exp_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel_exp 
  
@@ -208,11 +208,11 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **g_modelfit_CModel_exp_flag_numericError** (type=boolean, min=0, max=0): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
  
-**g_modelfit_CModel_exp_flux_inner** (unit=count, type=double, min=-3.83E-01, max=7.43E+02): flux from the exponential fit region, with no extrapolation 
+**g_modelfit_CModel_exp_flux_inner** (unit=count, type=double, min=-2.08E-01, max=3.15E+03): flux from the exponential fit region, with no extrapolation 
  
-**g_modelfit_CModel_exp_instFlux** (unit=count, type=double, min=-4.39E-01, max=8.80E+02): flux from the exponential fit 
+**g_modelfit_CModel_exp_instFlux** (unit=count, type=double, min=-2.28E-01, max=3.75E+03): flux from the exponential fit 
  
-**g_modelfit_CModel_exp_instFluxErr** (unit=count, type=double, min=1.80E-01, max=1.71E+00): flux uncertainty from the exponential fit 
+**g_modelfit_CModel_exp_instFluxErr** (unit=count, type=double, min=1.82E-01, max=4.15E+00): flux uncertainty from the exponential fit 
  
 **g_modelfit_CModel_flag** (type=boolean, min=0, max=1): flag set if the final cmodel fit (or any previous fit) failed 
  
@@ -226,11 +226,11 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **g_modelfit_CModel_flag_region_maxArea** (type=boolean, min=0, max=0): number of pixels in fit region exceeded the region.maxArea value 
  
-**g_modelfit_CModel_flag_region_maxBadPixelFraction** (type=boolean, min=0, max=0): the fraction of bad/clipped pixels in the fit region exceeded region.maxBadPixelFraction 
+**g_modelfit_CModel_flag_region_maxBadPixelFraction** (type=boolean, min=0, max=1): the fraction of bad/clipped pixels in the fit region exceeded region.maxBadPixelFraction 
  
 **g_modelfit_CModel_fracDev** (type=double, min=0.00E+00, max=1.00E+00): fraction of flux in de Vaucouleur component 
  
-**g_modelfit_CModel_initial_apCorr** (type=double, min=9.90E-01, max=9.93E-01): aperture correction applied to modelfit_CModel_initial 
+**g_modelfit_CModel_initial_apCorr** (type=double, min=9.91E-01, max=9.93E-01): aperture correction applied to modelfit_CModel_initial 
  
 **g_modelfit_CModel_initial_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel_initial 
  
@@ -242,19 +242,19 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **g_modelfit_CModel_initial_flag_numericError** (type=boolean, min=0, max=0): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
  
-**g_modelfit_CModel_initial_flux_inner** (unit=count, type=double, min=-3.96E-01, max=7.43E+02): flux from the initial fit region, with no extrapolation 
+**g_modelfit_CModel_initial_flux_inner** (unit=count, type=double, min=-2.03E-01, max=3.15E+03): flux from the initial fit region, with no extrapolation 
  
-**g_modelfit_CModel_initial_instFlux** (unit=count, type=double, min=-4.56E-01, max=8.80E+02): flux from the initial fit 
+**g_modelfit_CModel_initial_instFlux** (unit=count, type=double, min=-2.15E-01, max=3.76E+03): flux from the initial fit 
  
-**g_modelfit_CModel_initial_instFluxErr** (unit=count, type=double, min=1.80E-01, max=1.54E+00): flux uncertainty from the initial fit 
+**g_modelfit_CModel_initial_instFluxErr** (unit=count, type=double, min=1.84E-01, max=2.83E+00): flux uncertainty from the initial fit 
  
-**g_modelfit_CModel_instFlux** (unit=count, type=double, min=-4.38E-01, max=8.80E+02): flux from the final cmodel fit 
+**g_modelfit_CModel_instFlux** (unit=count, type=double, min=-2.28E-01, max=3.75E+03): flux from the final cmodel fit 
  
-**g_modelfit_CModel_instFlux_inner** (unit=count, type=double, min=-3.83E-01, max=7.43E+02): flux within the fit region, with no extrapolation 
+**g_modelfit_CModel_instFlux_inner** (unit=count, type=double, min=-2.08E-01, max=3.15E+03): flux within the fit region, with no extrapolation 
  
-**g_modelfit_CModel_instFluxErr** (unit=count, type=double, min=1.80E-01, max=1.71E+00): flux uncertainty from the final cmodel fit 
+**g_modelfit_CModel_instFluxErr** (unit=count, type=double, min=1.81E-01, max=4.94E+00): flux uncertainty from the final cmodel fit 
  
-**g_modelfit_CModel_objective** (type=double, min=1.05E-02, max=7.88E-01): -ln(likelihood) (chi^2) in cmodel fit 
+**g_modelfit_CModel_objective** (type=double, min=0.00E+00, max=1.07E+01): -ln(likelihood) (chi^2) in cmodel fit 
  
 **i_base_ClassificationExtendedness_flag** (type=boolean, min=0, max=1): Set to 1 for any fatal failure. 
  
@@ -266,7 +266,7 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **i_base_InputCount_flag_noInputs** (type=boolean, min=0, max=0): No coadd inputs available 
  
-**i_base_InputCount_value** (type=int, min=8.40E+01, max=1.02E+02): Number of images contributing at center, not including anyclipping 
+**i_base_InputCount_value** (type=int, min=9.40E+01, max=1.08E+02): Number of images contributing at center, not including anyclipping 
  
 **i_base_LocalBackground_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -276,9 +276,9 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **i_base_LocalBackground_flag_noPsf** (type=boolean, min=0, max=0): no PSF provided 
  
-**i_base_LocalBackground_instFlux** (unit=count, type=double, min=-4.33E-03, max=1.49E-02): background in annulus around source 
+**i_base_LocalBackground_instFlux** (unit=count, type=double, min=-3.61E-03, max=2.13E-01): background in annulus around source 
  
-**i_base_LocalBackground_instFluxErr** (unit=count, type=double, min=5.69E-02, max=6.67E-02): 1-sigma instFlux uncertainty 
+**i_base_LocalBackground_instFluxErr** (unit=count, type=double, min=8.01E-10, max=1.15E-01): 1-sigma instFlux uncertainty 
  
 **i_base_PixelFlags_flag** (type=boolean, min=0, max=0): General failure flag, set if anything went wrong 
  
@@ -296,7 +296,7 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **i_base_PixelFlags_flag_crCenter** (type=boolean, min=0, max=1): Cosmic ray in the Source center 
  
-**i_base_PixelFlags_flag_edge** (type=boolean, min=0, max=0): Source is outside usable exposure region (masked EDGE or NO_DATA) 
+**i_base_PixelFlags_flag_edge** (type=boolean, min=0, max=1): Source is outside usable exposure region (masked EDGE or NO_DATA) 
  
 **i_base_PixelFlags_flag_inexact_psf** (type=boolean, min=0, max=1): Source footprint includes INEXACT_PSF pixels 
  
@@ -312,9 +312,9 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **i_base_PixelFlags_flag_rejectedCenter** (type=boolean, min=0, max=1): Source center is close to REJECTED pixels 
  
-**i_base_PixelFlags_flag_saturated** (type=boolean, min=0, max=0): Saturated pixel in the Source footprint 
+**i_base_PixelFlags_flag_saturated** (type=boolean, min=0, max=1): Saturated pixel in the Source footprint 
  
-**i_base_PixelFlags_flag_saturatedCenter** (type=boolean, min=0, max=0): Saturated pixel in the Source center 
+**i_base_PixelFlags_flag_saturatedCenter** (type=boolean, min=0, max=1): Saturated pixel in the Source center 
  
 **i_base_PixelFlags_flag_sensor_edge** (type=boolean, min=0, max=1): Source footprint includes SENSOR_EDGE pixels 
  
@@ -324,11 +324,11 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **i_base_PixelFlags_flag_suspectCenter** (type=boolean, min=0, max=0): Source''s center is close to suspect pixels 
  
-**i_base_PsfFlux_apCorr** (type=double, min=9.94E-01, max=9.97E-01): aperture correction applied to base_PsfFlux 
+**i_base_PsfFlux_apCorr** (type=double, min=9.95E-01, max=9.97E-01): aperture correction applied to base_PsfFlux 
  
 **i_base_PsfFlux_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to base_PsfFlux 
  
-**i_base_PsfFlux_area** (unit=pixel, type=double, min=4.52E+01, max=4.84E+01): effective area of PSF 
+**i_base_PsfFlux_area** (unit=pixel, type=double, min=4.57E+01, max=4.88E+01): effective area of PSF 
  
 **i_base_PsfFlux_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -340,9 +340,9 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **i_base_PsfFlux_flag_noGoodPixels** (type=boolean, min=0, max=0): not enough non-rejected pixels in data to attempt the fit 
  
-**i_base_PsfFlux_instFlux** (unit=count, type=double, min=-3.96E-01, max=1.34E+03): instFlux derived from linear least-squares fit of PSF model 
+**i_base_PsfFlux_instFlux** (unit=count, type=double, min=-4.02E-01, max=3.32E+04): instFlux derived from linear least-squares fit of PSF model 
  
-**i_base_PsfFlux_instFluxErr** (unit=count, type=double, min=4.07E-01, max=7.22E-01): 1-sigma instFlux uncertainty 
+**i_base_PsfFlux_instFluxErr** (unit=count, type=double, min=4.04E-01, max=4.42E+00): 1-sigma instFlux uncertainty 
  
 **i_base_SdssCentroid_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -358,13 +358,13 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **i_base_SdssCentroid_flag_resetToPeak** (type=boolean, min=0, max=1): set if CentroidChecker reset the centroid 
  
-**i_base_SdssCentroid_x** (unit=pixel, type=double, min=1.20E+04, max=1.92E+04): centroid from Sdss Centroid algorithm 
+**i_base_SdssCentroid_x** (unit=pixel, type=double, min=8.01E+03, max=1.20E+04): centroid from Sdss Centroid algorithm 
  
-**i_base_SdssCentroid_xErr** (unit=pixel, type=double, min=1.52E-03, max=2.29E+04): 1-sigma uncertainty on x position 
+**i_base_SdssCentroid_xErr** (unit=pixel, type=double, min=4.33E-04, max=9.43E+03): 1-sigma uncertainty on x position 
  
-**i_base_SdssCentroid_y** (unit=pixel, type=double, min=7.27E+03, max=1.20E+04): centroid from Sdss Centroid algorithm 
+**i_base_SdssCentroid_y** (unit=pixel, type=double, min=2.42E+04, max=2.45E+04): centroid from Sdss Centroid algorithm 
  
-**i_base_SdssCentroid_yErr** (unit=pixel, type=double, min=1.53E-03, max=1.76E+04): 1-sigma uncertainty on y position 
+**i_base_SdssCentroid_yErr** (unit=pixel, type=double, min=4.34E-04, max=7.98E+03): 1-sigma uncertainty on y position 
  
 **i_base_SdssShape_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -380,37 +380,37 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **i_base_SdssShape_flag_unweightedBad** (type=boolean, min=0, max=1): Both weighted and unweighted moments were invalid 
  
-**i_base_SdssShape_instFlux** (unit=count, type=double, min=6.72E-01, max=1.21E+03): elliptical Gaussian adaptive moments 
+**i_base_SdssShape_instFlux** (unit=count, type=double, min=7.87E-01, max=3.46E+04): elliptical Gaussian adaptive moments 
  
-**i_base_SdssShape_instFlux_xx_Cov** (unit=count*pixel^2, type=double, min=-1.05E+03, max=2.23E+04): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xx 
+**i_base_SdssShape_instFlux_xx_Cov** (unit=count*pixel^2, type=double, min=-1.06E+02, max=-1.84E-03): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xx 
  
-**i_base_SdssShape_instFlux_xy_Cov** (unit=count*pixel^2, type=double, min=-1.12E+03, max=5.65E+02): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xy 
+**i_base_SdssShape_instFlux_xy_Cov** (unit=count*pixel^2, type=double, min=-1.04E+02, max=-1.22E-03): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xy 
  
-**i_base_SdssShape_instFlux_yy_Cov** (unit=count*pixel^2, type=double, min=-3.55E+03, max=4.96E+02): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_yy 
+**i_base_SdssShape_instFlux_yy_Cov** (unit=count*pixel^2, type=double, min=-7.19E+01, max=4.54E+01): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_yy 
  
-**i_base_SdssShape_instFluxErr** (unit=count, type=double, min=1.50E-01, max=4.69E+00): 1-sigma instFlux uncertainty 
+**i_base_SdssShape_instFluxErr** (unit=count, type=double, min=1.72E-01, max=1.01E+01): 1-sigma instFlux uncertainty 
  
-**i_base_SdssShape_psf_xx** (unit=pixel^2, type=double, min=2.97E+00, max=3.16E+00): adaptive moments of the PSF model at the object position 
+**i_base_SdssShape_psf_xx** (unit=pixel^2, type=double, min=2.99E+00, max=3.16E+00): adaptive moments of the PSF model at the object position 
  
-**i_base_SdssShape_psf_xy** (unit=pixel^2, type=double, min=-1.11E-02, max=3.75E-03): adaptive moments of the PSF model at the object position 
+**i_base_SdssShape_psf_xy** (unit=pixel^2, type=double, min=-9.49E-03, max=5.02E-03): adaptive moments of the PSF model at the object position 
  
-**i_base_SdssShape_psf_yy** (unit=pixel^2, type=double, min=2.94E+00, max=3.13E+00): adaptive moments of the PSF model at the object position 
+**i_base_SdssShape_psf_yy** (unit=pixel^2, type=double, min=2.97E+00, max=3.14E+00): adaptive moments of the PSF model at the object position 
  
-**i_base_SdssShape_x** (unit=pixel, type=double, min=1.20E+04, max=1.92E+04): elliptical Gaussian adaptive moments 
+**i_base_SdssShape_x** (unit=pixel, type=double, min=8.01E+03, max=1.20E+04): elliptical Gaussian adaptive moments 
  
-**i_base_SdssShape_xx** (unit=pixel^2, type=double, min=7.06E-02, max=3.24E+05): elliptical Gaussian adaptive moments 
+**i_base_SdssShape_xx** (unit=pixel^2, type=double, min=8.33E-02, max=3.61E+05): elliptical Gaussian adaptive moments 
  
-**i_base_SdssShape_xxErr** (unit=pixel^2, type=double, min=5.31E-03, max=6.62E+02): Standard deviation of xx moment 
+**i_base_SdssShape_xxErr** (unit=pixel^2, type=double, min=1.72E-03, max=1.42E+02): Standard deviation of xx moment 
  
-**i_base_SdssShape_xy** (unit=pixel^2, type=double, min=-1.97E+04, max=1.65E+04): elliptical Gaussian adaptive moments 
+**i_base_SdssShape_xy** (unit=pixel^2, type=double, min=-1.01E+04, max=5.69E+04): elliptical Gaussian adaptive moments 
  
-**i_base_SdssShape_xyErr** (unit=pixel^2, type=double, min=5.27E-03, max=7.28E+02): Standard deviation of xy moment 
+**i_base_SdssShape_xyErr** (unit=pixel^2, type=double, min=1.70E-03, max=1.11E+02): Standard deviation of xy moment 
  
-**i_base_SdssShape_y** (unit=pixel, type=double, min=7.27E+03, max=1.20E+04): elliptical Gaussian adaptive moments 
+**i_base_SdssShape_y** (unit=pixel, type=double, min=2.42E+04, max=2.45E+04): elliptical Gaussian adaptive moments 
  
-**i_base_SdssShape_yy** (unit=pixel^2, type=double, min=5.01E-02, max=3.08E+05): elliptical Gaussian adaptive moments 
+**i_base_SdssShape_yy** (unit=pixel^2, type=double, min=8.33E-02, max=2.91E+05): elliptical Gaussian adaptive moments 
  
-**i_base_SdssShape_yyErr** (unit=pixel^2, type=double, min=3.74E-03, max=4.40E+02): Standard deviation of yy moment 
+**i_base_SdssShape_yyErr** (unit=pixel^2, type=double, min=1.21E-03, max=6.78E+01): Standard deviation of yy moment 
  
 **i_base_Variance_flag** (type=boolean, min=0, max=1): Set for any fatal failure 
  
@@ -418,15 +418,15 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **i_base_Variance_flag_emptyFootprint** (type=boolean, min=0, max=1): Set to True when the footprint has no usable pixels 
  
-**i_base_Variance_value** (type=double, min=3.58E-03, max=4.47E-03): Variance at object position 
+**i_base_Variance_value** (type=double, min=3.48E-03, max=4.04E-03): Variance at object position 
  
 **i_good** (type=boolean, min=0, max=1): True if the source has no flagged pixels. 
  
-**i_modelfit_CModel_apCorr** (type=double, min=9.92E-01, max=9.95E-01): aperture correction applied to modelfit_CModel 
+**i_modelfit_CModel_apCorr** (type=double, min=9.92E-01, max=9.94E-01): aperture correction applied to modelfit_CModel 
  
 **i_modelfit_CModel_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel 
  
-**i_modelfit_CModel_dev_apCorr** (type=double, min=9.91E-01, max=9.94E-01): aperture correction applied to modelfit_CModel_dev 
+**i_modelfit_CModel_dev_apCorr** (type=double, min=9.92E-01, max=9.94E-01): aperture correction applied to modelfit_CModel_dev 
  
 **i_modelfit_CModel_dev_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel_dev 
  
@@ -436,15 +436,15 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **i_modelfit_CModel_dev_flag_badReference** (type=boolean, min=0, max=1): The original fit in the reference catalog failed. 
  
-**i_modelfit_CModel_dev_flag_numericError** (type=boolean, min=0, max=0): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
+**i_modelfit_CModel_dev_flag_numericError** (type=boolean, min=0, max=1): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
  
-**i_modelfit_CModel_dev_flux_inner** (unit=count, type=double, min=-3.56E-01, max=1.15E+03): flux from the de Vaucouleur fit region, with no extrapolation 
+**i_modelfit_CModel_dev_flux_inner** (unit=count, type=double, min=-3.40E-01, max=5.77E+03): flux from the de Vaucouleur fit region, with no extrapolation 
  
-**i_modelfit_CModel_dev_instFlux** (unit=count, type=double, min=-4.09E-01, max=1.34E+03): flux from the de Vaucouleur fit 
+**i_modelfit_CModel_dev_instFlux** (unit=count, type=double, min=-3.74E-01, max=6.72E+03): flux from the de Vaucouleur fit 
  
-**i_modelfit_CModel_dev_instFluxErr** (unit=count, type=double, min=4.12E-01, max=9.29E+00): flux uncertainty from the de Vaucouleur fit 
+**i_modelfit_CModel_dev_instFluxErr** (unit=count, type=double, min=4.07E-01, max=1.43E+01): flux uncertainty from the de Vaucouleur fit 
  
-**i_modelfit_CModel_exp_apCorr** (type=double, min=9.92E-01, max=9.95E-01): aperture correction applied to modelfit_CModel_exp 
+**i_modelfit_CModel_exp_apCorr** (type=double, min=9.92E-01, max=9.94E-01): aperture correction applied to modelfit_CModel_exp 
  
 **i_modelfit_CModel_exp_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel_exp 
  
@@ -454,13 +454,13 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **i_modelfit_CModel_exp_flag_badReference** (type=boolean, min=0, max=1): The original fit in the reference catalog failed. 
  
-**i_modelfit_CModel_exp_flag_numericError** (type=boolean, min=0, max=0): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
+**i_modelfit_CModel_exp_flag_numericError** (type=boolean, min=0, max=1): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
  
-**i_modelfit_CModel_exp_flux_inner** (unit=count, type=double, min=-3.57E-01, max=1.15E+03): flux from the exponential fit region, with no extrapolation 
+**i_modelfit_CModel_exp_flux_inner** (unit=count, type=double, min=-3.40E-01, max=5.77E+03): flux from the exponential fit region, with no extrapolation 
  
-**i_modelfit_CModel_exp_instFlux** (unit=count, type=double, min=-4.09E-01, max=1.34E+03): flux from the exponential fit 
+**i_modelfit_CModel_exp_instFlux** (unit=count, type=double, min=-3.74E-01, max=6.72E+03): flux from the exponential fit 
  
-**i_modelfit_CModel_exp_instFluxErr** (unit=count, type=double, min=4.13E-01, max=4.22E+00): flux uncertainty from the exponential fit 
+**i_modelfit_CModel_exp_instFluxErr** (unit=count, type=double, min=4.07E-01, max=9.12E+00): flux uncertainty from the exponential fit 
  
 **i_modelfit_CModel_flag** (type=boolean, min=0, max=1): flag set if the final cmodel fit (or any previous fit) failed 
  
@@ -474,11 +474,11 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **i_modelfit_CModel_flag_region_maxArea** (type=boolean, min=0, max=0): number of pixels in fit region exceeded the region.maxArea value 
  
-**i_modelfit_CModel_flag_region_maxBadPixelFraction** (type=boolean, min=0, max=0): the fraction of bad/clipped pixels in the fit region exceeded region.maxBadPixelFraction 
+**i_modelfit_CModel_flag_region_maxBadPixelFraction** (type=boolean, min=0, max=1): the fraction of bad/clipped pixels in the fit region exceeded region.maxBadPixelFraction 
  
 **i_modelfit_CModel_fracDev** (type=double, min=0.00E+00, max=1.00E+00): fraction of flux in de Vaucouleur component 
  
-**i_modelfit_CModel_initial_apCorr** (type=double, min=9.92E-01, max=9.95E-01): aperture correction applied to modelfit_CModel_initial 
+**i_modelfit_CModel_initial_apCorr** (type=double, min=9.92E-01, max=9.94E-01): aperture correction applied to modelfit_CModel_initial 
  
 **i_modelfit_CModel_initial_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel_initial 
  
@@ -488,21 +488,21 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **i_modelfit_CModel_initial_flag_badReference** (type=boolean, min=0, max=1): The original fit in the reference catalog failed. 
  
-**i_modelfit_CModel_initial_flag_numericError** (type=boolean, min=0, max=0): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
+**i_modelfit_CModel_initial_flag_numericError** (type=boolean, min=0, max=1): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
  
-**i_modelfit_CModel_initial_flux_inner** (unit=count, type=double, min=-3.57E-01, max=1.15E+03): flux from the initial fit region, with no extrapolation 
+**i_modelfit_CModel_initial_flux_inner** (unit=count, type=double, min=-3.40E-01, max=5.77E+03): flux from the initial fit region, with no extrapolation 
  
-**i_modelfit_CModel_initial_instFlux** (unit=count, type=double, min=-4.09E-01, max=1.34E+03): flux from the initial fit 
+**i_modelfit_CModel_initial_instFlux** (unit=count, type=double, min=-3.74E-01, max=6.72E+03): flux from the initial fit 
  
-**i_modelfit_CModel_initial_instFluxErr** (unit=count, type=double, min=4.13E-01, max=3.80E+00): flux uncertainty from the initial fit 
+**i_modelfit_CModel_initial_instFluxErr** (unit=count, type=double, min=4.07E-01, max=6.12E+00): flux uncertainty from the initial fit 
  
-**i_modelfit_CModel_instFlux** (unit=count, type=double, min=-4.09E-01, max=1.34E+03): flux from the final cmodel fit 
+**i_modelfit_CModel_instFlux** (unit=count, type=double, min=-3.74E-01, max=6.72E+03): flux from the final cmodel fit 
  
-**i_modelfit_CModel_instFlux_inner** (unit=count, type=double, min=-3.56E-01, max=1.15E+03): flux within the fit region, with no extrapolation 
+**i_modelfit_CModel_instFlux_inner** (unit=count, type=double, min=-3.40E-01, max=5.77E+03): flux within the fit region, with no extrapolation 
  
-**i_modelfit_CModel_instFluxErr** (unit=count, type=double, min=4.12E-01, max=4.21E+00): flux uncertainty from the final cmodel fit 
+**i_modelfit_CModel_instFluxErr** (unit=count, type=double, min=4.07E-01, max=1.01E+01): flux uncertainty from the final cmodel fit 
  
-**i_modelfit_CModel_objective** (type=double, min=4.80E-02, max=3.86E+00): -ln(likelihood) (chi^2) in cmodel fit 
+**i_modelfit_CModel_objective** (type=double, min=0.00E+00, max=5.54E+01): -ln(likelihood) (chi^2) in cmodel fit 
  
 **objectId** (type=long): Unique id. 
  
@@ -516,7 +516,7 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **r_base_InputCount_flag_noInputs** (type=boolean, min=0, max=0): No coadd inputs available 
  
-**r_base_InputCount_value** (type=int, min=1.01E+02, max=1.21E+02): Number of images contributing at center, not including anyclipping 
+**r_base_InputCount_value** (type=int, min=9.60E+01, max=1.12E+02): Number of images contributing at center, not including anyclipping 
  
 **r_base_LocalBackground_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -526,9 +526,9 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **r_base_LocalBackground_flag_noPsf** (type=boolean, min=0, max=0): no PSF provided 
  
-**r_base_LocalBackground_instFlux** (unit=count, type=double, min=-2.04E-03, max=1.05E-02): background in annulus around source 
+**r_base_LocalBackground_instFlux** (unit=count, type=double, min=-1.27E-03, max=1.75E-01): background in annulus around source 
  
-**r_base_LocalBackground_instFluxErr** (unit=count, type=double, min=2.81E-02, max=3.38E-02): 1-sigma instFlux uncertainty 
+**r_base_LocalBackground_instFluxErr** (unit=count, type=double, min=3.67E-28, max=9.26E-02): 1-sigma instFlux uncertainty 
  
 **r_base_PixelFlags_flag** (type=boolean, min=0, max=0): General failure flag, set if anything went wrong 
  
@@ -538,7 +538,7 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **r_base_PixelFlags_flag_bright_objectCenter** (type=boolean, min=0, max=0): Source center is close to BRIGHT_OBJECT pixels 
  
-**r_base_PixelFlags_flag_clipped** (type=boolean, min=0, max=1): Source footprint includes CLIPPED pixels 
+**r_base_PixelFlags_flag_clipped** (type=boolean, min=0, max=0): Source footprint includes CLIPPED pixels 
  
 **r_base_PixelFlags_flag_clippedCenter** (type=boolean, min=0, max=0): Source center is close to CLIPPED pixels 
  
@@ -546,7 +546,7 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **r_base_PixelFlags_flag_crCenter** (type=boolean, min=0, max=1): Cosmic ray in the Source center 
  
-**r_base_PixelFlags_flag_edge** (type=boolean, min=0, max=0): Source is outside usable exposure region (masked EDGE or NO_DATA) 
+**r_base_PixelFlags_flag_edge** (type=boolean, min=0, max=1): Source is outside usable exposure region (masked EDGE or NO_DATA) 
  
 **r_base_PixelFlags_flag_inexact_psf** (type=boolean, min=0, max=1): Source footprint includes INEXACT_PSF pixels 
  
@@ -574,11 +574,11 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **r_base_PixelFlags_flag_suspectCenter** (type=boolean, min=0, max=0): Source''s center is close to suspect pixels 
  
-**r_base_PsfFlux_apCorr** (type=double, min=9.92E-01, max=9.95E-01): aperture correction applied to base_PsfFlux 
+**r_base_PsfFlux_apCorr** (type=double, min=9.93E-01, max=9.96E-01): aperture correction applied to base_PsfFlux 
  
 **r_base_PsfFlux_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to base_PsfFlux 
  
-**r_base_PsfFlux_area** (unit=pixel, type=double, min=4.84E+01, max=5.32E+01): effective area of PSF 
+**r_base_PsfFlux_area** (unit=pixel, type=double, min=4.89E+01, max=5.28E+01): effective area of PSF 
  
 **r_base_PsfFlux_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -590,9 +590,9 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **r_base_PsfFlux_flag_noGoodPixels** (type=boolean, min=0, max=0): not enough non-rejected pixels in data to attempt the fit 
  
-**r_base_PsfFlux_instFlux** (unit=count, type=double, min=7.89E-02, max=1.20E+03): instFlux derived from linear least-squares fit of PSF model 
+**r_base_PsfFlux_instFlux** (unit=count, type=double, min=-1.76E-01, max=2.67E+04): instFlux derived from linear least-squares fit of PSF model 
  
-**r_base_PsfFlux_instFluxErr** (unit=count, type=double, min=2.14E-01, max=4.81E-01): 1-sigma instFlux uncertainty 
+**r_base_PsfFlux_instFluxErr** (unit=count, type=double, min=2.26E-01, max=4.55E+00): 1-sigma instFlux uncertainty 
  
 **r_base_SdssCentroid_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -608,13 +608,13 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **r_base_SdssCentroid_flag_resetToPeak** (type=boolean, min=0, max=1): set if CentroidChecker reset the centroid 
  
-**r_base_SdssCentroid_x** (unit=pixel, type=double, min=1.20E+04, max=1.92E+04): centroid from Sdss Centroid algorithm 
+**r_base_SdssCentroid_x** (unit=pixel, type=double, min=8.01E+03, max=1.20E+04): centroid from Sdss Centroid algorithm 
  
-**r_base_SdssCentroid_xErr** (unit=pixel, type=double, min=1.16E-03, max=1.67E+03): 1-sigma uncertainty on x position 
+**r_base_SdssCentroid_xErr** (unit=pixel, type=double, min=4.99E-04, max=8.25E+03): 1-sigma uncertainty on x position 
  
-**r_base_SdssCentroid_y** (unit=pixel, type=double, min=7.27E+03, max=1.20E+04): centroid from Sdss Centroid algorithm 
+**r_base_SdssCentroid_y** (unit=pixel, type=double, min=2.42E+04, max=2.45E+04): centroid from Sdss Centroid algorithm 
  
-**r_base_SdssCentroid_yErr** (unit=pixel, type=double, min=1.16E-03, max=3.75E+03): 1-sigma uncertainty on y position 
+**r_base_SdssCentroid_yErr** (unit=pixel, type=double, min=4.98E-04, max=4.97E+03): 1-sigma uncertainty on y position 
  
 **r_base_SdssShape_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -630,37 +630,37 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **r_base_SdssShape_flag_unweightedBad** (type=boolean, min=0, max=1): Both weighted and unweighted moments were invalid 
  
-**r_base_SdssShape_instFlux** (unit=count, type=double, min=6.60E-01, max=1.08E+03): elliptical Gaussian adaptive moments 
+**r_base_SdssShape_instFlux** (unit=count, type=double, min=2.45E-01, max=3.05E+04): elliptical Gaussian adaptive moments 
  
-**r_base_SdssShape_instFlux_xx_Cov** (unit=count*pixel^2, type=double, min=-5.07E+02, max=-6.37E-04): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xx 
+**r_base_SdssShape_instFlux_xx_Cov** (unit=count*pixel^2, type=double, min=-5.84E+01, max=-2.58E-04): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xx 
  
-**r_base_SdssShape_instFlux_xy_Cov** (unit=count*pixel^2, type=double, min=-2.73E+02, max=-6.75E-04): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xy 
+**r_base_SdssShape_instFlux_xy_Cov** (unit=count*pixel^2, type=double, min=-6.71E+02, max=-3.26E-04): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xy 
  
-**r_base_SdssShape_instFlux_yy_Cov** (unit=count*pixel^2, type=double, min=-3.11E+02, max=1.28E+02): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_yy 
+**r_base_SdssShape_instFlux_yy_Cov** (unit=count*pixel^2, type=double, min=-5.06E+01, max=1.64E+01): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_yy 
  
-**r_base_SdssShape_instFluxErr** (unit=count, type=double, min=1.32E-01, max=1.70E+00): 1-sigma instFlux uncertainty 
+**r_base_SdssShape_instFluxErr** (unit=count, type=double, min=6.40E-02, max=8.30E+00): 1-sigma instFlux uncertainty 
  
-**r_base_SdssShape_psf_xx** (unit=pixel^2, type=double, min=3.13E+00, max=3.38E+00): adaptive moments of the PSF model at the object position 
+**r_base_SdssShape_psf_xx** (unit=pixel^2, type=double, min=3.16E+00, max=3.39E+00): adaptive moments of the PSF model at the object position 
  
-**r_base_SdssShape_psf_xy** (unit=pixel^2, type=double, min=-9.88E-03, max=2.85E-03): adaptive moments of the PSF model at the object position 
+**r_base_SdssShape_psf_xy** (unit=pixel^2, type=double, min=-2.93E-03, max=6.05E-03): adaptive moments of the PSF model at the object position 
  
-**r_base_SdssShape_psf_yy** (unit=pixel^2, type=double, min=3.07E+00, max=3.33E+00): adaptive moments of the PSF model at the object position 
+**r_base_SdssShape_psf_yy** (unit=pixel^2, type=double, min=3.11E+00, max=3.34E+00): adaptive moments of the PSF model at the object position 
  
-**r_base_SdssShape_x** (unit=pixel, type=double, min=1.20E+04, max=1.92E+04): elliptical Gaussian adaptive moments 
+**r_base_SdssShape_x** (unit=pixel, type=double, min=8.01E+03, max=1.20E+04): elliptical Gaussian adaptive moments 
  
-**r_base_SdssShape_xx** (unit=pixel^2, type=double, min=5.65E-02, max=2.27E+05): elliptical Gaussian adaptive moments 
+**r_base_SdssShape_xx** (unit=pixel^2, type=double, min=8.33E-02, max=3.53E+05): elliptical Gaussian adaptive moments 
  
-**r_base_SdssShape_xxErr** (unit=pixel^2, type=double, min=4.32E-03, max=5.96E+02): Standard deviation of xx moment 
+**r_base_SdssShape_xxErr** (unit=pixel^2, type=double, min=2.00E-03, max=1.04E+02): Standard deviation of xx moment 
  
-**r_base_SdssShape_xy** (unit=pixel^2, type=double, min=-2.67E+04, max=1.15E+04): elliptical Gaussian adaptive moments 
+**r_base_SdssShape_xy** (unit=pixel^2, type=double, min=-8.17E+03, max=1.21E+05): elliptical Gaussian adaptive moments 
  
-**r_base_SdssShape_xyErr** (unit=pixel^2, type=double, min=4.23E-03, max=3.93E+02): Standard deviation of xy moment 
+**r_base_SdssShape_xyErr** (unit=pixel^2, type=double, min=1.96E-03, max=1.10E+03): Standard deviation of xy moment 
  
-**r_base_SdssShape_y** (unit=pixel, type=double, min=7.27E+03, max=1.20E+04): elliptical Gaussian adaptive moments 
+**r_base_SdssShape_y** (unit=pixel, type=double, min=2.42E+04, max=2.45E+04): elliptical Gaussian adaptive moments 
  
-**r_base_SdssShape_yy** (unit=pixel^2, type=double, min=8.33E-02, max=2.35E+05): elliptical Gaussian adaptive moments 
+**r_base_SdssShape_yy** (unit=pixel^2, type=double, min=8.33E-02, max=3.69E+05): elliptical Gaussian adaptive moments 
  
-**r_base_SdssShape_yyErr** (unit=pixel^2, type=double, min=3.02E-03, max=4.48E+02): Standard deviation of yy moment 
+**r_base_SdssShape_yyErr** (unit=pixel^2, type=double, min=1.40E-03, max=9.07E+01): Standard deviation of yy moment 
  
 **r_base_Variance_flag** (type=boolean, min=0, max=1): Set for any fatal failure 
  
@@ -668,15 +668,15 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **r_base_Variance_flag_emptyFootprint** (type=boolean, min=0, max=1): Set to True when the footprint has no usable pixels 
  
-**r_base_Variance_value** (type=double, min=9.06E-04, max=1.09E-03): Variance at object position 
+**r_base_Variance_value** (type=double, min=1.01E-03, max=1.22E-03): Variance at object position 
  
 **r_good** (type=boolean, min=0, max=1): True if the source has no flagged pixels. 
  
-**r_modelfit_CModel_apCorr** (type=double, min=9.90E-01, max=9.93E-01): aperture correction applied to modelfit_CModel 
+**r_modelfit_CModel_apCorr** (type=double, min=9.91E-01, max=9.93E-01): aperture correction applied to modelfit_CModel 
  
 **r_modelfit_CModel_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel 
  
-**r_modelfit_CModel_dev_apCorr** (type=double, min=9.89E-01, max=9.93E-01): aperture correction applied to modelfit_CModel_dev 
+**r_modelfit_CModel_dev_apCorr** (type=double, min=9.91E-01, max=9.93E-01): aperture correction applied to modelfit_CModel_dev 
  
 **r_modelfit_CModel_dev_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel_dev 
  
@@ -686,15 +686,15 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **r_modelfit_CModel_dev_flag_badReference** (type=boolean, min=0, max=1): The original fit in the reference catalog failed. 
  
-**r_modelfit_CModel_dev_flag_numericError** (type=boolean, min=0, max=0): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
+**r_modelfit_CModel_dev_flag_numericError** (type=boolean, min=0, max=1): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
  
-**r_modelfit_CModel_dev_flux_inner** (unit=count, type=double, min=1.10E-01, max=1.01E+03): flux from the de Vaucouleur fit region, with no extrapolation 
+**r_modelfit_CModel_dev_flux_inner** (unit=count, type=double, min=-1.55E-01, max=4.78E+03): flux from the de Vaucouleur fit region, with no extrapolation 
  
-**r_modelfit_CModel_dev_instFlux** (unit=count, type=double, min=1.32E-01, max=1.20E+03): flux from the de Vaucouleur fit 
+**r_modelfit_CModel_dev_instFlux** (unit=count, type=double, min=-1.83E-01, max=5.66E+03): flux from the de Vaucouleur fit 
  
-**r_modelfit_CModel_dev_instFluxErr** (unit=count, type=double, min=2.14E-01, max=4.60E+00): flux uncertainty from the de Vaucouleur fit 
+**r_modelfit_CModel_dev_instFluxErr** (unit=count, type=double, min=2.26E-01, max=8.16E+00): flux uncertainty from the de Vaucouleur fit 
  
-**r_modelfit_CModel_exp_apCorr** (type=double, min=9.90E-01, max=9.93E-01): aperture correction applied to modelfit_CModel_exp 
+**r_modelfit_CModel_exp_apCorr** (type=double, min=9.91E-01, max=9.94E-01): aperture correction applied to modelfit_CModel_exp 
  
 **r_modelfit_CModel_exp_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel_exp 
  
@@ -702,15 +702,15 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **r_modelfit_CModel_exp_flag_apCorr** (type=boolean, min=0, max=0): set if unable to aperture correct modelfit_CModel_exp 
  
-**r_modelfit_CModel_exp_flag_badReference** (type=boolean, min=0, max=0): The original fit in the reference catalog failed. 
+**r_modelfit_CModel_exp_flag_badReference** (type=boolean, min=0, max=1): The original fit in the reference catalog failed. 
  
-**r_modelfit_CModel_exp_flag_numericError** (type=boolean, min=0, max=0): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
+**r_modelfit_CModel_exp_flag_numericError** (type=boolean, min=0, max=1): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
  
-**r_modelfit_CModel_exp_flux_inner** (unit=count, type=double, min=9.24E-02, max=1.00E+03): flux from the exponential fit region, with no extrapolation 
+**r_modelfit_CModel_exp_flux_inner** (unit=count, type=double, min=-1.44E-01, max=4.77E+03): flux from the exponential fit region, with no extrapolation 
  
-**r_modelfit_CModel_exp_instFlux** (unit=count, type=double, min=1.05E-01, max=1.20E+03): flux from the exponential fit 
+**r_modelfit_CModel_exp_instFlux** (unit=count, type=double, min=-1.67E-01, max=5.66E+03): flux from the exponential fit 
  
-**r_modelfit_CModel_exp_instFluxErr** (unit=count, type=double, min=2.14E-01, max=2.08E+00): flux uncertainty from the exponential fit 
+**r_modelfit_CModel_exp_instFluxErr** (unit=count, type=double, min=2.26E-01, max=4.86E+00): flux uncertainty from the exponential fit 
  
 **r_modelfit_CModel_flag** (type=boolean, min=0, max=1): flag set if the final cmodel fit (or any previous fit) failed 
  
@@ -728,7 +728,7 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **r_modelfit_CModel_fracDev** (type=double, min=0.00E+00, max=1.00E+00): fraction of flux in de Vaucouleur component 
  
-**r_modelfit_CModel_initial_apCorr** (type=double, min=9.90E-01, max=9.93E-01): aperture correction applied to modelfit_CModel_initial 
+**r_modelfit_CModel_initial_apCorr** (type=double, min=9.91E-01, max=9.94E-01): aperture correction applied to modelfit_CModel_initial 
  
 **r_modelfit_CModel_initial_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel_initial 
  
@@ -736,23 +736,23 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **r_modelfit_CModel_initial_flag_apCorr** (type=boolean, min=0, max=0): set if unable to aperture correct modelfit_CModel_initial 
  
-**r_modelfit_CModel_initial_flag_badReference** (type=boolean, min=0, max=0): The original fit in the reference catalog failed. 
+**r_modelfit_CModel_initial_flag_badReference** (type=boolean, min=0, max=1): The original fit in the reference catalog failed. 
  
-**r_modelfit_CModel_initial_flag_numericError** (type=boolean, min=0, max=0): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
+**r_modelfit_CModel_initial_flag_numericError** (type=boolean, min=0, max=1): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
  
-**r_modelfit_CModel_initial_flux_inner** (unit=count, type=double, min=9.12E-02, max=1.01E+03): flux from the initial fit region, with no extrapolation 
+**r_modelfit_CModel_initial_flux_inner** (unit=count, type=double, min=-1.43E-01, max=4.78E+03): flux from the initial fit region, with no extrapolation 
  
-**r_modelfit_CModel_initial_instFlux** (unit=count, type=double, min=1.03E-01, max=1.20E+03): flux from the initial fit 
+**r_modelfit_CModel_initial_instFlux** (unit=count, type=double, min=-1.66E-01, max=5.67E+03): flux from the initial fit 
  
-**r_modelfit_CModel_initial_instFluxErr** (unit=count, type=double, min=2.14E-01, max=1.87E+00): flux uncertainty from the initial fit 
+**r_modelfit_CModel_initial_instFluxErr** (unit=count, type=double, min=2.26E-01, max=3.49E+00): flux uncertainty from the initial fit 
  
-**r_modelfit_CModel_instFlux** (unit=count, type=double, min=1.32E-01, max=1.20E+03): flux from the final cmodel fit 
+**r_modelfit_CModel_instFlux** (unit=count, type=double, min=-1.67E-01, max=5.66E+03): flux from the final cmodel fit 
  
-**r_modelfit_CModel_instFlux_inner** (unit=count, type=double, min=1.10E-01, max=1.01E+03): flux within the fit region, with no extrapolation 
+**r_modelfit_CModel_instFlux_inner** (unit=count, type=double, min=-1.44E-01, max=4.77E+03): flux within the fit region, with no extrapolation 
  
-**r_modelfit_CModel_instFluxErr** (unit=count, type=double, min=2.14E-01, max=2.08E+00): flux uncertainty from the final cmodel fit 
+**r_modelfit_CModel_instFluxErr** (unit=count, type=double, min=2.26E-01, max=5.96E+00): flux uncertainty from the final cmodel fit 
  
-**r_modelfit_CModel_objective** (type=double, min=1.48E-02, max=9.37E-01): -ln(likelihood) (chi^2) in cmodel fit 
+**r_modelfit_CModel_objective** (type=double, min=0.00E+00, max=1.54E+01): -ln(likelihood) (chi^2) in cmodel fit 
  
 **u_base_ClassificationExtendedness_flag** (type=boolean, min=0, max=1): Set to 1 for any fatal failure. 
  
@@ -764,7 +764,7 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **u_base_InputCount_flag_noInputs** (type=boolean, min=0, max=0): No coadd inputs available 
  
-**u_base_InputCount_value** (type=int, min=2.20E+01, max=3.40E+01): Number of images contributing at center, not including anyclipping 
+**u_base_InputCount_value** (type=int, min=2.40E+01, max=3.00E+01): Number of images contributing at center, not including anyclipping 
  
 **u_base_LocalBackground_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -774,9 +774,9 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **u_base_LocalBackground_flag_noPsf** (type=boolean, min=0, max=0): no PSF provided 
  
-**u_base_LocalBackground_instFlux** (unit=count, type=double, min=-6.10E-03, max=6.79E-03): background in annulus around source 
+**u_base_LocalBackground_instFlux** (unit=count, type=double, min=-6.38E-03, max=2.77E-02): background in annulus around source 
  
-**u_base_LocalBackground_instFluxErr** (unit=count, type=double, min=6.86E-02, max=8.28E-02): 1-sigma instFlux uncertainty 
+**u_base_LocalBackground_instFluxErr** (unit=count, type=double, min=7.55E-03, max=9.07E-02): 1-sigma instFlux uncertainty 
  
 **u_base_PixelFlags_flag** (type=boolean, min=0, max=0): General failure flag, set if anything went wrong 
  
@@ -786,7 +786,7 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **u_base_PixelFlags_flag_bright_objectCenter** (type=boolean, min=0, max=0): Source center is close to BRIGHT_OBJECT pixels 
  
-**u_base_PixelFlags_flag_clipped** (type=boolean, min=0, max=1): Source footprint includes CLIPPED pixels 
+**u_base_PixelFlags_flag_clipped** (type=boolean, min=0, max=0): Source footprint includes CLIPPED pixels 
  
 **u_base_PixelFlags_flag_clippedCenter** (type=boolean, min=0, max=0): Source center is close to CLIPPED pixels 
  
@@ -794,7 +794,7 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **u_base_PixelFlags_flag_crCenter** (type=boolean, min=0, max=1): Cosmic ray in the Source center 
  
-**u_base_PixelFlags_flag_edge** (type=boolean, min=0, max=0): Source is outside usable exposure region (masked EDGE or NO_DATA) 
+**u_base_PixelFlags_flag_edge** (type=boolean, min=0, max=1): Source is outside usable exposure region (masked EDGE or NO_DATA) 
  
 **u_base_PixelFlags_flag_inexact_psf** (type=boolean, min=0, max=1): Source footprint includes INEXACT_PSF pixels 
  
@@ -806,11 +806,11 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **u_base_PixelFlags_flag_offimage** (type=boolean, min=0, max=0): Source center is off image 
  
-**u_base_PixelFlags_flag_rejected** (type=boolean, min=0, max=0): Source footprint includes REJECTED pixels 
+**u_base_PixelFlags_flag_rejected** (type=boolean, min=0, max=1): Source footprint includes REJECTED pixels 
  
 **u_base_PixelFlags_flag_rejectedCenter** (type=boolean, min=0, max=0): Source center is close to REJECTED pixels 
  
-**u_base_PixelFlags_flag_saturated** (type=boolean, min=0, max=0): Saturated pixel in the Source footprint 
+**u_base_PixelFlags_flag_saturated** (type=boolean, min=0, max=1): Saturated pixel in the Source footprint 
  
 **u_base_PixelFlags_flag_saturatedCenter** (type=boolean, min=0, max=0): Saturated pixel in the Source center 
  
@@ -822,11 +822,11 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **u_base_PixelFlags_flag_suspectCenter** (type=boolean, min=0, max=0): Source''s center is close to suspect pixels 
  
-**u_base_PsfFlux_apCorr** (type=double, min=9.90E-01, max=9.94E-01): aperture correction applied to base_PsfFlux 
+**u_base_PsfFlux_apCorr** (type=double, min=9.88E-01, max=9.92E-01): aperture correction applied to base_PsfFlux 
  
 **u_base_PsfFlux_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to base_PsfFlux 
  
-**u_base_PsfFlux_area** (unit=pixel, type=double, min=5.66E+01, max=6.78E+01): effective area of PSF 
+**u_base_PsfFlux_area** (unit=pixel, type=double, min=6.00E+01, max=6.84E+01): effective area of PSF 
  
 **u_base_PsfFlux_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -838,9 +838,9 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **u_base_PsfFlux_flag_noGoodPixels** (type=boolean, min=0, max=0): not enough non-rejected pixels in data to attempt the fit 
  
-**u_base_PsfFlux_instFlux** (unit=count, type=double, min=-2.50E+00, max=3.61E+02): instFlux derived from linear least-squares fit of PSF model 
+**u_base_PsfFlux_instFlux** (unit=count, type=double, min=-1.38E+00, max=1.33E+04): instFlux derived from linear least-squares fit of PSF model 
  
-**u_base_PsfFlux_instFluxErr** (unit=count, type=double, min=5.47E-01, max=1.09E+00): 1-sigma instFlux uncertainty 
+**u_base_PsfFlux_instFluxErr** (unit=count, type=double, min=5.89E-01, max=6.15E+00): 1-sigma instFlux uncertainty 
  
 **u_base_SdssCentroid_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -848,7 +848,7 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **u_base_SdssCentroid_flag_badInitialCentroid** (type=boolean, min=0, max=1): whether the reference centroid is marked as bad 
  
-**u_base_SdssCentroid_flag_edge** (type=boolean, min=0, max=0): Object too close to edge 
+**u_base_SdssCentroid_flag_edge** (type=boolean, min=0, max=1): Object too close to edge 
  
 **u_base_SdssCentroid_flag_noSecondDerivative** (type=boolean, min=0, max=0): Vanishing second derivative 
  
@@ -856,13 +856,13 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **u_base_SdssCentroid_flag_resetToPeak** (type=boolean, min=0, max=1): set if CentroidChecker reset the centroid 
  
-**u_base_SdssCentroid_x** (unit=pixel, type=double, min=1.20E+04, max=1.92E+04): centroid from Sdss Centroid algorithm 
+**u_base_SdssCentroid_x** (unit=pixel, type=double, min=8.01E+03, max=1.20E+04): centroid from Sdss Centroid algorithm 
  
-**u_base_SdssCentroid_xErr** (unit=pixel, type=double, min=1.04E-02, max=1.30E+04): 1-sigma uncertainty on x position 
+**u_base_SdssCentroid_xErr** (unit=pixel, type=double, min=1.61E-03, max=1.15E+04): 1-sigma uncertainty on x position 
  
-**u_base_SdssCentroid_y** (unit=pixel, type=double, min=7.27E+03, max=1.20E+04): centroid from Sdss Centroid algorithm 
+**u_base_SdssCentroid_y** (unit=pixel, type=double, min=2.42E+04, max=2.45E+04): centroid from Sdss Centroid algorithm 
  
-**u_base_SdssCentroid_yErr** (unit=pixel, type=double, min=9.56E-03, max=1.83E+04): 1-sigma uncertainty on y position 
+**u_base_SdssCentroid_yErr** (unit=pixel, type=double, min=1.46E-03, max=7.18E+03): 1-sigma uncertainty on y position 
  
 **u_base_SdssShape_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -878,37 +878,37 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **u_base_SdssShape_flag_unweightedBad** (type=boolean, min=0, max=1): Both weighted and unweighted moments were invalid 
  
-**u_base_SdssShape_instFlux** (unit=count, type=double, min=3.53E-01, max=3.30E+02): elliptical Gaussian adaptive moments 
+**u_base_SdssShape_instFlux** (unit=count, type=double, min=5.45E-01, max=1.22E+04): elliptical Gaussian adaptive moments 
  
-**u_base_SdssShape_instFlux_xx_Cov** (unit=count*pixel^2, type=double, min=-9.63E+01, max=-8.66E-03): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xx 
+**u_base_SdssShape_instFlux_xx_Cov** (unit=count*pixel^2, type=double, min=-2.01E+03, max=-9.06E-04): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xx 
  
-**u_base_SdssShape_instFlux_xy_Cov** (unit=count*pixel^2, type=double, min=-1.10E+02, max=-8.50E-04): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xy 
+**u_base_SdssShape_instFlux_xy_Cov** (unit=count*pixel^2, type=double, min=-4.05E+03, max=-9.05E-04): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xy 
  
-**u_base_SdssShape_instFlux_yy_Cov** (unit=count*pixel^2, type=double, min=-9.03E+00, max=1.13E+01): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_yy 
+**u_base_SdssShape_instFlux_yy_Cov** (unit=count*pixel^2, type=double, min=-1.39E+03, max=1.18E+03): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_yy 
  
-**u_base_SdssShape_instFluxErr** (unit=count, type=double, min=2.23E-01, max=2.13E+00): 1-sigma instFlux uncertainty 
+**u_base_SdssShape_instFluxErr** (unit=count, type=double, min=1.40E-01, max=9.74E+00): 1-sigma instFlux uncertainty 
  
-**u_base_SdssShape_psf_xx** (unit=pixel^2, type=double, min=3.96E+00, max=4.62E+00): adaptive moments of the PSF model at the object position 
+**u_base_SdssShape_psf_xx** (unit=pixel^2, type=double, min=4.21E+00, max=4.76E+00): adaptive moments of the PSF model at the object position 
  
-**u_base_SdssShape_psf_xy** (unit=pixel^2, type=double, min=-4.47E-02, max=-5.80E-03): adaptive moments of the PSF model at the object position 
+**u_base_SdssShape_psf_xy** (unit=pixel^2, type=double, min=-5.16E-02, max=-1.28E-02): adaptive moments of the PSF model at the object position 
  
-**u_base_SdssShape_psf_yy** (unit=pixel^2, type=double, min=3.54E+00, max=4.20E+00): adaptive moments of the PSF model at the object position 
+**u_base_SdssShape_psf_yy** (unit=pixel^2, type=double, min=3.72E+00, max=4.21E+00): adaptive moments of the PSF model at the object position 
  
-**u_base_SdssShape_x** (unit=pixel, type=double, min=1.20E+04, max=1.92E+04): elliptical Gaussian adaptive moments 
+**u_base_SdssShape_x** (unit=pixel, type=double, min=8.01E+03, max=1.20E+04): elliptical Gaussian adaptive moments 
  
-**u_base_SdssShape_xx** (unit=pixel^2, type=double, min=4.17E-02, max=1.09E+04): elliptical Gaussian adaptive moments 
+**u_base_SdssShape_xx** (unit=pixel^2, type=double, min=8.33E-02, max=7.45E+03): elliptical Gaussian adaptive moments 
  
-**u_base_SdssShape_xxErr** (unit=pixel^2, type=double, min=4.29E-02, max=1.27E+02): Standard deviation of xx moment 
+**u_base_SdssShape_xxErr** (unit=pixel^2, type=double, min=6.87E-03, max=1.11E+03): Standard deviation of xx moment 
  
-**u_base_SdssShape_xy** (unit=pixel^2, type=double, min=-8.17E+02, max=9.07E+03): elliptical Gaussian adaptive moments 
+**u_base_SdssShape_xy** (unit=pixel^2, type=double, min=-1.06E+03, max=1.30E+03): elliptical Gaussian adaptive moments 
  
-**u_base_SdssShape_xyErr** (unit=pixel^2, type=double, min=6.80E-03, max=1.21E+02): Standard deviation of xy moment 
+**u_base_SdssShape_xyErr** (unit=pixel^2, type=double, min=6.25E-03, max=2.76E+03): Standard deviation of xy moment 
  
-**u_base_SdssShape_y** (unit=pixel, type=double, min=7.28E+03, max=1.20E+04): elliptical Gaussian adaptive moments 
+**u_base_SdssShape_y** (unit=pixel, type=double, min=2.42E+04, max=2.45E+04): elliptical Gaussian adaptive moments 
  
-**u_base_SdssShape_yy** (unit=pixel^2, type=double, min=7.31E-02, max=1.24E+04): elliptical Gaussian adaptive moments 
+**u_base_SdssShape_yy** (unit=pixel^2, type=double, min=6.71E-03, max=6.78E+03): elliptical Gaussian adaptive moments 
  
-**u_base_SdssShape_yyErr** (unit=pixel^2, type=double, min=1.64E-02, max=2.53E+01): Standard deviation of yy moment 
+**u_base_SdssShape_yyErr** (unit=pixel^2, type=double, min=4.71E-03, max=9.48E+02): Standard deviation of yy moment 
  
 **u_base_Variance_flag** (type=boolean, min=0, max=1): Set for any fatal failure 
  
@@ -916,15 +916,15 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **u_base_Variance_flag_emptyFootprint** (type=boolean, min=0, max=1): Set to True when the footprint has no usable pixels 
  
-**u_base_Variance_value** (type=double, min=4.94E-03, max=7.53E-03): Variance at object position 
+**u_base_Variance_value** (type=double, min=5.46E-03, max=7.57E-03): Variance at object position 
  
 **u_good** (type=boolean, min=0, max=1): True if the source has no flagged pixels. 
  
-**u_modelfit_CModel_apCorr** (type=double, min=9.89E-01, max=9.92E-01): aperture correction applied to modelfit_CModel 
+**u_modelfit_CModel_apCorr** (type=double, min=9.87E-01, max=9.90E-01): aperture correction applied to modelfit_CModel 
  
 **u_modelfit_CModel_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel 
  
-**u_modelfit_CModel_dev_apCorr** (type=double, min=9.88E-01, max=9.92E-01): aperture correction applied to modelfit_CModel_dev 
+**u_modelfit_CModel_dev_apCorr** (type=double, min=9.86E-01, max=9.90E-01): aperture correction applied to modelfit_CModel_dev 
  
 **u_modelfit_CModel_dev_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel_dev 
  
@@ -934,15 +934,15 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **u_modelfit_CModel_dev_flag_badReference** (type=boolean, min=0, max=1): The original fit in the reference catalog failed. 
  
-**u_modelfit_CModel_dev_flag_numericError** (type=boolean, min=0, max=0): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
+**u_modelfit_CModel_dev_flag_numericError** (type=boolean, min=0, max=1): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
  
-**u_modelfit_CModel_dev_flux_inner** (unit=count, type=double, min=-2.00E+00, max=2.88E+02): flux from the de Vaucouleur fit region, with no extrapolation 
+**u_modelfit_CModel_dev_flux_inner** (unit=count, type=double, min=-1.80E+00, max=1.19E+04): flux from the de Vaucouleur fit region, with no extrapolation 
  
-**u_modelfit_CModel_dev_instFlux** (unit=count, type=double, min=-2.38E+00, max=3.61E+02): flux from the de Vaucouleur fit 
+**u_modelfit_CModel_dev_instFlux** (unit=count, type=double, min=-2.37E+00, max=1.36E+04): flux from the de Vaucouleur fit 
  
-**u_modelfit_CModel_dev_instFluxErr** (unit=count, type=double, min=5.50E-01, max=1.12E+01): flux uncertainty from the de Vaucouleur fit 
+**u_modelfit_CModel_dev_instFluxErr** (unit=count, type=double, min=5.95E-01, max=1.88E+01): flux uncertainty from the de Vaucouleur fit 
  
-**u_modelfit_CModel_exp_apCorr** (type=double, min=9.89E-01, max=9.93E-01): aperture correction applied to modelfit_CModel_exp 
+**u_modelfit_CModel_exp_apCorr** (type=double, min=9.87E-01, max=9.90E-01): aperture correction applied to modelfit_CModel_exp 
  
 **u_modelfit_CModel_exp_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel_exp 
  
@@ -952,13 +952,13 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **u_modelfit_CModel_exp_flag_badReference** (type=boolean, min=0, max=1): The original fit in the reference catalog failed. 
  
-**u_modelfit_CModel_exp_flag_numericError** (type=boolean, min=0, max=0): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
+**u_modelfit_CModel_exp_flag_numericError** (type=boolean, min=0, max=1): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
  
-**u_modelfit_CModel_exp_flux_inner** (unit=count, type=double, min=-2.00E+00, max=2.88E+02): flux from the exponential fit region, with no extrapolation 
+**u_modelfit_CModel_exp_flux_inner** (unit=count, type=double, min=-1.87E+00, max=1.19E+04): flux from the exponential fit region, with no extrapolation 
  
-**u_modelfit_CModel_exp_instFlux** (unit=count, type=double, min=-2.37E+00, max=3.61E+02): flux from the exponential fit 
+**u_modelfit_CModel_exp_instFlux** (unit=count, type=double, min=-2.63E+00, max=1.36E+04): flux from the exponential fit 
  
-**u_modelfit_CModel_exp_instFluxErr** (unit=count, type=double, min=5.50E-01, max=5.04E+00): flux uncertainty from the exponential fit 
+**u_modelfit_CModel_exp_instFluxErr** (unit=count, type=double, min=5.95E-01, max=1.17E+01): flux uncertainty from the exponential fit 
  
 **u_modelfit_CModel_flag** (type=boolean, min=0, max=1): flag set if the final cmodel fit (or any previous fit) failed 
  
@@ -976,7 +976,7 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **u_modelfit_CModel_fracDev** (type=double, min=0.00E+00, max=1.00E+00): fraction of flux in de Vaucouleur component 
  
-**u_modelfit_CModel_initial_apCorr** (type=double, min=9.89E-01, max=9.93E-01): aperture correction applied to modelfit_CModel_initial 
+**u_modelfit_CModel_initial_apCorr** (type=double, min=9.88E-01, max=9.91E-01): aperture correction applied to modelfit_CModel_initial 
  
 **u_modelfit_CModel_initial_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel_initial 
  
@@ -986,21 +986,21 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **u_modelfit_CModel_initial_flag_badReference** (type=boolean, min=0, max=1): The original fit in the reference catalog failed. 
  
-**u_modelfit_CModel_initial_flag_numericError** (type=boolean, min=0, max=0): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
+**u_modelfit_CModel_initial_flag_numericError** (type=boolean, min=0, max=1): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
  
-**u_modelfit_CModel_initial_flux_inner** (unit=count, type=double, min=-2.01E+00, max=2.88E+02): flux from the initial fit region, with no extrapolation 
+**u_modelfit_CModel_initial_flux_inner** (unit=count, type=double, min=-2.04E+00, max=1.19E+04): flux from the initial fit region, with no extrapolation 
  
-**u_modelfit_CModel_initial_instFlux** (unit=count, type=double, min=-2.40E+00, max=3.61E+02): flux from the initial fit 
+**u_modelfit_CModel_initial_instFlux** (unit=count, type=double, min=-2.29E+00, max=1.35E+04): flux from the initial fit 
  
-**u_modelfit_CModel_initial_instFluxErr** (unit=count, type=double, min=5.52E-01, max=4.54E+00): flux uncertainty from the initial fit 
+**u_modelfit_CModel_initial_instFluxErr** (unit=count, type=double, min=5.96E-01, max=8.02E+00): flux uncertainty from the initial fit 
  
-**u_modelfit_CModel_instFlux** (unit=count, type=double, min=-2.38E+00, max=3.61E+02): flux from the final cmodel fit 
+**u_modelfit_CModel_instFlux** (unit=count, type=double, min=-2.63E+00, max=1.36E+04): flux from the final cmodel fit 
  
-**u_modelfit_CModel_instFlux_inner** (unit=count, type=double, min=-2.00E+00, max=2.88E+02): flux within the fit region, with no extrapolation 
+**u_modelfit_CModel_instFlux_inner** (unit=count, type=double, min=-1.87E+00, max=1.19E+04): flux within the fit region, with no extrapolation 
  
-**u_modelfit_CModel_instFluxErr** (unit=count, type=double, min=5.50E-01, max=9.11E+00): flux uncertainty from the final cmodel fit 
+**u_modelfit_CModel_instFluxErr** (unit=count, type=double, min=5.95E-01, max=1.43E+01): flux uncertainty from the final cmodel fit 
  
-**u_modelfit_CModel_objective** (type=double, min=9.10E-02, max=5.64E+00): -ln(likelihood) (chi^2) in cmodel fit 
+**u_modelfit_CModel_objective** (type=double, min=0.00E+00, max=1.10E+03): -ln(likelihood) (chi^2) in cmodel fit 
  
 **y_base_ClassificationExtendedness_flag** (type=boolean, min=0, max=1): Set to 1 for any fatal failure. 
  
@@ -1012,7 +1012,7 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **y_base_InputCount_flag_noInputs** (type=boolean, min=0, max=0): No coadd inputs available 
  
-**y_base_InputCount_value** (type=int, min=6.30E+01, max=8.10E+01): Number of images contributing at center, not including anyclipping 
+**y_base_InputCount_value** (type=int, min=5.50E+01, max=6.90E+01): Number of images contributing at center, not including anyclipping 
  
 **y_base_LocalBackground_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -1022,9 +1022,9 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **y_base_LocalBackground_flag_noPsf** (type=boolean, min=0, max=0): no PSF provided 
  
-**y_base_LocalBackground_instFlux** (unit=count, type=double, min=-1.13E-02, max=3.25E-02): background in annulus around source 
+**y_base_LocalBackground_instFlux** (unit=count, type=double, min=-1.11E-02, max=1.17E-01): background in annulus around source 
  
-**y_base_LocalBackground_instFluxErr** (unit=count, type=double, min=2.43E-01, max=2.86E-01): 1-sigma instFlux uncertainty 
+**y_base_LocalBackground_instFluxErr** (unit=count, type=double, min=8.68E-02, max=2.96E-01): 1-sigma instFlux uncertainty 
  
 **y_base_PixelFlags_flag** (type=boolean, min=0, max=0): General failure flag, set if anything went wrong 
  
@@ -1034,15 +1034,15 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **y_base_PixelFlags_flag_bright_objectCenter** (type=boolean, min=0, max=0): Source center is close to BRIGHT_OBJECT pixels 
  
-**y_base_PixelFlags_flag_clipped** (type=boolean, min=0, max=0): Source footprint includes CLIPPED pixels 
+**y_base_PixelFlags_flag_clipped** (type=boolean, min=0, max=1): Source footprint includes CLIPPED pixels 
  
-**y_base_PixelFlags_flag_clippedCenter** (type=boolean, min=0, max=0): Source center is close to CLIPPED pixels 
+**y_base_PixelFlags_flag_clippedCenter** (type=boolean, min=0, max=1): Source center is close to CLIPPED pixels 
  
 **y_base_PixelFlags_flag_cr** (type=boolean, min=0, max=1): Cosmic ray in the Source footprint 
  
 **y_base_PixelFlags_flag_crCenter** (type=boolean, min=0, max=1): Cosmic ray in the Source center 
  
-**y_base_PixelFlags_flag_edge** (type=boolean, min=0, max=0): Source is outside usable exposure region (masked EDGE or NO_DATA) 
+**y_base_PixelFlags_flag_edge** (type=boolean, min=0, max=1): Source is outside usable exposure region (masked EDGE or NO_DATA) 
  
 **y_base_PixelFlags_flag_inexact_psf** (type=boolean, min=0, max=1): Source footprint includes INEXACT_PSF pixels 
  
@@ -1058,9 +1058,9 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **y_base_PixelFlags_flag_rejectedCenter** (type=boolean, min=0, max=1): Source center is close to REJECTED pixels 
  
-**y_base_PixelFlags_flag_saturated** (type=boolean, min=0, max=0): Saturated pixel in the Source footprint 
+**y_base_PixelFlags_flag_saturated** (type=boolean, min=0, max=1): Saturated pixel in the Source footprint 
  
-**y_base_PixelFlags_flag_saturatedCenter** (type=boolean, min=0, max=0): Saturated pixel in the Source center 
+**y_base_PixelFlags_flag_saturatedCenter** (type=boolean, min=0, max=1): Saturated pixel in the Source center 
  
 **y_base_PixelFlags_flag_sensor_edge** (type=boolean, min=0, max=1): Source footprint includes SENSOR_EDGE pixels 
  
@@ -1070,11 +1070,11 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **y_base_PixelFlags_flag_suspectCenter** (type=boolean, min=0, max=0): Source''s center is close to suspect pixels 
  
-**y_base_PsfFlux_apCorr** (type=double, min=9.91E-01, max=9.93E-01): aperture correction applied to base_PsfFlux 
+**y_base_PsfFlux_apCorr** (type=double, min=9.92E-01, max=9.94E-01): aperture correction applied to base_PsfFlux 
  
 **y_base_PsfFlux_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to base_PsfFlux 
  
-**y_base_PsfFlux_area** (unit=pixel, type=double, min=8.64E+01, max=9.06E+01): effective area of PSF 
+**y_base_PsfFlux_area** (unit=pixel, type=double, min=8.55E+01, max=9.03E+01): effective area of PSF 
  
 **y_base_PsfFlux_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -1086,9 +1086,9 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **y_base_PsfFlux_flag_noGoodPixels** (type=boolean, min=0, max=0): not enough non-rejected pixels in data to attempt the fit 
  
-**y_base_PsfFlux_instFlux** (unit=count, type=double, min=-6.61E+00, max=1.38E+03): instFlux derived from linear least-squares fit of PSF model 
+**y_base_PsfFlux_instFlux** (unit=count, type=double, min=-5.55E+00, max=4.16E+04): instFlux derived from linear least-squares fit of PSF model 
  
-**y_base_PsfFlux_instFluxErr** (unit=count, type=double, min=2.31E+00, max=2.75E+00): 1-sigma instFlux uncertainty 
+**y_base_PsfFlux_instFluxErr** (unit=count, type=double, min=2.50E+00, max=9.25E+00): 1-sigma instFlux uncertainty 
  
 **y_base_SdssCentroid_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -1104,13 +1104,13 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **y_base_SdssCentroid_flag_resetToPeak** (type=boolean, min=0, max=1): set if CentroidChecker reset the centroid 
  
-**y_base_SdssCentroid_x** (unit=pixel, type=double, min=1.20E+04, max=1.92E+04): centroid from Sdss Centroid algorithm 
+**y_base_SdssCentroid_x** (unit=pixel, type=double, min=8.01E+03, max=1.20E+04): centroid from Sdss Centroid algorithm 
  
-**y_base_SdssCentroid_xErr** (unit=pixel, type=double, min=8.36E-03, max=1.00E+04): 1-sigma uncertainty on x position 
+**y_base_SdssCentroid_xErr** (unit=pixel, type=double, min=6.60E-04, max=5.59E+03): 1-sigma uncertainty on x position 
  
-**y_base_SdssCentroid_y** (unit=pixel, type=double, min=7.27E+03, max=1.20E+04): centroid from Sdss Centroid algorithm 
+**y_base_SdssCentroid_y** (unit=pixel, type=double, min=2.42E+04, max=2.45E+04): centroid from Sdss Centroid algorithm 
  
-**y_base_SdssCentroid_yErr** (unit=pixel, type=double, min=8.42E-03, max=2.67E+03): 1-sigma uncertainty on y position 
+**y_base_SdssCentroid_yErr** (unit=pixel, type=double, min=6.69E-04, max=4.77E+03): 1-sigma uncertainty on y position 
  
 **y_base_SdssShape_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -1126,37 +1126,37 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **y_base_SdssShape_flag_unweightedBad** (type=boolean, min=0, max=1): Both weighted and unweighted moments were invalid 
  
-**y_base_SdssShape_instFlux** (unit=count, type=double, min=1.13E+00, max=1.31E+03): elliptical Gaussian adaptive moments 
+**y_base_SdssShape_instFlux** (unit=count, type=double, min=1.92E+00, max=3.95E+04): elliptical Gaussian adaptive moments 
  
-**y_base_SdssShape_instFlux_xx_Cov** (unit=count*pixel^2, type=double, min=-2.55E+04, max=-1.81E-03): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xx 
+**y_base_SdssShape_instFlux_xx_Cov** (unit=count*pixel^2, type=double, min=-6.06E+03, max=-3.83E-03): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xx 
  
-**y_base_SdssShape_instFlux_xy_Cov** (unit=count*pixel^2, type=double, min=-6.61E+04, max=-2.37E-03): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xy 
+**y_base_SdssShape_instFlux_xy_Cov** (unit=count*pixel^2, type=double, min=-2.95E+05, max=-7.45E-03): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xy 
  
-**y_base_SdssShape_instFlux_yy_Cov** (unit=count*pixel^2, type=double, min=-4.10E+04, max=3.03E+02): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_yy 
+**y_base_SdssShape_instFlux_yy_Cov** (unit=count*pixel^2, type=double, min=-1.39E+04, max=5.26E+02): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_yy 
  
-**y_base_SdssShape_instFluxErr** (unit=count, type=double, min=6.85E-01, max=1.90E+01): 1-sigma instFlux uncertainty 
+**y_base_SdssShape_instFluxErr** (unit=count, type=double, min=8.43E-01, max=3.02E+01): 1-sigma instFlux uncertainty 
  
-**y_base_SdssShape_psf_xx** (unit=pixel^2, type=double, min=6.15E+00, max=6.42E+00): adaptive moments of the PSF model at the object position 
+**y_base_SdssShape_psf_xx** (unit=pixel^2, type=double, min=6.07E+00, max=6.39E+00): adaptive moments of the PSF model at the object position 
  
-**y_base_SdssShape_psf_xy** (unit=pixel^2, type=double, min=-1.37E-02, max=4.30E-03): adaptive moments of the PSF model at the object position 
+**y_base_SdssShape_psf_xy** (unit=pixel^2, type=double, min=-9.00E-03, max=2.68E-03): adaptive moments of the PSF model at the object position 
  
-**y_base_SdssShape_psf_yy** (unit=pixel^2, type=double, min=6.13E+00, max=6.40E+00): adaptive moments of the PSF model at the object position 
+**y_base_SdssShape_psf_yy** (unit=pixel^2, type=double, min=6.06E+00, max=6.37E+00): adaptive moments of the PSF model at the object position 
  
-**y_base_SdssShape_x** (unit=pixel, type=double, min=1.20E+04, max=1.92E+04): elliptical Gaussian adaptive moments 
+**y_base_SdssShape_x** (unit=pixel, type=double, min=8.01E+03, max=1.20E+04): elliptical Gaussian adaptive moments 
  
-**y_base_SdssShape_xx** (unit=pixel^2, type=double, min=8.33E-02, max=4.38E+04): elliptical Gaussian adaptive moments 
+**y_base_SdssShape_xx** (unit=pixel^2, type=double, min=8.33E-02, max=2.13E+05): elliptical Gaussian adaptive moments 
  
-**y_base_SdssShape_xxErr** (unit=pixel^2, type=double, min=5.07E-03, max=2.90E+03): Standard deviation of xx moment 
+**y_base_SdssShape_xxErr** (unit=pixel^2, type=double, min=3.39E-03, max=3.53E+03): Standard deviation of xx moment 
  
-**y_base_SdssShape_xy** (unit=pixel^2, type=double, min=-3.46E+03, max=8.41E+03): elliptical Gaussian adaptive moments 
+**y_base_SdssShape_xy** (unit=pixel^2, type=double, min=-1.20E+04, max=2.71E+04): elliptical Gaussian adaptive moments 
  
-**y_base_SdssShape_xyErr** (unit=pixel^2, type=double, min=6.16E-03, max=7.51E+03): Standard deviation of xy moment 
+**y_base_SdssShape_xyErr** (unit=pixel^2, type=double, min=3.38E-03, max=1.96E+04): Standard deviation of xy moment 
  
-**y_base_SdssShape_y** (unit=pixel, type=double, min=7.27E+03, max=1.20E+04): elliptical Gaussian adaptive moments 
+**y_base_SdssShape_y** (unit=pixel, type=double, min=2.42E+04, max=2.45E+04): elliptical Gaussian adaptive moments 
  
-**y_base_SdssShape_yy** (unit=pixel^2, type=double, min=8.33E-02, max=4.29E+04): elliptical Gaussian adaptive moments 
+**y_base_SdssShape_yy** (unit=pixel^2, type=double, min=1.05E-02, max=2.01E+05): elliptical Gaussian adaptive moments 
  
-**y_base_SdssShape_yyErr** (unit=pixel^2, type=double, min=8.79E-03, max=4.66E+03): Standard deviation of yy moment 
+**y_base_SdssShape_yyErr** (unit=pixel^2, type=double, min=2.39E-03, max=9.39E+02): Standard deviation of yy moment 
  
 **y_base_Variance_flag** (type=boolean, min=0, max=1): Set for any fatal failure 
  
@@ -1164,15 +1164,15 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **y_base_Variance_flag_emptyFootprint** (type=boolean, min=0, max=1): Set to True when the footprint has no usable pixels 
  
-**y_base_Variance_value** (type=double, min=6.21E-02, max=8.15E-02): Variance at object position 
+**y_base_Variance_value** (type=double, min=7.26E-02, max=9.22E-02): Variance at object position 
  
 **y_good** (type=boolean, min=0, max=1): True if the source has no flagged pixels. 
  
-**y_modelfit_CModel_apCorr** (type=double, min=9.88E-01, max=9.90E-01): aperture correction applied to modelfit_CModel 
+**y_modelfit_CModel_apCorr** (type=double, min=9.88E-01, max=9.91E-01): aperture correction applied to modelfit_CModel 
  
 **y_modelfit_CModel_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel 
  
-**y_modelfit_CModel_dev_apCorr** (type=double, min=9.88E-01, max=9.90E-01): aperture correction applied to modelfit_CModel_dev 
+**y_modelfit_CModel_dev_apCorr** (type=double, min=9.88E-01, max=9.91E-01): aperture correction applied to modelfit_CModel_dev 
  
 **y_modelfit_CModel_dev_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel_dev 
  
@@ -1182,15 +1182,15 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **y_modelfit_CModel_dev_flag_badReference** (type=boolean, min=0, max=1): The original fit in the reference catalog failed. 
  
-**y_modelfit_CModel_dev_flag_numericError** (type=boolean, min=0, max=0): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
+**y_modelfit_CModel_dev_flag_numericError** (type=boolean, min=0, max=1): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
  
-**y_modelfit_CModel_dev_flux_inner** (unit=count, type=double, min=-6.82E+00, max=9.86E+02): flux from the de Vaucouleur fit region, with no extrapolation 
+**y_modelfit_CModel_dev_flux_inner** (unit=count, type=double, min=-6.36E+00, max=3.52E+04): flux from the de Vaucouleur fit region, with no extrapolation 
  
-**y_modelfit_CModel_dev_instFlux** (unit=count, type=double, min=-9.03E+00, max=1.38E+03): flux from the de Vaucouleur fit 
+**y_modelfit_CModel_dev_instFlux** (unit=count, type=double, min=-8.21E+00, max=4.23E+04): flux from the de Vaucouleur fit 
  
-**y_modelfit_CModel_dev_instFluxErr** (unit=count, type=double, min=2.38E+00, max=3.97E+01): flux uncertainty from the de Vaucouleur fit 
+**y_modelfit_CModel_dev_instFluxErr** (unit=count, type=double, min=2.57E+00, max=6.88E+01): flux uncertainty from the de Vaucouleur fit 
  
-**y_modelfit_CModel_exp_apCorr** (type=double, min=9.88E-01, max=9.91E-01): aperture correction applied to modelfit_CModel_exp 
+**y_modelfit_CModel_exp_apCorr** (type=double, min=9.89E-01, max=9.91E-01): aperture correction applied to modelfit_CModel_exp 
  
 **y_modelfit_CModel_exp_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel_exp 
  
@@ -1200,13 +1200,13 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **y_modelfit_CModel_exp_flag_badReference** (type=boolean, min=0, max=1): The original fit in the reference catalog failed. 
  
-**y_modelfit_CModel_exp_flag_numericError** (type=boolean, min=0, max=0): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
+**y_modelfit_CModel_exp_flag_numericError** (type=boolean, min=0, max=1): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
  
-**y_modelfit_CModel_exp_flux_inner** (unit=count, type=double, min=-6.77E+00, max=9.86E+02): flux from the exponential fit region, with no extrapolation 
+**y_modelfit_CModel_exp_flux_inner** (unit=count, type=double, min=-6.38E+00, max=3.52E+04): flux from the exponential fit region, with no extrapolation 
  
-**y_modelfit_CModel_exp_instFlux** (unit=count, type=double, min=-7.61E+00, max=1.38E+03): flux from the exponential fit 
+**y_modelfit_CModel_exp_instFlux** (unit=count, type=double, min=-6.95E+00, max=4.23E+04): flux from the exponential fit 
  
-**y_modelfit_CModel_exp_instFluxErr** (unit=count, type=double, min=2.38E+00, max=1.78E+01): flux uncertainty from the exponential fit 
+**y_modelfit_CModel_exp_instFluxErr** (unit=count, type=double, min=2.57E+00, max=4.18E+01): flux uncertainty from the exponential fit 
  
 **y_modelfit_CModel_flag** (type=boolean, min=0, max=1): flag set if the final cmodel fit (or any previous fit) failed 
  
@@ -1220,11 +1220,11 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **y_modelfit_CModel_flag_region_maxArea** (type=boolean, min=0, max=0): number of pixels in fit region exceeded the region.maxArea value 
  
-**y_modelfit_CModel_flag_region_maxBadPixelFraction** (type=boolean, min=0, max=0): the fraction of bad/clipped pixels in the fit region exceeded region.maxBadPixelFraction 
+**y_modelfit_CModel_flag_region_maxBadPixelFraction** (type=boolean, min=0, max=1): the fraction of bad/clipped pixels in the fit region exceeded region.maxBadPixelFraction 
  
 **y_modelfit_CModel_fracDev** (type=double, min=0.00E+00, max=1.00E+00): fraction of flux in de Vaucouleur component 
  
-**y_modelfit_CModel_initial_apCorr** (type=double, min=9.89E-01, max=9.91E-01): aperture correction applied to modelfit_CModel_initial 
+**y_modelfit_CModel_initial_apCorr** (type=double, min=9.90E-01, max=9.92E-01): aperture correction applied to modelfit_CModel_initial 
  
 **y_modelfit_CModel_initial_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel_initial 
  
@@ -1234,21 +1234,21 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **y_modelfit_CModel_initial_flag_badReference** (type=boolean, min=0, max=1): The original fit in the reference catalog failed. 
  
-**y_modelfit_CModel_initial_flag_numericError** (type=boolean, min=0, max=0): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
+**y_modelfit_CModel_initial_flag_numericError** (type=boolean, min=0, max=1): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
  
-**y_modelfit_CModel_initial_flux_inner** (unit=count, type=double, min=-6.76E+00, max=9.86E+02): flux from the initial fit region, with no extrapolation 
+**y_modelfit_CModel_initial_flux_inner** (unit=count, type=double, min=-6.38E+00, max=3.51E+04): flux from the initial fit region, with no extrapolation 
  
-**y_modelfit_CModel_initial_instFlux** (unit=count, type=double, min=-7.57E+00, max=1.38E+03): flux from the initial fit 
+**y_modelfit_CModel_initial_instFlux** (unit=count, type=double, min=-6.93E+00, max=4.22E+04): flux from the initial fit 
  
-**y_modelfit_CModel_initial_instFluxErr** (unit=count, type=double, min=2.39E+00, max=1.60E+01): flux uncertainty from the initial fit 
+**y_modelfit_CModel_initial_instFluxErr** (unit=count, type=double, min=2.57E+00, max=2.92E+01): flux uncertainty from the initial fit 
  
-**y_modelfit_CModel_instFlux** (unit=count, type=double, min=-9.04E+00, max=1.38E+03): flux from the final cmodel fit 
+**y_modelfit_CModel_instFlux** (unit=count, type=double, min=-8.21E+00, max=4.23E+04): flux from the final cmodel fit 
  
-**y_modelfit_CModel_instFlux_inner** (unit=count, type=double, min=-6.82E+00, max=9.86E+02): flux within the fit region, with no extrapolation 
+**y_modelfit_CModel_instFlux_inner** (unit=count, type=double, min=-6.36E+00, max=3.52E+04): flux within the fit region, with no extrapolation 
  
-**y_modelfit_CModel_instFluxErr** (unit=count, type=double, min=2.38E+00, max=3.97E+01): flux uncertainty from the final cmodel fit 
+**y_modelfit_CModel_instFluxErr** (unit=count, type=double, min=2.57E+00, max=4.76E+01): flux uncertainty from the final cmodel fit 
  
-**y_modelfit_CModel_objective** (type=double, min=1.10E+00, max=7.77E+01): -ln(likelihood) (chi^2) in cmodel fit 
+**y_modelfit_CModel_objective** (type=double, min=0.00E+00, max=4.18E+03): -ln(likelihood) (chi^2) in cmodel fit 
  
 **z_base_ClassificationExtendedness_flag** (type=boolean, min=0, max=1): Set to 1 for any fatal failure. 
  
@@ -1260,7 +1260,7 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **z_base_InputCount_flag_noInputs** (type=boolean, min=0, max=0): No coadd inputs available 
  
-**z_base_InputCount_value** (type=int, min=4.80E+01, max=6.50E+01): Number of images contributing at center, not including anyclipping 
+**z_base_InputCount_value** (type=int, min=5.00E+01, max=6.00E+01): Number of images contributing at center, not including anyclipping 
  
 **z_base_LocalBackground_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -1270,9 +1270,9 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **z_base_LocalBackground_flag_noPsf** (type=boolean, min=0, max=0): no PSF provided 
  
-**z_base_LocalBackground_instFlux** (unit=count, type=double, min=-1.15E-02, max=2.79E-02): background in annulus around source 
+**z_base_LocalBackground_instFlux** (unit=count, type=double, min=-7.54E-03, max=2.28E-01): background in annulus around source 
  
-**z_base_LocalBackground_instFluxErr** (unit=count, type=double, min=1.41E-01, max=1.69E-01): 1-sigma instFlux uncertainty 
+**z_base_LocalBackground_instFluxErr** (unit=count, type=double, min=2.47E-06, max=2.16E-01): 1-sigma instFlux uncertainty 
  
 **z_base_PixelFlags_flag** (type=boolean, min=0, max=0): General failure flag, set if anything went wrong 
  
@@ -1288,9 +1288,9 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **z_base_PixelFlags_flag_cr** (type=boolean, min=0, max=1): Cosmic ray in the Source footprint 
  
-**z_base_PixelFlags_flag_crCenter** (type=boolean, min=0, max=1): Cosmic ray in the Source center 
+**z_base_PixelFlags_flag_crCenter** (type=boolean, min=0, max=0): Cosmic ray in the Source center 
  
-**z_base_PixelFlags_flag_edge** (type=boolean, min=0, max=0): Source is outside usable exposure region (masked EDGE or NO_DATA) 
+**z_base_PixelFlags_flag_edge** (type=boolean, min=0, max=1): Source is outside usable exposure region (masked EDGE or NO_DATA) 
  
 **z_base_PixelFlags_flag_inexact_psf** (type=boolean, min=0, max=1): Source footprint includes INEXACT_PSF pixels 
  
@@ -1306,9 +1306,9 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **z_base_PixelFlags_flag_rejectedCenter** (type=boolean, min=0, max=1): Source center is close to REJECTED pixels 
  
-**z_base_PixelFlags_flag_saturated** (type=boolean, min=0, max=0): Saturated pixel in the Source footprint 
+**z_base_PixelFlags_flag_saturated** (type=boolean, min=0, max=1): Saturated pixel in the Source footprint 
  
-**z_base_PixelFlags_flag_saturatedCenter** (type=boolean, min=0, max=0): Saturated pixel in the Source center 
+**z_base_PixelFlags_flag_saturatedCenter** (type=boolean, min=0, max=1): Saturated pixel in the Source center 
  
 **z_base_PixelFlags_flag_sensor_edge** (type=boolean, min=0, max=1): Source footprint includes SENSOR_EDGE pixels 
  
@@ -1318,11 +1318,11 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **z_base_PixelFlags_flag_suspectCenter** (type=boolean, min=0, max=0): Source''s center is close to suspect pixels 
  
-**z_base_PsfFlux_apCorr** (type=double, min=9.90E-01, max=9.93E-01): aperture correction applied to base_PsfFlux 
+**z_base_PsfFlux_apCorr** (type=double, min=9.90E-01, max=9.92E-01): aperture correction applied to base_PsfFlux 
  
 **z_base_PsfFlux_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to base_PsfFlux 
  
-**z_base_PsfFlux_area** (unit=pixel, type=double, min=6.06E+01, max=6.82E+01): effective area of PSF 
+**z_base_PsfFlux_area** (unit=pixel, type=double, min=6.39E+01, max=6.91E+01): effective area of PSF 
  
 **z_base_PsfFlux_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -1334,9 +1334,9 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **z_base_PsfFlux_flag_noGoodPixels** (type=boolean, min=0, max=0): not enough non-rejected pixels in data to attempt the fit 
  
-**z_base_PsfFlux_instFlux** (unit=count, type=double, min=-2.68E+00, max=1.37E+03): instFlux derived from linear least-squares fit of PSF model 
+**z_base_PsfFlux_instFlux** (unit=count, type=double, min=-3.47E+00, max=4.00E+04): instFlux derived from linear least-squares fit of PSF model 
  
-**z_base_PsfFlux_instFluxErr** (unit=count, type=double, min=1.14E+00, max=1.49E+00): 1-sigma instFlux uncertainty 
+**z_base_PsfFlux_instFluxErr** (unit=count, type=double, min=1.22E+00, max=6.91E+00): 1-sigma instFlux uncertainty 
  
 **z_base_SdssCentroid_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -1352,13 +1352,13 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **z_base_SdssCentroid_flag_resetToPeak** (type=boolean, min=0, max=1): set if CentroidChecker reset the centroid 
  
-**z_base_SdssCentroid_x** (unit=pixel, type=double, min=1.20E+04, max=1.92E+04): centroid from Sdss Centroid algorithm 
+**z_base_SdssCentroid_x** (unit=pixel, type=double, min=8.01E+03, max=1.20E+04): centroid from Sdss Centroid algorithm 
  
-**z_base_SdssCentroid_xErr** (unit=pixel, type=double, min=3.64E-03, max=1.15E+04): 1-sigma uncertainty on x position 
+**z_base_SdssCentroid_xErr** (unit=pixel, type=double, min=4.37E-04, max=2.52E+03): 1-sigma uncertainty on x position 
  
-**z_base_SdssCentroid_y** (unit=pixel, type=double, min=7.27E+03, max=1.20E+04): centroid from Sdss Centroid algorithm 
+**z_base_SdssCentroid_y** (unit=pixel, type=double, min=2.42E+04, max=2.45E+04): centroid from Sdss Centroid algorithm 
  
-**z_base_SdssCentroid_yErr** (unit=pixel, type=double, min=3.69E-03, max=1.89E+03): 1-sigma uncertainty on y position 
+**z_base_SdssCentroid_yErr** (unit=pixel, type=double, min=4.42E-04, max=3.66E+03): 1-sigma uncertainty on y position 
  
 **z_base_SdssShape_flag** (type=boolean, min=0, max=1): General Failure Flag 
  
@@ -1374,37 +1374,37 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **z_base_SdssShape_flag_unweightedBad** (type=boolean, min=0, max=1): Both weighted and unweighted moments were invalid 
  
-**z_base_SdssShape_instFlux** (unit=count, type=double, min=1.47E+00, max=1.24E+03): elliptical Gaussian adaptive moments 
+**z_base_SdssShape_instFlux** (unit=count, type=double, min=9.59E-01, max=3.70E+04): elliptical Gaussian adaptive moments 
  
-**z_base_SdssShape_instFlux_xx_Cov** (unit=count*pixel^2, type=double, min=-6.64E+02, max=1.03E+04): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xx 
+**z_base_SdssShape_instFlux_xx_Cov** (unit=count*pixel^2, type=double, min=-1.42E+04, max=-9.52E-04): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xx 
  
-**z_base_SdssShape_instFlux_xy_Cov** (unit=count*pixel^2, type=double, min=-3.32E+03, max=1.16E+03): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xy 
+**z_base_SdssShape_instFlux_xy_Cov** (unit=count*pixel^2, type=double, min=-2.16E+04, max=-9.57E-04): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_xy 
  
-**z_base_SdssShape_instFlux_yy_Cov** (unit=count*pixel^2, type=double, min=-4.20E+01, max=3.47E+03): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_yy 
+**z_base_SdssShape_instFlux_yy_Cov** (unit=count*pixel^2, type=double, min=-8.85E+03, max=3.85E+03): uncertainty covariance between base_SdssShape_instFlux and base_SdssShape_yy 
  
-**z_base_SdssShape_instFluxErr** (unit=count, type=double, min=2.71E-01, max=1.37E+01): 1-sigma instFlux uncertainty 
+**z_base_SdssShape_instFluxErr** (unit=count, type=double, min=2.79E-01, max=1.09E+01): 1-sigma instFlux uncertainty 
  
-**z_base_SdssShape_psf_xx** (unit=pixel^2, type=double, min=3.88E+00, max=4.35E+00): adaptive moments of the PSF model at the object position 
+**z_base_SdssShape_psf_xx** (unit=pixel^2, type=double, min=4.05E+00, max=4.38E+00): adaptive moments of the PSF model at the object position 
  
-**z_base_SdssShape_psf_xy** (unit=pixel^2, type=double, min=-1.62E-02, max=6.88E-03): adaptive moments of the PSF model at the object position 
+**z_base_SdssShape_psf_xy** (unit=pixel^2, type=double, min=-2.79E-03, max=1.13E-02): adaptive moments of the PSF model at the object position 
  
-**z_base_SdssShape_psf_yy** (unit=pixel^2, type=double, min=3.88E+00, max=4.34E+00): adaptive moments of the PSF model at the object position 
+**z_base_SdssShape_psf_yy** (unit=pixel^2, type=double, min=4.04E+00, max=4.36E+00): adaptive moments of the PSF model at the object position 
  
-**z_base_SdssShape_x** (unit=pixel, type=double, min=1.20E+04, max=1.92E+04): elliptical Gaussian adaptive moments 
+**z_base_SdssShape_x** (unit=pixel, type=double, min=8.01E+03, max=1.20E+04): elliptical Gaussian adaptive moments 
  
-**z_base_SdssShape_xx** (unit=pixel^2, type=double, min=7.73E-02, max=3.04E+05): elliptical Gaussian adaptive moments 
+**z_base_SdssShape_xx** (unit=pixel^2, type=double, min=1.26E-03, max=3.38E+05): elliptical Gaussian adaptive moments 
  
-**z_base_SdssShape_xxErr** (unit=pixel^2, type=double, min=9.92E-03, max=3.85E+02): Standard deviation of xx moment 
+**z_base_SdssShape_xxErr** (unit=pixel^2, type=double, min=1.95E-03, max=2.91E+03): Standard deviation of xx moment 
  
-**z_base_SdssShape_xy** (unit=pixel^2, type=double, min=-2.68E+04, max=6.15E+04): elliptical Gaussian adaptive moments 
+**z_base_SdssShape_xy** (unit=pixel^2, type=double, min=-9.86E+03, max=7.18E+04): elliptical Gaussian adaptive moments 
  
-**z_base_SdssShape_xyErr** (unit=pixel^2, type=double, min=5.07E-03, max=1.31E+03): Standard deviation of xy moment 
+**z_base_SdssShape_xyErr** (unit=pixel^2, type=double, min=1.93E-03, max=3.95E+03): Standard deviation of xy moment 
  
-**z_base_SdssShape_y** (unit=pixel, type=double, min=7.27E+03, max=1.20E+04): elliptical Gaussian adaptive moments 
+**z_base_SdssShape_y** (unit=pixel, type=double, min=2.42E+04, max=2.45E+04): elliptical Gaussian adaptive moments 
  
-**z_base_SdssShape_yy** (unit=pixel^2, type=double, min=6.06E-02, max=3.58E+05): elliptical Gaussian adaptive moments 
+**z_base_SdssShape_yy** (unit=pixel^2, type=double, min=8.33E-02, max=3.08E+05): elliptical Gaussian adaptive moments 
  
-**z_base_SdssShape_yyErr** (unit=pixel^2, type=double, min=7.07E-03, max=3.15E+02): Standard deviation of yy moment 
+**z_base_SdssShape_yyErr** (unit=pixel^2, type=double, min=1.37E-03, max=1.81E+03): Standard deviation of yy moment 
  
 **z_base_Variance_flag** (type=boolean, min=0, max=1): Set for any fatal failure 
  
@@ -1412,15 +1412,15 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **z_base_Variance_flag_emptyFootprint** (type=boolean, min=0, max=1): Set to True when the footprint has no usable pixels 
  
-**z_base_Variance_value** (type=double, min=2.10E-02, max=2.89E-02): Variance at object position 
+**z_base_Variance_value** (type=double, min=2.29E-02, max=2.82E-02): Variance at object position 
  
 **z_good** (type=boolean, min=0, max=1): True if the source has no flagged pixels. 
  
-**z_modelfit_CModel_apCorr** (type=double, min=9.87E-01, max=9.90E-01): aperture correction applied to modelfit_CModel 
+**z_modelfit_CModel_apCorr** (type=double, min=9.87E-01, max=9.89E-01): aperture correction applied to modelfit_CModel 
  
 **z_modelfit_CModel_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel 
  
-**z_modelfit_CModel_dev_apCorr** (type=double, min=9.87E-01, max=9.90E-01): aperture correction applied to modelfit_CModel_dev 
+**z_modelfit_CModel_dev_apCorr** (type=double, min=9.87E-01, max=9.88E-01): aperture correction applied to modelfit_CModel_dev 
  
 **z_modelfit_CModel_dev_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel_dev 
  
@@ -1430,15 +1430,15 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **z_modelfit_CModel_dev_flag_badReference** (type=boolean, min=0, max=1): The original fit in the reference catalog failed. 
  
-**z_modelfit_CModel_dev_flag_numericError** (type=boolean, min=0, max=0): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
+**z_modelfit_CModel_dev_flag_numericError** (type=boolean, min=0, max=1): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
  
-**z_modelfit_CModel_dev_flux_inner** (unit=count, type=double, min=-2.97E+00, max=1.08E+03): flux from the de Vaucouleur fit region, with no extrapolation 
+**z_modelfit_CModel_dev_flux_inner** (unit=count, type=double, min=-1.70E+00, max=3.51E+04): flux from the de Vaucouleur fit region, with no extrapolation 
  
-**z_modelfit_CModel_dev_instFlux** (unit=count, type=double, min=-3.57E+00, max=1.37E+03): flux from the de Vaucouleur fit 
+**z_modelfit_CModel_dev_instFlux** (unit=count, type=double, min=-1.90E+00, max=4.10E+04): flux from the de Vaucouleur fit 
  
-**z_modelfit_CModel_dev_instFluxErr** (unit=count, type=double, min=1.14E+00, max=2.37E+01): flux uncertainty from the de Vaucouleur fit 
+**z_modelfit_CModel_dev_instFluxErr** (unit=count, type=double, min=1.24E+00, max=3.91E+01): flux uncertainty from the de Vaucouleur fit 
  
-**z_modelfit_CModel_exp_apCorr** (type=double, min=9.88E-01, max=9.90E-01): aperture correction applied to modelfit_CModel_exp 
+**z_modelfit_CModel_exp_apCorr** (type=double, min=9.87E-01, max=9.89E-01): aperture correction applied to modelfit_CModel_exp 
  
 **z_modelfit_CModel_exp_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel_exp 
  
@@ -1448,13 +1448,13 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **z_modelfit_CModel_exp_flag_badReference** (type=boolean, min=0, max=1): The original fit in the reference catalog failed. 
  
-**z_modelfit_CModel_exp_flag_numericError** (type=boolean, min=0, max=0): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
+**z_modelfit_CModel_exp_flag_numericError** (type=boolean, min=0, max=1): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
  
-**z_modelfit_CModel_exp_flux_inner** (unit=count, type=double, min=-3.00E+00, max=1.08E+03): flux from the exponential fit region, with no extrapolation 
+**z_modelfit_CModel_exp_flux_inner** (unit=count, type=double, min=-1.77E+00, max=3.50E+04): flux from the exponential fit region, with no extrapolation 
  
-**z_modelfit_CModel_exp_instFlux** (unit=count, type=double, min=-3.63E+00, max=1.37E+03): flux from the exponential fit 
+**z_modelfit_CModel_exp_instFlux** (unit=count, type=double, min=-1.83E+00, max=4.10E+04): flux from the exponential fit 
  
-**z_modelfit_CModel_exp_instFluxErr** (unit=count, type=double, min=1.14E+00, max=1.07E+01): flux uncertainty from the exponential fit 
+**z_modelfit_CModel_exp_instFluxErr** (unit=count, type=double, min=1.24E+00, max=2.35E+01): flux uncertainty from the exponential fit 
  
 **z_modelfit_CModel_flag** (type=boolean, min=0, max=1): flag set if the final cmodel fit (or any previous fit) failed 
  
@@ -1468,11 +1468,11 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **z_modelfit_CModel_flag_region_maxArea** (type=boolean, min=0, max=0): number of pixels in fit region exceeded the region.maxArea value 
  
-**z_modelfit_CModel_flag_region_maxBadPixelFraction** (type=boolean, min=0, max=0): the fraction of bad/clipped pixels in the fit region exceeded region.maxBadPixelFraction 
+**z_modelfit_CModel_flag_region_maxBadPixelFraction** (type=boolean, min=0, max=1): the fraction of bad/clipped pixels in the fit region exceeded region.maxBadPixelFraction 
  
 **z_modelfit_CModel_fracDev** (type=double, min=0.00E+00, max=1.00E+00): fraction of flux in de Vaucouleur component 
  
-**z_modelfit_CModel_initial_apCorr** (type=double, min=9.88E-01, max=9.90E-01): aperture correction applied to modelfit_CModel_initial 
+**z_modelfit_CModel_initial_apCorr** (type=double, min=9.87E-01, max=9.89E-01): aperture correction applied to modelfit_CModel_initial 
  
 **z_modelfit_CModel_initial_apCorrErr** (type=double, min=0.00E+00, max=0.00E+00): standard deviation of aperture correction applied to modelfit_CModel_initial 
  
@@ -1482,19 +1482,19 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **z_modelfit_CModel_initial_flag_badReference** (type=boolean, min=0, max=1): The original fit in the reference catalog failed. 
  
-**z_modelfit_CModel_initial_flag_numericError** (type=boolean, min=0, max=0): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
+**z_modelfit_CModel_initial_flag_numericError** (type=boolean, min=0, max=1): numerical underflow or overflow in model evaluation; usually this means the prior was insufficient to regularize the fit, or all pixel values were zero. 
  
-**z_modelfit_CModel_initial_flux_inner** (unit=count, type=double, min=-3.00E+00, max=1.08E+03): flux from the initial fit region, with no extrapolation 
+**z_modelfit_CModel_initial_flux_inner** (unit=count, type=double, min=-2.37E+00, max=3.49E+04): flux from the initial fit region, with no extrapolation 
  
-**z_modelfit_CModel_initial_instFlux** (unit=count, type=double, min=-3.21E+00, max=1.37E+03): flux from the initial fit 
+**z_modelfit_CModel_initial_instFlux** (unit=count, type=double, min=-2.48E+00, max=4.07E+04): flux from the initial fit 
  
-**z_modelfit_CModel_initial_instFluxErr** (unit=count, type=double, min=1.14E+00, max=9.62E+00): flux uncertainty from the initial fit 
+**z_modelfit_CModel_initial_instFluxErr** (unit=count, type=double, min=1.24E+00, max=1.66E+01): flux uncertainty from the initial fit 
  
-**z_modelfit_CModel_instFlux** (unit=count, type=double, min=-3.40E+00, max=1.37E+03): flux from the final cmodel fit 
+**z_modelfit_CModel_instFlux** (unit=count, type=double, min=-1.83E+00, max=4.10E+04): flux from the final cmodel fit 
  
-**z_modelfit_CModel_instFlux_inner** (unit=count, type=double, min=-2.93E+00, max=1.08E+03): flux within the fit region, with no extrapolation 
+**z_modelfit_CModel_instFlux_inner** (unit=count, type=double, min=-1.70E+00, max=3.50E+04): flux within the fit region, with no extrapolation 
  
-**z_modelfit_CModel_instFluxErr** (unit=count, type=double, min=1.14E+00, max=1.07E+01): flux uncertainty from the final cmodel fit 
+**z_modelfit_CModel_instFluxErr** (unit=count, type=double, min=1.24E+00, max=3.04E+01): flux uncertainty from the final cmodel fit 
  
-**z_modelfit_CModel_objective** (type=double, min=3.86E-01, max=2.62E+01): -ln(likelihood) (chi^2) in cmodel fit 
+**z_modelfit_CModel_objective** (type=double, min=0.00E+00, max=8.67E+02): -ln(likelihood) (chi^2) in cmodel fit 
  
