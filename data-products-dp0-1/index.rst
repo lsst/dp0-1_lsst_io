@@ -114,6 +114,9 @@ Links to full or curated versions of the table schema (curated meaning limited t
 Of the six TAP-accessible catalogs in the table below, the first five are generated from coadded images and are available via both the Portal and Notebook Aspects, whereas the "forcedsource" table generated from PVIs is only available via the Notebook Aspect.
 For Portal-accessible TAP catalogs, one way to view and interact with the schema is by using the Portal's "table view" in the TAP service for single-table queries, as described in the :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
 Schema for all six TAP-accessible catalogs can be viewed and interacted with in a Jupyter Notebook by following the examples in Section 2.2 of the first of the :ref:`Examples-DP0-1-Notebooks`.
+The table below contains links to pages that list the schema for these tables: the column names, units, data types, minimum and maximum values, and a description.
+The minimum and maximum values for a given column were calculated from a subset of 1000 objects or sources near the center of the DC2 field, and are only intended to give users a general idea of the values.
+Note that a few columns appear to be unpopulated and return NAN (Not A Number) values for the minimum and maximum. 
 
 .. list-table:: TAP-accessible tables available for DP0.1.
    :widths: 120 120 350
@@ -132,14 +135,11 @@ Schema for all six TAP-accessible catalogs can be viewed and interacted with in 
      - :ref:`full schema <Data-Products-DP0-1-schema_position>`
      - Select astrometry-related parameters for objects detected in the coadded images, such as coordinates, footprints, patch/tract information, and deblending parameters. (29 columns)
    * - reference
-     - :ref:`curated schema <Data-Products-DP0-1-schema_reference>` **(NOT DONE)**
+     - :ref:`full schema <Data-Products-DP0-1-schema_reference>`
      - Measurements for objects detected in the coadded images, including photometry, astrometry, shape, deblending, model fits, and related background and flag parameters. This table joined with the position table is very similar to the object table, but with additional columns. (236 columns)
    * - forced_photometry
-     - :ref:`curated schema <Data-Products-DP0-1-schema_forced_photometry>` **(NOT DONE)**
+     - :ref:`full schema <Data-Products-DP0-1-schema_forced_photometry>`
      - Forced photometry measurements for objects detected in the coadded images, at the locations defined by the position table. (747 columns)
-   * - forcedsource
-     - :ref:`curated schema <Data-Products-DP0-1-schema_forced_source>` **(NOT DONE)**
-     - *(Forced sources in the processed visit images.)* **Only available via TAP in the Notebook Aspect**.
 
 | 
 
