@@ -32,7 +32,7 @@ Log in to the Portal Aspect by clicking on the "Portal" panel of the main landin
 The Portal's User Interface
 ===========================
 
-Across the top is a menu bar of interface options, but the DP0 data set is only accessed via the **LSST TAP** service.
+Across the top is a menu bar of interface options, but the DP0 data set is only accessed via the :ref:`Data-Access-Analysis-Tools-TAP`.
 Under **TAP Searches** there are four options.
 
 **1. TAP Service**: Leave this as the default to access DP0 data.
