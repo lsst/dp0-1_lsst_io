@@ -35,7 +35,9 @@ A number of safeguards for avoiding uptime or temporary data loss will not be pr
 
 The fact that anyone could PRUNE, there's no provenance for destruction, and how to avoid accidental wipe-outs.
 
-Do we have shared data sets? We did on the NCSA RSP.  Do we have access to other users’ home directories? 
+Do we have shared data sets? We did on the NCSA RSP. (HFC: what kinds of shared datasets are you thinking here? The only data set we officially provide is the DP0.1 data set. There are a lot more data on NCSA's filesystem and we never intended to have them on IDF.)
+
+Do we have access to other users’ home directories?
 
 Need some warnings about per-user data quota. 
 
@@ -48,7 +50,9 @@ RSP Compute Performance
 
 Performance during DP0 may not reflect the performance of the final system (see also Q4), and the resources made available to DP0 delegates may not reflect the final user quotas of the operations-era RSP.
 
-How about running cron jobs? What about abusing resources?
+How about running cron jobs? (HFC: I don't think we would let delegates run cron. But what is the motivation of wanting to run cron?)
+
+What about abusing resources?
 
 Testing how algorithms will scale: No access to user batch or parallelisation are available in DP0. Resources provided as part of DP0.1 are limited and meaningful scalability testing of algorithms is not practical. 
 
@@ -102,3 +106,4 @@ MLG Did Not Know The Category
 -----------------------------
 
 The DP0.1 repo at IDF is one older version of the /repo/dc2 repo at NCSA.  New updates in NCSA’s repo are not ported to IDF.  Note that the goals of the two repos are different: the IDF’s repo is frozen like a data release; the NCSA’s repo is evolving to meet developer need. 
+(HFC: This is only to avoid confusion for those delegates who are also in the Stack Club or have access to the LSST infrastructure at NCSA.)
