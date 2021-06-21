@@ -58,6 +58,7 @@ Butler-Related Warnings
 -----------------------
 
 For DP0.1 or until we have a client/server Butler and signed URLs (DMTN-169,DMTN-176), all users share full read/write without restriction.  Since there is no individual access control, absolutely no use direct sql access will be allowed to any butler registry database.
+Delegates should only access the Butler repository using standard Butler APIs provided in the Rubin software stack.
 
 User-added data in DP0.1’s butler repo will not be migrated to DP0.2’s butler repo. 
 
