@@ -167,7 +167,7 @@ This query also includes some additional quality filtering on the match. In the 
 
     The results of a join
 
-Note that the 'is_good_match' is a boolean whereas in the ADQL query above we selected good matches by filtering on 'truth.is_good_match = 1' . With ADQL, the =0 (false) / =1 (true) syntax for booleans should be used.
+Note that the 'is_good_match' is of type boolean whereas in the ADQL query above we selected good matches by filtering on 'truth.is_good_match = 1' . With ADQL, the =0 (false) / =1 (true) syntax for booleans should be used.
 
 **Query the TAP service schema**
 Information about the LSST TAP schema can also be obtained via ADQL queries.  The following query gets the names of all the available DP0.1 tables.
