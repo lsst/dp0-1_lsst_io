@@ -121,7 +121,7 @@ Note that corresponding plot point for the selected row in the table is differen
 
     An updated results view in which the xy plot uses the magnitude columns.
 
-See also for additional demonstrations of how to use the Portal's Single Table Query.:ref:`Examples-DP0-1-Notebooks`
+See also :ref:`Examples-DP0-1-Notebooks` for additional demonstrations of how to use the Portal's Single Table Query.
 
 ADQL Queries
 ============
@@ -165,7 +165,7 @@ This query also includes some additional quality filtering on the match. In the 
     :name: portal_results_join
     :width: 600
 
-    The results of a join
+    The results of a join.
 
 Note that 'is_good_match' is of type boolean whereas in the ADQL query above we selected good matches by filtering on 'truth.is_good_match = 1' . With ADQL, the =0 (false) / =1 (true) syntax for booleans should be used.
 
@@ -187,4 +187,4 @@ To get the detailed list of columns available in the Object table, their associa
    FROM tap_schema.columns
    WHERE tap_schema.columns.table_name = 'dp01_dc2_catalogs.object'
 
-See also for additional demonstrations of how to use the ADQL queries.:ref:`Examples-DP0-1-Notebooks`
+See also :ref:`Examples-DP0-1-Notebooks` for additional demonstrations of how to use the Portal's Single Table Query.
