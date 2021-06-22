@@ -142,7 +142,7 @@ ADQL Queries
 Type the above query into the ADQL Query block and click on the 'Search' button in the bottom left corner to execute. You should set the row limit to be a small number, such as 10,  when first testing queries. The search results will populate the same **Results View**, as shown above using the Single Table Query interface. A total of 205 records should be returned, which you can interact with in the same manner as outlined in :ref:`single-table-queries`.
 
 **Joining with another tables**
- It is often desireable to access data stored in more than just one table. We do this using a JOIN clause to combine rows from two or more tables. Here, usingthe same query as above,  we will join the data in the object table with the data in the truth table to compare the results of the processing with the input truth information. The two tables are joined by matching the objectIds across two catalogs.
+It is often desireable to access data stored in more than just one table. We do this using a JOIN clause to combine rows from two or more tables. Here, usingthe same query as above,  we will join the data in the object table with the data in the truth table to compare the results of the processing with the input truth information. The two tables are joined by matching the objectIds across two catalogs.
 
 .. code-block:: SQL
 
