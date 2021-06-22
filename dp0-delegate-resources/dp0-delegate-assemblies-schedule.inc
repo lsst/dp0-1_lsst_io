@@ -29,8 +29,8 @@
      - Second Hour Breakouts Topics
      - Chair and Presenter(s)
    * - 2021-07-16
-     - The Rubin Vision and Roadmap for Data Preview 0
-     - Demo "Intro to Jupyter Notebooks (NB) and DP0". Q&A for delegates with NB experience.
+     - Introduction to DP0 and the RSP's Portal and Notebook Aspects.
+     - Q&A with delegates. 
      - The Community Engagement Team (Melissa Graham)
    * - 2021-07-30
      - Querying Catalogs via the Notebook (TAP Service) and Portal Aspects.
