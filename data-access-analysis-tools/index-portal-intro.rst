@@ -182,7 +182,8 @@ To get the detailed list of columns available in the Object table, their associa
 
 .. code-block:: SQL
 
-   SELECT tap_schema.columns.column_name, tap_schema.columns.unit, tap_schema.columns.description
+   SELECT tap_schema.columns.column_name, tap_schema.columns.unit,
+   tap_schema.columns.description
    FROM tap_schema.columns
    WHERE tap_schema.columns.table_name = 'dp01_dc2_catalogs.object'
 
