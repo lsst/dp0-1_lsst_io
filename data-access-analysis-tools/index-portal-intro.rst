@@ -33,7 +33,7 @@ The Portal's User Interface
 ===========================
 
 Across the top is a menu bar of interface options, but the DP0 data set is only accessed via the :ref:`Data-Access-Analysis-Tools-TAP`.
-Under **TAP Searches** there are four options.
+Under **TAP Searches** there are four steps.
 
 **1. TAP Service**: Leave this as the default `https://data.lsst.cloud/api/tap` to access DP0 data.
 
@@ -128,7 +128,7 @@ ADQL Queries
 
 **2. Select Query Type**: Select 'ADQL' to query via the ADQL interface. ADQL, `Astronomical Data Query Language <https://www.ivoa.net/documents/ADQL/>`_, is the language used by  the `IVOA <https://ivoa.net>`_ to represent astronomy queries posted to Virtual Observatory (VO) services, such as the Rubin LSST TAP service. ADQL is based on the Structured Query Language (SQL).
 
-**3. Advanced ADQL**: When ADQL is selected as the query type, the interface in  **3.** changes to provide a free-form block into which ADQL queries can be entered directly. The query excuted in the :ref:`single-table-queries` example above can be expressed in ADQL as follows:
+**3. Advanced ADQL**: When ADQL is selected as the query type, the interface in step 3 changes to provide a free-form block into which ADQL queries can be entered directly. The query excuted in the :ref:`single-table-queries` example above can be expressed in ADQL as follows:
 
 .. code-block:: SQL
 
