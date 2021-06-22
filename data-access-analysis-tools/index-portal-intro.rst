@@ -139,17 +139,17 @@ ADQL Queries
    CIRCLE('ICRS', 61.863, -35.79, 0.05555555555555555))=1
    AND (mag_g <24 AND mag_i <24)
 
-Type the above query into the ADQL Query block and click on the 'Search' button in the bottom left corner to execute. You should set the row limit to be a small number, such as 10,  when first testing queries. The search results will populate the same **Results View**, as shown above using the Single Table Query interface. A total of 205 records should be returned, which you can interact with in the same manner as outlined in :ref:`single-table-queries`.
+Type the above query into the ADQL Query block and click on the 'Search' button in the bottom left corner to execute. You should set the row limit to be a small number, such as 10, when first testing queries. The search results will populate the same **Results View**, as shown above using the Single Table Query interface. A total of 205 records should be returned, which you can interact with in the same manner as outlined in :ref:`single-table-queries`.
 
-**Joining with another tables**
-It is often desireable to access data stored in more than just one table. We do this using a JOIN clause to combine rows from two or more tables. Here, usingthe same query as above,  we will join the data in the object table with the data in the truth table to compare the results of the processing with the input truth information. The two tables are joined by matching the objectIds across two catalogs.
+**Joining with another table**
+It is often desireable to access data stored in more than just one table. We do this using a JOIN clause to combine rows from two or more tables. Here, usingthe same query as above,  we will join the data in the object table with the data in the truth table to compare the results of the processing with the input truth information. The two tables are joined by matching the ``objectId`` across two catalogs.
 
 .. code-block:: SQL
 
     SELECT obj.ra as ora, obj.dec as odec,
     truth.ra as tra, truth.dec as tdec,
-    obj.mag_g as g, obj.mag_i as i, obj.mag_r as r, truth.mag_r as tmr,
-    truth.is_good_match
+    obj.mag_g as g, obj.mag_i as i, obj.mag_r as r,
+    truth.mag_r as tmr, truth.is_good_match
     FROM dp01_dc2_catalogs.object as obj
     JOIN dp01_dc2_catalogs.truth_match as truth
     ON truth.match_objectId = obj.objectId
