@@ -72,11 +72,11 @@ Go to `<http://community.lsst.org>`_ and use the "sign up" button at upper right
 
 **Join the DP0 Delegates Group:** 
 Go to `<https://community.lsst.org/groups>`_ and join "DP0 Delegates".
-This will ensure you have access to the the `Support - DP0 RSP Services Issues <https://community.lsst.org/c/support/dp0-rsp-issues>`_ category.
+This will ensure you have access to the private "Support - DP0 RSP Service Issues" subcategory.
 
 | **Find DP0-Related Content and Discussions:**
 | 1. `Support - Data Preview 0 <https://community.lsst.org/c/support/dp0>`_: for all questions and discussions related to DP0. For example, use of the RSP's aspects for science, contents of the DC2 data set, delegate activities, brainstorm new investigations, show-and-tell DP0-related results, etc.
-| 2. `Support - DP0 RSP Services Issues <https://community.lsst.org/c/support/dp0-rsp-issues>`_: technical Q&A and discussion about potential bugs, service outages, etc.
+| 2. "Support - DP0 RSP Service Issues": a private subcategory for technical Q&A and discussion about potential bugs, service outages, etc.
 | 3. Topics `tagged with #dp0 <https://community.lsst.org/tag/dp0>`_ across all categories. 
 
 
@@ -281,7 +281,8 @@ In the right side-menu, do adjust the labels as appropriate, but leave the other
 Click “Submit new issue” when you’re ready.
 These issues will be addressed by Rubin staff.
 
-**For minor or ambiguous RSP service and access issues** please post a new topic in the `Support - DP0 RSP Services Issues <https://community.lsst.org/c/support/dp0-rsp-issues>`_ subcategory of the Community Forum.
+**For minor or ambiguous RSP service and access issues** please post a new topic in the "Support - DP0 RSP Service Issues" subcategory of the Community Forum.
+Since this subcategory is not publicly viewable, we cannot link directly to it from here, but delegates who are logged-in to the forum can access it via the main landing page at `Community.lsst.org<https://community.lsst.org>`_.
 This subcategory enables DP0 delegates to report service issues to determine if others are experiencing the same issue (e.g., *"is this local or general network outage?"*, *"my query is taking a long time, is this a real problem or did I do it wrong?"*), crowd-source solutions to technical issues from each other when possible, and have a non-public venue for DP0-related questions.
 This subcategory is visible only to Community.lsst.org users who are members of the “DP0 Delegates” group and to Community.lsst.org forum moderators.
 The CET will monitor this category.
