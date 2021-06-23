@@ -72,11 +72,11 @@ Go to `<http://community.lsst.org>`_ and use the "sign up" button at upper right
 
 **Join the DP0 Delegates Group:** 
 Go to `<https://community.lsst.org/groups>`_ and join "DP0 Delegates".
-This will ensure you have access to the the `Support -- DP0 RSP Services Issues <https://community.lsst.org/c/support/dp0-rsp-issues/52>`_ category.
+This will ensure you have access to the the `Support -- DP0 RSP Services Issues <https://community.lsst.org/c/support/dp0-rsp-issues>`_ category.
 
 | **Find DP0-Related Content and Discussions:**
 | 1. `Support - Data Preview 0 <https://community.lsst.org/c/support/dp0>`_: for all questions and discussions related to DP0. For example, use of the RSP's aspects for science, contents of the DC2 data set, delegate activities, brainstorm new investigations, show-and-tell DP0-related results, etc.
-| 2. `Support - DP0 RSP Services Issues <https://community.lsst.org/c/support/dp0-rsp-issues/52>`_: technical Q&A and discussion about potential bugs, service outages, etc.
+| 2. `Support - DP0 RSP Services Issues <https://community.lsst.org/c/support/dp0-rsp-issues>`_: technical Q&A and discussion about potential bugs, service outages, etc.
 | 3. Topics `tagged with #dp0 <https://community.lsst.org/tag/dp0>`_ across all categories. 
 
 
@@ -109,7 +109,7 @@ One of them will be recorded and made available.
 DP0 Delegate Assemblies
 =======================
 
-**Connection Info:** `ls.st/dp0-events<http://ls.st/dp0-events>`_
+**Connection Info:** `https://ls.st/dp0-events<http://ls.st/dp0-events>`_
 
 The Delegate Assemblies are live virtual meetings that occur biweekly on Fridays from 9am to 11am US Pacific time (alternating with `Stack Club`_), which will be convenient for DP0 delegates in the timezones of North and South America, Europe, and Africa.
 There will also be a monthly `Third Thursday Office Hour`_ live virtual meetings at 9am Sydney time, which will be convenient for DP0 delegates in the timezones of Australia and Asia.
@@ -144,7 +144,7 @@ Please reach out to Melissa Graham with topic suggestions or to contribute prese
 Third Thursday Office Hour
 --------------------------
 
-**Connection Info:**  `ls.st/dp0-events<http://ls.st/dp0-events>`_
+**Connection Info:**  `https://ls.st/dp0-events<http://ls.st/dp0-events>`_
 
 These live virtual meetings on the third thursday of the month at 9am in Sydney Australia (which is Wed at 4pm US Pacific) will be open drop-in time for DP0 delegates.
 Rubin staff will be in attendance.
@@ -166,7 +166,7 @@ More dates will be added to continue these office hours if they are useful to DP
 Stack Club
 ----------
 
-**Connection Info:**  `ls.st/dp0-events<http://ls.st/dp0-events>`_
+**Connection Info:**  `https://ls.st/dp0-events<http://ls.st/dp0-events>`_
 
 `Stack Club <https://github.com/LSSTScienceCollaborations/StackClub>`_ is a group of LSST Science Collaboration members committed to learning how to use the Rubin Observatory LSST Science Pipelines (colloquially called "the Stack").
 The idea is that the best way to learn something is to try and teach it, and so they work collectively on creating useful tutorials featuring the Stack.
@@ -227,7 +227,7 @@ Inform and improve the Rubin Science Platform
 
 | - complete one or more feedback surveys for Rubin Observatory
 |   -- *(links will be circulated when the feedback surveys are ready)*
-| - submit bug reports via GitHub issues (`here<https://github.com/rubin-dp0/Support>`_; see `Getting Support`_, below)
+| - submit bug reports via GitHub issues (`here <https://github.com/rubin-dp0/Support>`_; see `Getting Support`_, below)
 | - post about your experiences in the `Data Preview 0 <https://community.lsst.org/c/support/dp0>`_ forum category
 | - communicate directly with the Rubin RSP Users Committee
 |   -- *(more information about the Users Committee is forthcoming)*
@@ -281,7 +281,7 @@ In the right side-menu, do adjust the labels as appropriate, but leave the other
 Click “Submit new issue” when you’re ready.
 These issues will be addressed by Rubin staff.
 
-**For minor or ambiguous RSP service and access issues** please post a new topic in the `Support - DP0 RSP Services Issues <https://community.lsst.org/c/support/dp0-rsp-issues/52>`_ subcategory of the Community Forum.
+**For minor or ambiguous RSP service and access issues** please post a new topic in the `Support - DP0 RSP Services Issues <https://community.lsst.org/c/support/dp0-rsp-issues>`_ subcategory of the Community Forum.
 This subcategory enables DP0 delegates to report service issues to determine if others are experiencing the same issue (e.g., *"is this local or general network outage?"*, *"my query is taking a long time, is this a real problem or did I do it wrong?"*), crowd-source solutions to technical issues from each other when possible, and have a non-public venue for DP0-related questions.
 This subcategory is visible only to Community.lsst.org users who are members of the “DP0 Delegates” group and to Community.lsst.org forum moderators.
 The CET will monitor this category.
