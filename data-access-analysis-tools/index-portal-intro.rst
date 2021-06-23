@@ -122,7 +122,7 @@ Note that corresponding plot point for the selected row in the table is differen
 
     An updated results view in which the xy plot uses the magnitude columns.
 
-See also :ref:`Examples-DP0-1` for additional demonstrations of how to use the Portal's Single Table Query.
+See also :ref:`Examples-DP0-1-Portal` for additional demonstrations of how to use the Portal's Single Table Query.
 
 ADQL Queries
 ============
