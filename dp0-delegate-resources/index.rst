@@ -283,7 +283,7 @@ In the right side-menu, do adjust the labels as appropriate, but leave the other
 Click “Submit new issue” when you’re ready.
 These issues will be addressed by Rubin staff.
 
-**For minor or ambiguous RSP service and access issues** please post a new topic in the "Support - DP0 RSP Service Issues" subcategory of the Community Forum.
+**For minor or ambiguous RSP service and access issues** please feel free post questions as new topics in the "Support - DP0 RSP Service Issues" subcategory of the Community Forum.
 This subcategory enables DP0 delegates to report service issues to determine if others are experiencing the same issue (e.g., *"is this local or general network outage?"*, *"my query is taking a long time, is this a real problem or did I do it wrong?"*), crowd-source solutions to technical issues from each other when possible, and have a non-public venue for DP0-related questions.
 The CET will monitor this category, and it is visible only to Community.lsst.org users who are members of the “DP0 Delegates” group and to Community.lsst.org forum moderators.
 Since this subcategory is not public it cannot be linked to directly, but delegates who are logged-in to the Forum can access it via the main landing page at `Community.lsst.org <https://community.lsst.org>`_.
