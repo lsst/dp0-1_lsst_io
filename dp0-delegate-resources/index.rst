@@ -72,7 +72,7 @@ Go to `<http://community.lsst.org>`_ and use the "sign up" button at upper right
 
 **Join the DP0 Delegates Group:** 
 Go to `<https://community.lsst.org/groups>`_ and join "DP0 Delegates".
-This will ensure you have access to the the `Support -- DP0 RSP Services Issues <https://community.lsst.org/c/support/dp0-rsp-issues>`_ category.
+This will ensure you have access to the the `Support - DP0 RSP Services Issues <https://community.lsst.org/c/support/dp0-rsp-issues>`_ category.
 
 | **Find DP0-Related Content and Discussions:**
 | 1. `Support - Data Preview 0 <https://community.lsst.org/c/support/dp0>`_: for all questions and discussions related to DP0. For example, use of the RSP's aspects for science, contents of the DC2 data set, delegate activities, brainstorm new investigations, show-and-tell DP0-related results, etc.
