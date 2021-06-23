@@ -92,17 +92,18 @@ The search will return data in columns ra, dec, mag_g, and mag_i for all objects
     This will show while the search is executing.
 
 **Results View**: The search results will populate the results view, as shown below.
+
+.. figure:: /_static/portal_search_results.png
+    :name: portal_search_results
+
+    The default view of the search results.
+
 Across the top of the results view are many icons that control the display settings; hover over the icons and a statement about their functionality will appear at upper right.
 Also at upper right, under the user name, are the options "tri-view", "img-tbl", "img-xy", and "xy-tbl".
 These control how the results view is partitioned, and the default is "tri-view".
 In the "tri-view", at top left is a sky image with the search results overplotted, but note that this is *not* a simulated DC2 image, but a 2MASS image.
 Select "HiPS" and a "Change HiPS" button will appear with options for sky images to use, but none of the options are relevant for the DC2 simulated sky data.
 Thus for DP0, the "xy-tbl" is the most relevant view for results.
-
-.. figure:: /_static/portal_search_results.png
-    :name: portal_search_results
-
-    The default view of the search results.
 
 To manipulate the plotted data, select the two-gears "settings" icon above the xy plot and a pop-up window will open (see below).
 Select other columns to use, change the symbol type and color, and so forth, and click Apply.
@@ -121,7 +122,7 @@ Note that corresponding plot point for the selected row in the table is differen
 
     An updated results view in which the xy plot uses the magnitude columns.
 
-See also :ref:`Examples-DP0-1-Notebooks` for additional demonstrations of how to use the Portal's Single Table Query.
+See also :ref:`Examples-DP0-1` for additional demonstrations of how to use the Portal's Single Table Query.
 
 ADQL Queries
 ============
