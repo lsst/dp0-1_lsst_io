@@ -22,7 +22,7 @@ Introduction to the RSP Notebook Aspect
 #######################################
 
 Most RSP users will find Jupyter Notebooks to be the most efficient and powerful way to interact with the DP0.1 data set.
-For DP0.1, Jupyter Notebooks will be the only way to access images. 
+For DP0.1, Jupyter Notebooks will be the primary way to access images. 
 
 
 .. _NB-Intro-Login:
@@ -41,9 +41,9 @@ Most users will choose the recommended software version and a medium server size
     :name: RSP_NB_select_a_server
 
     Most users will choose the recommended software version and a medium size.
-    
+
 The term "image" atop the left box refers to a "Docker image" that defines the software packages and their versions which will be automatically loaded in the server environment.
-The "recommended" image will be updated on a monthly basis during DP0.1 to encourage users to adapt to using software that is an active development, and to benefit from the bug fixes and updates made by Rubin staff.
+The "recommended" image will be updated on a monthly basis during DP0.1 to encourage users to adapt to using software that is in active development, and to benefit from the bug fixes and updates made by Rubin staff.
 Older images will remain accessible to users.
 
 RSP users who are doing a lot of image processing might need to select a large server, and those who are working with small subsets of catalog data can use a small server.
@@ -60,7 +60,8 @@ Pressing the orange start button to start the server returns this page with a bl
 **JupyterLab Navigation:**
 The JupyterLab landing page in the figure below is the launch pad for all JupyterLab functionality (e.g., Notebook, Terminal).
 Return to this launch pad at any time by clicking the plus symbol at upper left.
-For DP0.1, only Python Notebooks and the terminal interface are supported (i.e., not the Console), and users are not able to access Portal queries from a Jupyter Notebook.
+For DP0.1, most users will prefer using the Notebook or Terminal, but there is also a Python Console available.
+In order to duplicate catalog queries executed in the Portal, re-execute the query using the TAP client available in the Notebook
 
 .. figure:: /_static/RSP_NB_launcher_options.png
     :width: 400
@@ -76,12 +77,22 @@ All users will find a set of tutorial notebooks provided in the notebooks direct
 Jupyter Notebooks can be identified by their suffix ".ipynb". 
 
 **Using a Terminal:**
-The DP0.1 data sets and the LSST Science Pipelines tools can both be accessed from the command line of a terminal. As described in the default message that appears in all newly-launched terminals, to create a Rubin Observatory environment in a terminal session and set up the full set of packages, users must first execute "source ${LOADSTACK}" and "setup lsst_distrib". For example, to query and retrieve DP0.1 data sets using the Butler (see below), command-line tools are available as documented `here <https://pipelines.lsst.io/v/weekly/modules/lsst.daf.butler/scripts/butler.html>`_. Type "butler --help" in any terminal to see a list of available butler functionality.
+The DP0.1 data sets and the LSST Science Pipelines tools can both be accessed from the command line of a terminal.
+As described in the default message that appears in all newly-launched terminals, to create a Rubin Observatory environment in a terminal session and set up the full set of packages, users must first execute:
+
+.. code-block:: bash
+
+   source ${LOADSTACK}
+   setup lsst_distrib 
+
+For example, to query and retrieve DP0.1 data sets using the Butler (see below), command-line tools are available as documented `here <https://pipelines.lsst.io/v/weekly/modules/lsst.daf.butler/scripts/butler.html>`_.
+Type ``butler --help`` in any terminal to see a list of available butler functionality.
 
 **Safely Log Out of JupyterLab:**
 Use the File item in the top menu bar.
 To safely shut down a Notebook, choose Close and Shutdown Notebook.
 To safely shut down a JupyterLab server and log out of the RSP, choose Save all, Exit, and Log Out.
+We recomend you log out every time you are finished with a session in order to both preserve resources for other users and to ensure you re-enter the RSP in a known state every time.
 
 
 .. _NB-Intro-Use-A-NB:
@@ -95,7 +106,7 @@ The best way to learn how to use a Jupyter Notebook is to open the first of the 
 Jupyter notebooks provide "cells" within which you type either Python code or markdown language (for formatted text).
 Choose the cell to execute by clicking in it with your mouse (the cursor must be in the desired cell).
 Hold down the `shift` key and press either `enter` or `return` (depending on your keyboard type), and the contents of the cell will be executed.
-If the cell type is code, and the cell contains python code, the code will be compiled and executed.
+If the cell type is code, and the cell contains python code, the code will be executed.
 If the cell type is markdown, then it will be rendered upon execution to yield nicely formatted text.
 (For some handy markdown tips, see `this blog post <https://medium.com/analytics-vidhya/the-ultimate-markdown-guide-for-jupyter-notebook-d5e5abf728fd>`_ or the `relevant section from the JupyterLab documentation <https://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Working%20With%20Markdown%20Cells.html#Markdown-Cells>`_). 
 
@@ -106,8 +117,7 @@ If the cell type is markdown, then it will be rendered upon execution to yield n
 
 **What is a kernel?**
 In the RSP Notebook Aspect, your notebooks will be operating in a kernel that has access to the full Rubin Science Pipelines, including the "Butler" (see below) that will be your main access tool to extract images and catalogs from the DP0.1 data.
-Many standard Python libraries and modules will be available, and users can install additional Python tools they wish to use.
-In DP0.1, the Notebook Aspect will not offer access to queries from the :ref:`Tools-RSP-Portal`. 
+Many standard Python libraries and modules will be available, and users can `install <https://nb.lsst.io/environment/python.html>`_ additional Python tools they wish to use.
 
 **Is all the code in Python?**
 Yes, the RSP Notebook Aspect will only have python environments for DP0.
@@ -119,7 +129,7 @@ Anyone new to Python and looking to learn more might benefit from this `Python f
 Web searches for "python *(thing you want to do)*" are usually pretty successful too. 
 
 **What is the Butler?**
-The Butler is a middleware component of the Data Management System (DMS) for persisting and retrieving image datasets.
+The Butler is a middleware component of the Data Management System (DMS) for persisting and retrieving datasets from the DP0.1 data repository.
 The only way to access DP0.1 images is via the Butler from a Jupyter Notebook.
 The third generation "Gen3" Butler is the version being used for DP0.1.
 Full `Butler documentation <https://pipelines.lsst.io/modules/lsst.daf.butler/index.html>`_ is available, and one of the :ref:`Examples-DP0-1-Notebooks` focuses on Butler use as well. 
@@ -127,7 +137,16 @@ Full `Butler documentation <https://pipelines.lsst.io/modules/lsst.daf.butler/in
 **Where to get support with using DP0 Notebooks.**
 Keep in mind that if you are not experienced at accessing data via Jupyter notebooks, or using a Science Platform more generally, you are not alone!
 Most of the DP0 delegates are new to this environment, and all of your questions and feedback will help us improve both the documentation and the tools.
-The `DP0 Delegate Homepage` provides information about the biweekly :ref:`Delegate-Homepage-DP0-Delegate-Assemblies` which will feature live tutorials and question-and-answer time, and about :ref:`Delegate-Homepage-Getting-Support` at any time via the `Rubin Observatory Community forum <https://community.lsst.org/>`_. 
+The `DP0 Delegate Homepage <https://dp0-1.lsst.io>`_ provides information about the biweekly :ref:`Delegate-Homepage-DP0-Delegate-Assemblies` which will feature live tutorials and question-and-answer time, and about :ref:`Delegate-Homepage-Getting-Support` at any time via the `Rubin Observatory Community forum <https://community.lsst.org/>`_. 
+
+**JupyterLab Tips and Tricks**
+The file broswer was mentioned before and is a handy way to navigate your user home space.
+However, it does not allow you to navigate to e.g. the shared data space.
+One way to make other spaces available in the file browser is to create a sympolic link using the Terminal to the desired space somewhere in your home area.
+
+You can have multiple notebooks and terminals open in your viewer at a time.
+This is very handy, but you can also arrange both notebooks and terminals next to or on top of each other by dragging the notebook or terminal around by the top bar.
+Arranging the windows can be convenient when working in both a terminal and notebook at the same time, or when using another notebook as a reference.
 
 
 .. _NB-Intro-Other_Docs:
@@ -135,7 +154,4 @@ The `DP0 Delegate Homepage` provides information about the biweekly :ref:`Delega
 Additional RSP Notebook Documentation
 =====================================
 
-Additional documentation for the RSP Notebook Aspect deployed at the National Center for Supercomputing Applications (NCSA) is available at `nb.lsst.io <https://nb.lsst.io/>`_, but beware that much of it does not apply to the RSP Notebook Aspect deployed in the Google Cloud for DP0.
-
-
- 
+Additional documentation for the RSP Notebook Aspect is available at `nb.lsst.io <https://nb.lsst.io/>`_.

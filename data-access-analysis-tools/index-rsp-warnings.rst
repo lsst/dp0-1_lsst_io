@@ -35,7 +35,9 @@ A number of safeguards for avoiding uptime or temporary data loss will not be pr
 
 The fact that anyone could PRUNE, there's no provenance for destruction, and how to avoid accidental wipe-outs.
 
-Do we have shared data sets? We did on the NCSA RSP.  Do we have access to other users’ home directories? 
+Do we have shared data sets? We did on the NCSA RSP. (HFC: what kinds of shared datasets are you thinking here? The only data set we officially provide is the DP0.1 data set. There are a lot more data on NCSA's filesystem and we never intended to have them on IDF.)
+
+Do we have access to other users’ home directories?
 
 Need some warnings about per-user data quota. 
 
@@ -48,7 +50,9 @@ RSP Compute Performance
 
 Performance during DP0 may not reflect the performance of the final system (see also Q4), and the resources made available to DP0 delegates may not reflect the final user quotas of the operations-era RSP.
 
-How about running cron jobs? What about abusing resources?
+How about running cron jobs? (HFC: I don't think we would let delegates run cron. But what is the motivation of wanting to run cron?)
+
+What about abusing resources?
 
 Testing how algorithms will scale: No access to user batch or parallelisation are available in DP0. Resources provided as part of DP0.1 are limited and meaningful scalability testing of algorithms is not practical. 
 
@@ -58,11 +62,12 @@ Butler-Related Warnings
 -----------------------
 
 For DP0.1 or until we have a client/server Butler and signed URLs (DMTN-169,DMTN-176), all users share full read/write without restriction.  Since there is no individual access control, absolutely no use direct sql access will be allowed to any butler registry database.
+Delegates should only access the Butler repository using standard Butler APIs provided in the Rubin software stack.
 
 User-added data in DP0.1’s butler repo will not be migrated to DP0.2’s butler repo. 
 
-Accessing data directly using the LSST Science Pipeline Butler interface: Limited processing capability will be available as part of DP0. All delegates will share access to a common Butler ('Gen3') repository. DP0.1 provided data products in the repository will be read-only. Users may create their own data products and collections thereof in the repository, which will be available to all other delegates.
-
+Accessing data directly using the LSST Science Pipeline Butler interface: Limited processing capability will be available as part of DP0. All delegates will share access to a common Butler ('Gen3') repository.
+The butler repository is a shared read/write space for all delegates, and there is no per-user ownership of any data inside the butler repo. Therefore, it’s possible for one delegate to delete another delegate’s user-added datasets in the butler repo. For running pipetask with the DP0.1 repo, we strongly encourage delegates to follow the naming convention as documented in `DMTN-167 <https://dmtn-167.lsst.io/>` and only write to their own ``u/<user>/*`` collections. Although the convention is not enforced, it can reduce the chance of conflicts. We will **not** restore user-added data for delegates. Currently the butler repo is a shared-risk space and please plan for possible loss of user-added data. Project-loaded data are read only and protected.  We will address these issues in a future release before the operations starts.
 
 
 
@@ -101,3 +106,4 @@ MLG Did Not Know The Category
 -----------------------------
 
 The DP0.1 repo at IDF is one older version of the /repo/dc2 repo at NCSA.  New updates in NCSA’s repo are not ported to IDF.  Note that the goals of the two repos are different: the IDF’s repo is frozen like a data release; the NCSA’s repo is evolving to meet developer need. 
+(HFC: This is only to avoid confusion for those delegates who are also in the Stack Club or have access to the LSST infrastructure at NCSA.)
