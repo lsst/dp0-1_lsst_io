@@ -45,7 +45,8 @@ Below are two step-by-step demonstrations of how to use the Portal for science i
 Beginner TAP Search
 -------------------
 
-*(MLG: create and link to a walk-through demo that matches exactly the first tutorial notebook, which does a query, some filtering, and makes a CMD. Create demo as an RST file in this directory.)*
+:ref:`Examples-DP0-1-Portal-Beginner`
+
 
 .. _Examples-DP0-1-Portal-Advanced:
 
