@@ -92,10 +92,43 @@ Try the above query in the ADQL window -- you should retrieve 14424 results.
 
 Just to confirm that things look like we expect, let's plot a color-magnitude (g vs. g-i) and color-color (r-i vs. g-r) diagram. We won't be using the image any more, so switch to the view with only the table and an xy plot by clicking the "xy-tbl" at the upper right. To plot a color-magnitude diagram, click on the icon that looks like two gears in the xy-plot panel (it should say "Chart options and tools" when you mouse over it).
 
+Enter the values seen in the example below. We will use the "cModel" magnitudes, plotting g vs. g-i, to make a color-magnitude diagram. 
+
+.. figure:: /_static/Portal_Plot_CMD.png
+    :width: 200
+    :name: portal_cmd_plot
+    
+    Example of creating a plot in the Portal.
+
+Now create another plot by again clicking the "gears" icon, and entering the following:
+
+.. figure:: /_static/Portal_Plot_ColorColor.png
+    :width: 200
+    :name: portal_colorcolor_plot
+
+    Another example of creating a plot in the Portal.
+
+Initially the figures look kinda smashed into the top half of the screen. Click the double arrow icon at the upper right to make the figures take up the whole screen. Then you should have something that looks like this:
+
+.. figure:: /_static/Portal_Plots_big.png
+    :name: portal_big_plots
+
+Those figures are a bit messy, because they contain more than 14000 points. Let's filter the points to plot only stars. To do this, we will separate the "stars" and "galaxies" using the truth_type column from the Truth-Match table. Simulated stars have truth_type = 2, and galaxies, truth_type = 1. If you click on the funnel-shaped icon at the top of your figures, you can enter text like the following in the box that pops up. This will keep only points with truth_type = 1. (Feel free to play around with filtering based on other columns!)
+
+.. figure:: /_static/Portal_Filter_Plot.png
+    :width: 200
+    :name: portal_filter_plot
+
+After filtering both panels, you should get color-magnitude and color-color diagrams that look like this:
+
+.. figure:: /_static/Portal_Plots_stars_only.png
+    :name: portal_big_plots_stars_only
+
+Hooray - the stars lie on a narrow locus in the color-color plot, as you might expect!
 
 
 Compare the measurements from the Object table to the "true" values for some objects.
-To do this, we will separate the "stars" and "galaxies" using the truth_type column from the Truth-Match table. Simulated stars have truth_type = 2, and galaxies, truth_type = 1.
+
 
 After separating stars and galaxies, we'll compare the recovered flux to the "true" value that was simulated for each object (as a ratio of the fluxes).
 
