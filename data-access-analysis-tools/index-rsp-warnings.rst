@@ -66,6 +66,6 @@ Many more features are on our roadmap for the RSP and its related services (Qser
 Warnings and admonishments
 ---------------------------
 
-Our `Acceptable Use Policy <https://data.lsst.cloud/terms>`_ applies: We’re giving you access to Rubin Observatory systems so you can do science with the data we provide or otherwise further the mission of the observatory. You can lose your access if you misuse our resources, interfere with other users, or otherwise do anything that would bring the observatory into disrepute.
+Our `Acceptable Use Policy <https://data-dev.lsst.cloud/terms>`_ applies: We’re giving you access to Rubin Observatory systems so you can do science with the data we provide or otherwise further the mission of the observatory. You can lose your access if you misuse our resources, interfere with other users, or otherwise do anything that would bring the observatory into disrepute.
 
 One of the main goals of the Data Preview program is to allow us to assess user interactions with our services. Bypassing use of our services (such as attempting to bulk download data or trying to defeat the Butler APIs) violate the spirit of the exercise.
