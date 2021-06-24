@@ -127,13 +127,8 @@ After filtering both panels, you should get color-magnitude and color-color diag
 Hooray - the stars lie on a narrow locus in the color-color plot, as you might expect!
 
 
-Compare the measurements from the Object table to the "true" values for some objects.
+Finally, let's compare the measurements from the Object table to the "true" values for some objects. We'll compare the recovered flux to the "true" value that was simulated for each object (as a ratio of the fluxes).
 
-
-After separating stars and galaxies, we'll compare the recovered flux to the "true" value that was simulated for each object (as a ratio of the fluxes).
-
-
-Now let's compare the fluxes:
 
 .. _Another-Portal-Demo:
 
