@@ -21,14 +21,24 @@
 Introduction to the RSP API Aspect
 #####################################
 
-During DP0.1, only the TAP (Table Access Protocol) service will be available. The TAP service. Additional IVOA standards that we expect to support in futere include SCS for simple catalog searches, SIAv2 for image searches, SODA for image cutouts and mosaics, and VOSpace (in addition to WebDAV) for access to user files. The API Aspect of the RSP is very powerful and will eventually allow for federation with other astronomical archives, bringing added value to the LSST dataset.
+On the the main landing page at `data.lsst.cloud <https://data.lsst.cloud>`_ there is an "APIs" panel however this is not yet active for DP0.
 
 .. _Data-Access-Analysis-Tools-TAP:
 
 The Table Access Protocol (TAP) service
 =======================================
 
-This page includes information for accessing and basic utilization of the Table Access Protocol (TAP) service.
+The only Web API provided for DP0.1 is a TAP service for catalog access via the Portal and Notebook Aspects. Image access is not yet supported via TAP. Other IVOA standard APIs that we expect to support in the future include SCS for simple catalog searches, SIAv2 for image searches, SODA for image cutouts and mosaics, and VOSpace (in addition to WebDAV) for access to user files.
 
-*(MLG Note: Describe how TAP is used in the Portal and also in Notebooks. Are there any TAP service limitations during DP0.1? If so mention here and add details to RSP Usage Hazards page.)*
-(default) or ADQL.
+Use of the TAP service to query catalogs via the Portal is described in :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
+
+In the Notebook Aspect, a TAP service is instantiated in a python notebook and used to execute an ADQL query and return a result set. A set of utilites are provided to get a TAP service instance.
+
+.. code-block:: python
+    from rubin_jupyter_utils.lab.notebook import get_tap_service, retrieve_query
+    service = get_tap_service()
+    query = "SELECT TOP 100 * FROM dp01_dc2_catalogs.forced_photometry"
+    results = service.search(query)
+    results.to_table().show_in_notebook()
+
+The tutorial notebook "Introduction to Jupyter Notebooks for Data Preview 0" demonstrates how to use the TAP service programatically from a python notebook.
