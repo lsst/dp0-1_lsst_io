@@ -122,7 +122,7 @@ Every assembly will be split into 2 one-hour sections, and all are welcome to jo
 |   -- in-depth discussion related to the first hour's contents
 |   -- grassroots DP0 science working groups and collaborative projects
 
-Everyone is welcome to propose discussion topics for the second hour, or run their own regular co-working sessions during this time.
+Everyone is welcome to propose breakout topics for the second hour.
 The first five minutes of the second hour will be spent connecting people with similar interests and setting up breakout rooms.
 Rubin staff will always be on hand to answer questions and provide assistance with DP0-related work during this time.
 
@@ -137,7 +137,7 @@ Assemblies Schedule
 
 Rows *in italics* are tentative topics.
 Please reach out to Melissa Graham with suggestions or contributions (e.g., send her a direct message in the Community Forum).
-Suggestions and contributed talks are welcome anyone, e.g., delegates, Rubin staff.
+Suggestions and contributed talks are welcome from anyone, e.g., delegates, Rubin staff.
 
 .. include:: dp0-delegate-assemblies-schedule.inc
 
