@@ -48,6 +48,20 @@ During DP0, the Rubin Science Platform (RSP) provides access to Rubin Observator
 
     Above is shown the landing page of `data.lsst.cloud <https://data.lsst.cloud/>`_. The Notebook and Portal Aspects can be accessed by clicking on their respective icons on this dashboard. The API aspect is not availble during DP0.1.
 
+.. _Tools-RSP-Portal:
+
+Portal Aspect
+-------------
+
+The Portal Aspect of the RSP provides an environment for data discovery, query, filtering, and visualization.
+During DP0.1, only catalog data will be accessible via the Portal (not images), and in particular only catalog data generated from the coadded images, and not the single-visit images, which means there is no time-domain data accessible via the Portal during DP0.1).
+Note that the Portal Aspect has not been under active development recently and it is expected to evolve significantly before the first LSST annual data release.
+
+.. toctree::
+    :maxdepth: 2
+    :glob:
+
+    index-portal-intro
 
 .. _Tools-RSP-Notebook:
 
@@ -68,33 +82,21 @@ For DP0, this environment will only support Python 3. For DP0.1, images can only
 
     index-nb-intro
 
+.. _Tools-RSP-API:
 
-.. _Tools-RSP-Portal:
-
-Portal Aspect
+API Aspect
 -------------
 
-The Portal Aspect of the RSP provides an environment for data discovery, query, filtering, and visualization.
-During DP0.1, only catalog data will be accessible via the Portal (not images), and in particular only catalog data generated from the coadded images, and not the single-visit images, which means there is no time-domain data accessible via the Portal during DP0.1).
-Note that the Portal Aspect has not been under active development recently and it is expected to evolve significantly before the first LSST annual data release.
+The API (Application Programming Interface) Aspect of the RSP enables programatic acccess to the Rubin data products via Virtual Observatory (VO) interfaces. Users will be able to remotely access the LSST data and DAC services using tools they’re already familiar with, e.g. TOPCAT
+or libraries such as Astropy. The Portal and Notebook Aspects of the Science Platform make use of the same APIs to internally access the LSST datasets.
+
+The API Aspect of the RSP is very powerful and will eventually allow for federation with other astronomical archives, bringing added value to the LSST dataset.
 
 .. toctree::
     :maxdepth: 2
     :glob:
 
-    index-portal-intro
-
-
-.. _Data-Access-Analysis-Tools-TAP:
-
-Table Access Protocol (TAP) service
-===================================
-
-This page includes information for accessing and basic utilization of the Table Access Protocol (TAP) service.
-
-*(MLG Note: Describe how TAP is used in the Portal and also in Notebooks. Are there any TAP service limitations during DP0.1? If so mention here and add details to RSP Usage Hazards page.)*
-
-
+    index-api-intro
 
 .. _Data-Access-Analysis-Tools-Data-Processing:
 
