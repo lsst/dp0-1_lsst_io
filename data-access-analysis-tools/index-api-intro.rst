@@ -40,4 +40,4 @@ In the Notebook Aspect, a TAP service is instantiated in a python notebook and u
    results = service.search(query)
    results.to_table().show_in_notebook()
 
-The tutorial notebook "Introduction to Jupyter Notebooks for Data Preview 0" demonstrates how to use the TAP service programatically from a python notebook.
+Several of the DP0 :ref:`Examples-DP0-1-Notebooks` demonstrate how to use the TAP service programatically from a python notebook.
