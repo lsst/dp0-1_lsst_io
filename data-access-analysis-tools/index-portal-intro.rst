@@ -124,6 +124,8 @@ Note that corresponding plot point for the selected row in the table is differen
 
 See also :ref:`Examples-DP0-1-Portal` for additional demonstrations of how to use the Portal's Single Table Query.
 
+.. _adql-queries:
+
 ADQL Queries
 ============
 

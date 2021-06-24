@@ -87,7 +87,7 @@ For DP0, this environment will only support Python 3. For DP0.1, images can only
 API Aspect
 -------------
 
-The API (Application Programming Interface) Aspect of the RSP enables programatic acccess to the Rubin data products via Virtual Observatory (VO) interfaces. Users will be able to remotely access the LSST data and DAC services using tools they’re already familiar with, e.g., TOPCAT
+The API (Application Programming Interface) Aspect of the RSP enables programatic acccess to the Rubin data products via Virtual Observatory (VO) interfaces. Users will be able to remotely access the LSST data and DAC services using tools they’re already familiar with, e.g. TOPCAT
 or libraries such as Astropy. The Portal and Notebook Aspects of the Science Platform make use of the same APIs to internally access the LSST datasets.
 
 The API Aspect of the RSP is very powerful and will eventually allow for federation with other astronomical archives, bringing added value to the LSST dataset.
