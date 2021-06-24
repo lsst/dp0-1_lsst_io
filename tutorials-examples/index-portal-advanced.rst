@@ -90,12 +90,15 @@ In our notebook exploration, we continued by creating Python dataframes of the t
 
 Try the above query in the ADQL window -- you should retrieve 14424 results.
 
+Just to confirm that things look like we expect, let's plot a color-magnitude (g vs. g-i) and color-color (r-i vs. g-r) diagram. We won't be using the image any more, so switch to the view with only the table and an xy plot by clicking the "xy-tbl" at the upper right. To plot a color-magnitude diagram, click on the icon that looks like two gears in the xy-plot panel (it should say "Chart options and tools" when you mouse over it).
+
+
+
 Compare the measurements from the Object table to the "true" values for some objects.
 To do this, we will separate the "stars" and "galaxies" using the truth_type column from the Truth-Match table. Simulated stars have truth_type = 2, and galaxies, truth_type = 1.
 
 After separating stars and galaxies, we'll compare the recovered flux to the "true" value that was simulated for each object (as a ratio of the fluxes).
 
-Just to confirm that things look like we expect, let's plot a color-magnitude (g vs. g-i) and color-color (r-i vs. g-r) diagram.
 
 Now let's compare the fluxes:
 
