@@ -29,12 +29,12 @@
      - Second Hour Breakouts Topics
      - Chair and Presenter(s)
    * - 2021-07-16
-     - Introduction to DP0 and the RSP's Portal and Notebook Aspects.
-     - Q&A with delegates. 
+     - Introduction to DP0, and to the RSP's Notebook and Portal Aspects.
+     - *Q&A with Rubin staff.* 
      - The Community Engagement Team (Melissa Graham)
    * - 2021-07-30
-     - Querying Catalogs via the Notebook (TAP Service) and Portal Aspects.
-     - Notebook Q&A. Portal Q&A. DP0 science. 
+     - Querying Catalogs with TAP in the Notebook and Portal Aspects.
+     - *Portal Q&A. Notebook Q&A. DP0 science topics.* 
      - The Community Engagement Team (Leanne Guy)
    * - 2021-08-13
      - no assembly (Rubin 2021 Project and Community Workshop)
@@ -42,31 +42,31 @@
      - 
    * - 2021-08-27
      - Image Query, Retrieval, and Display.
-     - Butler Q&A. Notebook Q&A. Image type Q&A. DP0 science.
+     - *How to use afwDisplay. Image type Q&A. DP0 science topics.*
      - The Community Engagement Team (Jeff Carlin)
    * - 2021-09-10
-     - Data Discovery with the Butler and the Portal
-     - Butler Q&A. Portal Aspect Q&A. DP0 science.
+     - Using the Butler for Data Discovery.
+     - *Butler Q&A. Gen3 for Gen2 Users. DP0 science topics.*
      - The Community Engagement Team (Alex Drlica-Wagner)
    * - 2021-09-24
      - *LSST Science Pipelines*
-     - *Pipeline Q&A.* DP0 science.
+     - *Pipelines Q&A. DP0 science topics.*
      - *TBD*
    * - 2021-10-08
      - *Data Visualization*
-     - *Data vis package Q&A.* DP0 science.
+     - *Visualization packages Q&A. DP0 science topics.*
      - *TBD*
    * - 2021-10-22
      - *Image Processing*
-     - *Image algorithms Q&A.* DP0 science.
+     - *Algorithms Q&A. DP0 science topics.*
      - *TBD*
    * - 2021-11-05
      - *Source Detection and Measurement*
-     - *Measurement algorithm Q&A.* DP0 science.
+     - *Measurement algorithms Q&A. DP0 science topics.*
      - *TBD*
    * - 2021-11-19
      - *Fake Source Injection*
-     - *Fake source Q&A.* DP0 science.
+     - *Fake sources Q&A. DP0 science topics.*
      - *TBD*
    * - 2021-12-03
      - *delegate presenter(s)*
