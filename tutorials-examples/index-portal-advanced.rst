@@ -127,8 +127,21 @@ After filtering both panels, you should get color-magnitude and color-color diag
 Hooray - the stars lie on a narrow locus in the color-color plot, as you might expect!
 
 
-Finally, let's compare the measurements from the Object table to the "true" values for some objects. We'll compare the recovered flux to the "true" value that was simulated for each object (as a ratio of the fluxes).
+Finally, let's compare the measurements from the Object table to the "true" values for some objects. We'll compare the recovered flux to the "true" value that was simulated for each object (as a ratio of the fluxes). Once again click on the gears, and create a new scatter plot with the following parameters:
 
+.. figure:: /_static/Portal_Plot_FluxComparison.png
+    :width: 200
+    :name: portal_flux_comparison_plot
+
+The resulting figure should look something like the one below. Most of the points lie along a line at y-axis values near 1.0, meaning that the measured fluxes are roughly equal to the simulated (input) fluxes. That's reassuring!
+
+One final note: in the screenshot below, you can see that hovering over a point in the figure will tell you the values of that point. Furthermore, if you click the point, you can see that it is then highlighted in the table. 
+
+.. figure:: /_static/Portal_meas_vs_truth_flux.png
+    :name: portal_meas_vs_truth_flux
+    
+    
+    
 
 .. _Another-Portal-Demo:
 
