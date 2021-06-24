@@ -35,6 +35,7 @@ Use of the TAP service to query catalogs via the Portal is described in :ref:`Da
 In the Notebook Aspect, a TAP service is instantiated in a python notebook and used to execute an ADQL query and return a result set. A set of utilites are provided to get a TAP service instance.
 
 .. code-block:: python
+
     from rubin_jupyter_utils.lab.notebook import get_tap_service, retrieve_query
     service = get_tap_service()
     query = "SELECT TOP 100 * FROM dp01_dc2_catalogs.forced_photometry"
