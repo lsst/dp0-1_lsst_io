@@ -135,6 +135,8 @@ Everyone is welcome to attend any and all of these sessions, as they are not res
 Assemblies Schedule
 -------------------
 
+The first four assemblies will, in turn, focus on each of the first four DP0 notebooks in `the tutorial-notebooks repository <https://github.com/rubin-dp0/tutorial-notebooks>`_.
+
 Rows *in italics* are tentative topics.
 Please reach out to Melissa Graham with suggestions or contributions (e.g., send her a direct message in the Community Forum).
 Suggestions and contributed talks are welcome from anyone, e.g., delegates, Rubin staff.
