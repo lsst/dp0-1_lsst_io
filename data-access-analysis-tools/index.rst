@@ -90,8 +90,6 @@ API Aspect
 The API (Application Programming Interface) Aspect of the RSP enables programatic acccess to the Rubin data products via Virtual Observatory (VO) interfaces. Users will be able to remotely access the LSST data and DAC services using tools they’re already familiar with, e.g., TOPCAT
 or libraries such as Astropy. The Portal and Notebook Aspects of the Science Platform make use of the same APIs to internally access the LSST datasets.
 
-During DP0.1, only the TAP (Table Access Protocol) service will be available. The TAP service. Additional IVOA standards that we expect to support in futere include SCS for simple catalog searches, SIAv2 for image searches, SODA for image cutouts and mosaics, and VOSpace (in addition to WebDAV) for access to user files. The API Aspect of the RSP is very powerful and will eventually allow for federation with other astronomical archives, bringing added value to the LSST dataset.
-
 .. toctree::
     :maxdepth: 2
     :glob:
