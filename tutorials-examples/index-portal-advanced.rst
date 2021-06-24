@@ -140,10 +140,4 @@ One final note: in the screenshot below, you can see that hovering over a point 
 .. figure:: /_static/Portal_meas_vs_truth_flux.png
     :name: portal_meas_vs_truth_flux
     
-    
-    
 
-.. _Another-Portal-Demo:
-
-Another Demonstration?
-======================
