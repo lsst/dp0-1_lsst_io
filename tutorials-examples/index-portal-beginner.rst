@@ -17,14 +17,14 @@
 .. _Examples-DP0-1-Portal-Beginner:
 
 ############################################
-Beginner TAP/ADQL Usage in the Portal Aspect
+Beginner TAP Single Table Usage in the Portal Aspect
 ############################################
 
 **Delete all of the below and add your own stuff.**
 
 
 
-Now that you have seen the basic functionality of the Portal Aspect and some demonstrations of ADQL queries (in :ref:`Data-Access-Analysis-Tools-Portal-Intro`), we turn to some more advanced usage of the Portal Aspect.
+This brief tutorial will show you how to perform the same data retrieval and analysis that is shown in the 01 Tutorial Notebook (:ref:`Examples-DP0-1-Notebooks`).
 
 .. _Portal-Advanced-Table-Join:
 
