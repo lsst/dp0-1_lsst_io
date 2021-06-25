@@ -159,17 +159,17 @@ For examples of how to access these Butler catalogs, see the :ref:`Examples-DP0-
      - Source detections in a single processed visit image (PVI; also called a calexp). (234 columns)
    * - deepCoadd_ref
      - :ref:`full schema <Data-Products-DP0-1-schema_deepCoadd_ref>`
-     - Merged source detections in deep coadded images across all filters. Used as input for the deblended and measurements catalog. (495 columns)
-   * - deepCoadd_meas
-     - :ref:`full schema <Data-Products-DP0-1-schema_deepCoadd_meas>`
-     - Measurement parameters for sources in deep coadded images, based on deepCoadd_ref. (489 columns)
-   * - deepCoadd_deblendedFlux
-     - :ref:`full schema <Data-Products-DP0-1-schema_deepCoadd_deblendedFlux>`
-     - Deblended parent and child parameters for sources in deep coadded images, based on deepCoadd_ref. (30 columns)
+     - Source detections in deep coadded images across all filters. (495 columns)
    * - deepCoadd_forced_src
      - :ref:`full schema <Data-Products-DP0-1-schema_deepCoadd_forced_src>`
      - Forced photometry for sources in deep coadded images. (508 columns)
 
+..   * - deepCoadd_deblendedFlux
+..     - :ref:`full schema <Data-Products-DP0-1-schema_deepCoadd_deblendedFlux>`
+..     - Deblended parent and child parameters for sources in deep coadded images, based on deepCoadd_ref. (30 columns)
+..   * - deepCoadd_meas
+..     - :ref:`full schema <Data-Products-DP0-1-schema_deepCoadd_meas>`
+..     - Measurement parameters for sources in deep coadded images, based on deepCoadd_ref. (489 columns)
 
 
 .. _DP0-1-Data-Products-Visualization:
