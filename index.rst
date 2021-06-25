@@ -19,11 +19,6 @@ Vera C. Rubin Observatory Documentation for Data Preview 0.1 (DP0.1)
 
 .. This section should provide a brief, top-level description of the page.
 
-.. Important::
-
-    This documentation area is under heavy development and only in the very early stages of design.
-    It should not be used nor consulted for a place of information at this time.
-
 This site provides information about the Rubin Observatory's Data Preview 0.1 (DP0.1).
 
 **DP0.1 Release Date:** June 30 2021
