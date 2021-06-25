@@ -114,9 +114,7 @@ Links to full or curated versions of the table schema (curated meaning limited t
 The five TAP-accessible catalogs in the table below are generated from coadded images and are available via both the Portal and Notebook Aspects.
 For all Portal-accessible TAP catalogs, one way to view and interact with the schema is by using the Portal's "table view" in the TAP service for single-table queries, as described in the :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
 Schema for all five TAP-accessible catalogs can be also viewed and interacted with in a Jupyter Notebook by following the examples in Section 2.2 of the first of the :ref:`Examples-DP0-1-Notebooks`.
-The table below contains links to pages that list the schema for these tables: the column names, units, data types, minimum and maximum values, and a description.
-The minimum and maximum values for a given column were calculated from a subset of 1000 objects or sources near the center of the DC2 field, and are only intended to give users a general idea of the values.
-Note that a few columns appear to be unpopulated and return NAN (Not A Number) values for the minimum and maximum. 
+The table below contains links to pages that list the schema for these tables: the column names, units, data types, and a description.
 
 .. list-table:: TAP-accessible tables available for DP0.1.
    :widths: 120 120 350
@@ -145,16 +143,9 @@ Note that a few columns appear to be unpopulated and return NAN (Not A Number) v
 
 **Butler Catalogs**:
 The recommended catalog interface for DP0.1 is the TAP service.
-However, as some DP0.1 participants will likely want to use the Butler to access the catalog data, some information is provided here.
+However, because the catalog of sources detected in individual processed visit images (PVIs) is only available through the Butler, the Butler schema for several of the most useful DP0.1 catalogs are provided here.
 The Butler catalogs are listed in the approximate order that a processing workflow with the LSST Science Pipelines would generate them.
-
-| Although the command line syntax and the data repositories used in these two tutorials are not appropriate for DP0.1, these tutorials do provide a nice *conceptual illustration* of how the tables can be made with the LSST Science Pipelines.
-| - https://pipelines.lsst.io/getting-started/photometry.html
-| - https://pipelines.lsst.io/getting-started/multiband-analysis.html
-
-*(MLG: cite which tutorial notebook is best for follow-up on Butler-accesible catalogs, e.g., Intro to Butler.)*
-
-*(MLG: the phrasings below say "typically based on"; get confirmation of how they were made.)*
+For examples of how to access these Butler catalogs, see the :ref:`Examples-DP0-1-Notebooks` about the Butler.
 
 .. list-table:: Butler-accessible tables available for DP0.1.
    :widths: 120 120 350
@@ -164,23 +155,20 @@ The Butler catalogs are listed in the approximate order that a processing workfl
      - Schema Link
      - Description
    * - src
-     - TBD
-     - Source detections in a calexp.
-   * - deepCoadd_det
-     - TBD
-     - Source detections in a deep coadded image. Typically used as input for the merged reference catalog.
+     - :ref:`full schema <Data-Products-DP0-1-schema_src>`
+     - Source detections in a single processed visit image (PVI; also called a calexp). (234 columns)
    * - deepCoadd_ref
-     - TBD
-     - Merged source detections in deep coadded images across all filters. Typically based on deepCoadd_det and used as input for the deblended and measurements catalog.
+     - :ref:`full schema <Data-Products-DP0-1-schema_deepCoadd_ref>`
+     - Merged source detections in deep coadded images across all filters. Used as input for the deblended and measurements catalog. (495 columns)
    * - deepCoadd_meas
-     - TBD
-     - Measurement parameters for sources in deep coadded images. Typically based on deepCoadd_ref.
+     - :ref:`full schema <Data-Products-DP0-1-schema_deepCoadd_meas>`
+     - Measurement parameters for sources in deep coadded images, based on deepCoadd_ref. (489 columns)
    * - deepCoadd_deblendedFlux
-     - TBD
-     - Deblended parent and child parameters for sources in deep coadded images. Typically based on deepCoadd_ref.
+     - :ref:`full schema <Data-Products-DP0-1-schema_deepCoadd_deblendedFlux>`
+     - Deblended parent and child parameters for sources in deep coadded images, based on deepCoadd_ref. (30 columns)
    * - deepCoadd_forced_src
-     - TBD
-     - Forced photometry for sources in deep coadded images. Typically based on deepCoadd_ref or on deepCoadd_deblendedFlux.
+     - :ref:`full schema <Data-Products-DP0-1-schema_deepCoadd_forced_src>`
+     - Forced photometry for sources in deep coadded images. (508 columns)
 
 
 
