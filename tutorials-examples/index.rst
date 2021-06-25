@@ -47,7 +47,11 @@ Beginner TAP Search
 
 *(MLG: create and link to a walk-through demo that matches exactly the first tutorial notebook, which does a query, some filtering, and makes a CMD. Create demo as an RST file in this directory.)*
 
+.. _Examples-DP0-1-Portal-Advanced:
+
 Advanced Demo
 -------------
 
-*(MLG: A more advanced Portal demo that demonstrations additional functionality not covered in beginner TAP search demo. Create demo as an RST file in this directory.)*
+:ref:`Examples-DP0-1-Portal-Advanced`
+
+.. *(MLG: A more advanced Portal demo that demonstrations additional functionality not covered in beginner TAP search demo. Create demo as an RST file in this directory.)*
