@@ -273,7 +273,8 @@ Extend or enhance the benefits of DP0 in the science community.
 Getting Support
 ===============
 
-**Scientific Support via the Community Forum --**
+Scientific Support via the Community Forum
+------------------------------------------
 
 The `Support – Data Preview 0 <https://community.lsst.org/c/support/dp0/49>`_ subcategory is the best place for DP0 delegates to post topics related to scientific support.
 
@@ -282,7 +283,8 @@ Scientific support includes questions about the DC2 simulated data set, the DP0 
 This subcategory will be monitored by the Rubin `Community Engagement Team <https://community.lsst.org/t/about-the-community-engagement-team/4526>`_ (CET).
 DP0 delegates are especially encouraged to post new topics and reply to others' posts in this subcategory.
 
-**Technical Assistance via GitHub Issues --**
+Technical Assistance via GitHub Issues
+--------------------------------------
 
 Bug reports, persistent technical issues, and requests for assistance from Rubin staff should be submitted by DP0 delegates as GitHub issues in the `rubin-dp0 GitHub Organization's Support repository <https://github.com/rubin-dp0/Support>`_.
 
@@ -291,11 +293,17 @@ In the right side-menu, do adjust the labels as appropriate, but leave the other
 Click “Submit new issue” when you’re ready.
 These issues will be addressed by Rubin staff.
 
-**For minor or ambiguous RSP service and access issues** please feel free post questions as new topics in the "Support - DP0 RSP Service Issues" subcategory of the Community Forum.
+Minor or Ambiguous RSP Service and Access Issues
+------------------------------------------------
+
+Please feel free post even small questions as new topics in the "Support - DP0 RSP Service Issues" subcategory of the Community Forum.
 
 This subcategory enables DP0 delegates to determine if others are experiencing the same issue (e.g., *"is this local or general network outage?"*, *"my query is taking a long time, is this a real problem or did I do it wrong?"*), crowd-source solutions to technical issues from each other when possible, and have a non-public venue for DP0-related questions.
 The CET will monitor this category, and it is visible only to Community.lsst.org users who are members of the “DP0 Delegates” group and to Community.lsst.org forum moderators.
 Since this subcategory is not public it cannot be linked to directly, but delegates who are logged-in to the Forum can access it via the main landing page at `Community.lsst.org <https://community.lsst.org>`_.
 
-**Live Support:** Bring your questions to the Delegate Assemblies, third Thursday office hours, or Stack Club meetings.
+Live Support
+------------
+
+Bring your questions to the Delegate Assemblies, third Thursday office hours, or Stack Club meetings.
 Rubin staff members will usually be in attendance and able to assist you. 
