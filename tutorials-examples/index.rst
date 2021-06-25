@@ -23,8 +23,6 @@ These tutorials and user guides are for DP0 delegates using the Rubin Science Pl
 
 Before following these tutorials, delegates should have gotten their :ref:`Delegate-Homepage-RSP-Accounts`, be familiar with this list of :ref:`Data-Access-Analysis-Tools-RSP-Warnings` and :ref:`the basic components of the RSP <Data-Access-Analysis-Tools-RSP>`, and know how and where to :ref:`get support <Getting Support>`. 
 
-*Reminder of citations and references for using other people's notebooks.*
-
 
 .. _Examples-DP0-1-Notebooks:
 
@@ -32,6 +30,8 @@ Jupyter Notebook Tutorials
 ==========================
 
 The tutorial notebooks in the ``rubin-dp0`` GitHub Organization's `tutorial-notebooks <https://github.com/rubin-dp0/tutorial-notebooks>`_ repository will be available by default in a folder in all user's home directories in the RSP's Notebook Aspect. See that repository's README file for descriptions of the notebooks.
+
+If these notebooks are used for a journal publication, please consider adding an acknowledgement that gives credit to the original creator(s) as listed in the notebook's header.
 
 
 .. _Examples-DP0-1-Portal:
@@ -53,5 +53,3 @@ Advanced Demo
 -------------
 
 :ref:`Examples-DP0-1-Portal-Advanced`
-
-.. *(MLG: A more advanced Portal demo that demonstrations additional functionality not covered in beginner TAP search demo. Create demo as an RST file in this directory.)*
