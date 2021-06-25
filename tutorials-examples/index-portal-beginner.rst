@@ -19,7 +19,7 @@
 
 ###############################################################
 Beginner TAP Tutorial - Single Table Usage in the Portal Aspect
-##############################################################
+###############################################################
 
 This brief tutorial will show you how to perform the same data retrieval and analysis that is shown in the first of the :ref:`Examples-DP0-1-Notebooks` (titled "Intro to DP0") by using the Portal Aspect's Single Table TAP search function.
 
@@ -28,23 +28,26 @@ In this tutorial we will extract data from a small region of sky in the ``object
 We assume that you have read the basic intro to the Portal Aspect in :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
 
 
-.. _TAP_Single_Table_Beginner_Tutorial_Step_1:
+.. _Examples-DP0-1-Portal-Beginner-Step-1:
 
 Select Portal Aspect from RSP
 =============================
 
-After logging into the Portal Aspect, select Single Table (UI assisted) from the **Select Query Type**, then select the ``dp01_dc2_catalogs`` (left) and ``dp01_dc2_catalogs.object`` (right) from the **Select Table** drop down menu.  (See figure below.)
+After logging into the Portal Aspect, select Single Table (UI assisted) from the **Select Query Type**, then select the ``dp01_dc2_catalogs`` (left) and ``dp01_dc2_catalogs.object`` (right) from the **Select Table** drop down menu.
+(See figure below.)
 
 .. figure:: /_static/Portal_aspect.png
 	:name: Single_Table
 
-Next select the Spatial check box, the "Longitude Column" and "Latitude Column" should automatically populate with "ra" and "dec".  Enter the coordinates of 62.0, -37.0 in the "Coordinates or Object Name:" area.  Choose a radius of 1 degree and select a row limit of 10,000 as shown in the photo below.   
+Next select the Spatial check box, the "Longitude Column" and "Latitude Column" should automatically populate with "ra" and "dec".
+Enter the coordinates of 62.0, -37.0 in the "Coordinates or Object Name:" area.
+Choose a radius of 1 degree and select a row limit of 10,000 as shown in the photo below.   
 
 .. figure:: /_static/Spacial_data.png
     :name: Spatial_data
 
 
-.. _TAP_Single_Table_Beginner_Tutorial_Step_2:
+.. _Examples-DP0-1-Portal-Beginner-Step-1:
 
 Select Columns for Analysis
 ===========================
@@ -62,12 +65,14 @@ Then press the filter icon to select only those items for analysis.
     :name: Table_column_filter
     
     
-.. _TAP_Single_Table_Beginner_Tutorial_Step_3:
+.. _Examples-DP0-1-Portal-Beginner-Step-3:
 
 Select Columns Constraints
 ==========================
 
-After you press the filter button you should have only those items you selected shown in the table.  You may now add your column constaints to the table.  For this example, use the following values: clean = 1, dec (leave blank), extendedness = 0, good = 1, mag_g <24, mag_i <24, mag_r <24, magerr_g < 0.1, magerr_i < 0.1, magerr_r < 0.1, ra (leave blank).
+After you press the filter button you should have only those items you selected shown in the table.
+You may now add your column constaints to the table.
+For this example, use the following values: clean = 1, dec (leave blank), extendedness = 0, good = 1, mag_g <24, mag_i <24, mag_r <24, magerr_g < 0.1, magerr_i < 0.1, magerr_r < 0.1, ra (leave blank).
 
 Then press the Search button as shown in the figure below.
 
@@ -75,10 +80,10 @@ Then press the Search button as shown in the figure below.
     :name: Search_with_selected_parameters
 
 
-.. _TAP_Single_Table_Beginner_Tutorial_Step_4:
+.. _Examples-DP0-1-Portal-Beginner-Step-4:
 
 Select Configure the Graph to Create a Color Magnitude Diagram
-=============================================  
+==============================================================
 
 This figure shows the results of the search.
 The gaps in the spatial coverage of the returned catalog objects is due to the limit of 10000.
@@ -86,31 +91,21 @@ The gaps for your search might be different from what is shown below.
 
 .. figure:: /_static/Results_tri_view.png
     :name: Results_tri_view
-    
 
 Next, click on the double gear icon on the upper right hand window.
 
 .. figure:: /_static/Select_double_gear.png
     :name: Select_double_gear
 
-
-Finally, change the parameters in the selection box.  The **X** should be "mag_r - mag_i" and the **Y** should be "mag_g".  Click on **Chart Options** and select **reverse** under the Y-Label.  
-
+Finally, change the parameters in the selection box.
+The **X** should be "mag_r - mag_i" and the **Y** should be "mag_g".
+Click on **Chart Options** and select **reverse** under the Y-Label.  
 
 .. figure:: /_static/Edit_chart_data.png
     :name: Edit_chart_data
     
-    
-Then hit Apply.  The plot that you make will be slightly different from what is shown below, and different from the plot in the first of the :ref:`Examples-DP0-1-Notebooks` due to random sampling and the 10000 maximum that we used.
-    
+Then hit Apply.
+The plot that you make will be slightly different from what is shown below, and different from the plot in the first of the :ref:`Examples-DP0-1-Notebooks` due to random sampling and the 10000 maximum that we used.
 
 .. figure:: /_static/Final_data.png
     :name: Final_data
-
-
-
-
-
-    
-    
-
