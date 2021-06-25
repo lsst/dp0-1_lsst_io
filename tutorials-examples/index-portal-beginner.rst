@@ -90,15 +90,16 @@ Next, click on the double gear icon on the upper right hand window.
 
 Finally, change the parameters in the selection box.  The **X** should be "mag_r - mag_i" and the **Y** should be "mag_g".  Click on **Chart Options** and select **reverse** under the Y-Label.  
 
-.. figure:: /_Edit_chart.png
-    :name: Edit_chart
+
+.. figure:: /_static/Edit_chart_data.png
+    :name: Edit_chart_data
     
     
-Then hit Apply.  The results you get might be slightly different from the results shown below (or the results from the 01_Intro_to_DP0_Notebooks because of random sampling.    
+Then hit Apply.  The results you get might be slightly different from the results shown below (or the results from the 01_Intro_to_DP0_Notebooks) because of random sampling.    
     
 
-.. figure:: /_Final_data.png
-    :name: Final_data    
+.. figure:: /_static/Final_data.png
+    :name: Final_data
 
 
 
