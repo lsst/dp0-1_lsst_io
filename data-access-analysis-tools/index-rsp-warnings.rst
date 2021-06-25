@@ -21,7 +21,7 @@
 RSP Risks and Caveats
 #####################
 
-We are excited to be offering limited early access to a preview of RSP capabilities. This is a _shared risks actitivity_ as it predates not only the end of construction development, but even the telescope's first light.
+We are excited to be offering limited early access to a preview of RSP capabilities. DP0 is a *shared-risk actitivity* as it predates not only the end of construction development, but even the telescope's first light.
 
 .. note::
     During DP0, everyone is responsible for their own safe usage of the shared-risk, in-development version of the RSP and other capabilities of the Rubin Interim Data Facility (IDF). Some controls to prevent anti-social or damaging actions do not exist yet; many important features are not available yet. Read on to understand more about both of these.
