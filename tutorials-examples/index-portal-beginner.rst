@@ -16,24 +16,23 @@
 
 .. _Examples-DP0-1-Portal-Beginner:
 
-############################################
+###############################################################
 Beginner TAP Tutorial - Single Table Usage in the Portal Aspect
-############################################
+##############################################################
 
+This brief tutorial will show you how to perform the same data retrieval and analysis that is shown in the first of the :ref:`Examples-DP0-1-Notebooks` (titled "Intro to DP0") by using the Portal Aspect's Single Table TAP search function.
 
+In this tutorial we will extract data from a small region of sky in the ``object`` table and build a Color-Magnitude Diagram.
 
-This brief tutorial will show you how to perform the same data retrieval and analysis that is shown in the 01_Intro_to_DP0_Notebooks (:ref:`Examples-DP0-1-Notebooks`) by using the Portal aspect using the Single Table TAP search function.
+We assume that you have read the basic intro to the Portal Aspect in :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
+
 
 .. _TAP_Single_Table_Beginner_Tutorial_Step_1:
 
 Select Portal Aspect from RSP
-=============================================
+=============================
 
-In this section, we demonstrate how to do the analysis from the tutorial notebook 01_Intro_to_DP0_Notebooks in :ref:`Examples-DP0-1-Notebooks`, but using the Single Table TAP  query in the Portal Aspect rather than a Jupyter Notebook. We will extract data from a small region of sky in the `object` table and build a Color Matching Diagram.
-
-We assume that you have read the basic intro to the Portal Aspect in :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
-
-After logging into the Portal Aspect, select Single Table (UI assisted) from the **Select Query Type**, then select the dp01_dc2_catalogs from the **Select Table** drop down menu.  (See figure below.)
+After logging into the Portal Aspect, select Single Table (UI assisted) from the **Select Query Type**, then select the ``dp01_dc2_catalogs`` (left) and ``dp01_dc2_catalogs.object`` (right) from the **Select Table** drop down menu.  (See figure below.)
 
 .. figure:: /_static/Portal_aspect.png
 	:name: Single_Table
@@ -48,7 +47,9 @@ Next select the Spatial check box, the "Longitude Column" and "Latitude Column" 
 Select Columns for Analysis
 =============================================
 
-In the Output Column Selection and Constraints window on the lower right hand side of the screen, select the following items: clean, dec, extendedness, good, mag_g, mag_i, mag_r, magerr_g, magerr_i, magerr_r, and ra.  (See figure below.)
+In the Output Column Selection and Constraints window on the lower right hand side of the screen, select the following items: clean, dec, extendedness, good, mag_g, mag_i, mag_r, magerr_g, magerr_i, magerr_r, and ra.
+Use the search box under "column_name" to quickly find columns of interest: for example, type "mag" into that box and press enter to see only column names that contain "mag".
+(See figure below.)
 
 .. figure:: /_static/Table_column_selection.png
     :name: Table_column_selection
