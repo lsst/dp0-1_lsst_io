@@ -47,7 +47,7 @@ Choose a radius of 1 degree and select a row limit of 10,000 as shown in the pho
     :name: Spatial_data
 
 
-.. _Examples-DP0-1-Portal-Beginner-Step-1:
+.. _Examples-DP0-1-Portal-Beginner-Step-2:
 
 Select Columns for Analysis
 ===========================
