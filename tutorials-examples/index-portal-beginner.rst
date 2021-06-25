@@ -14,6 +14,7 @@
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
 .. A warning will alert you of identical labels during the linkcheck process.
 
+
 .. _Examples-DP0-1-Portal-Beginner:
 
 ###############################################################
@@ -42,10 +43,11 @@ Next select the Spatial check box, the "Longitude Column" and "Latitude Column" 
 .. figure:: /_static/Spacial_data.png
     :name: Spatial_data
 
+
 .. _TAP_Single_Table_Beginner_Tutorial_Step_2:
 
 Select Columns for Analysis
-=============================================
+===========================
 
 In the Output Column Selection and Constraints window on the lower right hand side of the screen, select the following items: clean, dec, extendedness, good, mag_g, mag_i, mag_r, magerr_g, magerr_i, magerr_r, and ra.
 Use the search box under "column_name" to quickly find columns of interest: for example, type "mag" into that box and press enter to see only column names that contain "mag".
@@ -59,10 +61,11 @@ Then press the filter icon to select only those items for analysis.
 .. figure:: /_static/Table_column_filter.png 
     :name: Table_column_filter
     
+    
 .. _TAP_Single_Table_Beginner_Tutorial_Step_3:
 
 Select Columns Constraints
-=============================================   
+==========================
 
 After you press the filter button you should have only those items you selected shown in the table.  You may now add your column constaints to the table.  For this example, use the following values: clean = 1, dec (leave blank), extendedness = 0, good = 1, mag_g <24, mag_i <24, mag_r <24, magerr_g < 0.1, magerr_i < 0.1, magerr_r < 0.1, ra (leave blank).
 
@@ -78,6 +81,8 @@ Select Configure the Graph to Create a Color Magnitude Diagram
 =============================================  
 
 This figure shows the results of the search.
+The gaps in the spatial coverage of the returned catalog objects is due to the limit of 10000.
+The gaps for your search might be different from what is shown below.
 
 .. figure:: /_static/Results_tri_view.png
     :name: Results_tri_view
@@ -96,7 +101,7 @@ Finally, change the parameters in the selection box.  The **X** should be "mag_r
     :name: Edit_chart_data
     
     
-Then hit Apply.  The results you get might be slightly different from the results shown below (or the results from the 01_Intro_to_DP0_Notebooks) because of random sampling.    
+Then hit Apply.  The plot that you make will be slightly different from what is shown below, and different from the plot in the first of the :ref:`Examples-DP0-1-Notebooks` due to random sampling and the 10000 maximum that we used.
     
 
 .. figure:: /_static/Final_data.png
