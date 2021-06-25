@@ -39,7 +39,7 @@ Data in /scratch is not backed up.
 
 Data in /projects is available for use in the situation where you wish to share files with other RSP users. For this data preview, any files in you put in /projects are readable and writeable by all users. Take care you do not delete other people's files.
 
-For this data preview there are no file quotas applied, however usage will be monitored and users may be asked to reduce their footprint, either in their home space or shared data spaces. By using the Butler to write data, you are not using disk space but our data facility's object stores; ample capacity is available there and you should use that in favour of keeping large data files on disk.
+For this data preview there are no file quotas applied, however usage will be monitored and users may be asked to reduce their footprint, either in their home space or shared data spaces.
 
 For this data preview, there are no write/delete restrictions on the shared user data Butler repository (butler-us-central1-dp01). That means you could delete your data and other user's data. Be very careful when using the Butler prune collection feature and in particular don't use wildcards with that command.
 
