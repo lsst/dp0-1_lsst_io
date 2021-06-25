@@ -24,6 +24,8 @@ Introduction to the RSP Notebook Aspect
 Most RSP users will find Jupyter Notebooks to be the most efficient and powerful way to interact with the DP0.1 data set.
 For DP0.1, Jupyter Notebooks will be the primary way to access images. 
 
+**Always save and shutdown all notebooks and log out of JupyterLab when you are done your day's work.**
+This is important to preserve resources for other users and to ensure you re-enter the RSP in a known state every time.
 
 .. _NB-Intro-Login:
 
@@ -76,9 +78,9 @@ Navigate the file system and open files by double-clicking on folders and files 
 All users will find a set of tutorial notebooks provided in the notebooks directory (:ref:`Examples-DP0-1-Notebooks`).
 Jupyter Notebooks can be identified by their suffix ".ipynb". 
 
-**Using a Terminal:**
-The DP0.1 data sets and the LSST Science Pipelines tools can both be accessed from the command line of a terminal.
-As described in the default message that appears in all newly-launched terminals, to create a Rubin Observatory environment in a terminal session and set up the full set of packages, users must first execute:
+**Using a JupyterLab Terminal:**
+The DP0.1 data sets and the LSST Science Pipelines tools can both be accessed from the command line of a JupyterLab terminal tab.
+As described in the default message that appears in all newly-launched terminals, to create a Rubin Observatory environment in a JupyterLab terminal session and set up the full set of packages, users must first execute:
 
 .. code-block:: bash
 
@@ -105,7 +107,7 @@ The best way to learn how to use a Jupyter Notebook is to open the first of the 
 **Executing code in a Notebook:**
 Jupyter notebooks provide "cells" within which you type either Python code or markdown language (for formatted text).
 Choose the cell to execute by clicking in it with your mouse (the cursor must be in the desired cell).
-Hold down the `shift` key and press either `enter` or `return` (depending on your keyboard type), and the contents of the cell will be executed.
+Hold down the `shift` key and press either `enter` or `return` (depending on your keyboard type), or click the 'Play' button in the notebook toolbar, and the contents of the cell will be executed.
 If the cell type is code, and the cell contains python code, the code will be executed.
 If the cell type is markdown, then it will be rendered upon execution to yield nicely formatted text.
 (For some handy markdown tips, see `this blog post <https://medium.com/analytics-vidhya/the-ultimate-markdown-guide-for-jupyter-notebook-d5e5abf728fd>`_ or the `relevant section from the JupyterLab documentation <https://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Working%20With%20Markdown%20Cells.html#Markdown-Cells>`_). 
@@ -147,6 +149,8 @@ One way to make other spaces available in the file browser is to create a sympol
 You can have multiple notebooks and terminals open in your viewer at a time.
 This is very handy, but you can also arrange both notebooks and terminals next to or on top of each other by dragging the notebook or terminal around by the top bar.
 Arranging the windows can be convenient when working in both a terminal and notebook at the same time, or when using another notebook as a reference.
+
+Note that JupyterLab autosaves your notebooks at a default rate of 2 minutes.
 
 
 .. _NB-Intro-Other_Docs:
