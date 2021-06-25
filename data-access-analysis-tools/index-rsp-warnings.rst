@@ -12,98 +12,60 @@
 .. Each section should include a label for cross referencing to a given area.
 .. Recommended format for all labels is "Title Name"-"Section Name" -- Spaces should be replaced by hyphens.
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
-.. A warning will alert you of identical labels during the linkcheck process.
+.. A warning will alert you of identical labels during the link check process.
 
 
 .. _Data-Access-Analysis-Tools-RSP-Warnings:
 
-###############
-RSP Usage Risks
-###############
+#####################
+RSP Risks and Caveats
+#####################
 
-**THIS PAGE IS A DRAFT, NEED TO CONSULT WITH RDP TEAM**
+We are excited to be offering limited early access to a preview of RSP capabilities. This is a _shared risks actitivity_ as it predates not only the end of construction development, but even the telescope's first light.
 
-During DP0, everyone is responsible for their own safe usage of the shared-risk, in-development version of the RSP at the IDF.
+.. note::
+    During DP0, everyone is responsible for their own safe usage of the shared-risk, in-development version of the RSP and other capabilities of the Rubin Interim Data Facility (IDF). Some controls to prevent anti-social or damaging actions do not exist yet; many important features are not available yet. Read on to understand more about both of these.
 
-When in doubt, post questions in `the "Support -- Data Preview 0" category <https://community.lsst.org/c/support/dp0/49>`__ in the Community Forum. 
+When in doubt whether something is okay or to ask information about about planned future functionality, post questions in `the "Support -- Data Preview 0" category <https://community.lsst.org/c/support/dp0/49>`__ in the Community Forum.
 
+If you believe you have found a bug or wish to request a feature, please `open a Github Issue <https://github.com/rubin-dp0/Support/issues/new/choose>`_ instead.
 
-Data Sharing and Safeguards
+User data: No parachutes!
+-------------------------
+
+When you access the RSP Notebook aspect, you have a home space you can use to store your notebooks, scripts, extra python modules and small files. Other users cannot see the contents of your home space, but you have no expectation of privacy from observatory staff monitoring the systems. If we experience an incident, we will attempt to restore the contents of your homespace. The contents of your homespace will not be deleted without attempting to notify you.
+
+Data in /scratch is not backed up.
+
+Data in /projects is available for use in the situation where you wish to share files with other RSP users. For this data preview, any files in you put in /projects are readable and writeable by all users. Take care you do not delete other people's files.
+
+For this data preview there are no file quotas applied, however usage will be monitored and users may be asked to reduce their footprint, either in their home space or shared data spaces. By using the Butler to write data, you are not using disk space but our data facility's object stores; ample capacity is available there and you should use that in favour of keeping large data files on disk.
+
+For this data preview, there are no write/delete restrictions on the shared user data Butler repository (butler-us-central1-dp01). That means you could delete your data and other user's data. Be very careful when using the Butler prune collection feature and in particular don't use wildcards with that command.
+
+You can reduce the risk of accidents by following the convention documented in `DMTN-167 <https://dmtn-167.lsst.io/>`__ and only write to your own ``u/<user>/*`` collections.
+
+You should only access our Butler repositories using standard Butler APIs provided in the Rubin software stack. This is both to prevent accidents but also to fulfil your role in helping us evaluate our software.
+
+RSP/IDF: The Missing Features
+------------------------------
+
+Many more features are on our roadmap for the RSP and its related services (Qserv, Butler, etc) and we have requirements to deliver them by the start of the survey. Some major ones to look forward in the future are:
+
+- Notebooks: We are planning on providing a filespace that you can access from your personal device (eg laptop) so you can use your favourite editor/IDE to write code in your local environment and save it in a way that makes it visible in your RSP notebook environment
+- Batch: Opportunities for parallelized/batch/non-interactive computation are not currently available
+- Qserv: User tables are not yet available
+- Qserv: TAP/ADQL Queries using some keywords (AREA, BOX, COORDSYS, COORD1, COORD2 and INTERSECTS) are not yet supported
+- Portal: Many improvements are planned, including the ability to start a query in the portal and access it from your notebook
+- Authentication and Authorisation: You will be able to create and manage groups to allow you to share data with specific RSP users
+- API: Virtual Observatory image services are not yet available
+- API: VOSpace service is not yet available
+- ConsolidatedDB: Access to observatory metadata is not yet available
+- Bulk Download Service: Not offered
+
+Warnings and admonishments
 ---------------------------
 
-A number of safeguards for avoiding uptime or temporary data loss will not be present -- the resources are still in “trusted user” mode.
+Our `Acceptable Use Policy <https://data-dev.lsst.cloud/terms>`_ applies: We’re giving you access to Rubin Observatory systems so you can do science with the data we provide or otherwise further the mission of the observatory. You can lose your access if you misuse our resources, interfere with other users, or otherwise do anything that would bring the observatory into disrepute.
 
-The fact that anyone could PRUNE, there's no provenance for destruction, and how to avoid accidental wipe-outs.
-
-Do we have shared data sets? We did on the NCSA RSP. (HFC: what kinds of shared datasets are you thinking here? The only data set we officially provide is the DP0.1 data set. There are a lot more data on NCSA's filesystem and we never intended to have them on IDF.)
-
-Do we have access to other users’ home directories?
-
-Need some warnings about per-user data quota. 
-
-Need some warnings about shared-write area.
-
-
-
-RSP Compute Performance
------------------------
-
-Performance during DP0 may not reflect the performance of the final system (see also Q4), and the resources made available to DP0 delegates may not reflect the final user quotas of the operations-era RSP.
-
-How about running cron jobs? (HFC: I don't think we would let delegates run cron. But what is the motivation of wanting to run cron?)
-
-What about abusing resources?
-
-Testing how algorithms will scale: No access to user batch or parallelisation are available in DP0. Resources provided as part of DP0.1 are limited and meaningful scalability testing of algorithms is not practical. 
-
-
-
-Butler-Related Warnings
------------------------
-
-For DP0.1 or until we have a client/server Butler and signed URLs (DMTN-169,DMTN-176), all users share full read/write without restriction.  Since there is no individual access control, absolutely no use direct sql access will be allowed to any butler registry database.
-Delegates should only access the Butler repository using standard Butler APIs provided in the Rubin software stack.
-
-User-added data in DP0.1’s butler repo will not be migrated to DP0.2’s butler repo. 
-
-Accessing data directly using the LSST Science Pipeline Butler interface: Limited processing capability will be available as part of DP0. All delegates will share access to a common Butler ('Gen3') repository.
-The butler repository is a shared read/write space for all delegates, and there is no per-user ownership of any data inside the butler repo. Therefore, it’s possible for one delegate to delete another delegate’s user-added datasets in the butler repo. For running pipetask with the DP0.1 repo, we strongly encourage delegates to follow the naming convention as documented in `DMTN-167 <https://dmtn-167.lsst.io/>` and only write to their own ``u/<user>/*`` collections. Although the convention is not enforced, it can reduce the chance of conflicts. We will **not** restore user-added data for delegates. Currently the butler repo is a shared-risk space and please plan for possible loss of user-added data. Project-loaded data are read only and protected.  We will address these issues in a future release before the operations starts.
-
-
-
-RSP Aspect Functionality Limits
--------------------------------
-
-Some major usability features will not be available, such as support for user database tables; support for parallelized or batch computation; the ability to sync files between RSP accounts and personal devices; and the ability to manage the sharing of data within private groups.
-
-Users installing code: DP0 delegates will be able to add software that can be installed without privileges into their own homespace (eg. via pip install --user) for their personal use to the extent that their quota allows.
-
-
-Bulk Downloads are not Supported
---------------------------------
-
-Bulk downloads: No, bulk data downloads from the RSP specifically, or the IDF in general, are not supported during DP0. This is because bulk download services are not yet in production, and because the major goals of DP0 are to allow Rubin Observatory to evaluate how the community uses the services, and for the community to become familiar with the RSP environment. Note that DESC has made the DC2 DR6 catalogs publicly available via: https://lsstdesc-portal.nersc.gov/.
-
-
-
-Stuff That We Know Does Not Work
---------------------------------
-
-*(Here is space for a list of known issues and stuff that doesn’t work in , e.g., the portal. Especially the portal. To avoid people thinking “This is too hard to figure out” when really it’s just a feature that’s not done.)*
-
-ADQL functionality that does not yet work: 
-AREA
-BOX
-COORDSYS
-COORD1
-COORD2
-INTERSECTS
-
-The only coordinate system currently supported is 'ICRS'.
-
-
-MLG Did Not Know The Category
------------------------------
-
-The DP0.1 repo at IDF is one older version of the /repo/dc2 repo at NCSA.  New updates in NCSA’s repo are not ported to IDF.  Note that the goals of the two repos are different: the IDF’s repo is frozen like a data release; the NCSA’s repo is evolving to meet developer need. 
-(HFC: This is only to avoid confusion for those delegates who are also in the Stack Club or have access to the LSST infrastructure at NCSA.)
+One of the main goals of the Data Preview program is to allow us to assess user interactions with our services. Bypassing use of our services (such as attempting to bulk download data or trying to defeat the Butler APIs) violate the spirit of the exercise.
