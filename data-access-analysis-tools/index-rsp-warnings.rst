@@ -41,7 +41,9 @@ Data in /projects is available for use in the situation where you wish to share 
 
 For this data preview there are no file quotas applied, however usage will be monitored and users may be asked to reduce their footprint, either in their home space or shared data spaces. By using the Butler to write data, you are not using disk space but our data facility's object stores; ample capacity is available there and you should use that in favour of keeping large data files on disk.
 
-For this data preview, there are no write/delete restrictions on the shared user data Butler repository (butler-us-central1-dp01). That means you could delete your data and other user's data. Be very careful when using the Butler prune collection feature and in particular don't use wildcards with that command.
+For this data preview, there are no write/delete restrictions on the shared user data Butler repository (butler-us-central1-dp01). That means you could delete your data and other user's data.
+User data stored in our Butler repositories is not backed up, and may not be retained past the Data Preview 0.1 period.
+Be very careful when using the Butler prune collection feature and in particular don't use wildcards with that command.
 
 You can reduce the risk of accidents by following the convention documented in `DMTN-167 <https://dmtn-167.lsst.io/>`__ and only write to your own ``u/<user>/*`` collections.
 
