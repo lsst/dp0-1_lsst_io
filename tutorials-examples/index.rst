@@ -13,15 +13,44 @@
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
 .. A warning will alert you of identical labels during the linkcheck process.
 
-##################
-Examples for DP0.1
-##################
+###############
+DP0.1 Tutorials
+###############
 
 .. This section should provide a brief, top-level description of the page.
 
-This page includes various examples of accessing or processing data products.
+These tutorials and user guides are for DP0 delegates using the Rubin Science Platform (RSP) deployed at the Interim Data Facility (IDF), the Google cloud.
 
-The examples are separated from other locations in the repository to provide a single location of all examples.
-Using reST syntax, the examples can be reproduced in other locations on this site by using the ``include`` directive.
+Before following these tutorials, delegates should have gotten their :ref:`Delegate-Homepage-RSP-Accounts`, be familiar with this list of :ref:`Data-Access-Analysis-Tools-RSP-Warnings` and :ref:`the basic components of the RSP <Data-Access-Analysis-Tools-RSP>`, and know how and where to :ref:`get support <Getting Support>`. 
 
-.. Provide a sample of syntax.
+
+.. _Examples-DP0-1-Notebooks:
+
+Jupyter Notebook Tutorials
+==========================
+
+The tutorial notebooks in the ``rubin-dp0`` GitHub Organization's `tutorial-notebooks <https://github.com/rubin-dp0/tutorial-notebooks>`_ repository will be available by default in a folder in all user's home directories in the RSP's Notebook Aspect. See that repository's README file for descriptions of the notebooks.
+
+If these notebooks are used for a journal publication, please consider adding an acknowledgement that gives credit to the original creator(s) as listed in the notebook's header.
+
+
+.. _Examples-DP0-1-Portal:
+
+Portal Aspect Demonstrations
+============================
+
+An overview of the RSP Portal functionality is provided in this :ref:`Data-Access-Analysis-Tools-Portal-Intro`. 
+Below are two step-by-step demonstrations of how to use the Portal for science investigations.
+
+Beginner TAP Search
+-------------------
+
+:ref:`Examples-DP0-1-Portal-Beginner`
+
+
+.. _Examples-DP0-1-Portal-Advanced:
+
+Advanced Demo
+-------------
+
+:ref:`Examples-DP0-1-Portal-Advanced`

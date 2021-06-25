@@ -21,26 +21,66 @@
 
 .. This section should provide a brief, top-level description of the page.
 
-Here is the scheduled assemblies:
-
 .. list-table:: Schedule and planned content of DP0 Delegate Assemblies
    :header-rows: 1
 
-   * - Date & Time (Pacific Time)
-     - Content
-     - Breakouts
-     - Chair/Presenters
-   * - Wed, July 14, 2021, 4 PM
-     - *The Rubin Vision & Roadmap*
-         - data products now vs. ops
-         - science platform now vs. ops
-         - how DP0 and the delegates fit into the roadmap
-         - focus on very practical matters
-     - TBD
-     - TBD
-   * - Fri, July 16, 2021, 9 AM
-     - *The Rubin Vision & Roadmap*
-     - TBD
-     - TBD
-
-If you're interested in presenting or leading a DP0 Delegate Assembly, contact Melissa Graham.
+   * - Date (Fridays at 9am US Pacific)
+     - First Hour Presentation Topic
+     - Second Hour Breakouts Topics
+     - Chair and Presenter(s)
+   * - 2021-07-16
+     - Introduction to DP0, and to the RSP's Notebook and Portal Aspects.
+     - *Q&A with Rubin staff.* 
+     - The Community Engagement Team (Melissa Graham)
+   * - 2021-07-30
+     - Querying Catalogs with TAP in the Notebook and Portal Aspects.
+     - *Portal Q&A. Notebook Q&A. DP0 science topics.* 
+     - The Community Engagement Team (Leanne Guy)
+   * - 2021-08-13
+     - no assembly (Rubin 2021 Project and Community Workshop)
+     - 
+     - 
+   * - 2021-08-27
+     - Image Query, Retrieval, and Display.
+     - *How to use afwDisplay. Image type Q&A. DP0 science topics.*
+     - The Community Engagement Team (Jeff Carlin)
+   * - 2021-09-10
+     - Using the Butler for Data Discovery.
+     - *Butler Q&A. Gen3 for Gen2 Users. DP0 science topics.*
+     - The Community Engagement Team (Alex Drlica-Wagner)
+   * - 2021-09-24
+     - *LSST Science Pipelines*
+     - *Pipelines Q&A. DP0 science topics.*
+     - *TBD*
+   * - 2021-10-08
+     - *Data Visualization*
+     - *Visualization packages Q&A. DP0 science topics.*
+     - *TBD*
+   * - 2021-10-22
+     - *Image Processing*
+     - *Algorithms Q&A. DP0 science topics.*
+     - *TBD*
+   * - 2021-11-05
+     - *Source Detection and Measurement*
+     - *Measurement algorithms Q&A. DP0 science topics.*
+     - *TBD*
+   * - 2021-11-19
+     - *Fake Source Injection*
+     - *Fake sources Q&A. DP0 science topics.*
+     - *TBD*
+   * - 2021-12-03
+     - *delegate presenter(s)*
+     - *delegate working groups*
+     - *TBD*
+   * - 2022-01-14
+     - *delegate presenter(s)*
+     - *delegate working groups*
+     - *TBD*
+   * - 2022-01-28
+     - Special Session on DP0.1: A Half-Year In Review
+     - *small group discussions for delegate feedback*
+     - The Community Engagement Team
+   * - 2022+, if desired
+     - *delegate presenter(s)*
+     - *delegate working groups*
+     - *TBD*
