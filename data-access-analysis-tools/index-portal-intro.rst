@@ -32,10 +32,10 @@ Log in to the Portal Aspect by clicking on the "Portal" panel of the main landin
 The Portal's User Interface
 ===========================
 
-Across the top is a menu bar of interface options, but the DP0 data set is only accessed via the :ref:`Data-Access-Analysis-Tools-TAP`.
+Across the top is a menu bar of interface options, but the DP0 data set is only accessed via the :ref:`Data-Access-Analysis-Tools-TAP`, reached via the "RSP TAP Search" button.
 Under **TAP Searches** there are four steps.
 
-**1. TAP Service**: Leave this as the default `https://data.lsst.cloud/api/tap` to access DP0 data.
+**1. Select TAP Service**: Leave this as the default "Using RSP" (`https://data.lsst.cloud/api/tap`) to access DP0 data.
 
 
 .. _single-table-queries:
@@ -43,25 +43,26 @@ Under **TAP Searches** there are four steps.
 Single Table Queries
 ====================
 
-**2. Select Query Type**: Select 'Single Table' to query via the single-table interface (default).
+**2. Select Query Type**: Select 'Single Table (UI assisted)' to query via the single-table interface (default).
 
 **3. Select Table**: Drop down menus of available tables.
-For DP0 data, choose the "Schema: dp01_dc2_catalogs", and then choose the table to query (see the :ref:`DP0-1-Data-Products-DPDD` for a reminder of what tables are available).
+For DP0 data, choose the "Table Collection (Schema): dp01_dc2_catalogs", and then choose the table to query (see the :ref:`DP0-1-Data-Products-DPDD` for a reminder of what tables are available).
 The table view at lower right will automatically update to match the selected table.
 
-**4. Select Contraints**: Only Spatial constraints apply for DP0.1.
+**4. Enter Contraints**: Only Spatial constraints apply for DP0.1.
 The longitude and latitude columns will automatically update to be the correct column names for right ascension and declination for the selected table (usually `ra` and `dec` or `coord_ra` and `coord_dec`).
 If a non-existent column name is entered the box will highlight red in indication of the error.
-Choose the desired search method, `Cone` or `Polygon`, and the appropriate instructions for the search terms will appear.
+Choose the desired shape type for a spatial search, `Cone` or `Polygon`, and the appropriate instructions for the search terms will appear.
 Keeping the search area to a minimum will keep processing times short and returned subsets small and manageable.
 
-*Note: The examples under the box for coordinates are object names as examples of the formatting only. Those examples are not guaranteed to be in the accessible data sets. The central coordinates for DC2, in decimal degrees, are: 61.863 -35.790. (See Table 2 of `The LSST DESC DC2 Simulated Sky Survey <https://ui.adsabs.harvard.edu/abs/2021ApJS..253...31L/abstract>`_.)*
+*Note: The examples under the box for coordinates are object names as examples of the syntax and formatting only. Those examples are not guaranteed to be in the accessible data sets. The central coordinates for DC2, in decimal degrees, are: 61.863 -35.790. (See Table 2 of `The LSST DESC DC2 Simulated Sky Survey <https://ui.adsabs.harvard.edu/abs/2021ApJS..253...31L/abstract>`_.)*
 
 *Note: Although there are two options for Constraints, Spatial and Temporal, for DP0.1 all of the catalog data that is available through the Portal is from the coadded DC2 images, and does not contain time-domain information.*
 
-**Table View**: The table to the right of "Select Constraints" enables additional search constraints.
-Use the leftmost boxes select the columns to be returned by the query.
+**Table View**: The table to the right of "Select Constraints" enables applying additional search constraints on the columns in the selected table.
+Use the checkboxes in the leftmost column to select the columns to be returned by the query.
 Use the funnel icon to only view selected columns.
+Many of the attributes of the table columns in the DC2 datasets are blank, but are expected to be populated in future Data Preview and production Rubin datasets.
 
 .. figure:: /_static/portal_table_view.png
     :name: portal_table_view
@@ -75,8 +76,15 @@ Mouse-over to view pop-up boxes with instructions.
 Remove filters and reset the table view at any time using the buttons above the upper right corner of the table (not shown in image above).
 
 If desired, convert table view queries to `ADQL Queries` using the "Populate and Edit ADQL" button at the bottom of the page.
+This can enable entering more complex constraints that cannot be expressed against individual columns.
 
 **Search:** Press the search button at lower left when ready to execute.
+The `Row Limit` may be changed to apply an upper bound to the number of rows returned.
+The Portal can work effectively with datasets with up to a million rows, or even more; however, in the present implementation of the RSP it is advisable to limit the number of columns requested for queries expected to return results on such a scale: `SELECT *` for 100,000+ rows can return datasets of unwieldy total size.
+
+*Note: Because of the implementation of the Rubin `Qserv` database, it is not recommended to use the row limit alone in order to get a "sampling" of data.
+Queries with only a row limit can run for much longer than one might intuitively expect; applying a spatial constrain is likely to return a result more quickly.*
+
 The example in the image below queries the dp01_dc2_catalogs.object table using a cone search centered on 61.863 -35.790 in decimal degrees (the approximate center of the DC2 region) with a 200 arcsecond radius.
 The search will return data in columns ra, dec, mag_g, and mag_i for all objects with mag_g and mag_i brighter than 24th magnitude.
 
@@ -114,7 +122,7 @@ Select other columns to use, change the symbol type and color, and so forth, and
 
     The plot settings pop-up window.
 
-Additional cuts can be applied to the plotted data using the table query boxes, such as in the image below where a limit of mag_g brighter than 22 mag is used.
+Additional cuts can be applied to the plotted data using the table query boxes, such as in the image below where a limit of `mag_g` brighter than 22 mag is used.
 Note that corresponding plot point for the selected row in the table is differently colored, and that hovering the mouse over the plotted data will show the x and y values in a pop-up window.
 
 .. figure:: /_static/portal_results_final.png
@@ -129,7 +137,9 @@ See also :ref:`Examples-DP0-1-Portal` for additional demonstrations of how to us
 ADQL Queries
 ============
 
-**2. Select Query Type**: Select 'ADQL' to query via the ADQL interface. ADQL, `Astronomical Data Query Language <https://www.ivoa.net/documents/ADQL/>`_, is the language used by  the `IVOA <https://ivoa.net>`_ to represent astronomy queries posted to Virtual Observatory (VO) services, such as the Rubin LSST TAP service. ADQL is based on the Structured Query Language (SQL).
+**2. Select Query Type**: Select 'Edit ADQL (advanced)' to query via the ADQL interface.
+ADQL, `Astronomical Data Query Language <https://www.ivoa.net/documents/ADQL/>`_, is the language used by the `IVOA <https://ivoa.net>`_ to represent astronomy queries posted to Virtual Observatory (VO) services, such as the Rubin LSST TAP service.
+ADQL is based on the Structured Query Language (SQL).
 
 **3. Advanced ADQL**: When ADQL is selected as the query type, the interface in step 3 changes to provide a free-form block into which ADQL queries can be entered directly. The query excuted in the :ref:`single-table-queries` example above can be expressed in ADQL as follows:
 
@@ -189,5 +199,7 @@ To get the detailed list of columns available in the Object table, their associa
    tap_schema.columns.description
    FROM tap_schema.columns
    WHERE tap_schema.columns.table_name = 'dp01_dc2_catalogs.object'
+
+This produces a subset of the data shown in the lower right pane of the Portal's **Single Table** query screen, described ablve.
 
 See also :ref:`Examples-DP0-1-Notebooks` for additional demonstrations of how to use the Portal's Single Table Query.
