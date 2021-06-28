@@ -55,7 +55,7 @@ If a non-existent column name is entered the box will highlight red in indicatio
 Choose the desired search method, `Cone` or `Polygon`, and the appropriate instructions for the search terms will appear.
 Keeping the search area to a minimum will keep processing times short and returned subsets small and manageable.
 
-*Note: The examples under the box for coordinates are object names as examples of the formatting only. Those examples are not guaranteed to be in the accessible data sets. The central coordinates for DC2, in decimal degrees, are: 61.863 -35.790. (See Table 2 of `The LSST DESC DC2 Simulated Sky Survey <https://ui.adsabs.harvard.edu/abs/2021ApJS..253...31L/abstract>`_.)*
+*Note: The examples under the box for coordinates are object names as examples of the formatting only. Those examples are not guaranteed to be in the accessible data sets. The central coordinates for DC2, in decimal degrees, are: 61.863 -35.790. (See Table 2 of `The LSST DESC DC2 Simulated Sky Survey<https://ui.adsabs.harvard.edu/abs/2021ApJS..253...31L/abstract>`_.)*
 
 *Note: Although there are two options for Constraints, Spatial and Temporal, for DP0.1 all of the catalog data that is available through the Portal is from the coadded DC2 images, and does not contain time-domain information.*
 
@@ -122,7 +122,7 @@ Note that corresponding plot point for the selected row in the table is differen
 
     An updated results view in which the xy plot uses the magnitude columns.
 
-See also :ref:`Examples-DP0-1-Portal` for additional demonstrations of how to use the Portal's Single Table Query.
+See also the :ref:`Examples-DP0-1-Portal` for additional demonstrations of how to use the Portal's Single Table Query.
 
 .. _adql-queries:
 
@@ -190,4 +190,4 @@ To get the detailed list of columns available in the Object table, their associa
    FROM tap_schema.columns
    WHERE tap_schema.columns.table_name = 'dp01_dc2_catalogs.object'
 
-See also :ref:`Examples-DP0-1-Notebooks` for additional demonstrations of how to use the Portal's Single Table Query.
+See also the :ref:`Examples-DP0-1-Portal` for additional demonstrations of how to use the Portal's ADQL functionality.
