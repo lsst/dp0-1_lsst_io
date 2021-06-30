@@ -45,7 +45,7 @@ RSP Accounts
 
 **Activation:** 
 Delegates will be contacted by Rubin staff to provide their `GitHub <http://www.github.com/>`_ username.
-They will then be invited to join the ``rubin-dp0`` GitHub Organization, and upon accepting the invitiation, will be able to log into the RSP at the Interim Data Facility (IDF; the Google Cloud) at `<http://data.lsst.cloud>`_. 
+They will then be invited to join the ``rubin-dp0`` `GitHub Organization <https://github.com/rubin-dp0/>`_, and upon accepting the invitiation, will be able to log into the RSP at the Interim Data Facility (IDF; the Google Cloud) at `<http://data.lsst.cloud>`_. 
 
 **Policies:**
 RSP accounts are not transferrable and delegates must not share their password with others.
