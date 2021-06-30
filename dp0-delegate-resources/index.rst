@@ -153,7 +153,7 @@ Third Thursday Office Hour
 
 **Connection Info:**  `ls.st/dp0-events <http://ls.st/dp0-events>`_
 
-These live virtual meetings on the third thursday of the month at 9am in Sydney Australia (which is Wed at 4pm US Pacific Daylight Time) will be open drop-in time for DP0 delegates.
+These live virtual meetings on the third thursday of the month at 9am in Sydney Australia (which is Wed at 4pm US Pacific Daylight Time, 11pm UTC) will be open drop-in time for DP0 delegates.
 Rubin staff will be in attendance.
 There is no set agenda for these sessions, the activities will be whatever the DP0 delegates in attendance request.
 For example, delegates could discuss their DP0-related analysis with Rubin staff and with each other, review the DP0 RSP tutorials together, collaborate on DP0-related science, and get support from Rubin staff as needed.
@@ -262,7 +262,7 @@ Extend or enhance the benefits of DP0 in the science community.
 |   -- present the results of your DP0 work in one of the `DP0 Delegate Assemblies`_
 |   -- facilitate a co-working group during the `DP0 Delegate Assemblies`_ breakouts
 |
-| - contribute tutorials to the delegates' `shared repository <https://github.com/rubin-dp0/Contributed-notebooks>`_
+| - contribute tutorials to the delegates' `shared repository <https://github.com/rubin-dp0/delegate-contributions-dp01>`_
 |   -- create a tutorial Jupyter Notebook that uses the DC2 data set
 |   -- tutorials that use the Portal, TAP, or command-line are also welcome
 |
