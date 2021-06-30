@@ -45,7 +45,11 @@ RSP Accounts
 
 **Activation:** 
 Delegates will be contacted by Rubin staff to provide their `GitHub <http://www.github.com/>`_ username.
-They will then be invited to join the ``rubin-dp0`` GitHub Organization, and upon accepting the invitiation, will be able to log into the RSP at the Interim Data Facility (IDF; the Google Cloud) at `<http://data.lsst.cloud>`_. 
+All delegates will be invited to join the ``rubin-dp0`` GitHub Organization, and must accept this invitation in order to log into the RSP at the Interim Data Facility (IDF; the Google Cloud).
+With a browser that is logged in to GitHub, navigate to `<http://data.lsst.cloud>`_ and choose "log in" at upper right.
+The first time this is done, a pop-up window will ask to "Authorize Rubin Science Platform IDF Production Environment".
+Click the green button that says "Authorize lsst-sqre".
+This step will only need to be done once.
 
 **Policies:**
 RSP accounts are not transferrable and delegates must not share their password with others.
@@ -95,13 +99,13 @@ One of them will be recorded and made available.
 | - DP0 goals and the road to Rubin operations
 | - time for question and answer
 
-| **Dates and Times:** (all times are US Pacific Daylight Time)
-| - Tue Jun 29 2021, 8am
-| - Wed Jun 30 2021, 12pm
-| - Thu Jul 1 2021, 4pm
-| - Tue Jul 6 2021, 12pm
-| - Wed Jul 7 2021, 4pm
-| - Thu Jul 8 2021, 8am
+| **Dates and Times:**
+| - Tue Jun 29 2021, 8am US Pacific Daylight Time, 3pm UTC
+| - Wed Jun 30 2021, 12pm US Pacific Daylight Time, 7pm UTC
+| - Thu Jul 1 2021, 4pm US Pacific Daylight Time, 11pm UTC
+| - Tue Jul 6 2021, 12pm US Pacific Daylight Time, 7pm UTC
+| - Wed Jul 7 2021, 4pm US Pacific Daylight Time, 11pm UTC
+| - Thu Jul 8 2021, 8am US Pacific Daylight Time, 3pm UTC
 
 
 .. _Delegate-Homepage-DP0-Delegate-Assemblies:
@@ -126,7 +130,7 @@ Everyone is welcome to propose breakout topics for the second hour.
 The first five minutes of the second hour will be spent connecting people with similar interests and setting up breakout rooms.
 Rubin staff will always be on hand to answer questions and provide assistance with DP0-related work during this time.
 
-Assemblies will occur biweekly on Fridays from 9am to 11am US Pacific time (alternating with `Stack Club`_), which will be convenient for DP0 delegates in the timezones of North and South America, Europe, and Africa.
+Assemblies will occur biweekly on Fridays from 9am to 11am US Pacific time (alternating with `Stack Club`_; 4pm UTC), which will be convenient for DP0 delegates in the timezones of North and South America, Europe, and Africa.
 There will also be a monthly `Third Thursday Office Hour`_ live virtual meetings at 9am Sydney time, which will be convenient for DP0 delegates in the timezones of Australia and Asia.
 Everyone is welcome to attend any and all of these sessions, as they are not restricted to delegates.
 
@@ -149,7 +153,7 @@ Third Thursday Office Hour
 
 **Connection Info:**  `ls.st/dp0-events <http://ls.st/dp0-events>`_
 
-These live virtual meetings on the third thursday of the month at 9am in Sydney Australia (which is Wed at 4pm US Pacific) will be open drop-in time for DP0 delegates.
+These live virtual meetings on the third thursday of the month at 9am in Sydney Australia (which is Wed at 4pm US Pacific Daylight Time) will be open drop-in time for DP0 delegates.
 Rubin staff will be in attendance.
 There is no set agenda for these sessions, the activities will be whatever the DP0 delegates in attendance request.
 For example, delegates could discuss their DP0-related analysis with Rubin staff and with each other, review the DP0 RSP tutorials together, collaborate on DP0-related science, and get support from Rubin staff as needed.
@@ -176,7 +180,7 @@ The idea is that the best way to learn something is to try and teach it, and so 
 Many of the `DP0 Delegate Assemblies`_ presentations will be based on tutorials developed by the Stack Club.
 DP0 delegates are welcome to join one or more `Science Collaborations <https://www.lsstcorporation.org/science-collaborations>`_ and to join the Friday Stack Club Zoom sessions.
 
-Stack Club meets biweekly on Fridays from 9-11am (i.e., alternating Fridays with the Delegates Assemblies).
+Stack Club meets biweekly on Fridays from 9-11am (i.e., alternating Fridays with the Delegates Assemblies; 4pm UTC).
 Stack Club meetings start with a roundtable of what people want to do or learn that day, and then work proceeds as people stay connected via Zoom, with the occasional question or discussion happening.
 Sometimes breakout rooms are used to discuss emergent topics.
 Often times Rubin Data Management staff join to provide support.
