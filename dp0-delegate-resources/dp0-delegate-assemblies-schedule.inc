@@ -51,7 +51,7 @@
    * - 2021-09-24
      - *LSST Science Pipelines*
      - *Pipelines Q&A. DP0 science topics.*
-     - Rubin Data Mamangement Team (Yusra AlSayyad) 
+     - Rubin Data Management Team (Yusra AlSayyad) 
    * - 2021-10-08
      - *Data Visualization*
      - *Visualization packages Q&A. DP0 science topics.*
