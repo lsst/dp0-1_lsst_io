@@ -51,7 +51,7 @@
    * - 2021-09-24
      - *LSST Science Pipelines*
      - *Pipelines Q&A. DP0 science topics.*
-     - Rubin Data Management Team (Yusra AlSayyad) 
+     - Rubin Algorithms and Pipelines Team (Yusra AlSayyad) 
    * - 2021-10-08
      - *Data Visualization*
      - *Visualization packages Q&A. DP0 science topics.*
@@ -59,7 +59,7 @@
    * - 2021-10-22
      - *Image Processing*
      - *Algorithms Q&A. DP0 science topics.*
-     - Rubin Camera Team (Andrew Bradshaw) 
+     - Rubin Camera Subsystem (Andrew Bradshaw) 
    * - 2021-11-05
      - *Source Detection and Measurement*
      - *Measurement algorithms Q&A. DP0 science topics.*
