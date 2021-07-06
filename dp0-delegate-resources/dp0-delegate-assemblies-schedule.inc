@@ -51,15 +51,15 @@
    * - 2021-09-24
      - *LSST Science Pipelines*
      - *Pipelines Q&A. DP0 science topics.*
-     - *TBD*
+     - Rubin Data Mamangement Team (Yusra AlSayyad, Princeton University) 
    * - 2021-10-08
      - *Data Visualization*
      - *Visualization packages Q&A. DP0 science topics.*
-     - *TBD*
+     - Rubbin Commissioning Team (Keith Bechtol, University of Wisconsin))
    * - 2021-10-22
      - *Image Processing*
      - *Algorithms Q&A. DP0 science topics.*
-     - *TBD*
+     - Rubin Camera Team (Andrew Bradshaw, SLAC) 
    * - 2021-11-05
      - *Source Detection and Measurement*
      - *Measurement algorithms Q&A. DP0 science topics.*
