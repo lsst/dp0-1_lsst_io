@@ -49,24 +49,24 @@
      - *Butler Q&A. Gen3 for Gen2 Users. DP0 science topics.*
      - The Community Engagement Team (Alex Drlica-Wagner)
    * - 2021-09-24
-     - *LSST Science Pipelines*
+     - LSST Science Pipelines
      - *Pipelines Q&A. DP0 science topics.*
-     - Rubin Data Management Team (Yusra AlSayyad) 
+     - Yusra AlSayyad (Rubin Algorithms and Pipelines Team)
    * - 2021-10-08
-     - *Data Visualization*
+     - Data Visualization
      - *Visualization packages Q&A. DP0 science topics.*
-     - Rubin Commissioning Team (Keith Bechtol)
+     - Keith Bechtol (Rubin Commissioning Team)
    * - 2021-10-22
-     - *Image Processing*
+     - Image Processing
      - *Algorithms Q&A. DP0 science topics.*
-     - Rubin Camera Team (Andrew Bradshaw) 
+     - Andrew Bradshaw (Rubin Camera Subsystem Team) 
    * - 2021-11-05
-     - *Source Detection and Measurement*
-     - *Measurement algorithms Q&A. DP0 science topics.*
+     - *delegate presenter(s)*
+     - *delegate working groups*
      - *TBD*
    * - 2021-11-19
-     - *Fake Source Injection*
-     - *Fake sources Q&A. DP0 science topics.*
+     - *delegate presenter(s)*
+     - *delegate working groups*
      - *TBD*
    * - 2021-12-03
      - *delegate presenter(s)*
