@@ -47,9 +47,9 @@ RSP Accounts
 Delegates will be contacted by Rubin staff to provide their `GitHub <http://www.github.com/>`_ username.
 All delegates will be invited to join the `rubin-dp0 GitHub Organization <https://github.com/rubin-dp0>`_ and its `Delegates <https://github.com/orgs/rubin-dp0/teams/delegates/members>`_ team, and must accept this invitation in order to log into the RSP at the Interim Data Facility (IDF; the Google Cloud).
 With a browser that is logged in to GitHub, navigate to `<http://data.lsst.cloud>`_ and choose "log in" at upper right.
-The first time this is done, a pop-up window will ask to "Authorize Rubin Science Platform IDF Production Environment".
+A pop-up window will ask to "Authorize Rubin Science Platform IDF Production Environment".
 Click the green button that says "Authorize lsst-sqre".
-This step will only need to be done once.
+This authorization step will need to be done after every log out.
 
 **Policies:**
 RSP accounts are not transferrable and delegates must not share their password with others.
@@ -91,6 +91,8 @@ All delegates should please attend one of these identical sessions.
 One of them will be recorded and made available.
 
 **Connection Info:** `ls.st/clo4989 <https://ls.st/4989>`_
+
+**Slides and Recording:** `here <https://community.lsst.org/t/invitation-to-join-dp0-kick-off-info-sessions/4989>`_
 
 | **Contents of the Kick-Off Info Sessions:** 
 | - RSP and Community Forum accounts
@@ -277,6 +279,10 @@ Extend or enhance the benefits of DP0 in the science community.
 Getting Support
 ===============
 
+Several venues are provided to support DP0 delegates, as described below.
+There is no wrong place to post questions or requests for assistance!
+Hearing about issues and recieving feedback from delegates is a key component of DP0.
+
 Scientific Support via the Community Forum
 ------------------------------------------
 
@@ -290,9 +296,11 @@ DP0 delegates are especially encouraged to post new topics and reply to others' 
 Technical Assistance via GitHub Issues
 --------------------------------------
 
-Bug reports, persistent technical issues, and requests for assistance from Rubin staff should be submitted by DP0 delegates as GitHub issues in the `rubin-dp0 GitHub Organization's Support repository <https://github.com/rubin-dp0/Support>`_.
+Bug reports, persistent technical issues, and requests for assistance from Rubin staff should be submitted by DP0 delegates as GitHub Issues in the `rubin-dp0 GitHub Organization's Support repository <https://github.com/rubin-dp0/Support>`_.
+Requests for new features or for global installatons of commonly used software packages are also welcome via GitHub Issues.
 
-In the horizontal menu bar at the top of that page, click on the “Issues” option (with the circled dot icon), choose the green “New Issue” button at right, next to “Bug report” choose “Get started”, and fill in the title and contents of your issue.
+In the horizontal menu bar at the top of that page, click on the “Issues” option (with the circled dot icon), choose the green “New Issue” button at right.
+Next to either “Bug report” or "Feature Request" choose “Get started” (as appropriate for your case), and fill in the title and contents of your issue.
 In the right side-menu, do adjust the labels as appropriate, but leave the other options.
 Click “Submit new issue” when you’re ready.
 These issues will be addressed by Rubin staff.
@@ -304,10 +312,36 @@ Please feel free post even small questions as new topics in the "Support - DP0 R
 
 This subcategory enables DP0 delegates to determine if others are experiencing the same issue (e.g., *"is this local or general network outage?"*, *"my query is taking a long time, is this a real problem or did I do it wrong?"*), crowd-source solutions to technical issues from each other when possible, and have a non-public venue for DP0-related questions.
 The CET will monitor this category, and it is visible only to Community.lsst.org users who are members of the “DP0 Delegates” group and to Community.lsst.org forum moderators.
-Since this subcategory is not public it cannot be linked to directly, but delegates who are logged-in to the Forum can access it via the main landing page at `Community.lsst.org <https://community.lsst.org>`_.
+Updates about commonly experienced access issues or planned service outages will be posted by Rubin staff in this category.
+
+Since the "DP0 RSP Service Issues" subcategory is not public, it cannot be linked to directly, but delegates who are logged-in to the Forum can access it via the main landing page at `Community.lsst.org <https://community.lsst.org>`_.
+
+Read more in the Community Forum about `Scientific Support and Technical Assistance for DP0 Delegates <https://community.lsst.org/t/scientific-support-and-technical-assistance-for-dp0-delegates/5485>`_.
 
 Live Support
 ------------
 
 Bring your questions to the Delegate Assemblies, third Thursday office hours, or Stack Club meetings.
 Rubin staff members will usually be in attendance and able to assist you. 
+
+
+.. _Delegate-Homepage-Code-of-Conduct:
+
+Code of Conduct
+===============
+
+Please review the Rubin Code of Conduct (CoC) at `ls.st/comms-coc <http://ls.st/comms-coc>`_.
+
+| To summarize the CoC:
+| - Bullying and harassment will not be tolerated.
+| - Research inclusion and collaborative work must not be impeded by poor behavior.
+| - Discussion should be constructive and civil at all times.
+
+If you experience or witness a violation of the CoC in the Community Forum, please `flag the post <https://community.lsst.org/t/how-and-why-to-flag-a-post>`_.
+Forum moderators will handle the issue from there.
+Please note that there are a few reasons why posts get flagged, and CoC violations are only one of them.
+Here are some guidelines on `how to react if your post is flagged <https://community.lsst.org/t/how-to-react-if-your-post-is-flagged>`_.
+
+If you experience or witness a violation of the Code of Conduct in another venue, please reach out to Sandrine Thomas, one of the `Rubin Observatory Workplace Culture Advocates <https://project.lsst.org/workplace-culture-advocate>`_ who has agreed to be the contact person for DP0 Delegates.
+Please also feel free to reach out to any Community Engagement Team member at any time: Melissa Graham, Jeff Carlin, Greg Madejski, Jim Annis, Alex Drlica-Wagner, or Tina Adair.
+All can be contacted by email or via direct message in the Community Forum.
