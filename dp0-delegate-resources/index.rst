@@ -47,9 +47,9 @@ RSP Accounts
 Delegates will be contacted by Rubin staff to provide their `GitHub <http://www.github.com/>`_ username.
 All delegates will be invited to join the `rubin-dp0 GitHub Organization <https://github.com/rubin-dp0>`_ and its `Delegates <https://github.com/orgs/rubin-dp0/teams/delegates/members>`_ team, and must accept this invitation in order to log into the RSP at the Interim Data Facility (IDF; the Google Cloud).
 With a browser that is logged in to GitHub, navigate to `<http://data.lsst.cloud>`_ and choose "log in" at upper right.
-The first time this is done, a pop-up window will ask to "Authorize Rubin Science Platform IDF Production Environment".
+A pop-up window will ask to "Authorize Rubin Science Platform IDF Production Environment".
 Click the green button that says "Authorize lsst-sqre".
-This step will only need to be done once.
+This authorization step will need to be done after every log out.
 
 **Policies:**
 RSP accounts are not transferrable and delegates must not share their password with others.
