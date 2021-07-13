@@ -311,10 +311,9 @@ Minor or Ambiguous RSP Service and Access Issues
 Please feel free post even small questions as new topics in the "Support - DP0 RSP Service Issues" subcategory of the Community Forum.
 
 This subcategory enables DP0 delegates to determine if others are experiencing the same issue (e.g., *"is this local or general network outage?"*, *"my query is taking a long time, is this a real problem or did I do it wrong?"*), crowd-source solutions to technical issues from each other when possible, and have a non-public venue for DP0-related questions.
-The CET will monitor this category, and it is visible only to Community.lsst.org users who are members of the “DP0 Delegates” group and to Community.lsst.org forum moderators.
 Updates about commonly experienced access issues or planned service outages will be posted by Rubin staff in this category.
 
-Since the "DP0 RSP Service Issues" subcategory is not public, it cannot be linked to directly, but delegates who are logged-in to the Forum can access it via the main landing page at `Community.lsst.org <https://community.lsst.org>`_.
+Since the "DP0 RSP Service Issues" subcategory is not public, it cannot be linked to directly, but anyone who is logged-in to the Forum can access it via the main landing page at `Community.lsst.org <https://community.lsst.org>`_.
 
 Read more in the Community Forum about `Scientific Support and Technical Assistance for DP0 Delegates <https://community.lsst.org/t/scientific-support-and-technical-assistance-for-dp0-delegates/5485>`_.
 
