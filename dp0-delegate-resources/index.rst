@@ -251,7 +251,7 @@ Extend or enhance the benefits of DP0 in the science community.
 |   -- volunteer to facilitate a breakout discussion during an assembly
 |   -- present the results of your DP0 work in one of the `DP0 Delegate Assemblies`_
 |
-| - lead or participate in one or more `Delegate-Homepage-Working-Groups`_
+| - lead or participate in one or more `DP0 Working Groups`_
 |
 | - contribute tutorials to the delegates' `shared repository <https://github.com/rubin-dp0/delegate-contributions-dp01>`_
 |   -- create a tutorial Jupyter Notebook that uses the DC2 data set
