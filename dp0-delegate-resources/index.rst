@@ -31,7 +31,7 @@ The simulated data set being used for DP0 was created by the Dark Energy Science
 | **Delegate Action Items Checklist**
 | 1. Get one of the `RSP Accounts`_ for DP0 delegates.
 | 2. Set up your account in the `Rubin Community Forum`_.
-| 3. Attend one of the `DP0 Kick-Off Info Sessions`_.
+| 3. Watch the recorded `DP0 Kick-Off Info Sessions`_.
 | 4. Review the `Guidelines and Expectations`_ for delegates.
 | 5. Consider participating in the `DP0 Delegate Assemblies`_.
 | 6. Learn about `Getting Support`_ for DP0. 
@@ -87,27 +87,15 @@ This will ensure you have access to the private "Support - DP0 RSP Service Issue
 DP0 Kick-Off Info Sessions 
 ==========================
 
-All delegates should please attend one of these identical sessions.
-One of them will be recorded and made available.
+All delegates should view the recording if they were unable to attend live.
 
-**Connection Info:** `ls.st/clo4989 <https://ls.st/4989>`_
-
-**Slides and Recording:** `here <https://community.lsst.org/t/invitation-to-join-dp0-kick-off-info-sessions/4989>`_
+**Slides and Recording:** `ls.st/clo4989 <https://ls.st/clo4989>`_
 
 | **Contents of the Kick-Off Info Sessions:** 
 | - RSP and Community Forum accounts
 | - RSP hazards and delegate expectations
 | - resources and support for delegates
 | - DP0 goals and the road to Rubin operations
-| - time for question and answer
-
-| **Dates and Times:**
-| - Tue Jun 29 2021, 8am US Pacific Daylight Time, 3pm UTC
-| - Wed Jun 30 2021, 12pm US Pacific Daylight Time, 7pm UTC
-| - Thu Jul 1 2021, 4pm US Pacific Daylight Time, 11pm UTC
-| - Tue Jul 6 2021, 12pm US Pacific Daylight Time, 7pm UTC
-| - Wed Jul 7 2021, 4pm US Pacific Daylight Time, 11pm UTC
-| - Thu Jul 8 2021, 8am US Pacific Daylight Time, 3pm UTC
 
 
 .. _Delegate-Homepage-DP0-Delegate-Assemblies:
@@ -262,7 +250,8 @@ Extend or enhance the benefits of DP0 in the science community.
 |   -- ask questions, join the breakout discussions
 |   -- volunteer to facilitate a breakout discussion during an assembly
 |   -- present the results of your DP0 work in one of the `DP0 Delegate Assemblies`_
-|   -- facilitate a co-working group during the `DP0 Delegate Assemblies`_ breakouts
+|
+| - `_Delegate-Homepage-Working-Groups`_
 |
 | - contribute tutorials to the delegates' `shared repository <https://github.com/rubin-dp0/delegate-contributions-dp01>`_
 |   -- create a tutorial Jupyter Notebook that uses the DC2 data set
@@ -272,7 +261,36 @@ Extend or enhance the benefits of DP0 in the science community.
 |   -- give a seminar about Rubin Observatory and DP0 at your home institution
 |   -- give a tutorial about your RSP/DP0 experience in your Science Collaboration
 |   -- publish a paper on your DP0-related work
-  
+
+
+.. _Delegate-Homepage-Working-Groups:
+
+Participate in a DP0 Working Group with other delegates.
+--------------------------------------------------------
+
+"DP0 Working Groups" (DP0 WGs) are any collection of DP0 delegates who want to work together on similar DP0-related science or analysis tools.
+There are no pre-set DP0 WGs topics, and anyone can propose and lead a DP0 WG. 
+The Rubin CET is supporting DP0 WGs by providing Zoom breakout rooms for co-working sessions and a shared repository in the ``rubin-dp0`` GitHub Organization, as described below.
+To get your DP0 WG on the list below, or request any other kind of DP0 WG support, please contact Melissa Graham.
+
+**When would DP0 working groups meet?**
+Breakout rooms during the second hour of the `DP0 Delegate Assemblies`_, or anytime during `Stack Club`_ sessions, will be created for any and all who request one.
+Working groups could also meet any other time they want at the convenience of their members. 
+
+**How would DP0 working groups collaborate?**
+One way to facilitate collaborative work is to use the delegates' `shared repository <https://github.com/rubin-dp0/delegate-contributions-dp01>`_ in the ``rubin-dp0`` GitHub Organization. 
+As described in that repository's readme file, simply create a new folder in the repository with an appropriate name (e.g., for a Transients Hosts Galaxies DP0 Working Group, could use "wg-transients-host-galaxies").
+To facilitate collaboration it is recommended to keep a readme file updated with the working group contacts and status of the folder's contents.
+
+**Can I start a DP0 working group by myself?**
+Yes! In time, other delegates might join your efforts, and remember that more delegates will be joining for DP0.2 next year.
+
+**How can I advertise the DP0 working group I'm leading?**
+Make a new topic in the Community Forum's Data Preview 0 category titled, e.g., "Invitation to Join the Transient Host Galaxies DP0 Working Group", describe some of the groups potential activities, link to the relevant folder in the shared GitHub repository, and say when and where the tag-ups will be.
+
+**Current working groups and their contact info:**
+*(None so far! Contact Melissa Graham to have your WG appear here.)*
+
 
 .. _Delegate-Homepage-Getting-Support:
 
