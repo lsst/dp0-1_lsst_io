@@ -251,7 +251,7 @@ Extend or enhance the benefits of DP0 in the science community.
 |   -- volunteer to facilitate a breakout discussion during an assembly
 |   -- present the results of your DP0 work in one of the `DP0 Delegate Assemblies`_
 |
-| - `_Delegate-Homepage-Working-Groups`_
+| - lead or participate in one or more `Delegate-Homepage-Working-Groups`_
 |
 | - contribute tutorials to the delegates' `shared repository <https://github.com/rubin-dp0/delegate-contributions-dp01>`_
 |   -- create a tutorial Jupyter Notebook that uses the DC2 data set
@@ -265,8 +265,8 @@ Extend or enhance the benefits of DP0 in the science community.
 
 .. _Delegate-Homepage-Working-Groups:
 
-Participate in a DP0 Working Group with other delegates.
---------------------------------------------------------
+DP0 Working Groups
+==================
 
 "DP0 Working Groups" (DP0 WGs) are any collection of DP0 delegates who want to work together on similar DP0-related science or analysis tools.
 There are no pre-set DP0 WGs topics, and anyone can propose and lead a DP0 WG. 
@@ -285,10 +285,11 @@ To facilitate collaboration it is recommended to keep a readme file updated with
 **Can I start a DP0 working group by myself?**
 Yes! In time, other delegates might join your efforts, and remember that more delegates will be joining for DP0.2 next year.
 
-**How can I advertise the DP0 working group I'm leading?**
+**How can I advertise a DP0 working group?**
 Make a new topic in the Community Forum's Data Preview 0 category titled, e.g., "Invitation to Join the Transient Host Galaxies DP0 Working Group", describe some of the groups potential activities, link to the relevant folder in the shared GitHub repository, and say when and where the tag-ups will be.
 
 **Current working groups and their contact info:**
+
 *(None so far! Contact Melissa Graham to have your WG appear here.)*
 
 
