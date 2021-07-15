@@ -31,7 +31,7 @@ The simulated data set being used for DP0 was created by the Dark Energy Science
 | **Delegate Action Items Checklist**
 | 1. Get one of the `RSP Accounts`_ for DP0 delegates.
 | 2. Set up your account in the `Rubin Community Forum`_.
-| 3. Watch the recorded `DP0 Kick-Off Info Sessions`_.
+| 3. Watch one of the recorded `DP0 Kick-Off Info Sessions`_.
 | 4. Review the `Guidelines and Expectations`_ for delegates.
 | 5. Consider participating in the `DP0 Delegate Assemblies`_.
 | 6. Learn about `Getting Support`_ for DP0. 
