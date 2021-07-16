@@ -35,7 +35,7 @@ The Portal's User Interface
 Across the top is a menu bar of interface options, but the DP0 data set is only accessed via the :ref:`Data-Access-Analysis-Tools-TAP`.
 Under **TAP Searches** there are four steps.
 
-**1. TAP Service**: Leave this as the default `https://data.lsst.cloud/api/tap` to access DP0 data.
+**1. TAP Service**: Leave this as the default, `https://data.lsst.cloud/api/tap`, to access DP0 data.
 
 
 .. _single-table-queries:
@@ -55,13 +55,14 @@ If a non-existent column name is entered the box will highlight red in indicatio
 Choose the desired search method, `Cone` or `Polygon`, and the appropriate instructions for the search terms will appear.
 Keeping the search area to a minimum will keep processing times short and returned subsets small and manageable.
 
-*Note: The examples under the box for coordinates are object names as examples of the formatting only. Those examples are not guaranteed to be in the accessible data sets. The central coordinates for DC2, in decimal degrees, are: 61.863 -35.790. (See Table 2 of `The LSST DESC DC2 Simulated Sky Survey<https://ui.adsabs.harvard.edu/abs/2021ApJS..253...31L/abstract>`_.)*
+*Note: The examples under the box for coordinates are object names as examples of the formatting only. Those examples are not guaranteed to be in the accessible data sets. The central coordinates for DC2, in decimal degrees, are: 61.863 -35.790.* (See Table 2 of `The LSST DESC DC2 Simulated Sky Survey <https://ui.adsabs.harvard.edu/abs/2021ApJS..253...31L/abstract>`_.)
 
 *Note: Although there are two options for Constraints, Spatial and Temporal, for DP0.1 all of the catalog data that is available through the Portal is from the coadded DC2 images, and does not contain time-domain information.*
 
 **Table View**: The table to the right of "Select Constraints" enables additional search constraints.
 Use the leftmost boxes select the columns to be returned by the query.
-Use the funnel icon to only view selected columns.
+A set of principal columns will be pre-selected for each table.
+Use the funnel icon to only view selected columns; this is necessary to see all of the principal colums at once, as they are not all at the top of the list.
 
 .. figure:: /_static/portal_table_view.png
     :name: portal_table_view
@@ -72,7 +73,8 @@ Some tables have a lot of columns.
 Search for desired columns by entering terms in the boxes underneath "column_name" or "description".
 Additional constraints on column data can be included in the query by specifying them under "constraints".
 Mouse-over to view pop-up boxes with instructions.
-Remove filters and reset the table view at any time using the buttons above the upper right corner of the table (not shown in image above).
+
+Remove filters and reset the table view at any time using the "Remove X filter(s)" or "Reset Column Selections & Constraints" buttons above the upper right corner of the table (not shown in image above).
 
 If desired, convert table view queries to `ADQL Queries` using the "Populate and Edit ADQL" button at the bottom of the page.
 

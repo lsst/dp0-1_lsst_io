@@ -3,6 +3,8 @@
 ##################################### 
 Schema for dp01_dc2_catalogs.position 
 ##################################### 
+
+Principal columns are in **bold face type**.
   
 .. list-table:: Schema for dp01_dc2_catalogs.position 
    :header-rows: 1 
@@ -11,38 +13,38 @@ Schema for dp01_dc2_catalogs.position
      - Unit 
      - Data Type 
      - Description 
-   * - coord_ra 
+   * - **coord_ra** 
      - rad 
      - double 
      - RA-coordinate 
-   * - coord_dec 
+   * - **coord_dec** 
      - rad 
      - double 
      - Decl-coordinate 
-   * - extinction_bv 
+   * - **extinction_bv** 
      - mag 
      - double 
      - Milky Way dust extinction, E(B-V) 
-   * - objectId 
+   * - **objectId**
      -  
      - long 
      - Unique id. 
-   * - parent 
+   * - **parent** 
      -  
      - long 
      - unique ID of parent source 
-   * - deblend_nChild 
+   * - **deblend_nChild** 
      -  
      - int 
      - Number of children this object has (defaults to 0) 
+   * - **detect_isPrimary** 
+     -  
+     - boolean 
+     - true if source has no children and is in the inner region of a coadd patch and is in the inner region of a coadd tract and is not "detected" in a pseudo-filter (see config.pseudoFilterList) 
    * - detect_isPatchInner 
      -  
      - boolean 
      - true if source is in the inner region of a coadd patch 
-   * - detect_isPrimary 
-     -  
-     - boolean 
-     - true if source has no children and is in the inner region of a coadd patch and is in the inner region of a coadd tract and is not "detected" in a pseudo-filter (see config.pseudoFilterList) 
    * - detect_isTractInner 
      -  
      - boolean 

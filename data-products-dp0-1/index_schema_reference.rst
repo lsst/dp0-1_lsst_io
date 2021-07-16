@@ -3,7 +3,30 @@
 ###################################### 
 Schema for dp01_dc2_catalogs.reference 
 ###################################### 
-  
+
+Principal Columns
+=================
+
+**base_ClassificationExtendedness_value** (type=double): Set to 1 for extended sources, 0 for point sources. 
+ 
+**coord_dec** (unit=rad, type=double): position in ra/dec 
+ 
+**coord_ra** (unit=rad, type=double): position in ra/dec 
+ 
+**deblend_deblendedAsPsf** (type=boolean): Deblender thought this source looked like a PSF 
+ 
+**deblend_skipped** (type=boolean): Deblender skipped this source 
+ 
+**good** (type=boolean): True if the source has no flagged pixels. 
+ 
+**modelfit_CModel_flag** (type=boolean): flag set if the final cmodel fit (or any previous fit) failed 
+ 
+**objectId** (type=long): Unique id. 
+
+
+All Other Columns
+=================
+
 **base_Blendedness_abs** (type=double): Measure of how much the flux is affected by neighbors: (1 - child_instFlux/parent_instFlux).  Operates on the absolute value of the pixels to try to obtain a "de-noised" value.  See section 4.9.11 of Bosch et al. 2018, PASJ, 70, S5 for details. 
  
 **base_Blendedness_abs_child_xx** (unit=pixel^2, type=double): Shape of the child, measured with a Gaussian weight matched to the child.  Operates on the absolute value of the pixels to try to obtain a "de-noised" value.  See section 4.9.11 of Bosch et al. 2018, PASJ, 70, S5 for details. 
@@ -51,8 +74,6 @@ Schema for dp01_dc2_catalogs.reference
 **base_Blendedness_raw_parent_yy** (unit=pixel^2, type=double): Shape of the parent, measured with a Gaussian weight matched to the child.  Operates on the "raw" pixel values. 
  
 **base_ClassificationExtendedness_flag** (type=boolean): Set to 1 for any fatal failure. 
- 
-**base_ClassificationExtendedness_value** (type=double): Set to 1 for extended sources, 0 for point sources. 
  
 **base_PixelFlags_flag** (type=boolean): General failure flag, set if anything went wrong 
  
@@ -180,12 +201,6 @@ Schema for dp01_dc2_catalogs.reference
  
 **base_SdssShape_yyErr** (unit=pixel^2, type=double): Standard deviation of yy moment 
  
-**coord_dec** (unit=rad, type=double): position in ra/dec 
- 
-**coord_ra** (unit=rad, type=double): position in ra/dec 
- 
-**deblend_deblendedAsPsf** (type=boolean): Deblender thought this source looked like a PSF 
- 
 **deblend_hasStrayFlux** (type=boolean): This source was assigned some stray flux 
  
 **deblend_masked** (type=boolean): Parent footprint was predominantly masked 
@@ -203,8 +218,6 @@ Schema for dp01_dc2_catalogs.reference
 **deblend_psfflux** (unit=count, type=double): If deblended-as-psf, the instrumental PSF flux 
  
 **deblend_rampedTemplate** (type=boolean): This source was near an image edge and the deblender used "ramp" edge-handling. 
- 
-**deblend_skipped** (type=boolean): Deblender skipped this source 
  
 **deblend_tooManyPeaks** (type=boolean): Source had too many peaks; only the brightest were included 
  
@@ -289,8 +302,6 @@ Schema for dp01_dc2_catalogs.reference
 **ext_shapeHSM_HsmSourceMomentsRound_y** (unit=pixel, type=double): HSM Centroid 
  
 **ext_shapeHSM_HsmSourceMomentsRound_yy** (unit=pixel^2, type=double): HSM moments 
- 
-**good** (type=boolean): True if the source has no flagged pixels. 
  
 **modelfit_CModel_apCorr** (type=double): aperture correction applied to modelfit_CModel 
  
@@ -386,8 +397,6 @@ Schema for dp01_dc2_catalogs.reference
  
 **modelfit_CModel_exp_time** (unit=second, type=double): Time spent in stage 
  
-**modelfit_CModel_flag** (type=boolean): flag set if the final cmodel fit (or any previous fit) failed 
- 
 **modelfit_CModel_flag_apCorr** (type=boolean): set if unable to aperture correct modelfit_CModel 
  
 **modelfit_CModel_flag_badCentroid** (type=boolean): input centroid was not within the fit region (probably because it''s not within the Footprint) 
@@ -473,6 +482,4 @@ Schema for dp01_dc2_catalogs.reference
 **modelfit_CModel_region_initial_ellipse_xy** (unit=pixel^2, type=double): ellipse used to set the pixel region for the initial fit (before applying bad pixel mask) 
  
 **modelfit_CModel_region_initial_ellipse_yy** (unit=pixel^2, type=double): ellipse used to set the pixel region for the initial fit (before applying bad pixel mask) 
- 
-**objectId** (type=long): Unique id. 
  
