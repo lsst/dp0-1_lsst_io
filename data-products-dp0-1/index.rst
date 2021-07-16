@@ -110,6 +110,11 @@ Here we distinguish between the TAP- and Butler-accessible catalog data products
 A table's "schema" refers to the column names, units, and descriptions of the tabulated data.
 Links to full or curated versions of the table schema (curated meaning limited to columns that will be of most use to most DP0 delegates) are provided in the tables below.
 
+**Principal Columns:**
+For convenience, Rubin staff have identified the principal columns which are most likely to be useful.
+These principal columns will be pre-selected in the Table View of the RSP's Portal Aspect.
+The table schema below also identify the principal columns.
+
 **TAP Catalogs**:
 The five TAP-accessible catalogs in the table below are generated from coadded images and are available via both the Portal and Notebook Aspects.
 For all Portal-accessible TAP catalogs, one way to view and interact with the schema is by using the Portal's "table view" in the TAP service for single-table queries, as described in the :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
@@ -124,10 +129,10 @@ The table below contains links to pages that list the schema for these tables: t
      - Schema Link
      - Description
    * - object
-     - See Appendix B1 of the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_.
+     - See Appendix B1 of the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_ for full schema. :ref:`_Data-Products-dp0-1-schema-obj-tm-principal-obj`.
      - The object table from the DESC DC2 simulated sky survey as described in the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_. Includes astrometric and photometric parameters for objects detected in coadded images. (137 columns)
    * - truth_match
-     - See Appendix B2 of the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_.
+     - See Appendix B2 of the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_ for full schema. :ref:`_Data-Products-dp0-1-schema-obj-tm-principal-tm`.
      - The truth-match table for the DESC DC2's object table as described in the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_. Includes the noiseless astrometric and photometric parameters and the best matches to the object table. (30 columns)
    * - position
      - :ref:`full schema <Data-Products-DP0-1-schema_position>`
