@@ -122,7 +122,7 @@ Schema for all five TAP-accessible catalogs can be also viewed and interacted wi
 The table below contains links to pages that list the schema for these tables: the column names, units, data types, and a description.
 
 .. list-table:: TAP-accessible tables available for DP0.1.
-   :widths: 120 120 350
+   :widths: 120 150 320
    :header-rows: 1
 
    * - Catalog Name
