@@ -3,14 +3,29 @@
 ############################################## 
 Schema for dp01_dc2_catalogs.forced_photometry 
 ############################################## 
-  
+
+Principal Columns
+=================
+
 **coord_dec** (unit=rad, type=double): position in ra/dec 
  
 **coord_ra** (unit=rad, type=double): position in ra/dec 
  
+**objectId** (type=long): Unique id. 
+ 
 **[f]_base_ClassificationExtendedness_flag** (type=boolean): Set to 1 for any fatal failure. 
  
 **[f]_base_ClassificationExtendedness_value** (type=double): Set to 1 for extended sources, 0 for point sources. 
+ 
+**[f]_good** (type=boolean): True if the source has no flagged pixels. 
+  
+**[f]_modelfit_CModel_instFlux** (unit=count, type=double): flux from the final cmodel fit 
+
+**[f]_modelfit_CModel_instFluxErr** (unit=count, type=double): flux uncertainty from the final cmodel fit 
+
+
+All Other Columns
+=================
  
 **[f]_base_InputCount_flag** (type=boolean): Set for any fatal failure 
  
@@ -172,8 +187,6 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **[f]_base_Variance_value** (type=double): Variance at object position 
  
-**[f]_good** (type=boolean): True if the source has no flagged pixels. 
- 
 **[f]_modelfit_CModel_apCorr** (type=double): aperture correction applied to modelfit_CModel 
  
 **[f]_modelfit_CModel_apCorrErr** (type=double): standard deviation of aperture correction applied to modelfit_CModel 
@@ -248,13 +261,7 @@ Schema for dp01_dc2_catalogs.forced_photometry
  
 **[f]_modelfit_CModel_initial_instFluxErr** (unit=count, type=double): flux uncertainty from the initial fit 
  
-**[f]_modelfit_CModel_instFlux** (unit=count, type=double): flux from the final cmodel fit 
- 
 **[f]_modelfit_CModel_instFlux_inner** (unit=count, type=double): flux within the fit region, with no extrapolation 
  
-**[f]_modelfit_CModel_instFluxErr** (unit=count, type=double): flux uncertainty from the final cmodel fit 
- 
 **[f]_modelfit_CModel_objective** (type=double): -ln(likelihood) (chi^2) in cmodel fit 
- 
-**objectId** (type=long): Unique id. 
  
