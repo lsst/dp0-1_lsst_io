@@ -61,8 +61,8 @@ Keeping the search area to a minimum will keep processing times short and return
 
 **Table View**: The table to the right of "Select Constraints" enables additional search constraints.
 Use the leftmost boxes select the columns to be returned by the query.
-A set of principal columns will be pre-selected for each table, as seen in the top image on this page.
-Use the funnel icon to only view selected columns.
+A set of principal columns will be pre-selected for each table.
+Use the funnel icon to only view selected columns; this is necessary to see all of the principal colums at once, as they are not all at the top of the list.
 
 .. figure:: /_static/portal_table_view.png
     :name: portal_table_view
@@ -73,7 +73,8 @@ Some tables have a lot of columns.
 Search for desired columns by entering terms in the boxes underneath "column_name" or "description".
 Additional constraints on column data can be included in the query by specifying them under "constraints".
 Mouse-over to view pop-up boxes with instructions.
-Remove filters and reset the table view at any time using the buttons above the upper right corner of the table (not shown in image above).
+
+Remove filters and reset the table view at any time using the "Remove X filter(s)" or "Reset Column Selections & Constraints" buttons above the upper right corner of the table (not shown in image above).
 
 If desired, convert table view queries to `ADQL Queries` using the "Populate and Edit ADQL" button at the bottom of the page.
 
