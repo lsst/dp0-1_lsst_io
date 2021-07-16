@@ -129,10 +129,10 @@ The table below contains links to pages that list the schema for these tables: t
      - Schema Link
      - Description
    * - object
-     - See Appendix B1 of the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_ for full schema. :ref:`_Data-Products-dp0-1-schema-obj-tm-principal-obj`.
+     - See Appendix B1 of the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_ for full schema. :ref:`Data-Products-dp0-1-schema-obj-tm-principal-obj`.
      - The object table from the DESC DC2 simulated sky survey as described in the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_. Includes astrometric and photometric parameters for objects detected in coadded images. (137 columns)
    * - truth_match
-     - See Appendix B2 of the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_ for full schema. :ref:`_Data-Products-dp0-1-schema-obj-tm-principal-tm`.
+     - See Appendix B2 of the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_ for full schema. :ref:`Data-Products-dp0-1-schema-obj-tm-principal-tm`.
      - The truth-match table for the DESC DC2's object table as described in the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_. Includes the noiseless astrometric and photometric parameters and the best matches to the object table. (30 columns)
    * - position
      - :ref:`full schema <Data-Products-DP0-1-schema_position>`
