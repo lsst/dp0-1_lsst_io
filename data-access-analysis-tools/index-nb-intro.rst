@@ -189,7 +189,7 @@ From here, you have three options to update the contents of your ``notebooks/tut
 
 *Option 1 (if you have not saved changed versions of the notebooks)* - Fully log out, stop the server, and log back in again.
 This will automatically refresh the contents of your ``notebooks/tutorial-notebooks/`` directory.
-To fully stop your server, use the control panel at `https://data.lsst.cloud/nb/hub/home`_.
+To fully stop your server, use the control panel at `https://data.lsst.cloud/nb/hub/home <https://data.lsst.cloud/nb/hub/home>`_.
 Click the red button that says "Stop My Server".
 
 *Option 2 (if you have saved changed versions of the notebooks that you want to keep)* - The first option, above, will not result in you having the most up-to-date versions of all the notebooks if you have made and saved changes to any of the notebooks.
@@ -202,6 +202,7 @@ To check if files have been modified, use this command from a terminal in the ``
 If it says in red text, e.g., ``both modified: 01_Intro_to_DP0_Notebooks.ipynb``, then changes have been made to this file (recall that executing the notebook counts as making changes, and note that Jupyter auto-saves changes on a ~2 minute cadence), but Rubin staff have also updated it (e.g., bug fixes).
 Since the file has been twice modified, ``git`` has gone ahead and annotated file with all the conflicting lines between the two versions.
 This essentially ruins a ``ipynb`` file's functionality (but it is a very useful built-in git feature for, e.g., ascii and code files).
+A ``git``-annotated ``ipynb`` file might not even load or run for you anymore.
 Do a ``git diff 01_Intro_to_DP0_Notebooks.ipynb`` and all the differences will be listed.
 
 Use the following commands in the terminal window to restore the version in which you made changes (this takes it out of 'staged' status and will avoid future errors), copy your version into a different directory and rename it, and then restore the new version of the notebook that was updated by Rubin staff.
@@ -218,7 +219,6 @@ Now your notebooks/tutorial-notebooks directory only contains the most up-to-dat
 
 .. code-block:: bash
 
-   cd ~/notebooks/tutorial-notebooks
    git reset --hard origin/main
    git pull
 
