@@ -152,6 +152,32 @@ Arranging the windows can be convenient when working in both a terminal and note
 
 Note that JupyterLab autosaves your notebooks at a default rate of 2 minutes.
 
+**What to do if DP0.1 Tutorial Notebooks Do Not Automatically Update**
+The contents of your **notebooks/tutorial-notebooks/** directory should automatically update when a new version of the tutorial notebooks is released.  If this fails to occur, you need to setup "git config" in the terminal in the RSP Notebook Aspect.  
+
+You can check to see if you have your git user and email set up correctly by typing the following command in the terminal window of the RSP Notebook Aspect:
+
+egrep 'email|name' ~/.gitconfig
+
+If nothing is returned, then your email and name have not been set up.  You may set them up by typing in the following command (remember to use the account information you used when signing up for your RSP account):
+
+git config --global user.email yourEmail@yourdomain
+
+git config --global user.name GItUsername
+
+You can use the above listed check (egrep instructions) to ensure your git config is set up properly.  From here, you have three or four options to update your tutorial notebooks.
+
+*Option 1* - Fully log out, stop the server, and log back in again.  This will automatically refresh the contents of your **notebooks/tutorial-notebooks/** directory. To fully stop your server, use the control panel at https://data.lsst.cloud/nb/hub/home.  Click the red button that says "Stop My Server". 
+
+*Option 2* - Use *git restore* to restore a Tutorial Notebook to the version created and released by the Rubin staff. For example, use the command "git restore 01_Intro_to_DP0_Notebooks.ipynb" to retore the first tutorial notebook.
+
+*Option 3* - To get a completely new version of all the tutorial notebooks in your **notebooks/tutorial-notebooks/** directory, use the following commands:
+
+git reset --hard origin/main
+git pull
+
+*Option 4 (or the last resort)* Using any of the above menitoned *git* options is the preferred method to update your tutorial notebooks, but as a last resort, you can delete the entire **tutorial-notebooks** directory, log out and stop the server (as mentioned above), and then log back in again.  
+
 
 .. _NB-Intro-Other_Docs:
 
