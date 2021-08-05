@@ -123,11 +123,15 @@ If the cell type is markdown, then it will be rendered upon execution to yield n
 Frequently Asked Questions
 --------------------------
 
-**What is a kernel?**
+What is a kernel?
+~~~~~~~~~~~~~~~~~
+
 In the RSP Notebook Aspect, your notebooks will be operating in a kernel that has access to the full Rubin Science Pipelines, including the "Butler" (see below) that will be your main access tool to extract images and catalogs from the DP0.1 data.
 Many standard Python libraries and modules will be available, and users can `install <https://nb.lsst.io/environment/python.html>`_ additional Python tools they wish to use.
 
-**Is all the code in Python?**
+Is all the code in Python?
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Yes, the RSP Notebook Aspect will only have python environments for DP0.
 To access DP0.1 data from the Notebook Aspect, users will need to use Python commands and code.
 Much of the LSST Science Pipelines code is in Python, and the DP0 :ref:`Examples-DP0-1-Notebooks` use Python as well.
@@ -136,7 +140,9 @@ All DP0 delegates should feel free to copy and paste from the provided tutorials
 Anyone new to Python and looking to learn more might benefit from this `Python for Beginners <https://www.python.org/about/gettingstarted>`_ website (which includes links to tutorial in a variety of languages).
 Web searches for "python *(thing you want to do)*" are usually pretty successful too. 
 
-**What is the Butler?**
+What is the Butler?
+~~~~~~~~~~~~~~~~~~~
+
 The Butler is a middleware component of the Data Management System (DMS) for persisting and retrieving datasets from the DP0.1 data repository.
 The only way to access DP0.1 images is via the Butler from a Jupyter Notebook.
 The third generation "Gen3" Butler is the version being used for DP0.1.
@@ -148,12 +154,17 @@ Full `Butler documentation <https://pipelines.lsst.io/modules/lsst.daf.butler/in
 Tips, Tricks, and How to Get Support
 ------------------------------------
 
-**Where to get support with using DP0 Notebooks.**
+Where to get support with using DP0 Notebooks.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Keep in mind that if you are not experienced at accessing data via Jupyter notebooks, or using a Science Platform more generally, you are not alone!
 Most of the DP0 delegates are new to this environment, and all of your questions and feedback will help us improve both the documentation and the tools.
 The `DP0 Delegate Homepage <https://dp0-1.lsst.io>`_ provides information about the biweekly :ref:`Delegate-Homepage-DP0-Delegate-Assemblies` which will feature live tutorials and question-and-answer time, and about :ref:`Delegate-Homepage-Getting-Support` at any time via the `Rubin Observatory Community forum <https://community.lsst.org/>`_. 
 
-**JupyterLab Tips and Tricks**
+
+JupyterLab Tips and Tricks
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 The file browser was mentioned before and is a handy way to navigate your user home space.
 However, it does not allow you to navigate to e.g. the shared data space.
 One way to make other spaces available in the file browser is to create a sympolic link using the Terminal to the desired space somewhere in your home area.
@@ -164,7 +175,10 @@ Arranging the windows can be convenient when working in both a terminal and note
 
 Note that JupyterLab autosaves your notebooks at a default rate of 2 minutes.
 
-**What to do if DP0.1 Tutorial Notebooks Do Not Automatically Update**
+
+What to do if DP0.1 Tutorial Notebooks Do Not Automatically Update
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 New versions of the tutorial notebooks will be periodically released by the Community Engagement Team.
 The contents of your ``notebooks/tutorial-notebooks/`` directory should automatically update when a new version of a tutorial notebook is released.
 There are several reasons why this might not occur, and, correspondingly, several ways for you to update the contents of your ``notebooks/tutorial-notebooks/`` directory
@@ -187,12 +201,12 @@ You may set them up by typing in the following commands (remember to use the sam
 
 From here, you have three options to update the contents of your ``notebooks/tutorial-notebooks/`` directory.
 
-*Option 1 (if you have not saved changed versions of the notebooks)* - Fully log out, stop the server, and log back in again.
+**Option 1** (if you have not saved changed versions of the notebooks) - Fully log out, stop the server, and log back in again.
 This will automatically refresh the contents of your ``notebooks/tutorial-notebooks/`` directory.
-To fully stop your server, use the control panel at `https://data.lsst.cloud/nb/hub/home <https://data.lsst.cloud/nb/hub/home>`_.
+To fully stop your server, use the control panel at ``https://data.lsst.cloud/nb/hub/home>``.
 Click the red button that says "Stop My Server".
 
-*Option 2 (if you have saved changed versions of the notebooks that you want to keep)* - The first option, above, will not result in you having the most up-to-date versions of all the notebooks if you have made and saved changes to any of the notebooks.
+**Option 2** (if you have saved changed versions of the notebooks that you want to keep) - The first option, above, will not result in you having the most up-to-date versions of all the notebooks if you have made and saved changes to any of the notebooks.
 To check if files have been modified, use this command from a terminal in the ``notebooks/tutorial-notebooks/`` directory.
 
 .. code-block:: bash
@@ -215,7 +229,7 @@ Use the following commands in the terminal window to restore the version in whic
    
 Now your notebooks/tutorial-notebooks directory only contains the most up-to-date versions of the tutorial notebooks, with none of your changes.
 
-*Option 3 (if you don't care about keeping changed versions of the notebooks)* - To get a completely new version of all the tutorial notebooks in your ``notebooks/tutorial-notebooks/`` directory, use the following commands:
+**Option 3** (if you don't care about keeping changed versions of the notebooks) - To get a completely new version of all the tutorial notebooks in your ``notebooks/tutorial-notebooks/`` directory, use the following commands:
 
 .. code-block:: bash
 
