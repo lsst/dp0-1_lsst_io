@@ -117,11 +117,21 @@ If the cell type is markdown, then it will be rendered upon execution to yield n
 
     An example of what users see in the Notebook Aspect. The left panel is a file tree from which you can access your personal files, and which will come pre-populated with a handful of tutorial notebooks that users can execute on their own. The largest panel is the Jupyter notebook, where markdown and code can be entered and executed. You can also see that one can have multiple notebooks open in separate tabs.
 
-**What is a kernel?**
+
+.. _NB-Intro-Use-A-NB-faq:
+
+Frequently Asked Questions
+--------------------------
+
+What is a kernel?
+~~~~~~~~~~~~~~~~~
+
 In the RSP Notebook Aspect, your notebooks will be operating in a kernel that has access to the full Rubin Science Pipelines, including the "Butler" (see below) that will be your main access tool to extract images and catalogs from the DP0.1 data.
 Many standard Python libraries and modules will be available, and users can `install <https://nb.lsst.io/environment/python.html>`_ additional Python tools they wish to use.
 
-**Is all the code in Python?**
+Is all the code in Python?
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Yes, the RSP Notebook Aspect will only have python environments for DP0.
 To access DP0.1 data from the Notebook Aspect, users will need to use Python commands and code.
 Much of the LSST Science Pipelines code is in Python, and the DP0 :ref:`Examples-DP0-1-Notebooks` use Python as well.
@@ -130,19 +140,32 @@ All DP0 delegates should feel free to copy and paste from the provided tutorials
 Anyone new to Python and looking to learn more might benefit from this `Python for Beginners <https://www.python.org/about/gettingstarted>`_ website (which includes links to tutorial in a variety of languages).
 Web searches for "python *(thing you want to do)*" are usually pretty successful too. 
 
-**What is the Butler?**
+What is the Butler?
+~~~~~~~~~~~~~~~~~~~
+
 The Butler is a middleware component of the Data Management System (DMS) for persisting and retrieving datasets from the DP0.1 data repository.
 The only way to access DP0.1 images is via the Butler from a Jupyter Notebook.
 The third generation "Gen3" Butler is the version being used for DP0.1.
 Full `Butler documentation <https://pipelines.lsst.io/modules/lsst.daf.butler/index.html>`_ is available, and one of the :ref:`Examples-DP0-1-Notebooks` focuses on Butler use as well. 
 
-**Where to get support with using DP0 Notebooks.**
+
+.. _NB-Intro-Use-A-NB-tips:
+
+Tips, Tricks, and How to Get Support
+------------------------------------
+
+Where to get support with using DP0 Notebooks.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Keep in mind that if you are not experienced at accessing data via Jupyter notebooks, or using a Science Platform more generally, you are not alone!
 Most of the DP0 delegates are new to this environment, and all of your questions and feedback will help us improve both the documentation and the tools.
 The `DP0 Delegate Homepage <https://dp0-1.lsst.io>`_ provides information about the biweekly :ref:`Delegate-Homepage-DP0-Delegate-Assemblies` which will feature live tutorials and question-and-answer time, and about :ref:`Delegate-Homepage-Getting-Support` at any time via the `Rubin Observatory Community forum <https://community.lsst.org/>`_. 
 
-**JupyterLab Tips and Tricks**
-The file broswer was mentioned before and is a handy way to navigate your user home space.
+
+JupyterLab Tips and Tricks
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The file browser was mentioned before and is a handy way to navigate your user home space.
 However, it does not allow you to navigate to e.g. the shared data space.
 One way to make other spaces available in the file browser is to create a sympolic link using the Terminal to the desired space somewhere in your home area.
 
@@ -151,6 +174,69 @@ This is very handy, but you can also arrange both notebooks and terminals next t
 Arranging the windows can be convenient when working in both a terminal and notebook at the same time, or when using another notebook as a reference.
 
 Note that JupyterLab autosaves your notebooks at a default rate of 2 minutes.
+
+
+What to do if DP0.1 Tutorial Notebooks Do Not Automatically Update
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+New versions of the tutorial notebooks will be periodically released by the Community Engagement Team.
+The contents of your ``notebooks/tutorial-notebooks/`` directory should automatically update when a new version of a tutorial notebook is released.
+There are several reasons why this might not occur, and, correspondingly, several ways for you to update the contents of your ``notebooks/tutorial-notebooks/`` directory.
+
+All of the options below require that you first configure ``git`` for your GitHub account using the terminal in the RSP Notebook Aspect.  
+First, check whether your GitHub user name and email are configured correctly in the ``.gitconfig`` file in your home directory.
+To do this, use the following command in the terminal window of the RSP Notebook Aspect:
+
+.. code-block:: bash
+
+   egrep 'email|name' ~/.gitconfig
+
+If nothing is returned, then your GitHub email and user name have not been set up.
+You may set them up by typing in the following commands (remember to use the same GitHub account information you use to access the RSP):
+
+.. code-block:: bash
+
+   git config --global user.email yourEmail@yourdomain
+   git config --global user.name GItUsername
+
+From here, you have three options to update the contents of your ``notebooks/tutorial-notebooks/`` directory.
+
+**Option 1** (if you have not saved changed versions of the notebooks) - Fully log out, stop the server, and log back in again.
+This will automatically refresh the contents of your ``notebooks/tutorial-notebooks/`` directory.
+To fully stop your server, use the control panel at ``https://data.lsst.cloud/nb/hub/home>``.
+Click the red button that says "Stop My Server".
+
+**Option 2** (if you have saved changed versions of the notebooks that you want to keep) - The first option, above, will not result in you having the most up-to-date versions of all the notebooks if you have made and saved changes to any of the notebooks.
+To check if files have been modified, use this command from a terminal in the ``notebooks/tutorial-notebooks/`` directory.
+
+.. code-block:: bash
+
+   git status
+
+If it says in red text, e.g., ``both modified: 01_Intro_to_DP0_Notebooks.ipynb``, then changes have been made to this file (recall that executing the notebook counts as making changes, and note that Jupyter auto-saves changes on a ~2 minute cadence), but Rubin staff have also updated it (e.g., bug fixes).
+Since the file has been twice modified, ``git`` has gone ahead and annotated file with all the conflicting lines between the two versions.
+This essentially ruins a ``ipynb`` file's functionality (but it is a very useful built-in git feature for, e.g., ascii and code files).
+A ``git``-annotated ``ipynb`` file might not even load or run for you anymore.
+Do a ``git diff 01_Intro_to_DP0_Notebooks.ipynb`` and all the differences will be listed.
+
+Use the following commands in the terminal window to restore the version in which you made changes (this takes it out of 'staged' status and will avoid future errors), copy your version into a different directory and rename it, and then restore the new version of the notebook that was updated by Rubin staff.
+
+.. code-block:: bash
+
+   git restore --staged 01_Intro_to_DP0_Notebooks.ipynb
+   cp 01_Intro_to_DP0_Notebooks.ipynb ~/my-notebooks/01_my_version.ipynb
+   git restore 01_Intro_to_DP0_Notebooks.ipynb
+   
+Now your notebooks/tutorial-notebooks directory only contains the most up-to-date versions of the tutorial notebooks, with none of your changes.
+
+**Option 3** (if you don't care about keeping changed versions of the notebooks) - To get a completely new version of all the tutorial notebooks in your ``notebooks/tutorial-notebooks/`` directory, use the following commands:
+
+.. code-block:: bash
+
+   git reset --hard origin/main
+   git pull
+
+Using any of the above options is the preferred method to update your tutorial notebooks, but as a last resort, you can delete the entire ``tutorial-notebooks`` directory, log out and stop the server, and then log back in again.  
 
 
 .. _NB-Intro-Other_Docs:
