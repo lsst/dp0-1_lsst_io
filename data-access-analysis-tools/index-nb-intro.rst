@@ -181,7 +181,7 @@ What to do if DP0.1 Tutorial Notebooks Do Not Automatically Update
 
 New versions of the tutorial notebooks will be periodically released by the Community Engagement Team.
 The contents of your ``notebooks/tutorial-notebooks/`` directory should automatically update when a new version of a tutorial notebook is released.
-There are several reasons why this might not occur, and, correspondingly, several ways for you to update the contents of your ``notebooks/tutorial-notebooks/`` directory
+There are several reasons why this might not occur, and, correspondingly, several ways for you to update the contents of your ``notebooks/tutorial-notebooks/`` directory.
 
 All of the options below require that you first configure ``git`` for your GitHub account using the terminal in the RSP Notebook Aspect.  
 First, check whether your GitHub user name and email are configured correctly in the ``.gitconfig`` file in your home directory.
