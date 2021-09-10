@@ -61,7 +61,7 @@
      - *Algorithms Q&A. DP0 science topics.*
      - Andrew Bradshaw (Rubin Camera Subsystem Team) 
    * - 2021-11-05
-     - *delegate presenter(s): Louise Edwards*
+     - *delegate presenter(s): Louise Edwards and ...*
      - *delegate working groups*
      - *TBD*
    * - 2021-11-19
