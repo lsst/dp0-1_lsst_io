@@ -120,9 +120,8 @@ Everyone is welcome to propose breakout topics for the second hour.
 The first five minutes of the second hour will be spent connecting people with similar interests and setting up breakout rooms.
 Rubin staff will always be on hand to answer questions and provide assistance with DP0-related work during this time.
 
-Assemblies will occur biweekly on Fridays from 9am to 11am US Pacific time (alternating with `Stack Club`_; 4pm UTC), which will be convenient for DP0 delegates in the timezones of North and South America, Europe, and Africa.
-There will also be a monthly `Third Thursday Office Hour`_ live virtual meetings at 9am Sydney time, which will be convenient for DP0 delegates in the timezones of Australia and Asia.
-Everyone is welcome to attend any and all of these sessions, as they are not restricted to delegates.
+Assemblies will occur biweekly on Fridays from 9am to 11am US Pacific time (alternating with `Stack Club`_; 4pm UTC).
+Everyone is welcome to attend, the assemblies are not restricted to delegates.
 
 .. _DP0-Delegate-Programming-Assemblies:
 
@@ -143,21 +142,13 @@ Third Thursday Office Hour
 
 **Connection Info:**  `ls.st/dp0-events <http://ls.st/dp0-events>`_
 
-These live virtual meetings on the third thursday of the month at 9am in Sydney Australia (which is Wed at 4pm US Pacific Daylight Time, 11pm UTC) will be open drop-in time for DP0 delegates.
-Rubin staff will be in attendance.
-There is no set agenda for these sessions, the activities will be whatever the DP0 delegates in attendance request.
+Three live virtual meetings were held on Thursday Jul 15, Aug 19, and Sep 16 at 9am in Sydney Australia (which is Wed at 4pm US Pacific Daylight Time, 11pm UTC).
+The timing of these open drop-in discussion sessions was designed to compensate for the fact that the time of the Delegate Assemblies was only convenient for DP0 delegates in North and South America, Europe, and Africa.
+There is no set agenda for these sessions, but Rubin staff are always in attendance, and topics are left open to attendees.
 For example, delegates could discuss their DP0-related analysis with Rubin staff and with each other, review the DP0 RSP tutorials together, collaborate on DP0-related science, and get support from Rubin staff as needed.
+These sessions are not recorded.
 
-| **Dates:** 
-| - Thu July 15 2021
-| - Thu Aug 19 2021
-| - Thu Sep 16 2021
-
-More dates will be added to continue these office hours if they are useful to DP0 delegates in Australia and Asia.
-
-.. | - Thu Oct 10 2021
-.. | - Thu Nov 17 2021
-.. | - Thu Jan 19 2022
+Future dates for the DP0 Third Thursday Office Hour are available by request (contact Melissa Graham).
 
 
 Stack Club
