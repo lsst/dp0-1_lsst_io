@@ -109,6 +109,7 @@ Here we distinguish between the TAP- and Butler-accessible catalog data products
 **Schema:** 
 A table's "schema" refers to the column names, units, and descriptions of the tabulated data.
 Links to full or curated versions of the table schema (curated meaning limited to columns that will be of most use to most DP0 delegates) are provided in the tables below.
+A `DP0.1 schema browser <https://dm.lsst.org/sdm_schemas/browser/dp01.html>`_ is also available, thanks to the Rubin Data Management team.
 
 **Principal Columns:**
 For convenience, Rubin staff have identified the principal columns which are most likely to be useful.
