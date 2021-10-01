@@ -29,28 +29,28 @@
      - Second Hour Breakouts Topics
      - Chair and Presenter(s)
    * - 2021-07-16
-     - Introduction to DP0, and to the RSP's Notebook and Portal Aspects.
-     - *Q&A with Rubin staff.* 
+     - `Introduction to DP0, and to the RSP's Notebook and Portal Aspects. <https://community.lsst.org/t/summary-delegate-assembly-fri-jul-16/5689>`_
+     - General Q&A. Portal queries Q&A. Python learners. Lightcurves. Large scale structure (LSS).
      - The Community Engagement Team (Melissa Graham)
    * - 2021-07-30
-     - Querying Catalogs with TAP in the Notebook and Portal Aspects.
-     - *Portal Q&A. Notebook Q&A. DP0 science topics.* 
+     - `Querying Catalogs with TAP in the Notebook and Portal Aspects. <https://community.lsst.org/t/summary-delegate-assembly-fri-jul-30/5747>`_
+     - LSS Working Group. Data visualization. General Q&A. Delegate "New Friends". Single-star lightcurves. 
      - The Community Engagement Team (Leanne Guy)
    * - 2021-08-13
      - no assembly (Rubin 2021 Project and Community Workshop)
      - 
      - 
    * - 2021-08-27
-     - Image Query, Retrieval, and Display.
-     - *How to use afwDisplay. Image type Q&A. DP0 science topics.*
+     - `Image Query, Retrieval, and Display. <https://community.lsst.org/t/summary-delegate-assembly-fri-aug-27/5845>`_
+     - More fun with image display. 
      - The Community Engagement Team (Jeff Carlin)
    * - 2021-09-10
-     - Using the Butler for Data Discovery.
-     - *Butler Q&A. Gen3 for Gen2 Users. DP0 science topics.*
+     - `Using the Butler for Data Discovery. <https://community.lsst.org/t/summary-delegate-assembly-fri-sep-10/5850>`_
+     - More fun with the Butler. General Q&A. Delegate networking.
      - The Community Engagement Team (Alex Drlica-Wagner)
    * - 2021-09-24
-     - LSST Science Pipelines
-     - *Pipelines Q&A. DP0 science topics.*
+     - `LSST Science Pipelines <https://community.lsst.org/t/summary-delegate-assembly-friday-september-24/5884>`_
+     - Source detection and measurement. Supernovae. Resolved stellar populations. General Q&A.
      - Yusra AlSayyad (Rubin Algorithms and Pipelines Team)
    * - 2021-10-08
      - Data Visualization
