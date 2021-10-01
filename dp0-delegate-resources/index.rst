@@ -282,7 +282,8 @@ Make a new topic in the Community Forum's Data Preview 0 category titled, e.g., 
 
 **Current working groups and their contact info:**
 
-List maintainer: Melissa Graham
+.. list-table:: DP0 Working Groups. Contact Melissa Graham to add to this list.
+   :header-rows: 1
 
    * - Working Group
      - Contact
