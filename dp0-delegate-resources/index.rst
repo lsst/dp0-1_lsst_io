@@ -261,28 +261,29 @@ DP0 Working Groups
 ==================
 
 "DP0 Working Groups" (DP0 WGs) are any collection of DP0 delegates who want to work together on similar DP0-related science or analysis tools.
-There are no pre-set DP0 WGs topics, and anyone can propose and lead a DP0 WG. 
+WG are meant to be fairly informal; there are no pre-set DP0 WGs topics, and anyone can propose and coordinate a DP0 WG. 
 The Rubin CET is supporting DP0 WGs by providing Zoom breakout rooms for co-working sessions and a shared repository in the ``rubin-dp0`` GitHub Organization, as described below.
 To get your DP0 WG on the list below, or request any other kind of DP0 WG support, please contact Melissa Graham.
 
 **When would DP0 working groups meet?**
 Breakout rooms during the second hour of the `DP0 Delegate Assemblies`_, or anytime during `Stack Club`_ sessions, will be created for any and all who request one.
-Working groups could also meet any other time they want at the convenience of their members. 
+Working groups could also meet any other time they want to, for the convenience of their members. 
 
 **How would DP0 working groups collaborate?**
 One way to facilitate collaborative work is to use the delegates' `shared repository <https://github.com/rubin-dp0/delegate-contributions-dp01>`_ in the ``rubin-dp0`` GitHub Organization. 
-As described in that repository's readme file, simply create a new folder in the repository with an appropriate name (e.g., for a Transients Hosts Galaxies DP0 Working Group, could use "wg-transients-host-galaxies").
-To facilitate collaboration it is recommended to keep a readme file updated with the working group contacts and status of the folder's contents.
+As described in that repository's readme file, simply create a new directory in the repository with an appropriate name (e.g., for a Transients Hosts Galaxies DP0 Working Group, could use "wg-transients-host-galaxies").
+To facilitate collaboration it is recommended to keep a readme file updated with descriptions of the directory's contents.
 
 **Can I start a DP0 working group by myself?**
 Yes! In time, other delegates might join your efforts, and remember that more delegates will be joining for DP0.2 next year.
 
 **How can I advertise a DP0 working group?**
-Make a new topic in the Community Forum's Data Preview 0 category titled, e.g., "Invitation to Join the Transient Host Galaxies DP0 Working Group", describe some of the groups potential activities, link to the relevant folder in the shared GitHub repository, and say when and where the tag-ups will be.
+Make a new topic in the Community Forum's Data Preview 0 category titled, e.g., "Invitation to Join the Transient Host Galaxies DP0 Working Group".
+If applicable, describe some of the groups potential activities, link to the relevant folder in the shared GitHub repository, and/or say when and where the tag-ups will be.
 
 **Current working groups and their contact info:**
 
-.. list-table:: DP0 Working Groups. Contact Melissa Graham to add to this list.
+.. list-table:: Active DP0 Working Groups. 
    :header-rows: 1
 
    * - Working Group
