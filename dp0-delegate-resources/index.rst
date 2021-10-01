@@ -140,7 +140,7 @@ Suggestions and contributed talks are welcome from anyone, e.g., delegates, Rubi
 Third Thursday Office Hour
 --------------------------
 
-**Connection Info:**  `ls.st/dp0-events <http://ls.st/dp0-events>`_
+.. **Connection Info:**  `ls.st/dp0-events <http://ls.st/dp0-events>`_
 
 Three live virtual meetings were held on Thursday Jul 15, Aug 19, and Sep 16 at 9am in Sydney Australia (which is Wed at 4pm US Pacific Daylight Time, 11pm UTC).
 The timing of these open drop-in discussion sessions was designed to compensate for the fact that the time of the Delegate Assemblies was only convenient for DP0 delegates in North and South America, Europe, and Africa.
@@ -231,6 +231,7 @@ Extend or enhance the benefits of DP0 in the science community.
 ---------------------------------------------------------------
 
 | - join one of the eight `LSST Science Collaborations <https://www.lsstcorporation.org/science-collaborations>`_
+|   -- consider participating in the Science Collaborations' `DP0 New Friends program <https://community.lsst.org/t/invitation-for-dp0-delegates-to-participate-in-the-lsst-science-collaborations-new-friends-program/5700>`_
 |
 | - participate in the `Rubin Community Forum`_'s DP0-related categories
 |   -- ask questions about using the RSP or the DP0 data set
@@ -281,7 +282,14 @@ Make a new topic in the Community Forum's Data Preview 0 category titled, e.g., 
 
 **Current working groups and their contact info:**
 
-*(None so far! Contact Melissa Graham to have your WG appear here.)*
+List maintainer: Melissa Graham
+
+   * - Working Group
+     - Contact
+   * - `Supernovae <https://community.lsst.org/t/dp0-1-supernova-science-join-the-fun/5869>`_
+     - Melissa Graham
+   * - `Large Scale Structure <https://community.lsst.org/t/invitation-to-join-dp0-lss-working-group/5694>`_
+     - Bernardita Ried Guachalla
 
 
 .. _Delegate-Homepage-Getting-Support:
