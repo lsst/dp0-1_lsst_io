@@ -289,7 +289,7 @@ If applicable, describe some of the groups potential activities, link to the rel
    * - Working Group
      - Contact
    * - `Supernovae <https://community.lsst.org/t/dp0-1-supernova-science-join-the-fun/5869>`_
-     - Melissa Graham
+     - Fabio Ragosta
    * - `Large Scale Structure <https://community.lsst.org/t/invitation-to-join-dp0-lss-working-group/5694>`_
      - Bernardita Ried Guachalla
 
