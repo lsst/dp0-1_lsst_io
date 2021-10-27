@@ -69,9 +69,9 @@
      - *delegate working groups*
      - *TBD*
    * - 2021-12-03
-     - *delegate presenter(s)*
+     - Image Processing
      - *delegate working groups*
-     - *TBD*
+     - Andrew Bradshaw (Rubin Camera Subsystem Team)
    * - 2022-01-14
      - *delegate presenter(s)*
      - *delegate working groups*
