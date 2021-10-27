@@ -54,11 +54,11 @@
      - Yusra AlSayyad (Rubin Algorithms and Pipelines Team)
    * - 2021-10-08
      - `Data Visualization <https://community.lsst.org/t/summary-delegate-assembly-friday-october-8/5960>`_
-     - *Visualization packages Q&A. DP0 science topics.*
+     - Visualization packages Q&A. DP0 science topics.
      - Keith Bechtol (Rubin Commissioning Team)
    * - 2021-10-22
      - `Delegate Breakouts <https://community.lsst.org/t/summary-delegate-assembly-friday-october-22/5984>`_
-     - *New-to-DP0 tutorial. Supernovae. Large scale structure. Resolved stellar populations. General Q&A.*
+     - New-to-DP0 tutorial. Supernovae. Large scale structure. Resolved stellar populations. General Q&A.
      - The Community Engagement Team 
    * - 2021-11-05
      - Delegate presenters: Louise Edwards and Kristen Larson.
