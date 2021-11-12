@@ -61,9 +61,9 @@
      - New-to-DP0 tutorial. Supernovae. Large scale structure. Resolved stellar populations. General Q&A.
      - The Community Engagement Team 
    * - 2021-11-05
-     - Delegate presenters: Louise Edwards and Kristen Larson.
-     - *delegate working groups*
-     - *TBD*
+     - `Delegate presenters: Louise Edwards and Kristen Larson <https://community.lsst.org/t/summary-delegate-assembly-fri-nov-5/6071>`_
+     - Resolved stellar populations. Large scale strucutre. Extinction in DP0. General Q&A.
+     - Louise Edwards, Kristen Larson, and the CET
    * - 2021-11-19
      - *delegate presenter(s)*
      - *delegate working groups*
