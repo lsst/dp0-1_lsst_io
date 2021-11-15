@@ -65,9 +65,9 @@
      - Resolved stellar populations. Large scale strucutre. Extinction in DP0. General Q&A.
      - Louise Edwards, Kristen Larson, and the CET
    * - 2021-11-19
-     - *delegate presenter(s)*
+     - Sylvie Dagoret-Campagne *and one more delegate presenter?*
      - *delegate working groups*
-     - *TBD*
+     - Sylvie Dagoret-Campagne and the CET
    * - 2021-12-03
      - Image Processing
      - *delegate working groups*
