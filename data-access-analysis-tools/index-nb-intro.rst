@@ -59,7 +59,7 @@ Pressing the orange start button to start the server returns this page with a bl
 
     Be patient. Sometimes it takes a couple of minutes to start a server.
 
-**Navigatate via the JupyterLab Interface:**
+**Navigatating the JupyterLab Interface:**
 The JupyterLab landing page in the figure below is the launch pad for all JupyterLab functionality (e.g., Notebook, Terminal).
 Return to this launch pad at any time by clicking the plus symbol at upper left.
 For DP0.1, most users will prefer using the Notebook or Terminal, but there is also a Python Console available.
@@ -75,8 +75,12 @@ In the very left-most vertical sidebar of icons, the top icon is a file folder, 
 The left sidebar lists folders in the user's home directory (e.g., DATA, WORK, and notebooks).
 Launching a terminal (the default is a linux bash terminal) and using the command "ls" will return the same list.
 Navigate the file system and open files by double-clicking on folders and files in the left sidebar.
-All users will find a set of tutorial notebooks provided in the notebooks directory (:ref:`Examples-DP0-1-Notebooks`).
+
+Although the file browser is a handy way to navigate your user home space, it does not allow you to navigate to, e.g., the shared data space.
+One way to make other spaces available in the file browser is to create a `sympolic link <https://en.m.wikipedia.org/wiki/Symbolic_link>`_ using the Terminal to the desired space somewhere in your home directory.
+
 Jupyter Notebooks can be identified by their suffix ".ipynb". 
+All users will find a set of tutorial notebooks provided in the "notebooks/" directory.
 
 **Safely Log Out of JupyterLab:**
 Use the File item in the top menu bar.
@@ -91,6 +95,7 @@ How to Use the JupyterLab Terminal
 ==================================
 
 The DP0.1 data sets and the LSST Science Pipelines tools can both be accessed from the command line of a JupyterLab terminal tab.
+A terminal session can be started by clicking on the terminal icon in the Jupyterlab launch pad.
 As described in the default message that appears in all newly-launched terminals, to create a Rubin Observatory environment in a JupyterLab terminal session and set up the full set of packages, users must first execute:
 
 .. code-block:: bash
@@ -123,6 +128,14 @@ If the cell type is markdown, then it will be rendered upon execution to yield n
 
     An example of what users see in the Notebook Aspect. The left panel is a file tree from which you can access your personal files, and which will come pre-populated with a handful of tutorial notebooks that users can execute on their own. The largest panel is the Jupyter notebook, where markdown and code can be entered and executed. You can also see that one can have multiple notebooks open in separate tabs.
 
+**Opening Multiple Notebooks:**
+You can have multiple notebooks and terminals open in your viewer at a time.
+This is very handy, but you can also arrange both notebooks and terminals next to or on top of each other by dragging the notebook or terminal around by the top bar.
+Arranging the windows can be convenient when working in both a terminal and notebook at the same time, or when using another notebook as a reference.
+
+**JupyterLab Autosaves Notebooks:**
+Note that JupyterLab autosaves your notebooks at a default rate of 2 minutes.
+
 
 .. _NB-Intro-Use-A-NB-faq:
 
@@ -152,38 +165,49 @@ What is the Butler?
 The Butler is a middleware component of the Data Management System (DMS) for persisting and retrieving datasets from the DP0.1 data repository.
 The only way to access DP0.1 images is via the Butler from a Jupyter Notebook.
 The third generation "Gen3" Butler is the version being used for DP0.1.
-Full `Butler documentation <https://pipelines.lsst.io/modules/lsst.daf.butler/index.html>`_ is available, and one of the :ref:`Examples-DP0-1-Notebooks` focuses on Butler use as well. 
+Full `Butler documentation <https://pipelines.lsst.io/modules/lsst.daf.butler/index.html>`_ is available, and one of the :ref:`Examples-DP0-1-Notebooks` focuses on Butler use as well.
 
 How do I ask more questions about the RSP's Notebook Aspect?
 ------------------------------------------------------------
 
 Keep in mind that if you are not experienced at accessing data via Jupyter notebooks, or using a Science Platform more generally, you are not alone!
 Most of the DP0 delegates are new to this environment, and all of your questions and feedback will help us improve both the documentation and the tools.
-The `DP0 Delegate Homepage <https://dp0-1.lsst.io>`_ provides information about the biweekly :ref:`Delegate-Homepage-DP0-Delegate-Assemblies` which will feature live tutorials and question-and-answer time, and about :ref:`Delegate-Homepage-Getting-Support` at any time via the `Rubin Observatory Community forum <https://community.lsst.org/>`_ or via GitHub Issues. 
 
+The `DP0 Delegate Homepage <https://dp0-1.lsst.io>`_ provides information about :ref:`Delegate-Homepage-Getting-Support` at any time via the `Rubin Observatory Community Forum <https://community.lsst.org/>`_ or via GitHub Issues.
+Another option is to attend the biweekly :ref:`Delegate-Homepage-DP0-Delegate-Assemblies` which will feature live tutorials and question-and-answer time with Rubin staff.
+
+Beginner-level questions are very welcome, both in the Community Forum and during the Delegate Assemblies.
+To encourage questions in the Forum, a couple of beginner-level topics have been started to share resources for learning `python <https://community.lsst.org/t/resources-for-python-beginners/5975>`_ and `SQL <https://community.lsst.org/t/sql-adql-beginner-resources/6051>`_. 
+People new to the Rubin Community Forum might appreciate `this video demonstrating how to navigate and post topics to the forum <https://www.youtube.com/watch?v=d_Z5xmkR4P4&list=PLPINAcUH0dXZSx2aY6wTIjLCWiexs3dZR&index=10>`_.
 
 
 .. _NB-Intro-Use-A-NB-tips:
 
-Tips, Tricks, and How to Get Support
-------------------------------------
+Troubleshooting Tips
+====================
 
-JupyterLab Tips and Tricks
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+How to recover from package import errors (ImportError)
+-------------------------------------------------------
 
-The file browser was mentioned before and is a handy way to navigate your user home space.
-However, it does not allow you to navigate to e.g. the shared data space.
-One way to make other spaces available in the file browser is to create a sympolic link using the Terminal to the desired space somewhere in your home area.
+**The Problem:** In this case the problem manifests when a package cannot be properly imported.
+This leads to an ImportError for which the last line of the traceback actually points to the file it is trying to import from, and it is in the users ``.local`` directory.
 
-You can have multiple notebooks and terminals open in your viewer at a time.
-This is very handy, but you can also arrange both notebooks and terminals next to or on top of each other by dragging the notebook or terminal around by the top bar.
-Arranging the windows can be convenient when working in both a terminal and notebook at the same time, or when using another notebook as a reference.
+If a user sees a mention of ``.local`` anywhere in the exception, there is a chance they have installed packages that are polluting stack environments, and this is a big red flag that following the solution below will be necessary.
 
-Note that JupyterLab autosaves your notebooks at a default rate of 2 minutes.
+However, this is not the only way this problem can manifest, as issues with user-installed packages can be hard to track down. E.g., it might import fine, but then not be able to find an attribute or method on a particular object.
+
+**The Solution:** Users should exit the RSP and then clear their ``.local`` file when they log back in to the Notebook Aspect by checking the box "Clear .local directory (caution!)" on the Hub spawner page (see the "Server Options" image at the top of this page). This option is simple and effective, and also helps in cases where the user-installed packages are keeping JupyterLab from starting.
+
+**An Alternative Solution:** The user should first close and shutdown the notebook (or, e.g., ipython session) which is experiencing the error, and then launch a terminal in the Notebook Aspect and move their ``.local`` file out of the way by renaming it as something else, such as:
+
+``mv ~/.local ~/.local_[YYYY][MM][DD]``
+
+There will be no need to recreate the ``.local`` directory after this.
+The user should then restart the notebook (or, e.g., ipython session) and try to import the packages.
 
 
 What to do if DP0.1 Tutorial Notebooks Do Not Automatically Update
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------------------------------
 
 New versions of the tutorial notebooks will be periodically released by the Community Engagement Team.
 The contents of your ``notebooks/tutorial-notebooks/`` directory should automatically update when a new version of a tutorial notebook is released.
