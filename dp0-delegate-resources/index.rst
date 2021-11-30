@@ -28,7 +28,9 @@ This term has been adopted to reflect DP0 participants’ important roles of rep
 Delegates’ DP0-related activities will be supported with resources and infrastructure (as described below).
 The simulated data set being used for DP0 was created by the Dark Energy Science Collaboration (DESC) as part of their second Data Challenge (DC2). 
 
-| **Delegate "Getting Started" Checklist**
+"Getting Started" Checklist
+---------------------------
+
 | 1. Review the `Guidelines and Expectations`_ for delegates.
 | 2. Get one of the `RSP Accounts`_ for DP0 delegates.
 | 3. Set up your account in the `Rubin Community Forum`_.
