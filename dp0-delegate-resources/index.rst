@@ -70,6 +70,7 @@ Rubin Community Forum
 
 The `Rubin Community Forum <http://community.lsst.org>`_ is the central hub for all virtual discussions and support.
 It is the best place to post your questions about anything and everything related to DP0.
+People new to the Rubin Community Forum might appreciate `this video demonstrating how to navigate and post topics to the forum <https://www.youtube.com/watch?v=d_Z5xmkR4P4&list=PLPINAcUH0dXZSx2aY6wTIjLCWiexs3dZR&index=10>`_.
 
 **Accounts:** 
 Go to `<http://community.lsst.org>`_ and use the "sign up" button at upper right to create an account (unless you have one already).
@@ -82,6 +83,7 @@ This will ensure you have access to the private "Support - DP0 RSP Service Issue
 | 1. `Support - Data Preview 0 <https://community.lsst.org/c/support/dp0>`_: for all questions and discussions related to DP0. For example, use of the RSP's aspects for science, contents of the DC2 data set, delegate activities, brainstorm new investigations, show-and-tell DP0-related results, etc.
 | 2. "Support - DP0 RSP Service Issues": a private subcategory for technical Q&A and discussion about potential bugs, service outages, etc.
 | 3. Topics `tagged with #dp0 <https://community.lsst.org/tag/dp0>`_ across all categories. 
+
 
 
 DP0 Kick-Off Info Sessions 
@@ -105,8 +107,12 @@ DP0 Delegate Assemblies
 
 **Connection Info:** `ls.st/dp0-events <http://ls.st/dp0-events>`_
 
+**Time:** Biweekly on Fridays from 9am to 11am US Pacific time (alternating with `Stack Club`_; 4pm UTC).
+See the schedule below for dates.
+
 The Delegate Assemblies are a live, virtual seminars for DP0 delegates to learn more about DP0, the RSP, and the DC2 data set. 
 Every assembly will be split into 2 one-hour sections, and all are welcome to join for only the first or second hour, or both hours.
+Everyone is welcome to attend, the assemblies are not restricted to delegates.
 
 | **First hour: a "formal" presentation with Q&A**, such as:
 |   -- hands-on demonstrations and tutorials by Rubin staff
@@ -120,8 +126,6 @@ Everyone is welcome to propose breakout topics for the second hour.
 The first five minutes of the second hour will be spent connecting people with similar interests and setting up breakout rooms.
 Rubin staff will always be on hand to answer questions and provide assistance with DP0-related work during this time.
 
-Assemblies will occur biweekly on Fridays from 9am to 11am US Pacific time (alternating with `Stack Club`_; 4pm UTC).
-Everyone is welcome to attend, the assemblies are not restricted to delegates.
 
 .. _DP0-Delegate-Programming-Assemblies:
 
@@ -135,20 +139,6 @@ Please reach out to Melissa Graham with suggestions or contributions (e.g., send
 Suggestions and contributed talks are welcome from anyone, e.g., delegates, Rubin staff.
 
 .. include:: dp0-delegate-assemblies-schedule.inc
-
-
-Third Thursday Office Hour
---------------------------
-
-.. **Connection Info:**  `ls.st/dp0-events <http://ls.st/dp0-events>`_
-
-Three live virtual meetings were held on Thursday Jul 15, Aug 19, and Sep 16 at 9am in Sydney Australia (which is Wed at 4pm US Pacific Daylight Time, 11pm UTC).
-The timing of these open drop-in discussion sessions was designed to compensate for the fact that the time of the Delegate Assemblies was only convenient for DP0 delegates in North and South America, Europe, and Africa.
-There is no set agenda for these sessions, but Rubin staff are always in attendance, and topics are left open to attendees.
-For example, delegates could discuss their DP0-related analysis with Rubin staff and with each other, review the DP0 RSP tutorials together, collaborate on DP0-related science, and get support from Rubin staff as needed.
-These sessions are not recorded.
-
-Future dates for the DP0 Third Thursday Office Hour are available by request (contact Melissa Graham).
 
 
 Stack Club
@@ -171,32 +161,40 @@ Stack Club members use the NCSA implementation of the RSP, where they also have 
 DP0 delegates do not need NCSA accounts because they have RSP accounts at the IDF.
 
 
+Third Thursday Office Hour
+--------------------------
+
+Three live virtual meetings were held on Thursday Jul 15, Aug 19, and Sep 16 at 9am in Sydney Australia (which is Wed at 4pm US Pacific Daylight Time, 11pm UTC).
+The timing of these open drop-in discussion sessions was designed to compensate for the fact that the time of the Delegate Assemblies was only convenient for DP0 delegates in North and South America, Europe, and Africa.
+These sessions were not recorded.
+
+Future dates for the DP0 Third Thursday Office Hour are available by request (contact Melissa Graham).
+
+There is no set agenda for these sessions, but Rubin staff are always in attendance, and topics are left open to attendees.
+For example, delegates could discuss their DP0-related analysis with Rubin staff and with each other, review the DP0 RSP tutorials together, collaborate on DP0-related science, and get support from Rubin staff as needed.
+
+
+
 .. _Delegate-Homepage-Guidelines-Expectations:
 
 Guidelines and Expectations
 ===========================
 
-**Understand the shared-risk basis of DP0 RSP use.** 
-Delegates are responsible for their own safe usage of the RSP and must be familiar with this list of :ref:`Data-Access-Analysis-Tools-RSP-Warnings`
+**Understand the :ref:`Data-Access-Analysis-Tools-RSP-Warnings` of using the DP0 RSP on a shared-risk basis.**
 
-**Abide by the code of conduct.** 
-All delegates are expected to abide by the `LSST Communications Code of Conduct <https://docushare.lsstcorp.org/docushare/dsweb/Get/Document-24920/>`_.
+**Abide by the :ref:`Delegate-Homepage-Code-of-Conduct`.** 
 
-**Use appropriate acknowledgements and citations.** 
-If you publish work enabled by DP0, the RSP, and/or the DESC's DC2 data set, please include: "CosmoDC2: A Synthetic Sky Catalog for Dark Energy Science with LSST" `Korytov et al (2019) <https://ui.adsabs.harvard.edu/abs/2019ApJS..245...26K/abstract>`_, “The LSST DESC DC2 Simulated Sky Survey” (`arXiv:2010.05926 <https://arxiv.org/abs/2010.05926>`_), and potentially “DESC DC2 Data Release Note” (`arXiv:2101.04855 <https://arxiv.org/abs/2101.04855>`_), especially if you used the Object or Truth-Match tables presented in that release note.
-If you use someone else's Jupyter Notebook as a starting point for your work, please include the original creator(s) in your acknowledgements. 
+**Adhere to the :ref:`Delegate-Homepage-PubPol`.** 
+.. If you publish work enabled by DP0, the RSP, and/or the DESC's DC2 data set, please include: "CosmoDC2: A Synthetic Sky Catalog for Dark Energy Science with LSST" `Korytov et al (2019) <https://ui.adsabs.harvard.edu/abs/2019ApJS..245...26K/abstract>`_, “The LSST DESC DC2 Simulated Sky Survey” (`arXiv:2010.05926 <https://arxiv.org/abs/2010.05926>`_), and potentially “DESC DC2 Data Release Note” (`arXiv:2101.04855 <https://arxiv.org/abs/2101.04855>`_), especially if you used the Object or Truth-Match tables presented in that release note.
+.. If you use someone else's Jupyter Notebook as a starting point for your work, please include the original creator(s) in your acknowledgements. 
 
-**Choose a delegate activity.**
-Delegates are invited to take on an activity that helps to maximize the impact of DP0 with respect to the DP0 goals of testing and informing development of the RSP and preparing the scientific community to do LSST science.
-See `Suggested Delegate Activities`_. 
+**Use your RSP account!** Delegates are invited to choose from one of these `Suggested Delegate Activities`_.
+.. Delegates are invited to take on an activity that helps to maximize the impact of DP0 with respect to the DP0 goals of testing and informing development of the RSP and preparing the scientific community to do LSST science.  
 
-**Interact with your co-delegates.**
-Participate in the `Rubin Community Forum`_ and join the biweekly `DP0 Delegate Assemblies`_ as often as you can.
-
-**Use your RSP account!**
-As there are a limited number of RSP accounts for DP0, please try to make some use of your account and learn to use at least one aspect of the RSP.
-There is no minimum time that you're expected to spend on DP0.
-If you find that you are done with DP0, consider relinquishing your account so it can be offered to someone else.
+.. **Use your RSP account!**
+.. As there are a limited number of RSP accounts for DP0, please try to make some use of your account and learn to use at least one aspect of the RSP.
+.. There is no minimum time that you're expected to spend on DP0.
+.. If you find that you are done with DP0, consider relinquishing your account so it can be offered to someone else.
 
 
 .. _Delegate-Homepage-Delegate-Activities:
@@ -215,7 +213,7 @@ Inform and improve the Rubin Science Platform
 ---------------------------------------------
 
 | - complete one or more feedback surveys for Rubin Observatory
-|   -- *(links will be circulated when the feedback surveys are ready)*
+|   -- read about `the results from the first DP0 survey <https://community.lsst.org/t/the-dp0-1-feedback-survey-action-items/6105>`_
 | - submit bug reports via GitHub issues (`here <https://github.com/rubin-dp0/Support>`_; see `Getting Support`_, below)
 | - suggest a new RSP feature via GitHub issues (`here <https://github.com/rubin-dp0/Support>`_)
 | - post about your experiences in the `Data Preview 0 <https://community.lsst.org/c/support/dp0>`_ forum category
@@ -350,7 +348,7 @@ Code of Conduct
 ===============
 
 Please review the Rubin Code of Conduct (CoC) at `ls.st/comms-coc <http://ls.st/comms-coc>`_.
-
+ 
 | To summarize the CoC:
 | - Bullying and harassment will not be tolerated.
 | - Research inclusion and collaborative work must not be impeded by poor behavior.
@@ -364,3 +362,27 @@ Here are some guidelines on `how to react if your post is flagged <https://commu
 If you experience or witness a violation of the Code of Conduct in another venue, please reach out to Sandrine Thomas, one of the `Rubin Observatory Workplace Culture Advocates <https://project.lsst.org/workplace-culture-advocate>`_ who has agreed to be the contact person for DP0 Delegates.
 Please also feel free to reach out to any Community Engagement Team member at any time: Melissa Graham, Jeff Carlin, Greg Madejski, Jim Annis, Alex Drlica-Wagner, or Tina Adair.
 All can be contacted by email or via direct message in the Community Forum.
+
+
+.. _Delegate-Homepage-PubPol:
+
+Policies for Acknowledgments, Citations, and Publications
+=========================================================
+
+**Cite the DESC’s publications for the DC2 simulated data set**, which is being used for DP0.
+If you publish work based on the DP0 data set, you must cite “CosmoDC2: A Synthetic Sky Catalog for Dark Energy Science with LSST” (`Korytov et al 2019 <https://ui.adsabs.harvard.edu/abs/2019ApJS..245...26K/abstract>`_), “The LSST DESC DC2 Simulated Sky Survey” (`arXiv:2010.05926 <https://arxiv.org/abs/2010.05926>`_), and potentially “DESC DC2 Data Release Note” (`arXiv:2101.04855 <https://arxiv.org/abs/2101.04855>`_) if you used the Object or Truth-Match tables, which are presented in that release note.
+
+**Consider extending co-authorship or acknowledgements to DP0 delegates whose work you used, or who have helped you, as appropriate.**
+Delegates are encouraged to openly share their DP0-related work and/or code during :ref:`Delegate-Homepage-DP0-Delegate-Assemblies`, via the `Community Forum <https://community.lsst.org/>`_, within :ref:`Delegate-Homepage-Working-Groups`, and in the shared GitHub repository `delegate-contributions-dp01 <https://github.com/rubin-dp0/delegate-contributions-dp01>`_.
+This is intended to facilitate collaboration, which requires proper acknowledgements.
+For example, if you use another delegate’s Jupyter Notebook as a starting point for your Notebook, give credit to that person at the top of your Notebook.
+If another delegate’s work contributed to your DP0-related publication, consider including an acknowledgement, citing their relevant publications, and/or extending co-authorship, as appropriate.
+
+**Be aware that DP0-related work done by Science Collaboration (SC) members might be subject to the publication policies of their Science Collaborations.**
+Significant overlap between the DP0 working groups and SC working groups, committees, or task forces is to be expected, because the science goals of DP0 and the SCs overlap (i.e., preparing for LSST).
+Each SC has their own policies regarding collaboration, co-authorship, and publications and delegates are responsible for following the policies of their SCs, if and when they pertain to their DP0-related work.
+If cases of real or perceived conflict between the general open nature of DP0 collaboration and any SC policies arise, delegates are expected to understand and abide by their SC’s policies.
+In other words, the fact that work is DP0-related does not nullify any SC policies that might apply to a delegate’s work.
+Example scenarios might include sharing SC-developed software with delegates who are not members of that SC, or using code or analysis results collaboratively by delegates in a SC publication.
+
+Note that the `Rubin Observatory Publication Policy <https://docushare.lsst.org/docushare/dsweb/Get/LPM-162>`_ does not apply to publications by delegates that are based on their DP0 work.
