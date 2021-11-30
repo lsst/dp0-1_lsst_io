@@ -28,15 +28,27 @@ This term has been adopted to reflect DP0 participants’ important roles of rep
 Delegates’ DP0-related activities will be supported with resources and infrastructure (as described below).
 The simulated data set being used for DP0 was created by the Dark Energy Science Collaboration (DESC) as part of their second Data Challenge (DC2). 
 
-| **Delegate Action Items Checklist**
-| 1. Get one of the `RSP Accounts`_ for DP0 delegates.
-| 2. Set up your account in the `Rubin Community Forum`_.
-| 3. Watch one of the recorded `DP0 Kick-Off Info Sessions`_.
-| 4. Review the `Guidelines and Expectations`_ for delegates.
-| 5. Consider participating in the `DP0 Delegate Assemblies`_.
+| **Delegate "Getting Started" Checklist**
+| 1. Review the `Guidelines and Expectations`_ for delegates.
+| 2. Get one of the `RSP Accounts`_ for DP0 delegates.
+| 3. Set up your account in the `Rubin Community Forum`_.
+| 4. Watch the recorded `DP0 Kick-Off Info Sessions`_.
+| 5. Consider attending the `DP0 Delegate Assemblies`_.
 | 6. Learn about `Getting Support`_ for DP0. 
 
-.. Review content in <https://confluence.lsstcorp.org/display/LSSTOps/DP0+CE+Planning>__ for content and structure.
+
+.. _Delegate-Homepage-Guidelines-Expectations:
+
+Guidelines and Expectations
+===========================
+
+**Understand the** :ref:`Data-Access-Analysis-Tools-RSP-Warnings` **of using the DP0 RSP on a shared-risk basis**.
+
+**Abide by the** :ref:`Delegate-Homepage-Code-of-Conduct`.
+
+**Adhere to the** :ref:`Delegate-Homepage-PubPol`.
+
+**Use your RSP account!** Delegates are invited to choose from one of these `Suggested Delegate Activities`_.
 
 
 .. _Delegate-Homepage-RSP-Accounts:
@@ -181,30 +193,6 @@ There is no set agenda for these sessions, but Rubin staff are always in attenda
 For example, delegates could discuss their DP0-related analysis with Rubin staff and with each other, review the DP0 RSP tutorials together, collaborate on DP0-related science, and get support from Rubin staff as needed.
 
 
-
-.. _Delegate-Homepage-Guidelines-Expectations:
-
-Guidelines and Expectations
-===========================
-
-**Understand the** :ref:`Data-Access-Analysis-Tools-RSP-Warnings` **of using the DP0 RSP on a shared-risk basis**.
-
-**Abide by the** :ref:`Delegate-Homepage-Code-of-Conduct`.
-
-**Adhere to the** :ref:`Delegate-Homepage-PubPol`.
-
-..
-    If you publish work enabled by DP0, the RSP, and/or the DESC's DC2 data set, please include: "CosmoDC2: A Synthetic Sky Catalog for Dark Energy Science with LSST" `Korytov et al (2019) <https://ui.adsabs.harvard.edu/abs/2019ApJS..245...26K/abstract>`_, “The LSST DESC DC2 Simulated Sky Survey” (`arXiv:2010.05926 <https://arxiv.org/abs/2010.05926>`_), and potentially “DESC DC2 Data Release Note” (`arXiv:2101.04855 <https://arxiv.org/abs/2101.04855>`_), especially if you used the Object or Truth-Match tables presented in that release note.
-    If you use someone else's Jupyter Notebook as a starting point for your work, please include the original creator(s) in your acknowledgements. 
-
-**Use your RSP account!** Delegates are invited to choose from one of these `Suggested Delegate Activities`_.
-
-..
-    Delegates are invited to take on an activity that helps to maximize the impact of DP0 with respect to the DP0 goals of testing and informing development of the RSP and preparing the scientific community to do LSST science.  
-    **Use your RSP account!**
-    As there are a limited number of RSP accounts for DP0, please try to make some use of your account and learn to use at least one aspect of the RSP.
-    There is no minimum time that you're expected to spend on DP0.
-    If you find that you are done with DP0, consider relinquishing your account so it can be offered to someone else.
 
 
 .. _Delegate-Homepage-Delegate-Activities:
