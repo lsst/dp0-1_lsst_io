@@ -38,6 +38,7 @@ The simulated data set being used for DP0 was created by the Dark Energy Science
 
 .. Review content in <https://confluence.lsstcorp.org/display/LSSTOps/DP0+CE+Planning>__ for content and structure.
 
+
 .. _Delegate-Homepage-RSP-Accounts:
 
 RSP Accounts
@@ -65,6 +66,8 @@ For participation in DP0 it is not necessary to learn how to use git as a versio
 GitHub will not be used for RSP accounts during Rubin Operations, this is a DP0-specific implementation.
 
 
+.. _Delegate-Homepage-Forum:
+
 Rubin Community Forum
 =====================
 
@@ -85,6 +88,8 @@ This will ensure you have access to the private "Support - DP0 RSP Service Issue
 | 3. Topics `tagged with #dp0 <https://community.lsst.org/tag/dp0>`_ across all categories. 
 
 
+
+.. _Delegate-Homepage-Kickoff:
 
 DP0 Kick-Off Info Sessions 
 ==========================
@@ -132,14 +137,14 @@ Rubin staff will always be on hand to answer questions and provide assistance wi
 Assemblies Schedule
 -------------------
 
-The first four assemblies will, in turn, focus on each of the first four DP0 notebooks in `the tutorial-notebooks repository <https://github.com/rubin-dp0/tutorial-notebooks>`_.
-
 Rows *in italics* are tentative topics.
 Please reach out to Melissa Graham with suggestions or contributions (e.g., send her a direct message in the Community Forum).
 Suggestions and contributed talks are welcome from anyone, e.g., delegates, Rubin staff.
 
 .. include:: dp0-delegate-assemblies-schedule.inc
 
+
+.. _DP0-Delegate-Programming-StackClub:
 
 Stack Club
 ----------
@@ -161,6 +166,8 @@ Stack Club members use the NCSA implementation of the RSP, where they also have 
 DP0 delegates do not need NCSA accounts because they have RSP accounts at the IDF.
 
 
+.. _DP0-Delegate-Programming-ThirdThursday:
+
 Third Thursday Office Hour
 --------------------------
 
@@ -180,21 +187,24 @@ For example, delegates could discuss their DP0-related analysis with Rubin staff
 Guidelines and Expectations
 ===========================
 
-**Understand the :ref:`Data-Access-Analysis-Tools-RSP-Warnings` of using the DP0 RSP on a shared-risk basis.**
+**Understand the** :ref:`Data-Access-Analysis-Tools-RSP-Warnings` **of using the DP0 RSP on a shared-risk basis**.
 
-**Abide by the :ref:`Delegate-Homepage-Code-of-Conduct`.** 
+**Abide by the** :ref:`Delegate-Homepage-Code-of-Conduct`.
 
-**Adhere to the :ref:`Delegate-Homepage-PubPol`.** 
-.. If you publish work enabled by DP0, the RSP, and/or the DESC's DC2 data set, please include: "CosmoDC2: A Synthetic Sky Catalog for Dark Energy Science with LSST" `Korytov et al (2019) <https://ui.adsabs.harvard.edu/abs/2019ApJS..245...26K/abstract>`_, “The LSST DESC DC2 Simulated Sky Survey” (`arXiv:2010.05926 <https://arxiv.org/abs/2010.05926>`_), and potentially “DESC DC2 Data Release Note” (`arXiv:2101.04855 <https://arxiv.org/abs/2101.04855>`_), especially if you used the Object or Truth-Match tables presented in that release note.
-.. If you use someone else's Jupyter Notebook as a starting point for your work, please include the original creator(s) in your acknowledgements. 
+**Adhere to the** :ref:`Delegate-Homepage-PubPol`.
+
+..
+    If you publish work enabled by DP0, the RSP, and/or the DESC's DC2 data set, please include: "CosmoDC2: A Synthetic Sky Catalog for Dark Energy Science with LSST" `Korytov et al (2019) <https://ui.adsabs.harvard.edu/abs/2019ApJS..245...26K/abstract>`_, “The LSST DESC DC2 Simulated Sky Survey” (`arXiv:2010.05926 <https://arxiv.org/abs/2010.05926>`_), and potentially “DESC DC2 Data Release Note” (`arXiv:2101.04855 <https://arxiv.org/abs/2101.04855>`_), especially if you used the Object or Truth-Match tables presented in that release note.
+    If you use someone else's Jupyter Notebook as a starting point for your work, please include the original creator(s) in your acknowledgements. 
 
 **Use your RSP account!** Delegates are invited to choose from one of these `Suggested Delegate Activities`_.
-.. Delegates are invited to take on an activity that helps to maximize the impact of DP0 with respect to the DP0 goals of testing and informing development of the RSP and preparing the scientific community to do LSST science.  
 
-.. **Use your RSP account!**
-.. As there are a limited number of RSP accounts for DP0, please try to make some use of your account and learn to use at least one aspect of the RSP.
-.. There is no minimum time that you're expected to spend on DP0.
-.. If you find that you are done with DP0, consider relinquishing your account so it can be offered to someone else.
+..
+    Delegates are invited to take on an activity that helps to maximize the impact of DP0 with respect to the DP0 goals of testing and informing development of the RSP and preparing the scientific community to do LSST science.  
+    **Use your RSP account!**
+    As there are a limited number of RSP accounts for DP0, please try to make some use of your account and learn to use at least one aspect of the RSP.
+    There is no minimum time that you're expected to spend on DP0.
+    If you find that you are done with DP0, consider relinquishing your account so it can be offered to someone else.
 
 
 .. _Delegate-Homepage-Delegate-Activities:
