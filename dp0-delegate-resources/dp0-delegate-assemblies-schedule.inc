@@ -80,7 +80,7 @@
      - Special Session on DP0.1: A Half-Year In Review
      - *small group discussions for delegate feedback*
      - The Community Engagement Team
-   * - 2022+, if desired
+   * - 2022, schedule TBD
      - *delegate presenter(s)*
      - *delegate working groups*
      - *TBD*
