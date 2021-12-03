@@ -73,9 +73,9 @@
      - *delegate working groups*
      - Andrew Bradshaw (Rubin Camera Subsystem Team)
    * - 2022-01-14
-     - *delegate presenter(s)*
-     - *delegate working groups*
-     - *TBD*
+     - no assembly (AAS)
+     - 
+     - 
    * - 2022-01-28
      - Special Session on DP0.1: A Half-Year In Review
      - *small group discussions for delegate feedback*
