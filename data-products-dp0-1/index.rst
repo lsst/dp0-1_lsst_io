@@ -116,6 +116,11 @@ For convenience, Rubin staff have identified the principal columns which are mos
 These principal columns will be pre-selected in the Table View of the RSP's Portal Aspect.
 The table schema below also identify the principal columns.
 
+**Recommended Search Parameter "detect_isPrimary = True":**
+A good default search query parameter for catalogs of objects in the coadded images is to set **detect_isPrimary** = **True**, i.e., for the dp01_dc2_catalogs.position (TAP) and deepCoadd_ref (Butler) catalogs.
+The detect_isPrimary parameter is True if a source has no children, is in the inner region of a coadd patch, is in the inner region of a coadd tract, and is not “detected” in a pseudo-filter.
+Setting detect_isPrimary to True will remove any duplicates, sky objects, etc.
+
 **TAP Catalogs**:
 The five TAP-accessible catalogs in the table below are generated from coadded images and are available via both the Portal and Notebook Aspects.
 For all Portal-accessible TAP catalogs, one way to view and interact with the schema is by using the Portal's "table view" in the TAP service for single-table queries, as described in the :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
