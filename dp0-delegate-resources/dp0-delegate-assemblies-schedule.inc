@@ -69,8 +69,8 @@
      - Resolved stellar populations. Large scale strucutre.
      - Sylvie Dagoret-Campagne and the CET
    * - 2021-12-03
-     - Image Processing
-     - *delegate working groups*
+     - `Image Processing <https://community.lsst.org/t/summary-delegate-assembly-fri-dec-3/6161>`_
+     - Source injection. Deep learning. General Q&A.
      - Andrew Bradshaw (Rubin Camera Subsystem Team)
    * - 2022-01-14
      - no assembly (AAS)
