@@ -78,9 +78,21 @@
      - 
    * - 2022-01-28
      - Special Session on DP0.1: A Half-Year In Review
-     - *small group discussions for delegate feedback*
+     - *delegate profiles and breakouts*
      - The Community Engagement Team
-   * - 2022, schedule TBD
+   * - 2022-02-11
+     - *delegate presenter(s)*
+     - *delegate working groups*
+     - *TBD*
+   * - 2022-02-25
+     - *delegate presenter(s)*
+     - *delegate working groups*
+     - *TBD*
+   * - 2022-03-11
+     - *delegate presenter(s)*
+     - *delegate working groups*
+     - *TBD*
+   * - 2022-03-25
      - *delegate presenter(s)*
      - *delegate working groups*
      - *TBD*
