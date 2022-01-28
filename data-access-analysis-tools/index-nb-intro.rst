@@ -263,7 +263,7 @@ Now your notebooks/tutorial-notebooks directory only contains the most up-to-dat
 
 .. code-block:: bash
 
-   git reset --hard origin/main
+   git reset --hard origin/prod
    git pull
 
 Using any of the above options is the preferred method to update your tutorial notebooks, but as a last resort, you can delete the entire ``tutorial-notebooks`` directory, log out and stop the server, and then log back in again.  
