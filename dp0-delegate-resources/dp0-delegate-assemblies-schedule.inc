@@ -77,8 +77,8 @@
      - 
      - 
    * - 2022-01-28
-     - Special Session on DP0.1: A Half-Year In Review
-     - *delegate profiles and breakouts*
+     - `Special Session on DP0.1: A Half-Year In Review <https://community.lsst.org/t/summary-delegate-assembly-fri-jan-28-20222/6269>`_
+     - Large Scale Structure. Variability. Resolved Stellar Populations. General Q&A.
      - The Community Engagement Team
    * - 2022-02-11
      - *delegate presenter(s)*
