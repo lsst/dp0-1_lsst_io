@@ -81,9 +81,9 @@
      - Large Scale Structure. Variability. Resolved Stellar Populations. General Q&A.
      - The Community Engagement Team
    * - 2022-02-11
-     - *delegate presenter(s)*
-     - *delegate working groups*
-     - *TBD*
+     - no tutorial: delegate profiles, breakout rooms
+     - general Q&A, delegate working groups
+     - The Community Engagement Team
    * - 2022-02-25
      - *delegate presenter(s)*
      - *delegate working groups*
