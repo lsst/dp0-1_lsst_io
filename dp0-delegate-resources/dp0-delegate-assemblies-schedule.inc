@@ -81,7 +81,7 @@
      - Large Scale Structure. Variability. Resolved Stellar Populations. General Q&A.
      - The Community Engagement Team
    * - 2022-02-11
-     - no tutorial: delegate profiles, breakout rooms
+     - delegate profiles and breakout rooms
      - general Q&A, delegate working groups
      - The Community Engagement Team
    * - 2022-02-25
