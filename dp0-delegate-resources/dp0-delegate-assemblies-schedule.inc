@@ -85,14 +85,14 @@
      - general Q&A, delegate working groups
      - The Community Engagement Team
    * - 2022-02-25
-     - *delegate presenter(s)*
-     - *delegate working groups*
-     - *TBD*
+     - delegate profiles and breakout rooms
+     - general Q&A, delegate working groups
+     - The Community Engagement Team
    * - 2022-03-11
-     - *delegate presenter(s)*
-     - *delegate working groups*
+     - *TBD delegate presenter(s)*
+     - *TBD delegate working groups*
      - *TBD*
    * - 2022-03-25
-     - *delegate presenter(s)*
-     - *delegate working groups*
+     - *TBD delegate presenter(s)*
+     - *TBD delegate working groups*
      - *TBD*
