@@ -81,12 +81,12 @@
      - Large Scale Structure. Variability. Resolved Stellar Populations. General Q&A.
      - The Community Engagement Team
    * - 2022-02-11
-     - delegate profiles and breakout rooms
-     - general Q&A, delegate working groups
+     - `Delegate Breakouts <https://community.lsst.org/t/summary-delegate-assemblies-fri-feb-11-and-25-2022/6347>`_
+     - general Q&A, resolved stellar pops, welcome new delegates!
      - The Community Engagement Team
    * - 2022-02-25
-     - delegate profiles and breakout rooms
-     - general Q&A, delegate working groups
+     - `Delegate Breakouts <https://community.lsst.org/t/summary-delegate-assemblies-fri-feb-11-and-25-2022/6347>`_
+     - general Q&A, resolved stellar pops, background subtraction, machine learning with DP0, truth data
      - The Community Engagement Team
    * - 2022-03-11
      - *TBD delegate presenter(s)*
