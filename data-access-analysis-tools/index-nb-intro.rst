@@ -63,7 +63,7 @@ Pressing the orange start button to start the server returns this page with a bl
 The JupyterLab landing page in the figure below is the launch pad for all JupyterLab functionality (e.g., Notebook, Terminal).
 Return to this launch pad at any time by clicking the plus symbol at upper left.
 For DP0.1, most users will prefer using the Notebook or Terminal, but there is also a Python Console available.
-In order to duplicate catalog queries executed in the Portal, re-execute the query using the TAP client available in the Notebook
+In order to duplicate catalog queries executed in the Portal, re-execute the query using the TAP client available in the Notebook.
 
 .. figure:: /_static/RSP_NB_launcher_options.png
     :width: 400
@@ -103,7 +103,7 @@ As described in the default message that appears in all newly-launched terminals
    source ${LOADSTACK}
    setup lsst_distrib 
 
-For example, to query and retrieve DP0.1 data sets using the Butler (see below), command-line tools are available as documented `here <https://pipelines.lsst.io/v/weekly/modules/lsst.daf.butler/scripts/butler.html>`_.
+For example, to query and retrieve DP0.1 data sets using the Butler (see below), command-line tools are available as  `documented here <https://pipelines.lsst.io/v/weekly/modules/lsst.daf.butler/scripts/butler.html>`_.
 Type ``butler --help`` in any terminal to see a list of available butler functionality.
 
 
