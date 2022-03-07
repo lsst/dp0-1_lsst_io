@@ -324,7 +324,7 @@ These issues will be addressed by Rubin staff.
 Minor or Ambiguous RSP Service and Access Issues
 ------------------------------------------------
 
-Please feel free post even small questions as new topics in the "Support - DP0 RSP Service Issues" `Support – Data Preview 0 <https://community.lsst.org/c/support/dp0/49>`_ subcategory of the Community Forum. `trial <https://community.lsst.org/c/support/dp0-rsp-issues/52>`_
+Please feel free post even small questions as new topics in the "Support - DP0 RSP Service Issues" subcategory of the Community Forum.
 
 This subcategory enables DP0 delegates to determine if others are experiencing the same issue (e.g., *"is this local or general network outage?"*, *"my query is taking a long time, is this a real problem or did I do it wrong?"*), crowd-source solutions to technical issues from each other when possible, and have a non-public venue for DP0-related questions.
 Updates about commonly experienced access issues or planned service outages will be posted by Rubin staff in this category.
