@@ -52,14 +52,14 @@ You should only access our Butler repositories using standard Butler APIs provid
 RSP/IDF: The Missing Features
 ------------------------------
 
-Many more features are on our roadmap for the RSP and its related services (Qserv, Butler, etc) and we have requirements to deliver them by the start of the survey. Some major ones to look forward in the future are:
+Many more features are on our roadmap for the RSP and its related services (Qserv, Butler, etc.) and we have requirements to deliver them by the start of the survey. Some major ones to look forward in the future are:
 
 - Notebooks: We are planning on providing a filespace that you can access from your personal device (eg laptop) so you can use your favourite editor/IDE to write code in your local environment and save it in a way that makes it visible in your RSP notebook environment
 - Batch: Opportunities for parallelized/batch/non-interactive computation are not currently available
 - Qserv: User tables are not yet available
 - Qserv: TAP/ADQL Queries using some keywords (AREA, BOX, COORDSYS, COORD1, COORD2 and INTERSECTS) are not yet supported
 - Portal: Many improvements are planned, including the ability to start a query in the portal and access it from your notebook
-- Authentication and Authorisation: You will be able to create and manage groups to allow you to share data with specific RSP users
+- Authentication and Authorization: You will be able to create and manage groups to allow you to share data with specific RSP users
 - API: Virtual Observatory image services are not yet available
 - API: VOSpace service is not yet available
 - ConsolidatedDB: Access to observatory metadata is not yet available
