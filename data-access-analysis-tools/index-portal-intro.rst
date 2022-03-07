@@ -35,13 +35,12 @@ The Portal's User Interface
 Across the top is a menu bar of interface options, but the DP0 data set is only accessed via the :ref:`Data-Access-Analysis-Tools-TAP`.
 Under **TAP Searches** there are four steps.
 
-**1. TAP Service**: Leave this as the default, `https://data.lsst.cloud/api/tap`, to access DP0 data.
-
 
 .. _single-table-queries:
 
 Single Table Queries
 ====================
+**1. TAP Service**: Leave this as the default, `https://data.lsst.cloud/api/tap`, to access DP0 data.
 
 **2. Select Query Type**: Select 'Single Table' to query via the single-table interface (default).
 
@@ -70,8 +69,8 @@ Use the funnel icon to only view selected columns; this is necessary to see all 
     The table view offers additional query options.
 
 Some tables have a lot of columns.
-Search for desired columns by entering terms in the boxes underneath "column_name" or "description".
-Additional constraints on column data can be included in the query by specifying them under "constraints".
+Search for desired columns by entering terms in the boxes underneath "column_name" or "description". 
+Additional constraints on column data can be included in the query by specifying them under "constraints". 
 Mouse-over to view pop-up boxes with instructions.
 
 Remove filters and reset the table view at any time using the "Remove X filter(s)" or "Reset Column Selections & Constraints" buttons above the upper right corner of the table (not shown in image above).
@@ -131,6 +130,8 @@ See also the :ref:`Examples-DP0-1-Portal` for additional demonstrations of how t
 ADQL Queries
 ============
 
+**1. TAP Service**: Leave this as the default, `https://data.lsst.cloud/api/tap`, to access DP0 data.
+
 **2. Select Query Type**: Select 'ADQL' to query via the ADQL interface. ADQL, `Astronomical Data Query Language <https://www.ivoa.net/documents/ADQL/>`_, is the language used by  the `IVOA <https://ivoa.net>`_ to represent astronomy queries posted to Virtual Observatory (VO) services, such as the Rubin LSST TAP service. ADQL is based on the Structured Query Language (SQL).
 
 **3. Advanced ADQL**: When ADQL is selected as the query type, the interface in step 3 changes to provide a free-form block into which ADQL queries can be entered directly. The query excuted in the :ref:`single-table-queries` example above can be expressed in ADQL as follows:
@@ -147,7 +148,7 @@ ADQL Queries
 Type the above query into the ADQL Query block and click on the 'Search' button in the bottom left corner to execute. You should set the row limit to be a small number, such as 10, when first testing queries. The search results will populate the same **Results View**, as shown above using the Single Table Query interface. A total of 205 records should be returned, which you can interact with in the same manner as outlined in :ref:`single-table-queries`.
 
 **Joining with another table**
-It is often desireable to access data stored in more than just one table. We do this using a JOIN clause to combine rows from two or more tables. Here, usingthe same query as above,  we will join the data in the object table with the data in the truth table to compare the results of the processing with the input truth information. The two tables are joined by matching the ``objectId`` across two catalogs.
+It is often desireable to access data stored in more than just one table. We do this using a JOIN clause to combine rows from two or more tables. Here, using the same query as above,  we will join the data in the object table with the data in the truth table to compare the results of the processing with the input truth information. The two tables are joined by matching the ``objectId`` across two catalogs.
 
 .. code-block:: SQL
 
