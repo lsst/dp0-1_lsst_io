@@ -122,7 +122,7 @@ All delegates should view the recording if they were unable to attend live.
 DP0 Delegate Assemblies
 =======================
 
-**Connection Info:** `ls.st/dp0-events <http://ls.st/dp0-events>`_
+**Connection Info (Zoom and Google Calendar Links):** `ls.st/dp0-events <http://ls.st/dp0-events>`_
 
 **Time:** Biweekly on Fridays from 9am to 11am US Pacific time (alternating with `Stack Club`_; 4pm UTC).
 See the schedule below for dates.
@@ -161,7 +161,7 @@ Suggestions and contributed talks are welcome from anyone, e.g., delegates, Rubi
 Stack Club
 ----------
 
-**Connection Info:**  `ls.st/dp0-events <http://ls.st/dp0-events>`_
+**Connection Info (Zoom and Google Calendar Links):**  `ls.st/dp0-events <http://ls.st/dp0-events>`_
 
 `Stack Club <https://github.com/LSSTScienceCollaborations/StackClub>`_ is a group of LSST Science Collaboration members committed to learning how to use the Rubin Observatory LSST Science Pipelines (colloquially called "the Stack").
 The idea is that the best way to learn something is to try and teach it, and so they work collectively on creating useful tutorials featuring the Stack.
@@ -212,8 +212,8 @@ Inform and improve the Rubin Science Platform
 
 | - complete one or more feedback surveys for Rubin Observatory
 |   -- read about `the results from the first DP0 survey <https://community.lsst.org/t/the-dp0-1-feedback-survey-action-items/6105>`_
-| - submit bug reports via GitHub issues (`here <https://github.com/rubin-dp0/Support>`_; see `Getting Support`_, below)
-| - suggest a new RSP feature via GitHub issues (`here <https://github.com/rubin-dp0/Support>`_)
+| - submit bug reports `via gitHub issues <https://github.com/rubin-dp0/Support>`_ (see `Getting Support`_, below)
+| - suggest a new RSP feature `via GitHub issues <https://github.com/rubin-dp0/Support>`_
 | - post about your experiences in the `Data Preview 0 <https://community.lsst.org/c/support/dp0>`_ forum category
 | - communicate directly with the Rubin RSP Users Committee
 |   -- *(more information about the Users Committee is forthcoming)*
