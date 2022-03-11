@@ -89,9 +89,9 @@
      - general Q&A, resolved stellar pops, background subtraction, machine learning with DP0, truth data
      - The Community Engagement Team
    * - 2022-03-11
-     - *TBD delegate presenter(s)*
-     - *TBD delegate working groups*
-     - *TBD*
+     - `Delegate Breakouts <https://community.lsst.org/t/summary-delegate-assembly-fri-mar-11-2022/6386>`_
+     - general Q&A, truth data, photo-z, orientation for new delegates
+     - The Community Engagement Team
    * - 2022-03-25
      - *TBD delegate presenter(s)*
      - *TBD delegate working groups*
