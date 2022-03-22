@@ -93,6 +93,30 @@
      - general Q&A, truth data, photo-z, orientation for new delegates
      - The Community Engagement Team
    * - 2022-03-25
+     - Photo-z with DP0 data, by 
+     - *TBD delegate working groups*
+     - Sylvie Dagoret-Campagne and the CET
+   * - 2022-04-08
+     - *TBD delegate presenter(s)*
+     - *TBD delegate working groups*
+     - *TBD*
+   * - 2022-04-22
+     - *TBD delegate presenter(s)*
+     - *TBD delegate working groups*
+     - *TBD*
+   * - 2022-05-06
+     - Portal Techniques
+     - *TBD delegate working groups*
+     - Alessandro & Sara, and the CET
+   * - 2022-05-20
+     - *TBD delegate presenter(s)*
+     - *TBD delegate working groups*
+     - *TBD*
+   * - 2022-06-03
+     - *TBD delegate presenter(s)*
+     - *TBD delegate working groups*
+     - *TBD*
+   * - 2022-06-17
      - *TBD delegate presenter(s)*
      - *TBD delegate working groups*
      - *TBD*
