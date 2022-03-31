@@ -93,8 +93,8 @@
      - general Q&A, truth data, photo-z, orientation for new delegates
      - The Community Engagement Team
    * - 2022-03-25
-     - Photo-z with DP0 data, by 
-     - *TBD delegate working groups*
+     - `Photo-z with DP0 Data <https://community.lsst.org/t/summary-delegate-assembly-fri-mar-25-2022/6417>`_
+     - general Q&A, PSFs, resolved stellar pops, photo-z
      - Sylvie Dagoret-Campagne and the CET
    * - 2022-04-08
      - *TBD delegate presenter(s)*
