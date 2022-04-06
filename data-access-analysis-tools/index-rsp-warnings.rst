@@ -26,6 +26,8 @@ We are excited to be offering limited early access to a preview of RSP capabilit
 .. note::
     During DP0, everyone is responsible for their own safe usage of the shared-risk, in-development version of the RSP and other capabilities of the Rubin Interim Data Facility (IDF). Some controls to prevent anti-social or damaging actions do not exist yet; many important features are not available yet. Read on to understand more about both of these.
 
+**Do not share your passwords or RSP account access with others.**
+
 When in doubt whether something is okay or to ask information about about planned future functionality, post questions in `the "Support -- Data Preview 0" category <https://community.lsst.org/c/support/dp0/49>`__ in the Community Forum.
 
 If you believe you have found a bug or wish to request a feature, please `open a Github Issue <https://github.com/rubin-dp0/Support/issues/new/choose>`_ instead.
