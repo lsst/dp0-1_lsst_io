@@ -97,7 +97,7 @@
      - general Q&A, PSFs, resolved stellar pops, photo-z
      - Sylvie Dagoret-Campagne and the CET
    * - 2022-04-08
-     - Delegate Breakouts
+     - `Delegate Breakouts <https://community.lsst.org/t/summary-delegate-assembly-fri-apr-8/6457>`_
      - general Q&A and emergent topics
      - The Community Engagement Team
    * - 2022-04-22
