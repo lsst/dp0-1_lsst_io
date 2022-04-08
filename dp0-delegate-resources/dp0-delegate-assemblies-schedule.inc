@@ -98,7 +98,7 @@
      - Sylvie Dagoret-Campagne and the CET
    * - 2022-04-08
      - `Delegate Breakouts <https://community.lsst.org/t/summary-delegate-assembly-fri-apr-8/6457>`_
-     - general Q&A and emergent topics
+     - general Q&A, source injection, resolved stellar pops
      - The Community Engagement Team
    * - 2022-04-22
      - *TBD delegate presenter(s)*
