@@ -97,13 +97,13 @@
      - general Q&A, PSFs, resolved stellar pops, photo-z
      - Sylvie Dagoret-Campagne and the CET
    * - 2022-04-08
-     - *TBD delegate presenter(s)*
-     - *TBD delegate working groups*
-     - *TBD*
+     - Delegate Breakouts
+     - general Q&A and emergent topics
+     - The Community Engagement Team
    * - 2022-04-22
      - *TBD delegate presenter(s)*
-     - *TBD delegate working groups*
-     - *TBD*
+     - general Q&A and emergent topics
+     - The Community Engagement Team
    * - 2022-05-06
      - Portal Techniques
      - *TBD delegate working groups*
