@@ -101,7 +101,7 @@
      - general Q&A, source injection, resolved stellar pops
      - The Community Engagement Team
    * - 2022-04-22
-     - *TBD delegate presenter(s)*
+     - `Delegate Breakouts <https://community.lsst.org/t/summary-delegate-assembly-fri-apr-22/6517>`_
      - general Q&A and emergent topics
      - The Community Engagement Team
    * - 2022-05-06
