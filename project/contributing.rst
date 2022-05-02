@@ -26,6 +26,7 @@ This documentation is built with `Sphinx <https://www.sphinx-doc.org/en/master/>
 This documentation is open source.
 Rubin Observatory welcomes contributions that make this documentation more useful and accurate.
 
+
 .. _Contributing-Issue:
 
 Raising an issue
@@ -33,6 +34,7 @@ Raising an issue
 
 If you spot an issue with the documentation, the best thing to do is `raise a GitHub issue in the dp0-1_lsst_io repo <https://github.com/lsst/dp0-1_lsst_io/issues/new>`__.
 Include any relevant URLs with your issue description.
+
 
 .. _Contributing-PR:
 
@@ -47,6 +49,7 @@ These sections can help you create a successful PR:
 
   * :ref:`Contributing-Building-the-Docs`
   * :ref:`Contributing-Doc-Style-Guide`
+
 
 .. _Contributing-Building-the-Docs:
 
@@ -111,6 +114,7 @@ These are the basic steps to clone and build the docs:
    .. note::
       An error will alert you of identical labels during the build process.
 
+
 .. _Contributing-Deployment:
 
 Deployment
@@ -119,7 +123,7 @@ Deployment
 Whenever you push to the GitHub repository, the site is built for the corresponding branch.
 Find your build at https://dp0-1.lsst.io/v/. You can push to a branch you've created at any time.
 
-The ``master`` branch is always published as :doc:`https://dp0-1.lsst.io </index>`. Only authorized individuals can merge to ``master`` (may be delegated).
+The ``main`` branch is always published as :doc:`https://dp0-1.lsst.io </index>`. Only authorized individuals can merge to ``main`` (may be delegated).
 To incorporate your suggestions, create a :ref:`pull request <contributing-pr>`.
 
 Approval process
@@ -136,11 +140,12 @@ Approval process
 
 #. Respond to the comments received during the review process.
 
-#. After all reviewers approve, the submitter will squash commits and merge to master.
+#. After all reviewers approve, the submitter will squash commits and merge to main.
 
 #. Notify Melissa Graham or Leanne Guy the PR was merged.
 
 #. Notify the authorized individual to tag the release.
+
 
 .. _Contributing-Doc-Style-Guide:
 

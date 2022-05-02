@@ -26,7 +26,7 @@ Principal Columns for Object and Truth Match Catalogs
 .. This section should provide a brief, top-level description of the page.
 
 The following two images show the principal columns of the DC2 Objects and Truth Match tables, as seen in the Table View of the Portal Aspect of the Rubin Science Platform.
-Learn more in :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
+Learn more in :doc:`/data-access-analysis-tools/portal-intro`.
 Other schemas are listed under :ref:`DP0-1-Data-Products-DPDD-Catalogs`.
 
 .. _schema-obj-tm-principal-Objects:

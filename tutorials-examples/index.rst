@@ -22,32 +22,33 @@ DP0.1 Tutorials
 
 These tutorials and user guides are for DP0 delegates using the Rubin Science Platform (RSP) deployed at the Interim Data Facility (IDF), the Google cloud.
 
-Before following these tutorials, delegates should have gotten their :ref:`Delegate-Homepage-RSP-Accounts`, be familiar with this list of :ref:`Data-Access-Analysis-Tools-RSP-Warnings` and :ref:`the basic components of the RSP <Data-Access-Analysis-Tools-RSP>`, and know how and where to :ref:`get support <Getting Support>`. 
+Before following these tutorials, delegates should have gotten their :ref:`Delegate-Homepage-RSP-Accounts`, be familiar with this list of :doc:`/data-access-analysis-tools/rsp-warnings`
+and :ref:`the basic components of the RSP <Data-Access-Analysis-Tools-RSP>`, and know how and where to :ref:`get support <Delegate-Homepage-Getting-Support>`. 
 
 
 .. _DP0-1-Tutorials-Notebooks:
 
-Jupyter Notebook Tutorials
+Jupyter notebook tutorials
 ==========================
 
-The tutorial notebooks in the ``rubin-dp0`` GitHub Organization's `tutorial-notebooks <https://github.com/rubin-dp0/tutorial-notebooks>`_ repository will be available by default in a folder in all user's home directories in the RSP's Notebook Aspect.
+The tutorial notebooks in the ``rubin-dp0`` GitHub Organization's `tutorial-notebooks repository <https://github.com/rubin-dp0/tutorial-notebooks>`_ will be available by default in a folder in each user's home directory in the RSP's Notebook Aspect.
 See that repository's README file for descriptions of the notebooks.
 
 **Acknowledgments:** Many of these tutorial notebooks were originally developed by `Stack Club <https://github.com/LSSTScienceCollaborations/StackClub>`_ members and have been altered and updated to be appropriate for DP0. 
-If these notebooks are used for a journal publication, please consider adding an acknowledgement that gives credit to the original creator(s) as listed in the notebook's header.
+If these notebooks are used for a journal publication, please consider adding an acknowledgment that gives credit to the original creator(s) as listed in the notebook's header.
 
 
 .. _DP0-1-Tutorials-Portal:
 
-Portal Aspect Demonstrations
+Portal aspect demonstrations
 ============================
 
-An overview of the RSP Portal functionality is provided in this :ref:`Data-Access-Analysis-Tools-Portal-Intro`. 
+An overview of the RSP Portal functionality is provided in this :doc:`/data-access-analysis-tools/portal-intro`. 
 Below are two step-by-step demonstrations of how to use the Portal for science investigations.
 
 .. toctree::
     :titlesonly:
     :glob:
 
-    index-portal-beginner
-    index-portal-advanced
+    portal-beginner
+    portal-advanced
