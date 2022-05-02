@@ -91,7 +91,7 @@ Coadd images are divided into ``tracts`` (a spherical convex polygon) and tracts
     
     Figure 15 from `The LSST DESC DC2 Simulated Sky Survey <https://ui.adsabs.harvard.edu/abs/2021ApJS..253...31L/abstract>`_, showing the simulated WFD region divided into tracts. The center image is one tract quadrant, and the right image one hundredth the area of the tract quadrant. Patches are larger than the right image, as described in the DESC's paper: *"each tract is composed of 7x7 patches, and each patch is 4100 × 4100 pixels with a pixel scale of 0.2 arcsec"*. 
 
-The first of the :ref:`Examples-DP0-1-Notebooks` demonstrates how to identify the tract and patch for a given coordinate, and retrieve and plot a coadd image.
+The first of the :ref:`DP0-1-Tutorials-Notebooks` demonstrates how to identify the tract and patch for a given coordinate, and retrieve and plot a coadd image.
 
 The `image display and manipulation tutorial <https://github.com/rubin-dp0/tutorial-notebooks/blob/main/03_Image_Display_and_Manipulation.ipynb>`_ demonstrates how to retrieve and display a coadd image, and to use its WCS and methods associated with the image to extract a cutout image zoomed in on a region of interest.
 
@@ -125,7 +125,7 @@ Setting detect_isPrimary to True will remove any duplicates, sky objects, etc.
 **TAP Catalogs**:
 The five TAP-accessible catalogs in the table below are generated from coadded images and are available via both the Portal and Notebook Aspects.
 For all Portal-accessible TAP catalogs, one way to view and interact with the schema is by using the Portal's "table view" in the TAP service for single-table queries, as described in the :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
-Schema for all five TAP-accessible catalogs can be also viewed and interacted with in a Jupyter Notebook by following the examples in Section 2.2 of the first of the :ref:`Examples-DP0-1-Notebooks`.
+Schema for all five TAP-accessible catalogs can be also viewed and interacted with in a Jupyter Notebook by following the examples in Section 2.2 of the first of the :ref:`DP0-1-Tutorials-Notebooks`.
 The table below contains links to pages that list the schema for these tables: the column names, units, data types, and a description.
 
 .. list-table:: TAP-accessible tables available for DP0.1.
@@ -157,7 +157,7 @@ The table below contains links to pages that list the schema for these tables: t
 The recommended catalog interface for DP0.1 is the TAP service.
 However, because the catalog of sources detected in individual processed visit images (PVIs) is only available through the Butler, the Butler schema for several of the most useful DP0.1 catalogs are provided here.
 The Butler catalogs are listed in the approximate order that a processing workflow with the LSST Science Pipelines would generate them.
-For examples of how to access these Butler catalogs, see the :ref:`Examples-DP0-1-Notebooks` about the Butler.
+For examples of how to access these Butler catalogs, see the :ref:`DP0-1-Tutorials-Notebooks` about the Butler.
 
 .. list-table:: Butler-accessible tables available for DP0.1.
    :widths: 120 120 350

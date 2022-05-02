@@ -8,7 +8,7 @@
 
 .. This is the label that can be used for cross referencing this file.
 .. Recommended title label format is "Directory Name"-"Title Name"  -- Spaces should be replaced by hyphens.
-.. _Examples-DP0-1:
+.. _Tutorials-Examples-DP0-1-Tutorials:
 .. Each section should include a label for cross referencing to a given area.
 .. Recommended format for all labels is "Title Name"-"Section Name" -- Spaces should be replaced by hyphens.
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
@@ -25,7 +25,7 @@ These tutorials and user guides are for DP0 delegates using the Rubin Science Pl
 Before following these tutorials, delegates should have gotten their :ref:`Delegate-Homepage-RSP-Accounts`, be familiar with this list of :ref:`Data-Access-Analysis-Tools-RSP-Warnings` and :ref:`the basic components of the RSP <Data-Access-Analysis-Tools-RSP>`, and know how and where to :ref:`get support <Getting Support>`. 
 
 
-.. _Examples-DP0-1-Notebooks:
+.. _DP0-1-Tutorials-Notebooks:
 
 Jupyter Notebook Tutorials
 ==========================
@@ -37,7 +37,7 @@ See that repository's README file for descriptions of the notebooks.
 If these notebooks are used for a journal publication, please consider adding an acknowledgement that gives credit to the original creator(s) as listed in the notebook's header.
 
 
-.. _Examples-DP0-1-Portal:
+.. _DP0-1-Tutorials-Portal:
 
 Portal Aspect Demonstrations
 ============================
@@ -45,15 +45,9 @@ Portal Aspect Demonstrations
 An overview of the RSP Portal functionality is provided in this :ref:`Data-Access-Analysis-Tools-Portal-Intro`. 
 Below are two step-by-step demonstrations of how to use the Portal for science investigations.
 
-Beginner TAP Search
--------------------
+.. toctree::
+    :titlesonly:
+    :glob:
 
-:ref:`Examples-DP0-1-Portal-Beginner`
-
-
-.. _Examples-DP0-1-Portal-Advanced:
-
-Advanced Demo
--------------
-
-:ref:`Examples-DP0-1-Portal-Advanced`
+    index-portal-beginner
+    index-portal-advanced

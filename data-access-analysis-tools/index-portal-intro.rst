@@ -132,7 +132,7 @@ Note that corresponding plot point for the selected row in the table is differen
 
     An updated results view in which the xy plot uses the magnitude columns.
 
-See also :ref:`Examples-DP0-1-Portal` for additional demonstrations of how to use the Portal's Single Table Query.
+See also :ref:`DP0-1-Tutorials-Portal` for additional demonstrations of how to use the Portal's Single Table Query.
 
 .. _adql-queries:
 
@@ -204,4 +204,4 @@ To get the detailed list of columns available in the Object table, their associa
 
 This produces a subset of the data shown in the lower right pane of the Portal's **Single Table** query screen, described above.
 
-See also :ref:`Examples-DP0-1-Portal` for additional demonstrations of how to use the Portal's ADQL functionality.
+See also :ref:`DP0-1-Tutorials-Portal` for additional demonstrations of how to use the Portal's ADQL functionality.

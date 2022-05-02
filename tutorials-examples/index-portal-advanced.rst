@@ -15,7 +15,7 @@
 .. To reference a label that isn't associated with an reST object such as a title or figure, you must include the link and explicit title using the syntax :ref:`link text <label-name>`.
 .. A warning will alert you of identical labels during the linkcheck process.
 
-.. _Examples-DP0-1-Portal-Advanced:
+.. _Tutorials-Examples-DP0-1-Portal-Advanced:
 
 ############################################
 Advanced TAP/ADQL Usage in the Portal Aspect
@@ -28,7 +28,7 @@ Now that you have seen the basic functionality of the Portal Aspect and some dem
 Complex ADQL Queries: Joining Multiple Tables
 =============================================
 
-In this section, we demonstrate how to do the analysis from the tutorial notebook 06_Comparing_Object_and_Truth_Tables in :ref:`Examples-DP0-1-Notebooks`, but using the ADQL query capability of the Portal Aspect rather than a Jupyter Notebook. We will extract data from a small region of sky in the `object` table, and simultaneously join this together with the `truth-match` table to enable comparison of the simulated and measured properties of some stars and galaxies.
+In this section, we demonstrate how to do the analysis from the tutorial notebook 06_Comparing_Object_and_Truth_Tables in :ref:`DP0-1-Tutorials-Notebooks`, but using the ADQL query capability of the Portal Aspect rather than a Jupyter Notebook. We will extract data from a small region of sky in the `object` table, and simultaneously join this together with the `truth-match` table to enable comparison of the simulated and measured properties of some stars and galaxies.
 
 We assume that you have read the basic intro to the Portal Aspect in :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
 
@@ -49,7 +49,7 @@ After logging into the Portal Aspect, select 'ADQL' to query via the ADQL interf
 Type the above query into the ADQL Query block and click on the 'Search' button in the bottom left corner to execute. The search results will populate the Results View, which should look similar to the image below. The query returns 15670 results, with the 19 data columns we specified in the query.
 
 .. figure:: /_static/Portal_Advanced_Single_Query.png
-    :name: portal_example_search
+    :name: advanced_portal_example_search
 
     Results from a 0.1-degree query of the DP0.1 Object catalog.
 

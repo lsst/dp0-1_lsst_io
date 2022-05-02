@@ -41,4 +41,4 @@ In the Notebook Aspect, a TAP service is instantiated in a python notebook and u
    results = service.search(query)
    results.to_table().show_in_notebook()
 
-Several of the DP0 :ref:`Examples-DP0-1-Notebooks` demonstrate how to use the TAP service programatically from a python notebook.
+Several of the DP0 :ref:`DP0-1-Tutorials-Notebooks` demonstrate how to use the TAP service programatically from a python notebook.

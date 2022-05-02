@@ -16,13 +16,13 @@
 .. A warning will alert you of identical labels during the linkcheck process.
 
 
-.. _Examples-DP0-1-Portal-Beginner:
+.. _Tutorials-Examples-DP0-1-Portal-Beginner:
 
 ###############################################################
 Beginner TAP Tutorial - Single Table Usage in the Portal Aspect
 ###############################################################
 
-This brief tutorial will show you how to perform the same data retrieval and analysis that is shown in the first of the :ref:`Examples-DP0-1-Notebooks` (titled "Intro to DP0") by using the Portal Aspect's Single Table TAP search function.
+This brief tutorial will show you how to perform the same data retrieval and analysis that is shown in the first of the :ref:`DP0-1-Tutorials-Notebooks` (titled "Intro to DP0") by using the Portal Aspect's Single Table TAP search function.
 
 In this tutorial we will extract data from a small region of sky in the ``object`` table and build a Color-Magnitude Diagram.
 
@@ -106,7 +106,7 @@ Click on **Chart Options** and select **reverse** under the Y-Label.
     :name: Edit_chart_data
     
 Then hit Apply.
-The plot that you make will be slightly different from what is shown below, and different from the plot in the first of the :ref:`Examples-DP0-1-Notebooks` due to random sampling and the 10000 maximum that we used.
+The plot that you make will be slightly different from what is shown below, and different from the plot in the first of the :ref:`DP0-1-Tutorials-Notebooks` due to random sampling and the 10000 maximum that we used.
 
 .. figure:: /_static/Final_data.png
     :name: Final_data
