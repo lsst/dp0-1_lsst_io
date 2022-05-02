@@ -124,7 +124,7 @@ Setting detect_isPrimary to True will remove any duplicates, sky objects, etc.
 
 **TAP Catalogs**:
 The five TAP-accessible catalogs in the table below are generated from coadded images and are available via both the Portal and Notebook Aspects.
-For all Portal-accessible TAP catalogs, one way to view and interact with the schema is by using the Portal's "table view" in the TAP service for single-table queries, as described in the :ref:`Data-Access-Analysis-Tools-Portal-Intro`.
+For all Portal-accessible TAP catalogs, one way to view and interact with the schema is by using the Portal's "table view" in the TAP service for single-table queries, as described in the :doc:`/data-access-analysis-tools/index-portal-intro`.
 Schema for all five TAP-accessible catalogs can be also viewed and interacted with in a Jupyter Notebook by following the examples in Section 2.2 of the first of the :ref:`DP0-1-Tutorials-Notebooks`.
 The table below contains links to pages that list the schema for these tables: the column names, units, data types, and a description.
 
@@ -136,19 +136,19 @@ The table below contains links to pages that list the schema for these tables: t
      - Schema Link
      - Description
    * - object
-     - See Appendix B1 of the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_ for full schema. :ref:`Data-Products-dp0-1-schema-obj-tm-principal-obj`.
+     - See Appendix B1 of the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_ for full schema. :ref:`schema-obj-tm-principal-Objects`.
      - The object table from the DESC DC2 simulated sky survey as described in the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_. Includes astrometric and photometric parameters for objects detected in coadded images. (137 columns)
    * - truth_match
-     - See Appendix B2 of the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_ for full schema. :ref:`Data-Products-dp0-1-schema-obj-tm-principal-tm`.
+     - See Appendix B2 of the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_ for full schema. :ref:`schema-obj-tm-principal-TM`.
      - The truth-match table for the DESC DC2's object table as described in the `DESC DC2 Release Note <https://ui.adsabs.harvard.edu/abs/2021arXiv210104855L/abstract>`_. Includes the noiseless astrometric and photometric parameters and the best matches to the object table. (30 columns)
    * - position
-     - :ref:`full schema <Data-Products-DP0-1-schema_position>`
+     - :doc:`full schema <schema-position>`
      - Select astrometry-related parameters for objects detected in the coadded images, such as coordinates, footprints, patch/tract information, and deblending parameters. (29 columns)
    * - reference
-     - :ref:`full schema <Data-Products-DP0-1-schema_reference>`
+     - :doc:`full schema <schema-reference>`
      - Measurements for objects detected in the coadded images, including photometry, astrometry, shape, deblending, model fits, and related background and flag parameters. This table joined with the position table is very similar to the object table, but with additional columns. (236 columns)
    * - forced_photometry
-     - :ref:`full schema <Data-Products-DP0-1-schema_forced_photometry>`
+     - :doc:`full schema <schema-forced-photometry>`
      - Forced photometry measurements for objects detected in the coadded images, at the locations defined by the position table. (747 columns)
 
 | 
@@ -167,20 +167,20 @@ For examples of how to access these Butler catalogs, see the :ref:`DP0-1-Tutoria
      - Schema Link
      - Description
    * - src
-     - :ref:`full schema <Data-Products-DP0-1-schema_src>`
+     - :doc:`full schema <schema-src>`
      - Source detections in a single processed visit image (PVI; also called a calexp). (234 columns)
    * - deepCoadd_ref
-     - :ref:`full schema <Data-Products-DP0-1-schema_deepCoadd_ref>`
+     - :doc:`full schema <schema-deepCoadd-ref>`
      - Source detections in deep coadded images across all filters. (495 columns)
    * - deepCoadd_forced_src
-     - :ref:`full schema <Data-Products-DP0-1-schema_deepCoadd_forced_src>`
+     - :doc:`full schema <schema-deepCoadd-forced-src>`
      - Forced photometry for sources in deep coadded images. (508 columns)
 
 ..   * - deepCoadd_deblendedFlux
-..     - :ref:`full schema <Data-Products-DP0-1-schema_deepCoadd_deblendedFlux>`
+..     - :doc:`full schema <schema-deepCoadd-deblendedFlux>`
 ..     - Deblended parent and child parameters for sources in deep coadded images, based on deepCoadd_ref. (30 columns)
 ..   * - deepCoadd_meas
-..     - :ref:`full schema <Data-Products-DP0-1-schema_deepCoadd_meas>`
+..     - :doc:`full schema <schema-deepCoadd-meas>`
 ..     - Measurement parameters for sources in deep coadded images, based on deepCoadd_ref. (489 columns)
 
 
