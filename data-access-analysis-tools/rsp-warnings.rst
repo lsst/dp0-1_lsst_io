@@ -27,8 +27,7 @@ We are excited to be offering limited early access to a preview of RSP capabilit
     Some controls to prevent anti-social or damaging actions do not exist yet; many important features are not available yet.
     Read on to understand more about both of these.
 
-.. Important::
-    **Do not share your passwords or RSP account access with others.**
+**Do not share your passwords or RSP account access with others.**
 
 When in doubt whether something is okay or to ask information about about planned future functionality, post questions in `the "Support -- Data Preview 0" subcategory <https://community.lsst.org/c/support/dp0/49>`__ in the Community Forum.
 
