@@ -175,8 +175,9 @@ Stack Club
 **Time:** Biweekly on Fridays from 9am to 11am US Pacific time (alternating with :ref:`DP0-Delegate-Programming-Assemblies`; 4pm UTC).
 
 `Stack Club <https://github.com/LSSTScienceCollaborations/StackClub>`_ is a group of LSST Science Collaboration members committed to learning how to use the Rubin Observatory LSST Science Pipelines (colloquially called "the Stack").
-The idea is that the best way to learn something is to try and teach it, and so they work collectively on creating useful tutorials featuring the Stack.
-Many of the :ref:`Delegate-Homepage-DP0-Delegate-Assemblies` presentations will be based on tutorials developed by the Stack Club.
+The idea is that the best way to learn something is to try and teach it, so
+Stack Club members create Jupyter Notebook tutorials that feature the Stack.
+Many of these notebooks were used to create the DP0 tutorial notebooks.Many of these notebooks were used to create the DP0 tutorial notebooks.
 DP0 delegates are welcome to join one or more `Science Collaborations <https://www.lsstcorporation.org/science-collaborations>`_ and to join the Friday Stack Club Zoom sessions.
 
 Stack Club meets biweekly on Fridays from 9-11am (i.e., alternating Fridays with the Delegates Assemblies; 4pm UTC).
