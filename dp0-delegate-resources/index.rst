@@ -150,7 +150,7 @@ The first five minutes of the second hour will be spent connecting people with s
 The first five minutes of the assembly will be spent connecting people with similar interests and setting up breakout rooms.
 Everyone is free to join and leave breakout rooms and to work on whatever they like.
 
-Rubin staff will always be on hand in the main room to answer questions and provide assistance with DP0-related work during breakouts.
+Rubin Observatory staff will always be on hand in the main room to answer questions and provide assistance with DP0-related work during breakouts.
 
 
 .. _DP0-Delegate-Programming-Assemblies:
@@ -170,16 +170,22 @@ Suggestions and contributed talks are welcome from anyone, e.g., delegates, Rubi
 Stack Club
 ----------
 
-**Connection Info:**  `ls.st/dp0-events <http://ls.st/dp0-events>`_
+**Connection Info (Zoom and Google Calendar Links):**  `ls.st/dp0-events <http://ls.st/dp0-events>`_
 
-`Stack Club <https://github.com/LSSTScienceCollaborations/StackClub>`_ is a group of LSST Science Collaboration members committed to learning how to use the Rubin Observatory `LSST Science Pipelines <https://pipelines.lsst.io/>`_ (colloquially called "the Stack").
-The idea is that the best way to learn something is to try and teach it, so Stack Club members create Jupyter Notebook tutorials that feature the Stack.
+**Time:** Biweekly on Fridays from 9am to 11am US Pacific time (alternating with :ref:`DP0-Delegate-Programming-Assemblies`; 4pm UTC).
+
+`Stack Club <https://github.com/LSSTScienceCollaborations/StackClub>`_ is a group of LSST Science Collaboration members
+committed to learning how to use the Rubin Observatory `LSST Science Pipelines <https://pipelines.lsst.io/>`_ (colloquially called "the Stack").
+The idea is that the best way to learn something is to try and teach it, so
+Stack Club members create Jupyter Notebook tutorials that feature the Stack.
 Many of these notebooks were used to create the DP0 tutorial notebooks.
+Sessions begin with a roundtable of what people want to do or learn that day, and then work proceeds as people stay connected via Zoom,
+asking questions or having discussions in the main room or breakout rooms.
 
-Stack Club meets biweekly on Fridays from 9-11am Pacific Time (alternating Fridays with the Delegates Assemblies).
-Sessions begin with a roundtable of what people want to do or learn that day, and then work proceeds as people stay connected via Zoom, asking questions or having discussions in the main room or breakout rooms.
-Rubin staff are always present to provide support for DP0 and the RSP.
-DP0 delegates are very welcome to join the Friday Stack Club sessions, whether it's for the full two hours or just to drop in for a few minutes and ask a question (like an office hour).
+Rubin Observatory staff are always present to provide support for DP0 and the RSP.
+DP0 delegates are very welcome to join the Friday Stack Club sessions,
+whether it's for the full two hours or just to drop in for a few minutes and ask a question (like an office hour).
+DP0 delegates do not need to formally join Stack Club unless they want to contribute specifically to the Stack Club's repository of tutorial notebooks.
 
 
 .. _DP0-Delegate-Programming-ThirdThursday:
@@ -187,16 +193,22 @@ DP0 delegates are very welcome to join the Friday Stack Club sessions, whether i
 Third Thursday office hour
 --------------------------
 
-In 2022, eight "Third Thursday" sessions are planned for April 21, May 19, June 16, and July 21, at 04:00 and 14:00 UTC on each of those dates (i.e., to serve the Asia-Pacific, APAC, and Europe, the Middle East, and Africa, EMEA, time zones respectively).
-Please see `this Rubin Community Forum topic <https://community.lsst.org/t/invitation-to-join-third-thursday-dp0-office-hours-for-apac-and-emea-timezones/6418>`_ for more information and connection info.
+**Time:** Thursdays at 04:00 and 14:00 UTC (to serve the Asia-Pacific, APAC, and Europe, the Middle East, and Africa, EMEA, time zones respectively)
 
-Everyone is welcome to attend any of these sessions, instead of or in addition to the Delegate Assemblies and the Stack Club sessions described above (which are mostly convenient for timezones in the Americas).
+**2022 Dates:** April 21, May 19, June 16, and July 21
 
-Generally, there is no set agenda for these sessions, but Rubin staff are always in attendance, and topics are left open to attendees.
-For example, delegates could discuss their DP0-related analysis with Rubin staff and with each other, review the DP0 RSP tutorials together, collaborate on DP0-related science, and get support from Rubin staff as needed.
+Please see `this Rubin Community Forum topic <https://community.lsst.org/t/invitation-to-join-third-thursday-dp0-office-hours-for-apac-and-emea-timezones/6418>`_ for more information and connection details.
 
-In 2021, three "Third Thursday" sessions were held on Thursday Jul 15, Aug 19, and Sep 16 at 9am in Sydney Australia (which is Wed at 4pm US Pacific Daylight Time, 11pm UTC).
-These sessions are not recorded.
+These office hour sessions are open, drop-in discussions designed to compensate
+for the fact that the time of the Delegate Assemblies was only convenient for DP0 delegates in North and South America, Europe, and Africa.
+Everyone is welcome to attend any of these sessions, instead of or in addition to the Delegate Assemblies and the Stack Club sessions.
+
+There is no set agenda for these sessions, but Rubin Observatory staff are always in attendance, and topics are left open to attendees.
+For example, delegates could discuss their DP0-related analysis with Rubin Observatory staff and with each other, review the DP0 RSP tutorials together,
+collaborate on DP0-related science, and get support from Rubin Observatory staff as needed.
+
+| **2021 Information:** July 15, August 19, and September 16 at 9am in Sydney Australia (Wednesday at 4pm US Pacific Daylight Time, 11pm UTC).
+| These sessions were not recorded.
 
 
 .. _Delegate-Homepage-Delegate-Activities:
