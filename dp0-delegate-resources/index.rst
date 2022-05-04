@@ -132,8 +132,7 @@ See the :ref:`DP0-Delegate-Programming-Assemblies` for dates.
 
 The Delegate Assemblies are a live, virtual seminars for DP0 delegates to learn more about DP0, the RSP, and the DC2 data set.
 
-**Assemblies with a formal presentation component** will be split into 2 one-hour sections,
-and all are welcome to join for only the first or second hour, or both hours.
+**Assemblies with a formal presentation component** are split into 2 one-hour sections, and all are welcome to join for only the first or second hour, or both hours.
 Everyone is welcome to attend, the assemblies are not restricted to delegates.
 
 | **First hour: a "formal" presentation with Q&A**, such as:
