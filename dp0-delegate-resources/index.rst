@@ -131,7 +131,8 @@ DP0 Delegate assemblies
 See the :ref:`DP0-Delegate-Programming-Assemblies` for dates.
 
 The Delegate Assemblies are a live, virtual seminars for DP0 delegates to learn more about DP0, the RSP, and the DC2 data set.
-Every assembly will be split into 2 one-hour sections, and all are welcome to join for only the first or second hour, or both hours.
+**Assemblies with a formal presentation component** will be split into 2 one-hour sections,
+and all are welcome to join for only the first or second hour, or both hours.
 Everyone is welcome to attend, the assemblies are not restricted to delegates.
 
 | **First hour: a "formal" presentation with Q&A**, such as:
@@ -144,6 +145,11 @@ Everyone is welcome to attend, the assemblies are not restricted to delegates.
 
 Everyone is welcome to propose breakout topics for the second hour.
 The first five minutes of the second hour will be spent connecting people with similar interests and setting up breakout rooms.
+
+**Assemblies without a formal presentation component** will go straight into breakout rooms.
+The first five minutes of the assembly will be spent connecting people with similar interests and setting up breakout rooms.
+Everyone is free to join and leave breakout rooms and to work on whatever they like.
+
 Rubin Observatory staff will always be on hand to answer questions and provide assistance with DP0-related work during this time.
 
 
