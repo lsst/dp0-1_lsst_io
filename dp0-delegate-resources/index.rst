@@ -176,14 +176,10 @@ Stack Club
 The idea is that the best way to learn something is to try and teach it, so Stack Club members create Jupyter Notebook tutorials that feature the Stack.
 Many of these notebooks were used to create the DP0 tutorial notebooks.
 
-Stack Club meets biweekly on Fridays from 9-11am (i.e., alternating Fridays with the Delegates Assemblies; 4pm UTC).
-Stack Club meetings start with a roundtable of what people want to do or learn that day, and then work proceeds as people stay connected via Zoom, with the occasional question or discussion happening.
-Sometimes breakout rooms are used to discuss emergent topics.
-Often times Rubin Data Management staff join to provide support.
-
-DP0 delegates do not need to formally join Stack Club unless they want to contribute specifically to the Stack Club's repository of tutorial notebooks.
-Stack Club members use the NCSA implementation of the RSP, where they also have access to the DC2 data set.
-DP0 delegates do not need NCSA accounts because they have RSP accounts at the IDF.
+Stack Club meets biweekly on Fridays from 9-11am Pacific Time (alternating Fridays with the Delegates Assemblies).
+Sessions begin with a roundtable of what people want to do or learn that day, and then work proceeds as people stay connected via Zoom, asking questions or having discussions in the main room or breakout rooms.
+Rubin staff are always present to provide support for DP0 and the RSP.
+DP0 delegates are very welcome to join the Friday Stack Club sessions, whether it's for the full two hours or just to drop in for a few minutes and ask a question (like an office hour).
 
 
 .. _DP0-Delegate-Programming-ThirdThursday:
