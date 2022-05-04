@@ -170,7 +170,7 @@ Suggestions and contributed talks are welcome from anyone, e.g., delegates, Rubi
 Stack Club
 ----------
 
-**Connection Info (Zoom and Google Calendar Links):**  `ls.st/dp0-events <http://ls.st/dp0-events>`_
+**Connection Info:**  `ls.st/dp0-events <http://ls.st/dp0-events>`_
 
 `Stack Club <https://github.com/LSSTScienceCollaborations/StackClub>`_ is a group of LSST Science Collaboration members committed to learning how to use the Rubin Observatory `LSST Science Pipelines <https://pipelines.lsst.io/>`_ (colloquially called "the Stack").
 The idea is that the best way to learn something is to try and teach it, so Stack Club members create Jupyter Notebook tutorials that feature the Stack.
