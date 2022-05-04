@@ -195,18 +195,21 @@ DP0 delegates do not need NCSA accounts because they have RSP accounts at the ID
 Third Thursday office hour
 --------------------------
 
-| **Time:** Thursdays at 9am in Sydney Australia (Wednesday at 4pm US Pacific Daylight Time, 11pm UTC)
-| **2021 Dates:** July 15, August 19, and September 16
+| **Time:** Thursdays at 04:00 and 14:00 UTC (to serve the Asia-Pacific, APAC, and Europe, the Middle East, and Africa, EMEA, time zones respectively)
+| **2022 Dates:** April 21, May 19, June 16, and July 21
 
-These office hour sessions are open, drop-in discussions designed to compensate for the fact that the time of the Delegate Assemblies was only convenient for DP0 delegates in North and South America, Europe, and Africa.
-These sessions are not recorded.
+Please see `this Rubin Community Forum topic <https://community.lsst.org/t/invitation-to-join-third-thursday-dp0-office-hours-for-apac-and-emea-timezones/6418>`_ for more information and connection details.
 
-Request additional Third Thursday Office Hour session by contacting Melissa Graham.
+These office hour sessions are open, drop-in discussions designed to compensate
+for the fact that the time of the Delegate Assemblies was only convenient for DP0 delegates in North and South America, Europe, and Africa.
+Everyone is welcome to attend any of these sessions, instead of or in addition to the Delegate Assemblies and the Stack Club sessions.
 
 There is no set agenda for these sessions, but Rubin Observatory staff are always in attendance, and topics are left open to attendees.
 For example, delegates could discuss their DP0-related analysis with Rubin Observatory staff and with each other, review the DP0 RSP tutorials together,
 collaborate on DP0-related science, and get support from Rubin Observatory staff as needed.
 
+| **2021 Information:** July 15, August 19, and September 16 at 9am in Sydney Australia (Wednesday at 4pm US Pacific Daylight Time, 11pm UTC).
+| These sessions were not recorded.
 
 .. _Delegate-Homepage-Delegate-Activities:
 
