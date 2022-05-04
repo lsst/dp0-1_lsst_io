@@ -94,10 +94,34 @@
      - general Q&A, resolved stellar pops, background subtraction, machine learning with DP0, truth data
      - The Community Engagement Team
    * - 2022-03-11
+     - `Delegate Breakouts <https://community.lsst.org/t/summary-delegate-assembly-fri-mar-11-2022/6386>`_
+     - general Q&A, truth data, photo-z, orientation for new delegates
+     - The Community Engagement Team
+   * - 2022-03-25
+     - `Photo-z with DP0 Data <https://community.lsst.org/t/summary-delegate-assembly-fri-mar-25-2022/6417>`_
+     - general Q&A, PSFs, resolved stellar pops, photo-z
+     - Sylvie Dagoret-Campagne and the CET
+   * - 2022-04-08
+     - `Delegate Breakouts <https://community.lsst.org/t/summary-delegate-assembly-fri-apr-8/6457>`_
+     - general Q&A, source injection, resolved stellar pops
+     - The Community Engagement Team
+   * - 2022-04-22
+     - `Delegate Breakouts <https://community.lsst.org/t/summary-delegate-assembly-fri-apr-22/6517>`_
+     - general Q&A and emergent topics
+     - The Community Engagement Team
+   * - 2022-05-06
+     - Portal Techniques
+     - *TBD delegate working groups*
+     - Alessandro & Sara, and the CET
+   * - 2022-05-20
      - *TBD delegate presenter(s)*
      - *TBD delegate working groups*
      - *TBD*
-   * - 2022-03-25
+   * - 2022-06-03
+     - *TBD delegate presenter(s)*
+     - *TBD delegate working groups*
+     - *TBD*
+   * - 2022-06-17
      - *TBD delegate presenter(s)*
      - *TBD delegate working groups*
      - *TBD*
