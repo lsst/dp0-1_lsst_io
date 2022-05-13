@@ -110,9 +110,9 @@
      - general Q&A and emergent topics
      - The Community Engagement Team
    * - 2022-05-06
-     - Portal Techniques
-     - *TBD delegate working groups*
-     - Alessandro & Sara, and the CET
+     - `Portal Techniques <https://community.lsst.org/t/reminder-rubin-dp0-1-delegate-assembly-on-friday-may-6/6539>`__
+     - general Q&A and emergent topics
+     - Alessandro Salvatore Tramuto & Sara Bonito
    * - 2022-05-20
      - *TBD delegate presenter(s)*
      - *TBD delegate working groups*
