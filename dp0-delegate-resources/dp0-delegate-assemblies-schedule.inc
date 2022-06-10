@@ -122,6 +122,6 @@
      - *TBD delegate working groups*
      - *TBD*
    * - 2022-06-17
-     - *TBD delegate presenter(s)*
-     - *TBD delegate working groups*
-     - *TBD*
+     - *no assembly*
+     - *cancelled*
+     - *none*
