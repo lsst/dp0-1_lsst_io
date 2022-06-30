@@ -78,8 +78,6 @@ There are many associated data products that are accessible alongside PVIs. Thes
 Each PVI also has an associated mask plane that encodes quality and other information about each pixel, a WCS solution to be used in converting between pixel and sky coordinates,
 a photometric calibration object to be used in converting between fluxes and magnitudes for astronomical sources, and a model of the point-spread function (PSF) at each position on the image.
 
-To get started working with PVIs, see `this brief tutorial <https://github.com/rubin-dp0/tutorial-notebooks/blob/main/03_Image_Display_and_Manipulation.ipynb>`_ that retrieves and displays a PVI and its associated mask plane.
-
 **Coadd Images**:
 An image that is the combination of multiple input images, often referred to as just a ``coadd`` or a ``deep coadd``.
 The input images have been aligned to a common projection and pixel grid; corrected to the same photometric scale, zero-point, and point-spread function (PSF);
