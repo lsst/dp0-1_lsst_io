@@ -31,6 +31,9 @@ and :ref:`the basic components of the RSP <Data-Access-Analysis-Tools-RSP>`, and
 Jupyter notebook tutorials
 ==========================
 
+.. Important::
+    The DP0.1 notebooks are no longer supported and have been archived in the `tutorial-notebooks-dp01-archive <https://github.com/rubin-dp0/tutorial-notebooks-dp01-archive>`_ repository of the "rubin-dp0" GitHub Organization.
+
 The tutorial notebooks in the ``rubin-dp0`` GitHub Organization's `tutorial-notebooks repository <https://github.com/rubin-dp0/tutorial-notebooks>`_ will be available by default in a folder in each user's home directory in the RSP's Notebook Aspect.
 See that repository's README file for descriptions of the notebooks.
 
