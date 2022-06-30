@@ -97,8 +97,7 @@ Coadd images are divided into ``tracts`` (a spherical convex polygon) and tracts
     *"each tract is composed of 7 × 7 patches, and each patch is 4,100 × 4,100 pixels with a pixel scale of 0.2 arcsec"*.
 
 The first of the :ref:`DP0-1-Tutorials-Notebooks` demonstrates how to identify the tract and patch for a given coordinate, and retrieve and plot a coadd image.
-
-The `image display and manipulation tutorial <https://github.com/rubin-dp0/tutorial-notebooks/blob/main/03_Image_Display_and_Manipulation.ipynb>`_ demonstrates how to retrieve and display a coadd image,
+The image display and manipulation tutorial demonstrates how to retrieve and display a coadd image,
 and to use its WCS and methods associated with the image to extract a cutout image zoomed in on a region of interest.
 
 
