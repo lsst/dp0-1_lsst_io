@@ -24,8 +24,10 @@ This site provides information about the Rubin Observatory's Data Preview 0.1 (D
 
 **DP0.1 Release Date:** June 30, 2021
 
+**DP0.1 Deprecation Date:** May 2, 2024
+
 .. Important::
-    DP0.2 was released on June 30 2022. It is recommended that all DP0 delegates use the DP0.2 data products. Please visit `dp0-2.lsst.io <https://dp0-2.lsst.io/>`_ for more information.
+    DP0.1 was retired on May 2 2024 and is no longer available, having been replaced by DP0.2 in June 2022. Please visit `dp0-2.lsst.io <https://dp0-2.lsst.io/>`_ for more information.
 
 Data Preview 0 (DP0) is the first of three data previews during the period leading up to the start of Rubin Observatory Operations.
 The goals of DP0 are to serve as an early integration test of the Legacy Survey of Space and Time (LSST) Science Pipelines and the Rubin Science Platform (RSP),
