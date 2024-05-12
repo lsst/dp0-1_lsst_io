@@ -243,7 +243,7 @@ Inform and improve the RSP
 Extend or enhance the benefits of DP0 in the science community
 --------------------------------------------------------------
 
-| - join one of the eight `LSST Science Collaborations <https://www.lsstcorporation.org/science-collaborations>`_
+| - join one of the eight `LSST Science Collaborations <https://lsstdiscoveryalliance.org/lsst-science-collaborations/>`_
 |   -- consider participating in the Science Collaborations' `DP0 New Friends program <https://community.lsst.org/t/invitation-for-dp0-delegates-to-participate-in-the-lsst-science-collaborations-new-friends-program/5700>`_
 |
 | - participate in the :ref:`Delegate-Homepage-Forum` DP0-related categories
